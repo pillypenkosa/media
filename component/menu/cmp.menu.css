@@ -1,0 +1,28 @@
+cmp-menu {
+	all: initial;
+	display: block;
+}
+	cmp-menu .btn {
+		margin: 0 0 2px 0;
+		padding: 1px 5px;
+		border-radius: 5px;
+		font-family: Courier;
+		text-align: center;
+		background: linear-gradient( to bottom, #111, #115 );
+		color: lime;
+		cursor: pointer;
+	}
+
+		cmp-menu .btn:hover {
+			background: linear-gradient( to bottom, #111, #117 );
+			color: yellow;
+		}
+
+		cmp-menu .btn.active {
+			background: linear-gradient( to bottom, #009, #099 );
+			color: #fff;
+		}
+
+
+
+

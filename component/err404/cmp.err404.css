@@ -1,0 +1,28 @@
+cmp-err404 {
+	all: unset;
+	display: block;
+
+	font-family: Courier;
+	color: lime;
+}
+
+
+
+
+
+cmp-err404 h2 {
+	padding: 0 30px;
+	border-radius: 5px;
+	background-color: #f00;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

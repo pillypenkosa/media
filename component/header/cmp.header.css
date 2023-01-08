@@ -1,0 +1,45 @@
+cmp-header {
+	all: initial;
+	display: block;
+	
+	padding: 5px 10px;
+	background: linear-gradient( to right, #111, #115 );
+	border-radius: 10px;
+	font-family: Courier;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+
+	cmp-header .head {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		font-size: 40px;
+	}
+		cmp-header .head .btn-menu {
+			/*position: relative;
+			top: -7px;*/
+			margin: -8px 0 -2px 0;
+			font-weight: normal;
+		}
+
+	cmp-header .version {
+		margin: -8px 0 0 0;
+		font-size: 20%;
+		color: aqua;
+		font-weight: normal;
+		font-style: oblique;
+	}
+
+
+
+		cmp-header .menu {
+			position: absolute;
+			top: 55px;
+			right: 5px;
+
+		}
+
+
