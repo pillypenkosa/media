@@ -55,12 +55,12 @@ cmp-win-users {
 	
 	cmp-win-users .each .title {
 		position: absolute;
-		bottom: 0px;
+		bottom: 3px;
 		left: 0px;
 		right: 0px;
 		/*height: 20px;*/
 		text-align: center;
-		font-size: 12px;
+		font-size: 11px;
 		color: #fff;
 	}
 
