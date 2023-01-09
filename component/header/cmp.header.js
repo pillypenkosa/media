@@ -12,7 +12,8 @@ class ComponentHeader {
 
 
 
-	static tfMenu = false;
+	static tfMenuPeople = false;
+	static tfMenuFilms = false;
 
 
 
@@ -36,7 +37,10 @@ class ComponentHeader {
 			innerHTML: `
 				<div class="head">
 					<div class="title">${ appProjectName }</div>
-					<div class="btn-menu" onclick="ComponentHeader.clc()">☰</div>
+					<div>
+						<div class="btn-menu" onclick="ComponentHeader.clc( 'films' )">#</div>
+						<div class="btn-menu" onclick="ComponentHeader.clc( 'users' )">@</div>
+					</div>
 				</div>
 				<div class="version">Version: ${ appVersion }</div>
 				<div class="menu"></div>
@@ -48,18 +52,43 @@ class ComponentHeader {
 
 	static clc( id ) {
 
-		this.tfMenu = !this.tfMenu;
+		//alert( id );
+
+
+		//Router.win = id;
+
+
+		//Router.urlParams[ 'win_' + id  ] = true;
+
+
+
 
 		let divMenu = document.querySelectorAll( 'cmp-header .menu' )[ 0 ];
+		if ( id == 'films' ) {
 
-		if ( this.tfMenu ) {
-			divMenu.innerHTML = ComponentMenu.html();
+			this.tfMenuPeople = false;
+			this.tfMenuFilms = !this.tfMenuFilms;
 
-		} 
-		else divMenu.innerHTML = '';
+			if ( this.tfMenuFilms ) {
+				divMenu.innerHTML = ComponentMenu.html( 'films' );
 
+			} else divMenu.innerHTML = '';
+		}
 
-		//alert( this.tfMenu );
+		if ( id == 'users' ) {
+
+			this.tfMenuFilms = false;
+			this.tfMenuPeople = !this.tfMenuPeople;
+
+			if ( this.tfMenuPeople ) {
+				divMenu.innerHTML = ComponentMenu.html( 'users' );;
+
+			} else divMenu.innerHTML = '';
+		}
+
+		//console.log( 'this.tfMenuFilms ', this.tfMenuFilms );
+		//console.log( 'this.tfMenuPeople ', this.tfMenuPeople );
+//
 
 	}
 

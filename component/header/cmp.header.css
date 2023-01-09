@@ -19,11 +19,24 @@ cmp-header {
 		font-size: 40px;
 	}
 		cmp-header .head .btn-menu {
-			/*position: relative;
-			top: -7px;*/
-			margin: -8px 0 -2px 0;
-			font-weight: normal;
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			margin: -8px 0 -2px -15px;
+			/*font-weight: normal;*/
+			cursor: pointer;
 		}
+
+
+		cmp-header .head .btn-menu svg {
+			height: 100%;
+			width: 100%;
+			fill: #fff; 
+		}
+
+
+
+
 
 	cmp-header .version {
 		margin: -8px 0 0 0;

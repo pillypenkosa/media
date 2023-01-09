@@ -1,0 +1,16 @@
+cmp-win-films {
+	all: unset;
+	display: block;
+
+	font-family: Courier;
+	color: lime;
+}
+	cmp-win-films .clc {
+		cursor: pointer;
+	}
+		cmp-win-films .clc:hover {
+			color: yellow;
+		}
+
+
+

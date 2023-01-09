@@ -1,0 +1,44 @@
+cmp-win-users {
+	all: unset;
+	display: block;
+
+	font-family: Courier;
+	color: lime;
+}
+	cmp-win-users .clc {
+		cursor: pointer;
+	}
+		cmp-win-users .clc:hover {
+			color: yellow;
+		}
+
+
+	cmp-win-users .each {
+		width: 130px;
+		/*height: 100px;*/
+		display: inline-block ;
+	}
+
+
+
+
+
+
+	cmp-win-users .each img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+	}
+
+
+
+	cmp-win-users .each .title {
+		text-align: center;
+	}
+
+
+
+
+
+
+

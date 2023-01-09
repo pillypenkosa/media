@@ -4,7 +4,9 @@ const dependences = {
 	
 
 		'err404',
-		'index',
+		'win-index',
+		'win-films',
+		'win-users',
 
 		'menu',
 		'header',
@@ -18,7 +20,7 @@ const dependences = {
 
 	listApp: [ 		// list/list. ${ k } .js
 
-		//'any',
+		'people',
 	],
 
 };
