@@ -67,10 +67,11 @@ class ComponentWinUsers {
 		let html = '';
 		arrShowUsers.forEach( k => {
 
-			let ava = k.img ? `<img src="img/people/${ k.id }/1.jpg" alt="">` : '';
+			let ava = k.img ? `<img src="img/people/${ k.id }/1.jpg" class="ava" alt="">` : '<div class="ava"></div>';
 
+			let fon = k.sex ? 'fon-man' : 'fon-woman';
 
-			html += `<div class="each">
+			html += `<div class="each ${ fon }">
 				${ ava }
 
 				<div class="title">
