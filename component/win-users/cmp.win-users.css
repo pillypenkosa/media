@@ -2,6 +2,8 @@ cmp-win-users {
 	all: unset;
 	display: block;
 
+	text-align: center;
+
 	font-family: Courier;
 	color: lime;
 

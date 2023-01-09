@@ -1,6 +1,9 @@
 cmp-menu {
 	all: initial;
 	display: block;
+
+	background: linear-gradient( to bottom, #111, #115 );
+
 }
 	cmp-menu .btn {
 		margin: 0 0 2px 0;
