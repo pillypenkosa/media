@@ -5,7 +5,6 @@ const dependences = {
 
 		'err404',
 		'win-index',
-		'win-films',
 		'win-users',
 
 		'menu',
@@ -15,12 +14,12 @@ const dependences = {
 
 	listGIT: [ 		// https://pillypenkosa.github.io/database/list/list. ${ k } .js
 
-		//'surnames',
+		'people',
 	],
 
 	listApp: [ 		// list/list. ${ k } .js
 
-		'people',
+		//'people',
 	],
 
 };

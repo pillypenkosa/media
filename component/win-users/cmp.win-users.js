@@ -31,19 +31,33 @@ class ComponentWinUsers {
 
 		arr.forEach( k => {
 
+			//console.log( k );
+
+
 			if ( k == 'men' ) {
 				arrShowUsers = arrShowUsers.filter( k1 => {
 					if ( k1.sex )
 						return true;
 				});
 			}
-
-			if ( k == 'women' ) {
+			else if ( k == 'women' ) {
 				arrShowUsers = arrShowUsers.filter( k1 => {
 					if ( !k1.sex )
 						return true;
 				});
 			}
+			else {
+				arrShowUsers = arrShowUsers.filter( k1 => {
+					//console.log( k1 );
+
+					if ( k1.hash ) {
+						if ( k1.hash[ k ] ) 
+							return true;
+					}
+				});
+			}
+
+
 
 
 
@@ -61,7 +75,7 @@ class ComponentWinUsers {
 
 		});
 
-		console.log( arrShowUsers );
+		//console.log( arrShowUsers );
 
 
 		let html = '';

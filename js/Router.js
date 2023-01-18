@@ -54,6 +54,19 @@ class Router {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 		let hash = '';
 		//if ( window.location.hash.slice( 0, 1 ) == '#' && window.location.hash.slice( -1 ) == '/' ) 
 		if ( window.location.hash.slice( 0, 1 ) == '#' ) 
@@ -76,12 +89,39 @@ class Router {
 		//console.log( 'win: ', win );
 		//console.log( 'arr: ', arr );
 
+		arr.forEach( k => {
+			this.url.keys[ k ] = true;
+		});
 
+
+		//console.log( 'this.url: ', this.url );
 
 
 		
 
 		//document.getElementById( 'content' ).innerHTML = eval( 'ComponentWin' + win.slice( 0, 1 ).toUpperCase() + win.slice( 1 ) + '.html( arr )' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// сделать блок Меню уже "прорисованым" в DOMе !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		this.lightActiveBtn();
+
 
 
 		if ( win == 'index' ) 
@@ -90,68 +130,11 @@ class Router {
 		if ( win == 'users' ) 
 			document.getElementById( 'content' ).innerHTML = ComponentWinUsers.html( arr );
 
-		if ( win == 'films' ) 
-			document.getElementById( 'content' ).innerHTML = ComponentWinFilms.html( arr );
-
 
 
 
 
 		//console.log( win.slice( 0, 1 ).toUpperCase() + win.slice( 1 ) );
-
-
-
-
-
-
-		return;
-
-
-		//console.log( 'this.win:', this.win );
-		//console.log( 'urlParams', this.urlParams );
-
-
-		//console.log( window.location.hash );
-
-
-
-
-
-
-
-
-		//let arr = hash.split( '/' );
-
-		//console.log( arr );
-
-
-
-		arr.forEach( k => {
-			this.urlParams[ k ] = true;
-		});
-
-		//console.log( this.urlParams );
-
-
-		/*
-
-
-		arr.forEach( k => {
-			if ( k )
-				this.urlParams[ k ] = true;
-		});
-
-*/
-		//console.log( this.urlParams );
-
-
-
-
-
-
-
-
-		//document.getElementById( 'content' ).innerHTML = ComponentIndex.html();
 
 	}
 
@@ -162,7 +145,7 @@ class Router {
 
 
 
-	static link( win, key ) {
+	static link( key ) {
 
 		//alert( Router.win );
 
@@ -170,6 +153,11 @@ class Router {
 		//console.log( 'key: ', key );
 
 		//console.log( 'this.urlParams: ', this.urlParams );
+
+
+
+
+
 
 
 
@@ -210,8 +198,11 @@ class Router {
 		//console.log( 'hash: ', hash );
 
 
+
+
+
 		if ( history.pushState ) {
-			history.pushState( null, null, window.location.protocol + "//" + window.location.host + window.location.pathname + '#' + win + hash );
+			history.pushState( null, null, window.location.protocol + "//" + window.location.host + window.location.pathname + '#users' + hash );
 			this.loadContent();
 		}
 	}
@@ -223,6 +214,28 @@ class Router {
 
 
 
+
+	// підсвічування активних кнопок
+	static lightActiveBtn() {
+
+
+		let arr = document.querySelectorAll( 'cmp-menu .btn ' );
+
+
+		console.log( arr );
+		console.log( this.url.keys );
+
+/*
+		arr.forEach( k => {
+			if ( k.dataset.id == id ) 
+				k.classList.add( 'active' );
+			else 
+				k.classList.remove( 'active' );
+		});
+*/
+
+
+	}
 
 
 

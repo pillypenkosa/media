@@ -25,7 +25,7 @@ class ComponentMenu {
 */
 
 
-	static html( win ) {
+	static html() {
 
 
 		//Router.win = id;
@@ -33,46 +33,30 @@ class ComponentMenu {
 
 		//alert( win );
 		//alert( Router.url.win );
-
+/*
 		if ( win != Router.url.win ) {
 			Router.resetUrl( win );
 		}
+*/
 
 
 
-		let htmlMenu = '';
-
-		if ( win == 'users' ) {
-
-			htmlMenu += `<section>
-				<div class="btn" onclick="ComponentMenu.clc( 'users', 'men' )">Чоловіки</div>
-				<div class="btn" onclick="ComponentMenu.clc( 'users', 'women' )">Жінки</div>
-				<div class="btn" onclick="ComponentMenu.clc( 'users', 'child' )">Діти</div>
-			</section>
-			`;
+		const arrMenu1 = [
+			{ id: 'men' 	, title: 'Чоловіки' 	, },
+			{ id: 'women' 	, title: 'Жінки' 		, },
+			{ id: 'child' 	, title: 'Діти' 		, },
+		];
 
 
+		let htmlBtns = '';
+		arrMenu1.forEach( k => {
+			htmlBtns += this.getHtmlBtn( k.id, k.title );
+		});
 
-			arrPeopleHash.forEach( k => {
-				htmlMenu += `<div class="btn" onclick="ComponentMenu.clc( '${ win }', '${ k.id }' )">${ k.title }</div>`;
-			});
-		}
-
-		if ( win == 'films' ) {
-			//alert( 'Ага, кіно, кіно...' );
-
-			htmlMenu += `<section>
-				<div class="btn" onclick="ComponentMenu.clc( 'films', 'boevik' )">Бойовик</div>
-				<div class="btn" onclick="ComponentMenu.clc( 'films', 'triller' )">Трилер</div>
-				<div class="btn" onclick="ComponentMenu.clc( 'films', 'comedy' )">Комедія</div>
-			</section>
-			`;
-
-
-
-
-		}
-
+		arrPeopleHash.forEach( k => {
+			htmlBtns += this.getHtmlBtn( k.id, k.title );
+		});
+	
 
 		//console.log( window.location );
 
@@ -87,69 +71,53 @@ class ComponentMenu {
 				//{ k: 'selected' 	, v: '' 						, },
 				//{ k: 'defer' 		, v: '' 						, },
 			], 
-			innerHTML: htmlMenu,
+			innerHTML: `<section>${ htmlBtns }</section>`,
 		});
 	}
 
 
 
-
-	static clc( win, key ) {
+	static clc( elem ) {
 		//alert( 'ComponentMenu.clc( ' + txt + ', ' + id + ' )' );
 
-
-
 		//alert( txt );
-
 		//Router.urlParams.win = txt;
 		//Router.win = txt;
 		//Router.urlParams[ id ] = !Router.urlParams[ id ];
 		
-
-		Router.link( win, key );
-
-
+		Router.link( elem.dataset.id );
+	}
 
 
 
-		return;
+	static getHtmlBtn( id, title ) {
+		return `<div class="btn" data-id="${ id }" onclick="ComponentMenu.clc( this )">${ title }</div>`;
+	}
 
 
 
+	static getActive222( txt ) {
+
+			//return 'active';
 
 
+		//console.log( txt );
+		//console.log( Router.url.keys );
 
 
-		//history - встроенный объект, не трогать!!!
-		if ( history.pushState ) {
+/*
+		if ( Router.url.keys[ txt ] )
+			return 'active';
 
-			let url = '';
-
-			for ( let k in Router.urlParams ) {
-
-				url += k + '/';
-
-			}
-
-
-			
-
-
-			history.pushState( null, null, '#' + url );
-		
-			//this.loadContent();
-		}
-
-
-		console.log( Router.urlParams );
-
-
-
-
+		return '';
+*/
 
 
 
 	}
+
+
+
 
 
 
