@@ -1,41 +1,72 @@
 class Router {
 
+	static name = 'Router';
 
 
-
-	//static win = '';
-	//static urlParams = {};
-
-
-
+/*
 	static url = { 
-		win: 'index', 
-		keys: {}, 
+
+		win 		: '' 	, // сторінка 
+		sex 		: '' 	, // фільтр користувачів за статтю
+		country 	: '' 	, // країна
+		hash		: '' 	, // хеш-теги користувачів
 	};
+*/
+
+
+	static userHash = {};
+
+	static urlGET = {};
 
 
 
 
 
-	static resetUrl( win ) {
-		this.url = { win: '', keys: {}, };
-	}
 
 
 
 	static loadApp() {
 
+		const name 		= 'loadApp';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
 
-		if ( !window.location.hash ) {
+		//console.log( ok, 'завантаження застосування...' );
+		//console.log( '\x1b[32m ok Router.loadApp() завантаження застосування...');
+
+
+		if ( !window.location.search ) {
 
 			if ( history.pushState )
-				history.pushState( null, null, '#' + this.url.win );
-		} 
+				history.pushState( null, null, '?win=index' );
+		}
 
-		//console.log( window.location.hash );
-		//console.log( 'Router.loadApp()' );
-		document.querySelectorAll( 'cmp-app' )[ 0 ].innerHTML = ComponentHeader.html() + ComponentMiddle.html(); 
-		this.loadContent();
+
+		this.ini();
+
+
+		//document.querySelectorAll( 'cmp-app' )[ 0 ].innerHTML = Component( 'Any-Header' ); 
+		document.querySelectorAll( 'cmp-app' )[ 0 ].innerHTML = Component( 'Header' ) + Component( 'Middle' ); 
+
+		// подсветка меню
+		ComponentMenu.activeLight();
+
+		// загрузка контентк
+		this.loadContent()
+	}
+
+
+
+	// ініціалізація
+	static ini() {
+
+		this.urlGET = this.parseURL();
+
+		//console.log( ok, 'this.urlGET:', this.urlGET );
+
+		if ( this.urlGET.hash ) 
+			this.userHash = this.getHashGET( this.urlGET.hash );
 	}
 
 
@@ -46,165 +77,49 @@ class Router {
 
 
 
-	static loadContent() {
 
+	static loadContent() { // txt - win
 
-		//console.log( 'window.location.hash: ', window.location.hash );
+		const name 		= 'loadContent';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
 
-
-
-
-
-
-
-
+		//console.log( ok ); 
 
 
 
 
-
-
-
-
-
-		let hash = '';
-		//if ( window.location.hash.slice( 0, 1 ) == '#' && window.location.hash.slice( -1 ) == '/' ) 
-		if ( window.location.hash.slice( 0, 1 ) == '#' ) 
-			hash = window.location.hash.slice( 1 );
-
-		//console.log( 'hash: ', hash );
-
-
-		let arr = hash.split( '/' );
-
-
-		//console.log( 'arr: ', arr );
-		//console.log( 'arr[ 0 ]: ', arr[ 0 ] );
-
-
-		let win = arr[ 0 ];
-
-		arr.shift();
-
-		//console.log( 'win: ', win );
-		//console.log( 'arr: ', arr );
-
-		arr.forEach( k => {
-			this.url.keys[ k ] = true;
-		});
-
-
-		//console.log( 'this.url: ', this.url );
-
-
+		//console.log( ok, 'this.urlGET:', this.urlGET );
 		
 
-		//document.getElementById( 'content' ).innerHTML = eval( 'ComponentWin' + win.slice( 0, 1 ).toUpperCase() + win.slice( 1 ) + '.html( arr )' );
+		let html = '';
+		if ( this.urlGET.win ) {
 
+			//console.log( ok + 'this.urlGET:', this.urlGET ); 
+			//console.log( ok + 'ROUTES:', ROUTES  );
 
+			if ( ROUTES[ this.urlGET.win ] ) {
 
+				//формування розмітки конкретного компоненту
+				html = Component( ROUTES[ this.urlGET.win ] );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		// сделать блок Меню уже "прорисованым" в DOMе !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		this.lightActiveBtn();
-
-
-
-		if ( win == 'index' ) 
-			document.getElementById( 'content' ).innerHTML = ComponentWinIndex.html();
-
-		if ( win == 'users' ) 
-			document.getElementById( 'content' ).innerHTML = ComponentWinUsers.html( arr );
-
-
-
-
-
-		//console.log( win.slice( 0, 1 ).toUpperCase() + win.slice( 1 ) );
-
-	}
-
-
-
-
-
-
-
-
-	static link( key ) {
-
-		//alert( Router.win );
-
-		//console.log( 'win: ', win );
-		//console.log( 'key: ', key );
-
-		//console.log( 'this.urlParams: ', this.urlParams );
-
-
-
-
-
-
-
-
-		if ( key == 'men' || key == 'women' ) {
-
-			if ( key == 'men' ) {
-				if ( this.url.keys.men )
-					delete this.url.keys.men;
-				else this.url.keys.men = true;
-
-				if ( this.url.keys.women )
-					delete this.url.keys.women;
-			}
-
-			if ( key == 'women' ) {
-				if ( this.url.keys.women )
-					delete this.url.keys.women;
-				else this.url.keys.women = true;
-
-				if ( this.url.keys.men ) 
-					delete this.url.keys.men;
+			} else {
+				//console.log( err + 'немає маршруту за цим win:', this.urlGET.win );
+				html = Component( 'Err404' );
 			}
 
 		} else {
-
-			if ( this.url.keys[ key ] ) {
-				delete this.url.keys[ key ];
-			} else this.url.keys[ key ] = true;
+			//console.log( err + 'немає win:', this.urlGET.win );
+			html = Component( 'Err404' );
 		}
 
 
-
-		let hash = '';
-		for ( let k in this.url.keys ) {
-			hash += '/' + k;
-		}
-
-		//console.log( 'hash: ', hash );
+		//console.log( ok, 'this.urlGET:', this.urlGET );
+		//console.log( ok, 'this.userHash:', this.userHash );
 
 
-
-
-
-		if ( history.pushState ) {
-			history.pushState( null, null, window.location.protocol + "//" + window.location.host + window.location.pathname + '#users' + hash );
-			this.loadContent();
-		}
+		document.getElementById( 'content' ).innerHTML = html;
 	}
 
 
@@ -212,43 +127,110 @@ class Router {
 
 
 
+	static parseURL() {		
+
+		const name 		= 'parseURL';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
+
+
+		let urlGET = {};
+
+
+		//let getParam = {};
+
+		//console.log( 'Router.parseURL()'  );
+		//console.log( 'Router.parseURL() - window.location.search:', window.location.search ); 
+
+		//let win = '';
+
+		if ( window.location.search ) {
+
+			//console.log( ok + 'є якийсь window.location.search:', window.location.search  ); 
+
+			let arr = window.location.search.split( '?' );
+
+			if ( arr[ 1 ] ) {
+
+				//console.log( ok + 'є рядок window.location.search після знаку ?:', arr[ 1 ]  ); 
+				//console.log( 'Router.parseURL() - є якийсь GET-запит...' ); 
+
+				let arr2 = arr[ 1 ].split( '&' );
+
+				if ( arr2 ) {
+
+					//console.log( ok + 'є якісь рядки-елементи, розділені знаком &:', arr2 ); 
+					//console.log( 'Router.parseURL() - arr2[]', arr2 ); 
+
+					arr2.forEach( k => {
+						let arr3 = k.split( '=' );
+
+						if ( arr3[ 0 ] ) {
+
+							//console.log( ok + 'arr3 має ключ-назву GET-параметру:', arr3[ 0 ] ); 
+
+							if ( arr3[ 1 ] ) {
+								//console.log( ok + 'рядок arr3 має значення GET-параметру', arr3 ); 
+
+								urlGET[ arr3[ 0 ] ] = arr3[ 1 ];
+
+							} else {
+								console.log( err + 'один з рядків немає значення GET-параметру // можливо відсутні символи \'=\' для split(\'=\'), arr3:', arr3,', arr3[1]:', arr3[ 1 ] ); 
+
+							}
+
+						} else {
+							// ніколи не має виконатись
+							console.log( err + 'arr3 немає рядків', arr3 ); 
+						}
+					});
+
+				} else {
+					// ніколи не має виконатись
+					console.log( err + 'не має ніяких елементів:', arr2 ); 
+				} 
+
+			} else {
+				// ніколи не має виконатись
+				console.log( err + 'немає ніяких GET-запитів...' ); 
+			}
+
+		} else {
+			// ніколи не має виконатись
+			console.log( err + 'немає ніяких запитів...' ); 
+		}
+
+		return urlGET;
+	}
 
 
 
-	// підсвічування активних кнопок
-	static lightActiveBtn() {
+	// отримати hash з GET-параметру &hash=
+	static getHashGET( txt ) {
+		let arr = txt.split( '/' );
 
+		let obj = {};
 
-		let arr = document.querySelectorAll( 'cmp-menu .btn ' );
-
-
-		console.log( arr );
-		console.log( this.url.keys );
-
-/*
 		arr.forEach( k => {
-			if ( k.dataset.id == id ) 
-				k.classList.add( 'active' );
-			else 
-				k.classList.remove( 'active' );
+			obj[ k ] = 1;
 		});
-*/
 
-
+		return obj;
 	}
 
 
 
+	static link( elem ) {
 
 
+		let name = 'parseURL';
+		let ok = `\x1b[32m ok ${ this.name }.${ name }() `;
+		let err = `\x1b[31m err ${ this.name }.${ name }() `;
 
+		//console.log( ok );
 
-
-
-
-
-
-
+	}
 
 
 }

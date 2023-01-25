@@ -2,66 +2,77 @@
 
 
 
-
-
-
 class ComponentErr404 {
 
 
 
-	static arrArgs = [ 
-		{ id: 'id1', title: 'ID-1', name: 'ID 01', },
-		{ id: 'id2', title: 'ID-2', name: 'ID 02', },
-		{ id: 'id3', title: 'ID-3', name: 'ID 03', },
-	]; 
+	static className = '';
+
+	static paramAttr = [];
+
+	static arrArgs = []; 
 
 
 
 
+	static html( className, tagName ) {
 
-	static html() {
+		this.className = className;
+		
+		this.paramAttr = [
 
-		//let txt = 'any text';
+			{ k: 'tag' 			, v: tagName 							, }, // tag ставити завжди першим у массиві
+			//{ k: 'class' 		, v: 'active' 							, },
+			//{ k: 'name' 		, v: 'Параметр name' 					, },
+			//{ k: 'title' 		, v: 'Підказка title, яка вспливає' 	, },
+			//{ k: 'selected' 	, v: '' 								, },
+			//{ k: 'defer' 		, v: '' 								, },
+			//{ k: 'data-id' 		, v: 'anyData' 							, },
+			//{ k: 'onclick' 		, v: this.className + '.clc( ' + this.className + '.arrArgs )' 	, },
 
-		const title = 'Error 404';
+		];
+
+
+		const name 		= 'html';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
+
+		
+		//console.log( ok ); 
+		console.log( ok + '// завантаження компоненту...' ); 
+
+		//alert( ok ); 
+		console.log( ok + '// Router.urlGET: ', Router.urlGET ); 
+
+
+	
+		const title = 'Головна';
+
 		document.title = appProjectName + ' ' + title;
 
 
-		let data = {
-			tag: 'err404',
-			param: [
-				{ k: 'class' 		, v: 'active' 										, },
-				{ k: 'name' 		, v: 'Имя Розы' 									, },
-				{ k: 'title' 		, v: 'Всплывающая подсказка' 						, },
-				{ k: 'data-id' 		, v: 'anyData' 										, },
-				{ k: 'selected' 	, v: '' 											, }, // без значений
-				{ k: 'defer' 		, v: '' 											, }, // без значений
-
-				// onclick - прописать строкой с соблюдением кавычек ( т.е. без них ) как здесь // в аргумент попадет массив this.arrArgs
-				{ k: 'onclick' 		, v: 'ComponentAny.clc( ComponentAny.arrArgs )' 	, },
-/*
-				// в аргумент попадет строка ( указывать в кавычках )
-				{ k: 'onclick' 		, v: `ComponentAny.clc( 'левый текст' )` 	, }, 
-				// ли так
-				{ k: 'onclick' 		, v: `ComponentAny.clc( '${ txt }' )` 	, }, 
-*/
-
-			],
-			innerHTML: '<h2>404! Хочете вірте, хочете ні, але такої сторінки не існує...</h2>',
-		};
+		let html = `Error 404! А як це ви сюди взагалі потрапили?...`;
 
 
 
-
-		return getComponentHtml( data );
+		return getComponentHtml( this.paramAttr, html );
 	}
+
+
+
+
 
 
 
 	static clc( data ) {
 
-		console.log( data );
-		alert( data );
+		let name = 'clc';
+		let ok = `\x1b[32m ok ${ this.name }.${ name }() `;
+		let err = `\x1b[31m err ${ this.name }.${ name }() `;
+
+		console.log( ok + '// data:', data ); 
+		//alert( data );
 
 	}
 

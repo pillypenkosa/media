@@ -1,7 +1,12 @@
-const routes = {
+const ROUTES = {
 
 
-	//films 		: 'ComponentFilms' ,
+	index 		: 'Win-Index',
+	people 		: 'Win-People',
+
+
+
+
 	//index 		: 'ComponentIndex' ,
 	//stars 		: 'ComponentStars' ,
 

@@ -1,0 +1,128 @@
+cmp-each-user {
+	all: unset;
+	display: block;
+
+	position: relative;
+	font-family: Courier;
+	color: lime;
+}
+	cmp-each-user .clc {
+		cursor: pointer;
+	}
+		cmp-each-user .clc:hover {
+			color: yellow;
+		}
+
+
+
+cmp-each-user .close {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	font-size: 35px;
+	color: #fff;
+	cursor: pointer;
+}
+	cmp-each-user .close:hover {
+		color: #ff0;
+	}
+
+
+cmp-each-user .main {
+
+	
+	display: flex;
+	flex-wrap: wrap;
+	/*
+	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
+
+*/
+	/*
+	flex-direction: row;
+
+	justify-content: flex-start;
+	align-items: center;
+
+*/
+
+
+
+
+
+
+}
+
+
+	cmp-each-user .main .ava {
+		/*display: inline-block;*/
+		/*max-height: 500px;*/
+		width: 100%;
+		max-width: 500px;
+
+
+
+	}
+
+	cmp-each-user .main .info {
+		/*display: inline-block;*/
+		/*height: 500px;*/
+		/*width: 100%;*/
+		margin: 0;
+
+		/*background: linear-gradient( to bottom, #111, #115 );*/
+	}
+		cmp-each-user .info .name {
+			font-size: 50px;
+			font-weight: bold;
+			font-style: oblique;
+		}
+
+
+		cmp-each-user .info .date {
+			text-align: center;
+		}
+
+
+		cmp-each-user .info .hash {
+			font-style: oblique;
+			color: aqua;
+		}
+
+
+
+
+
+
+
+
+	cmp-each-user .ava img {
+		height: 100%;
+		width: 100%;
+
+		border-radius: 20px;
+	}
+
+
+
+cmp-each-user .imgOther {
+
+}
+
+
+cmp-each-user .imgOther {
+	
+}
+	cmp-each-user .imgOther .each {
+		height: 100px;
+		width: 100px;
+	}
+		cmp-each-user .imgOther .each img {
+			height: 100%;
+			width: 100%;
+		}
+
+
+
+
+

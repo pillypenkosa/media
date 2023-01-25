@@ -2,10 +2,12 @@ const dependences = {
 
 	components: [
 	
-
 		'err404',
+
+		'each-user',
+
 		'win-index',
-		'win-users',
+		'win-people',
 
 		'menu',
 		'header',
@@ -14,12 +16,13 @@ const dependences = {
 
 	listGIT: [ 		// https://pillypenkosa.github.io/database/list/list. ${ k } .js
 
-		'people',
+		//'people',
+		'country',
 	],
 
 	listApp: [ 		// list/list. ${ k } .js
 
-		//'people',
+		'people',
 	],
 
 };

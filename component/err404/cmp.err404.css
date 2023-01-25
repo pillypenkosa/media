@@ -10,9 +10,14 @@ cmp-err404 {
 
 
 
-cmp-err404 h2 {
+cmp-err404 {
 	padding: 0 30px;
 	border-radius: 5px;
+
+	font-size: 200%;
+	font-weight: bold;
+
+
 	background-color: #f00;
 	color: #fff;
 }
