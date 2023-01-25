@@ -20,7 +20,7 @@ cmp-each-user .close {
 	top: 5px;
 	right: 15px;
 	font-size: 35px;
-	color: #fff;
+	color: #f00;
 	cursor: pointer;
 }
 	cmp-each-user .close:hover {
