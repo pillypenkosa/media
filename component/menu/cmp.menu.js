@@ -73,7 +73,7 @@ class ComponentMenu {
 
 
 		let htmlBtnsSex = `
-			<div class="btn" data-id="allsex" data-sex="all" onclick="ComponentMenu.clcSex( this )">Всі (Ч/Ж)</div>
+			<div class="btn" data-id="allsex" data-sex="allsex" onclick="ComponentMenu.clcSex( this )">Всі (Ч/Ж)</div>
 			<div class="btn" data-id="men" data-sex="men" onclick="ComponentMenu.clcSex( this )">Чоловіки</div>
 			<div class="btn" data-id="women" data-sex="women" onclick="ComponentMenu.clcSex( this )">Жінки</div>	
 		`;
@@ -117,11 +117,24 @@ class ComponentMenu {
 		const err 		= `\x1b[31m err ${ method } `;
 
 
-		console.log( elem.dataset.id );
+
+		//console.log( ok, 'elem.dataset.id:', elem.dataset.id );
+		Router.urlGET.sex = elem.dataset.id;
+		
+		//console.log( ok, 'Router.urlGET:', Router.urlGET );
 
 
+		this.setHashParamByOBJ();
+
+
+		Router.ini();
+
+		// подсветка меню
+		this.activeLight();
+
+		// загрузка контентк
+		Router.loadContent();
 	}
-
 
 
 
@@ -131,7 +144,6 @@ class ComponentMenu {
 		const method 	= `${ this.name }.${ name }()`;
 		const ok 		= `\x1b[32m ok ${ method } `;
 		const err 		= `\x1b[31m err ${ method } `;
-
 
 
 		//console.log( ok, 'elem.dataset.id:', elem.dataset.id  );
@@ -148,26 +160,12 @@ class ComponentMenu {
 		//console.log( ok, 'Router.userHash:', Router.userHash  );
 
 
-		let hashParam = '';
-		for ( let k in Router.userHash ) {
-			hashParam += k + '/'; 
-		}
 
 
-		//console.log( ok, 'hashParam:', hashParam );
-
-		if ( hashParam ) {
-			hashParam = '&hash=' + hashParam.slice( 0, -1 );
-		}
 
 
-		//console.log( ok, 'hashParam:', hashParam );
+		this.setHashParamByOBJ();
 
-		//hashParam = hashParam ? '&hash=' + hashParam.slice( 0, -1 ) : '';
-
-
-		if ( history.pushState )
-			history.pushState( null, null, '?win=people' + hashParam );
 
 
 
@@ -177,40 +175,10 @@ class ComponentMenu {
 		this.activeLight();
 
 		// загрузка контентк
-		Router.loadContent()
+		Router.loadContent();
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-	// налаштування об'єкту
-	static set( txt ) {
-
-
-		if ( txt == 'allsex' ) {
-
-
-
-
-
-		} else {
-
-
-
-
-
-		}
-
-	}
 
 
 
@@ -220,18 +188,29 @@ class ComponentMenu {
 	// сформувати параметр &hash=
 	static setHashParamByOBJ() {
 
-		let txt = '';
-		for ( let k in this.filterHash ) {
-			txt += k + '/';
-		}
+
+		const name 		= 'setHashParamByOBJ';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
+
+		console.log( ok );
 
 
-		//txt = txt.slice( 0, -1 );
 
-
-
-
-		return txt.slice( 0, -1 );
+		let url = '';
+		if ( Router.urlGET.sex ) 
+			url += `&sex=${ Router.urlGET.sex }`;
+		
+		let hashParam = '';
+		for ( let k in Router.userHash ) 
+			hashParam += k + '/'; 
+		
+		if ( hashParam ) 
+			hashParam = '&hash=' + hashParam.slice( 0, -1 );
+		
+		if ( history.pushState )
+			history.pushState( null, null, '?win=people' + url + hashParam );
 	}
 
 
@@ -266,18 +245,59 @@ class ComponentMenu {
 		const err 		= `\x1b[31m err ${ method } `;
 
 
-		let arr = document.querySelectorAll( 'cmp-menu .hash .btn' );
+		let arrSex = document.querySelectorAll( 'cmp-menu .sex .btn' );
 
 		//console.log( ok );
 		//console.log( ok, 'arr: ', arr );
 
-		arr.forEach( k => {
+		arrSex.forEach( k => {
+
+			//alert( k.dataset.sex );
+
+			k.classList.remove( 'active' );
+
+			if ( Router.urlGET.sex == k.dataset.sex ) 
+				k.classList.add( 'active' );
+
+			
+
+
+
+
+
+
+/*
+			if ( Router.urlGET ) {
+				if ( Router.urlGET.sex ) {
+					if ( Router.urlGET.sex == k.dataset.sex ) {
+
+						k.classList.add( 'active' );
+					}
+
+				} else if ( k.dataset.sex == 'allsex' ) {
+
+					k.classList.add( 'active' );
+				}
+			}
+*/
+
+		});
+
+
+
+		let arrHash = document.querySelectorAll( 'cmp-menu .hash .btn' );
+
+		//console.log( ok );
+		//console.log( ok, 'arr: ', arr );
+
+		arrHash.forEach( k => {
 
 			k.classList.remove( 'active' );
 
 			if ( Router.userHash[ k.dataset.id ] ) {
 
-				//console.log( k.dataset.id );
+				console.log( Router.userHash );
+				console.log( k.dataset.id );
 				k.classList.add( 'active' );
 			}
 		});

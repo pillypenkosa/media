@@ -4,7 +4,6 @@
 
 class ComponentWinPeople {
 
-	//static name = 'Win-Index';
 
 
 	static className = '';
@@ -12,8 +11,6 @@ class ComponentWinPeople {
 	static paramAttr = [];
 
 	static arrArgs = []; 
-
-
 
 	// люди, які відображені на сторінці
 	static arrUsersShow = []; 
@@ -46,62 +43,63 @@ class ComponentWinPeople {
 		const err 		= `\x1b[31m err ${ method } `;
 
 		
-		//console.log( ok ); 
-		console.log( ok, 'завантаження компоненту...' ); 
+		//console.log( ok, 'завантаження компоненту...' ); 
 
-		//alert( ok ); 
-		//console.log( ok, 'Router.urlGET: ', Router.urlGET ); 
-
-
-	
 		const title = 'Люди';
 
 		document.title = appProjectName + ' ' + title;
 
 
-		console.log( ok, 'Router.userHash:', Router.userHash ); 
-
-		let and = '';
-		for ( let k in Router.userHash ) { 
-		
-			and += `k.hash[ '${ k }' ] && `;
-
-		}
-
-		and = and.slice( 0, -4 );
-
-
-		console.log( ok, 'and:', and ); 
-
-		console.log( ok, 'arrPeople:', arrPeople ); 
-
-
-		this.arrUsersShow = arrPeople.filter( k => {
-
-			if ( k.hash ) {
-				//if ( k.hash[ 'politics' ] ) 
-				if ( eval( and ) ) 
-					return true;
-			}
-
-		});
-
-
-
-		console.log( ok, 'this.arrUsersShow:', this.arrUsersShow ); 
+		//console.log( ok, 'Router.urlGET.sex:', Router.urlGET.sex ); 
 
 		let htmlPeople = '';
-		this.arrUsersShow.forEach( k => {
+		if ( Router.urlGET.sex || Router.urlGET.hash ) {
 
-			let sexClass = k.sex ? 'm' : 'w';
+			let and = '';
+			if ( Router.urlGET.sex == 'men' ) 
+				and = 'k.sex && ';
+			
+			if ( Router.urlGET.sex == 'women' ) 
+				and = '!k.sex && ';
 
-			htmlPeople += `<div class="each ${ sexClass }" data-id="${ k.id }" onclick="${ this.className }.clcUser( this )">
-				<div class="img">
-					<img src="img/people/${ k.id }/1.jpg" alt="${ k.id }">
-				</div>
-				<div class="name">${ k.name.n }<br/>${ k.name.s }</div>
-			</div>`;
-		});
+			if ( Router.urlGET.sex == 'allsex' ) 
+				and = 'true && ';
+
+			for ( let k in Router.userHash ) 
+				and += `k.hash[ '${ k }'] && `;
+
+			and = and.slice( 0, -4 );
+
+
+			//console.log( ok, 'and:', and ); 
+
+			this.arrUsersShow = arrPeople.filter( k => {
+
+				if ( k.hash ) {
+
+					if ( eval( and ) ) 
+						return true;
+				}
+			});
+
+
+
+
+			this.arrUsersShow.forEach( k => {
+
+				let sexClass = k.sex ? 'm' : 'w';
+
+				htmlPeople += `<div class="each ${ sexClass }" data-id="${ k.id }" onclick="${ this.className }.clcUser( this )">
+					<div class="img">
+						<img src="img/people/${ k.id }/1.jpg" alt="${ k.id }">
+					</div>
+					<div class="name">${ k.name.n }<br/>${ k.name.s }</div>
+				</div>`;
+			});
+		}
+
+		//console.log( ok, 'this.arrUsersShow:', this.arrUsersShow ); 
+
 
 
 		let html = `
@@ -109,12 +107,8 @@ class ComponentWinPeople {
 			<div class="people">${ htmlPeople }</div>
 		`;
 
-		//html = `<div>${ method }<div>`;
 
 		return getComponentHtml( this.paramAttr, html );
-
-
-
 	}
 
 
@@ -139,22 +133,11 @@ class ComponentWinPeople {
 		const err 		= `\x1b[31m err ${ method } `;
 
 
-		console.log( ok, 'elem.dataset.id:', elem.dataset.id ); 
-
-
+		//console.log( ok, 'elem.dataset.id:', elem.dataset.id ); 
 
 		document.querySelectorAll( 'cmp-win-people .people' )[ 0 ].classList.add( 'hide' ); 		// добавить класс
 
 		document.querySelectorAll( 'cmp-win-people .modal' )[ 0 ].innerHTML = Component( 'Each-User', elem.dataset.id );
-
-
-
-
-
-
-
-		//people
-
 
 	}
 
