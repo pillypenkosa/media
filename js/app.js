@@ -1,5 +1,5 @@
 const appProjectName = 'Media DJS';
-const appVersion = '2023-01-27 10:35';
+const appVersion = '2023-01-27 16:55';
 
 
 
