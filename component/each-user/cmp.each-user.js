@@ -88,13 +88,30 @@ class ComponentEachUser {
 
 
 		let hash = '';
+		let htmlPresident = '';
 
 		if ( user.hash ) {
 
 			for ( let k in user.hash ) {
 				hash += ' #' + objPeopleHash[ k ].title;
 			}
+
+			if ( user.hash.president ) {
+
+				let html = '';
+				user.hash.president.forEach( k => {
+					html += `<div class="">${ k.n }-й Президент ${ objCountry[ k.country ].title.ua }, ${ k.date }</div>`;
+				});
+
+				if ( html ) {
+					htmlPresident = `<div class="president">${ html }</div>`;
+				}
+			}
 		}
+
+
+
+
 
 
 		//console.log( objPeopleHash );
@@ -112,6 +129,14 @@ class ComponentEachUser {
 		}
 
 
+
+
+
+
+
+
+
+
 		let htmlImgOther = '';
 		if ( user.img ) {
 			if ( user.img[ 1 ] > 1 ) {
@@ -126,6 +151,9 @@ class ComponentEachUser {
 		if ( htmlImgOther ) {
 			htmlImgOther = `<div class="imgOther">${ htmlImgOther }</div>`;
 		}
+
+
+		let htmlNote = user.note ? `<div class="note"><hr/>${ user.note }</div>` : '';
 
 
 		let html = `<div class="">
@@ -145,7 +173,8 @@ class ComponentEachUser {
 					<div class="country">${ country }</div>
 					<div class="hash">${ hash }</div>
 
-					<div class="note">${ user.note ? user.note : '' }</div>
+					${ htmlPresident }
+					${ htmlNote }
 				</div>
 			</div>
 

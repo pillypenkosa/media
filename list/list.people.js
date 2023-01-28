@@ -2,11 +2,16 @@ const arrPeopleHash = [
 
 
 
+{ id: 'movie' 				, title: 'Кіно' 						, },
+{ id: 'music' 				, title: 'Музика' 						, },
+{ id: 'politics' 			, title: 'Політики' 					, },
 
 
-{ id: 'comedy' 				, title: 'ComedyClub' 					, },
+{ id: 'comedy' 				, title: 'Comedy' 						, },
 { id: 'dj' 					, title: 'DJ' 							, },
+{ id: 'mma' 				, title: 'MMA' 							, },
 { id: 'auto' 				, title: 'Авто' 						, },
+{ id: 'actor' 				, title: 'Актори' 						, },
 { id: 'business' 			, title: 'Бізнесмени' 					, },
 { id: 'fighter' 			, title: 'Бійці' 						, },
 { id: 'biology' 			, title: 'Біологія' 					, },
@@ -20,26 +25,26 @@ const arrPeopleHash = [
 { id: 'internet' 			, title: 'Інтернет' 					, },
 { id: 'karate' 				, title: 'Карате' 						, },
 { id: 'kickboxing' 			, title: 'Кікбоксінг' 					, },
-{ id: 'movie' 				, title: 'Кіно' 						, },
-{ id: 'movie_actor' 		, title: 'Кіноактори' 					, },
-{ id: 'movie_director' 		, title: 'Кінорежисери' 				, },
-{ id: 'movie_producer' 		, title: 'Кінопродюсери' 				, },
 { id: 'comic' 				, title: 'Коміки' 						, },
 { id: 'composer' 			, title: 'Композитори' 					, },
 { id: 'konstruktor' 		, title: 'Конструктори' 				, },
+{ id: 'queen' 				, title: 'Королева' 					, },
 { id: 'kungfu' 				, title: 'Кунгфу' 						, },
+{ id: 'doctor' 				, title: 'Лікарі' 						, },
 { id: 'literature' 			, title: 'Література' 					, },
+{ id: 'medicine' 			, title: 'Медицина' 					, },
 { id: 'billionaire' 		, title: 'Мільярдери' 					, },
 { id: 'fashion' 			, title: 'Модел\'єри' 					, },
 { id: 'model' 				, title: 'Моделі' 						, },
-{ id: 'music' 				, title: 'Музика' 						, },
 { id: 'science' 			, title: 'Наука' 						, },
 { id: 'writer' 				, title: 'Письменники' 					, },
-{ id: 'politics' 			, title: 'Політики' 					, },
 { id: 'president' 			, title: 'Президент' 					, },
 { id: 'princess' 			, title: 'Принцеса' 					, },
+{ id: 'producer' 			, title: 'Продюсери' 					, },
 { id: 'psychology' 			, title: 'Психологія' 					, },
+{ id: 'director' 			, title: 'Режисери' 					, },
 { id: 'wrestling' 			, title: 'Реслінг' 						, },
+{ id: 'relative' 			, title: 'Родичі' 						, },
 { id: 'develope' 			, title: 'Розробники' 					, },
 { id: 'sculptor' 			, title: 'Скульптори' 					, },
 { id: 'singer' 				, title: 'Співаки' 						, },
@@ -86,11 +91,9 @@ const arrPeopleHash = [
 { id: 'kvn' 				, title: 'КВН' 							, },
 { id: 'operator_movie' 		, title: 'Кінооператори' 				, },
 { id: 'keyboard' 			, title: 'Клавішники' 					, },
-{ id: 'queen' 				, title: 'Королева' 					, },
 { id: 'king' 				, title: 'Король' 						, },
 { id: 'space' 				, title: 'Космонавти' 					, },
 { id: 'athletics' 			, title: 'Легкоатлети' 					, },
-{ id: 'doctor' 				, title: 'Лікарі' 						, },
 { id: 'maski' 				, title: 'МаскиШоу' 					, },
 { id: 'mathematics' 		, title: 'Математика' 					, },
 { id: 'medicine' 			, title: 'Медицина' 					, },
@@ -104,7 +107,6 @@ const arrPeopleHash = [
 { id: 'programmer' 			, title: 'Программісти' 				, },
 { id: 'propaganda' 			, title: 'Пропагандисти' 				, },
 { id: 'religion' 			, title: 'Релігія' 						, },
-{ id: 'relative' 			, title: 'Родичі' 						, },
 { id: 'violin' 				, title: 'Скрипалі' 					, },
 { id: 'sociology' 			, title: 'Соціологія' 					, },
 { id: 'dance' 				, title: 'Танцюристи' 					, },
@@ -221,7 +223,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 2, by: 1809, dd: 15, dm: 4, dy: 1865, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '03.1861 - 04.1865', n: 1, }, ], },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '4.03.1861 - 15.04.1865', n: 16, }, ], },
 	internet: { wiki_ua: '%D0%90%D0%B2%D1%80%D0%B0%D0%B0%D0%BC_%D0%9B%D1%96%D0%BD%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD', wiki_en: 'Abraham_Lincoln', },
 },
 {
@@ -251,7 +253,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 6, bm: 1, by: 1938, },
 	img: [ 1, 1 ],
 	country: { ita: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0147983', wiki_ua: '%D0%90%D0%B4%D1%80%D1%96%D0%B0%D0%BD%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B5%D0%BD%D1%82%D0%B0%D0%BD%D0%BE', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/euro/49498/works/', },
 },
 {
@@ -261,7 +263,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 14, bm: 4, by: 1973, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0004778', wiki_ua: '%D0%95%D0%B4%D1%80%D1%96%D1%94%D0%BD_%D0%91%D1%80%D0%BE%D1%83%D0%B4%D1%96', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/50096/works/', },
 },
 {
@@ -289,7 +291,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 25, bm: 4, by: 1940, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000199', wiki_ua: '%D0%90%D0%BB%D1%8C_%D0%9F%D0%B0%D1%87%D0%B8%D0%BD%D0%BE', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48114/works/', },
 },
 {
@@ -299,7 +301,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 8, bm: 11, by: 1935, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001128', wiki_ua: '%D0%90%D0%BB%D0%B5%D0%BD_%D0%94%D0%B5%D0%BB%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/euro/1226/works/', },
 },
 {
@@ -345,7 +347,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 4, by: 1958, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000285', wiki_ua: '%D0%90%D0%BB%D0%B5%D0%BA_%D0%91%D0%BE%D0%BB%D0%B4%D0%B2%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48113/works/', },
 },
 {
@@ -373,7 +375,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 4, bm: 10, by: 1976, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000224', wiki_ua: '%D0%90%D0%BB%D1%96%D1%81%D1%96%D1%8F_%D0%A1%D1%96%D0%BB%D1%8C%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BE%D1%83%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/57351/works/', },
 },
 {
@@ -400,7 +402,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 19, bm: 12, by: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: {imdb: '0000192', wiki_ua: '%D0%90%D0%BB%D1%96%D1%81%D1%81%D0%B0_%D0%9C%D1%96%D0%BB%D0%B0%D0%BD%D0%BE', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/58174/works/', },
 },
 {
@@ -409,7 +411,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 3, by: 1976, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0005442', wiki_ua: '%D0%95%D0%BC%D1%96_%D0%A1%D0%BC%D0%B0%D1%80%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/65792/works/', },
 },
 {
@@ -439,7 +441,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 4, by: 1956, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000412', wiki_ua: '%D0%95%D0%BD%D0%B4%D1%96_%D0%93%D0%B0%D1%80%D1%81%D1%96%D1%8F', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/54663/works/', },
 },
 {
@@ -457,7 +459,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 4, bm: 6, by: 1975, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001401', wiki_ua: '%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D1%96%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BB%D1%96', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/50396/works/', },
 },
 {
@@ -466,7 +468,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 11, by: 1967, dd: 8, dm: 2, dy: 2007, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000645', wiki_ua: '%D0%90%D0%BD%D0%BD%D0%B0-%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D1%8C_%D0%A1%D0%BC%D1%96%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/producer/hollywood/56172/works/', },
 },
 {
@@ -475,7 +477,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 11, bm: 3, by: 1989, dd: 19, dm: 6, dy: 2016, },
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0947338', wiki_ua: '%D0%84%D0%BB%D1%8C%D1%87%D1%96%D0%BD_%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
@@ -485,7 +487,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 31, bm: 12, by: 1937, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000164', wiki_ua: '%D0%95%D0%BD%D1%82%D0%BE%D0%BD%D1%96_%D0%93%D0%BE%D0%BF%D0%BA%D1%96%D0%BD%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/euro/53027/works/', },
 },
 {
@@ -504,7 +506,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 10, bm: 8, by: 1960, },
 	img: [ 1, 1 ],
 	country: { esp: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000104', wiki_ua: '%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96%D0%BE_%D0%91%D0%B0%D0%BD%D0%B4%D0%B5%D1%80%D0%B0%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48115/works/', },
 },
 {
@@ -532,7 +534,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 30, bm: 7, by: 1947, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, },
 	internet: { imdb: '0000216', wiki_ua: '%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%A8%D0%B2%D0%B0%D1%80%D1%86%D0%B5%D0%BD%D0%B5%D0%B3%D0%B3%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48117/works/', },
 },
 {
@@ -542,7 +544,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 16, bm: 6, by: 1962, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0903677', wiki_ua: '%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%92%D0%BE%D1%81%D0%BB%D1%83', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/65163/works/', },
 },
 {
@@ -560,7 +562,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 19, bm: 4, by: 1968, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000171', wiki_ua: '%D0%95%D1%88%D0%BB%D1%96_%D0%94%D0%B6%D0%B0%D0%B4', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/50748/works/', },
 },
 {
@@ -570,7 +572,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 7, bm: 2, by: 1978, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0005110', wiki_ua: '%D0%95%D1%88%D1%82%D0%BE%D0%BD_%D0%9A%D1%83%D1%82%D1%87%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/56967/works/', },
 },
 {
@@ -588,7 +590,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 8, by: 1976, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0851582', wiki_ua: '%D0%9E%D0%B4%D1%80%D1%96_%D0%A2%D0%BE%D1%82%D1%83', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/euro/53184/works/', },
 },
 {
@@ -619,7 +621,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 4, bm: 4, by: 1970, },
 	img: [ 1, 1 ],
 	country: { can: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001608', wiki_ua: '%D0%91%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/57227/works/', },
 },
 {
@@ -638,7 +640,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 15, bm: 8, by: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000255', wiki_ua: '%D0%91%D0%B5%D0%BD_%D0%90%D1%84%D1%84%D0%BB%D0%B5%D0%BA', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48120/works/', },
 },
 {
@@ -648,7 +650,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 30, bm: 11, by: 1965, },
 	img: [ 1, 2 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001774', wiki_ua: '%D0%91%D0%B5%D0%BD_%D0%A1%D1%82%D1%96%D0%BB%D0%BB%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/50047/works/', },
 },
 {
@@ -732,7 +734,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 2, by: 1943, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0004886', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D0%94%D1%8E%D0%BA', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/58161/works/', },
 },
 {
@@ -742,7 +744,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 21, bm: 9, by: 1950, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000195', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D0%9C%D1%8E%D1%80%D1%80%D0%B5%D0%B9', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/53224/works/', },
 },
 {
@@ -752,7 +754,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 5, by: 1955, dd: 25, dm: 2, dy: 2017,   },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000200', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D0%9F%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/49981/works/', },
 },
 {
@@ -762,7 +764,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 12, by: 1953, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },	
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000597', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D0%9F%D1%83%D0%BB%D0%BB%D0%BC%D0%B0%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/53749/works/', },
 },
 {
@@ -772,7 +774,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 14, bm: 3, by: 1948, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000345', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB%D1%96_%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%B0%D0%BB', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/62139/works/', },
 },
 {
@@ -782,7 +784,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 24, bm: 2, by: 1966, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000708', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB%D1%96_%D0%97%D0%B5%D0%B9%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/18881/works/', },
 },
 {
@@ -801,7 +803,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 7, by: 1946, },
 	img: [ 1, 1 ],
 	country: { chn: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, fighter: 1, kungfu: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, kungfu: 1, },
 	internet: { imdb: '0001866', wiki_ua: '%D0%91%D0%BE%D0%BB%D0%BE_%D0%84%D0%BD%D0%B3', },
 },
 {
@@ -810,7 +812,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 9, by: 1961, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001372', wiki_ua: '%D0%91%D0%BE%D0%BD%D0%BD%D1%96_%D0%93%D0%B0%D0%BD%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/58243/works/', },
 },
 {
@@ -820,7 +822,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 18, bm: 12, by: 1963, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000093', wiki_ua: '%D0%91%D1%80%D0%B5%D0%B4_%D0%9F%D1%96%D1%82%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48121/works/', },
 },
 {
@@ -830,7 +832,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 1, bm: 2, by: 1965, dd: 31, dm: 3, dy: 1993, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000488', wiki_ua: '%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%BE%D0%BD_%D0%9B%D1%96', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/79899/works/', },
 },
 {
@@ -839,7 +841,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 15, bm: 5, by: 1963, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000283', wiki_ua: '%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%91%D0%B0%D0%BA%D0%BA%D1%96', },
 },
 {
@@ -848,7 +850,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 1, by: 1964, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000403', wiki_ua: '%D0%91%D1%80%D1%96%D0%B4%D0%B6%D0%B8%D1%82_%D0%A4%D0%BE%D0%BD%D0%B4%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/71691/works/', },
 },
 {
@@ -857,7 +859,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 4, by: 1971, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0005256', wiki_ru: '%D0%9C%D0%BE%D0%B9%D0%BD%D0%B0%D1%85%D0%B0%D0%BD,_%D0%91%D1%80%D0%B8%D0%B4%D0%B6%D0%B8%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/51571/works/', },
 },
 {
@@ -866,7 +868,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 9, by: 1934, },
 	img: [ 4, 1 ],
 	country: { fra: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000003', wiki_ua: '%D0%91%D1%80%D1%96%D0%B6%D1%96%D1%82_%D0%91%D0%B0%D1%80%D0%B4%D0%BE', },
 },
 {
@@ -875,7 +877,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 1, bm: 10, by: 1989, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0488953', wiki_ua: '%D0%91%D1%80%D1%96_%D0%9B%D0%B0%D1%80%D1%81%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/106031/works/', },
 },
 {
@@ -885,7 +887,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 20, bm: 2, by: 1945, dd: 7, dm: 8, dy: 1999, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001397', wiki_ua: '%D0%91%D1%80%D0%B0%D0%B9%D0%BE%D0%BD_%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/59433/works/', },
 },
 {
@@ -903,7 +905,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 31, bm: 5, by: 1965, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000222', wiki_ua: '%D0%91%D1%80%D1%83%D0%BA_%D0%A8%D0%B8%D0%BB%D0%B4%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/62103/works/', },
 },
 {
@@ -913,7 +915,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 11, by: 1940, dd: 20, dm: 7, dy: 1973, },
 	img: [ 1, 1 ],
 	country: { hkg: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, fighter: 1, kungfu: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, kungfu: 1, },
 	internet: { imdb: '0000045', wiki_ua: '%D0%91%D1%80%D1%8E%D1%81_%D0%9B%D1%96', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48122/works/', },
 },
 {
@@ -923,7 +925,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 9, by: 1945, },
 	img: [ 1, 1 ],
 	country: { nzl: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: {imdb: '0817748', wiki_ua: '%D0%91%D1%80%D1%8E%D1%81_%D0%A1%D0%BF%D0%B5%D0%BD%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/51085/works/', },
 },
 {
@@ -933,7 +935,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 19, bm: 3, by: 1955, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000246', wiki_ua: '%D0%91%D1%80%D1%8E%D1%81_%D0%92%D1%96%D0%BB%D0%BB%D1%96%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48123/works/', },
 },
 {
@@ -943,7 +945,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 11, bm: 2, by: 1936, dd: 6, dm: 9, dy: 2018, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000608', wiki_ua: '%D0%91%D0%B5%D1%80%D1%82_%D0%A0%D0%B5%D0%B9%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/52715/works/', },
 },
 {
@@ -953,7 +955,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 4, bm: 10, by: 1895, dd: 1, dm: 2, dy: 1966, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000036', wiki_ua: '%D0%91%D0%B0%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%96%D1%82%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/59194/works/', },
 },
 {
@@ -962,7 +964,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 30, bm: 8, by: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000139', wiki_ua: '%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%BD_%D0%94%D1%96%D0%B0%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/50459/works/', },
 },
 {
@@ -991,7 +993,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 20, bm: 4, by: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001182', wiki_ua: '%D0%9A%D0%B0%D1%80%D0%BC%D0%B5%D0%BD_%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/64838/works/', },
 },
 {
@@ -1001,7 +1003,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	img: [ 1, 1 ],
 	country: { can: 1, },
 	movie: { actor: {}, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0005251', wiki_ua: '%D0%9A%D0%B5%D1%80%D1%80%D1%96-%D0%95%D0%BD%D0%BD_%D0%9C%D0%BE%D1%81%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/57161/works/', },
 },
 {
@@ -1010,7 +1012,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 18, bm: 8, by: 1957, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000962', wiki_ua: '%D0%9A%D0%B0%D1%80%D0%BE%D0%BB%D1%8C_%D0%91%D1%83%D0%BA%D0%B5', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/euro/49784/works/', },
 },
 {
@@ -1020,7 +1022,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 8, by: 1975, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000729', wiki_ua: '%D0%9A%D0%B5%D0%B9%D1%81%D1%96_%D0%90%D1%84%D1%84%D0%BB%D0%B5%D0%BA', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/54664/works/', },
 },
 {
@@ -1030,7 +1032,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 18, bm: 12, by: 1968, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000680', wiki_ua: '%D0%9A%D0%B0%D1%81%D0%BF%D0%B5%D1%80_%D0%B2%D0%B0%D0%BD_%D0%94%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/63183/works/', },
 },
 {
@@ -1039,7 +1041,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 14, bm: 5, by: 1969, },
 	img: [ 1, 1 ],
 	country: { aus: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000949', wiki_ua: '%D0%9A%D0%B5%D0%B9%D1%82_%D0%91%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/49886/works/', },
 },
 {
@@ -1048,7 +1050,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 10, by: 1943, },
 	img: [ 2, 1 ],
 	country: { fra: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000366', wiki_ua: '%D0%9A%D0%B0%D1%82%D1%80%D1%96%D0%BD_%D0%94%D0%B5%D0%BD%D0%B5%D0%B2', },
 },
 {
@@ -1057,7 +1059,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 4, by: 1972, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001517', wiki_ua: '%D0%9A%D0%B5%D1%82%D1%80%D1%96%D0%BD_%D0%9C%D0%B0%D0%BA%D0%BA%D0%BE%D1%80%D0%BC%D0%B0%D0%BA', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/58441/works/', },
 },
 {
@@ -1066,7 +1068,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 4, bm: 3, by: 1954, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001573', wiki_ua: '%D0%9A%D0%B5%D1%82%D1%80%D1%96%D0%BD_%D0%9E%27%D0%93%D0%B0%D1%80%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/54050/works/', },
 },
 {
@@ -1075,7 +1077,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 25, bm: 9, by: 1969, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001876', wiki_ua: '%D0%9A%D0%B5%D1%82%D1%80%D1%96%D0%BD_%D0%97%D0%B5%D1%82%D0%B0-%D0%94%D0%B6%D0%BE%D0%BD%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/50190/works/', },
 },
 {
@@ -1096,7 +1098,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 16, bm: 4, by: 1889, dd: 25, dm: 12, dy: 1977, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, movie_actor: 1, movie_director: 1, comic: 1,  },
+	hash: { movie: 1, actor: 1, director: 1, comic: 1,  },
 	internet: { imdb: '0000122', wiki_ua: '%D0%A7%D0%B0%D1%80%D0%BB%D1%96_%D0%A7%D0%B0%D0%BF%D0%BB%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/59133/works/', },
 },
 {
@@ -1115,7 +1117,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 9, by: 1965, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000221', wiki_ua: '%D0%A7%D0%B0%D1%80%D0%BB%D1%96_%D0%A8%D0%B8%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/49546/works/', },
 },
 {
@@ -1124,7 +1126,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 7, bm: 8, by: 1975, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000234', wiki_ua: '%D0%A8%D0%B0%D1%80%D0%BB%D1%96%D0%B7_%D0%A2%D0%B5%D1%80%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/49113/works/', },
 },
 {
@@ -1134,7 +1136,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 7, by: 1951, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0177933', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%9A%D1%83%D0%BF%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/50530/works/', },
 },
 {
@@ -1144,7 +1146,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 31, bm: 5, by: 1960, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0254402', wiki_ru: '%D0%AD%D0%BB%D0%BB%D0%B8%D0%BE%D1%82%D1%82,_%D0%9A%D1%80%D0%B8%D1%81', },
 },
 {
@@ -1154,7 +1156,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 13, bm: 6, by: 1981, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0262635', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%95%D0%B2%D0%B0%D0%BD%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/52673/works/', },
 },
 {
@@ -1164,7 +1166,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 11, bm: 8, by: 1983, },
 	img: [ 1, 1 ],
 	country: { aus: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '1165110', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%93%D0%B5%D0%BC%D1%81%D0%B2%D0%BE%D1%80%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/126056/works/', },
 },
 {
@@ -1184,7 +1186,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 8, by: 1980, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '1517976', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%9F%D0%B0%D0%B9%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/50990/works/', },
 },
 {
@@ -1194,7 +1196,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 31, bm: 8, by: 1971, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000676', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%A2%D0%B0%D0%BA%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/58617/works/', },
 },
 {
@@ -1204,7 +1206,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 30, bm: 1, by: 1974, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000288', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%B0%D0%BD_%D0%91%D0%B5%D0%B9%D0%BB', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/50967/works/', },
 },
 {
@@ -1235,7 +1237,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 29, bm: 3, by: 1957, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000483', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%BE%D1%84%D0%B5%D1%80_%D0%9B%D0%B0%D0%BC%D0%B1%D0%B5%D1%80%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/euro/50239/works/', },
 },
 {
@@ -1245,7 +1247,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 10, by: 1938, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000502', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%BE%D1%84%D0%B5%D1%80_%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/57587/works/', },
 },
 {
@@ -1254,7 +1256,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 13, bm: 12, by: 1929, dd: 5, dm: 2, dy: 2021, },
 	country: { can: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001626', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%BE%D1%84%D0%B5%D1%80_%D0%9F%D0%BB%D0%B0%D0%BC%D0%BC%D0%B5%D1%80', },
 },
 {
@@ -1264,7 +1266,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 10, bm: 3, by: 1940, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, fighter: 1, karate: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, karate: 1, },
 	internet: { imdb: '0001569', wiki_ua: '%D0%A7%D0%B0%D0%BA_%D0%9D%D0%BE%D1%80%D1%80%D1%96%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/50064/works/', },
 },
 {
@@ -1273,7 +1275,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 20, bm: 2, by: 1966, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, model: 1, },
+	hash: { movie: 1, actor: 1, model: 1, },
 	internet: {imdb: '0000340', wiki_ua: '%D0%A1%D1%96%D0%BD%D0%B4%D1%96_%D0%9A%D1%80%D0%BE%D1%83%D1%84%D0%BE%D1%80%D0%B4', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/117710/works/', },
 },
 {
@@ -1282,7 +1284,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 1, bm: 7, by: 1972, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001231', wiki_ua: '%D0%9A%D0%BB%D0%B5%D1%80_%D0%A4%D0%BE%D1%80%D0%BB%D0%B0%D0%BD%D1%96', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/euro/59587/works/', },
 },
 {
@@ -1291,7 +1293,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 8, by: 1964, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0822694', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/69775/works/', },
 },
 {
@@ -1301,7 +1303,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 31, bm: 5, by: 1930, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000142', wiki_ua: '%D0%9A%D0%BB%D1%96%D0%BD%D1%82_%D0%86%D1%81%D1%82%D0%B2%D1%83%D0%B4', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/51803/works/', },
 },
 {
@@ -1322,7 +1324,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	img: [ 1, 1 ],
 	country: { irl: 1, },
 	sport: { },
-	hash: { sport: 1, fighter: 1, },
+	hash: { sport: 1, fighter: 1, mma: 1, },
 	internet: { wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%BE%D1%80_%D0%9C%D0%B0%D0%BA-%D0%93%D1%80%D0%B5%D0%B3%D0%BE%D1%80', },
 },
 {
@@ -1331,7 +1333,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 7, by: 1965, },
 	img: [ 1, 1 ],
 	country: { dnk: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001567', wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%BD%D1%96_%D0%9D%D1%96%D0%BB%D1%8C%D1%81%D0%B5%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/59171/works/', },
 },
 {
@@ -1340,7 +1342,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 7, by: 1964, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001482', wiki_ua: '%D0%9A%D0%BE%D1%80%D1%82%D0%BD%D1%96_%D0%9B%D0%B0%D0%B2', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/99915/works/', },
 },
 {
@@ -1350,7 +1352,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 20, bm: 4, by: 1964, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000417', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D0%BF%D1%96%D0%BD_%D0%93%D0%BB%D0%BE%D0%B2%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/57652/works/', },
 },
 {
@@ -1360,7 +1362,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 2, bm: 1, by: 1968, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000421', wiki_ua: '%D0%9A%D1%83%D0%B1%D0%B0_%D0%93%D1%83%D0%B4%D1%96%D0%BD%D0%B3_(%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D1%88%D0%B8%D0%B9)', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/57982/works/', },
 },
 {
@@ -1369,7 +1371,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 18, bm: 2, by: 1950, },
 	img: [ 3, 1 ],
 	country: { usa: 1, },
-	hash: { music: 1, singer: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { wiki_ua: '%D0%A1%D1%96%D0%B1%D1%96%D0%BB%D0%BB_%D0%A8%D0%B5%D0%BF%D0%B5%D1%80%D0%B4', },
 },
 {
@@ -1398,7 +1400,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 7, bm: 8, by: 1960, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000838', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%96%D0%B5%D0%BB_%D0%91%D0%BE%D0%BB%D0%B4%D0%B2%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/53115/works/', },
 },
 {
@@ -1408,7 +1410,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 2, bm: 3, by: 1968, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0185819', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%96%D1%94%D0%BB_%D0%9A%D1%80%D0%B5%D0%B9%D2%91', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/euro/50641/works/', },
 },
 {
@@ -1427,7 +1429,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 8, by: 1957, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0827663', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%96%D0%B5%D0%BB_%D0%A1%D1%82%D0%B5%D1%80%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/61229/works/', },
 },
 {
@@ -1437,7 +1439,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 11, by: 1944, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000362', wiki_ua: '%D0%94%D0%B5%D0%BD%D0%BD%D1%96_%D0%94%D0%B5%D0%B2%D1%96%D1%82%D0%BE', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/52103/works/', },
 },
 {
@@ -1447,7 +1449,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 7, by: 1946, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000418', wiki_ua: '%D0%94%D0%B5%D0%BD%D0%BD%D1%96_%D2%90%D0%BB%D0%BE%D0%B2%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/52939/works/', },
 },
 {
@@ -1457,7 +1459,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 16, bm: 5, by: 1944, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001803', wiki_ua: '%D0%94%D0%B5%D0%BD%D0%BD%D1%96_%D0%A2%D1%80%D0%B5%D1%85%D0%BE', },
 },
 {
@@ -1477,7 +1479,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 7, bm: 8, by: 1960, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000141', wiki_ua: '%D0%94%D0%B5%D0%B2%D1%96%D0%B4_%D0%94%D1%83%D1%85%D0%BE%D0%B2%D0%BD%D0%B8', },
 },
 {
@@ -1496,7 +1498,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 11, bm: 10, by: 1953, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001556', wiki_ua: '%D0%94%D0%B5%D0%B2%D1%96%D0%B4_%D0%9C%D0%BE%D1%80%D1%81', },
 },
 {
@@ -1506,7 +1508,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 8, bm: 4, by: 1963, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0606487', wiki_ua: '%D0%94%D1%96%D0%BD_%D0%9D%D0%BE%D1%80%D1%80%D1%96%D1%81', },
 },
 {
@@ -1515,7 +1517,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 11, bm: 11, by: 1962, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000193', wiki_ua: '%D0%94%D0%B5%D0%BC%D1%96_%D0%9C%D1%83%D1%80', },
 },
 {
@@ -1524,7 +1526,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 2, by: 1971, },
 	img: [ 3, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000612', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%96%D0%B7_%D0%A0%D1%96%D1%87%D0%B0%D1%80%D0%B4%D1%81', },
 },
 {
@@ -1534,7 +1536,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 2, bm: 6, by: 1954, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0371660', wiki_ru: '%D0%A5%D1%8D%D0%B9%D1%81%D0%B1%D0%B5%D1%80%D1%82,_%D0%94%D0%B5%D0%BD%D0%BD%D0%B8%D1%81', },
 },
 {
@@ -1544,7 +1546,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 5, by: 1936, dd: 29, dm: 5, dy: 2010, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000454', wiki_ua: '%D0%94%D0%B5%D0%BD%D0%BD%D1%96%D1%81_%D0%93%D0%BE%D0%BF%D0%BF%D0%B5%D1%80', },
 },
 {
@@ -1554,7 +1556,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 12, by: 1954, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000243', wiki_ua: '%D0%94%D0%B5%D0%BD%D0%B7%D0%B5%D0%BB_%D0%92%D0%B0%D1%88%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD', },
 },
 {
@@ -1616,7 +1618,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 11, by: 1957, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, fighter: 1, karate: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, karate: 1, },
 	internet: { imdb: '0000185', wiki_ua: '%D0%94%D0%BE%D0%BB%D1%8C%D1%84_%D0%9B%D1%83%D0%BD%D0%B4%D0%B3%D1%80%D0%B5%D0%BD', },
 },
 {
@@ -1626,7 +1628,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 29, bm: 11, by: 1964, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000332', wiki_ua: '%D0%94%D0%BE%D0%BD_%D0%A7%D1%96%D0%B4%D0%BB', },
 },
 {
@@ -1636,7 +1638,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 15, bm: 12, by: 1949, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000467', wiki_ua: '%D0%94%D0%BE%D0%BD_%D0%94%D0%B6%D0%BE%D0%BD%D1%81%D0%BE%D0%BD', },
 },
 {
@@ -1645,7 +1647,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 29, bm: 10, by: 1943, dd: 19, dm: 1, dy: 1996, },
 	country: { usa: 1, },
-	hash: { movie: 1, movie_producer: 1, },
+	hash: { movie: 1, producer: 1, },
 	internet: { imdb: '0800971', wiki_ru: '%D0%A1%D0%B8%D0%BC%D0%BF%D1%81%D0%BE%D0%BD,_%D0%94%D0%BE%D0%BD', },
 },
 {
@@ -1655,7 +1657,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 10, bm: 9, by: 1954, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, fighter: 1, kickboxing: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, kickboxing: 1, },
 	internet: { imdb: '0933310', wiki_ua: '%D0%94%D0%BE%D0%BD_%D0%92%D1%96%D0%BB%D1%81%D0%BE%D0%BD', },
 },
 {
@@ -1665,7 +1667,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 7, by: 1935, },
 	img: [ 1, 1 ],
 	country: { can: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000661', wiki_ua: '%D0%94%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%A1%D0%B0%D0%B7%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B4', },
 },
 {
@@ -1675,8 +1677,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 14, bm: 6, by: 1946, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '20.01.2017 - 20.01.2021', n: 1, }, ], },
-	internet: { imdb: '0874339', wiki_ru: '%D0%94%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%A2%D1%80%D0%B0%D0%BC%D0%BF', },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '20.01.2017 - 20.01.2021', n: 45, }, ], },
+	internet: { imdb: '0874339', wiki_ua: '%D0%94%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%A2%D1%80%D0%B0%D0%BC%D0%BF', },
 },
 {
 	id: 'donatello_00001386', 
@@ -1695,7 +1697,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 7, by: 1963, },
 	img: [ 1, 1 ],
 	country: { chn: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, fighter: 1, kungfu: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, kungfu: 1, },
 	internet: {
 		imdb: '0947447', 
 		wiki_ua: '%D0%94%D0%BE%D0%BD%D0%BD%D1%96_%D0%84%D0%BD', 
@@ -1718,7 +1720,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 2, by: 1975, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000106', wiki_ua: '%D0%94%D1%80%D1%8E_%D0%91%D0%B5%D1%80%D1%80%D1%96%D0%BC%D0%BE%D1%80', },
 },
 {
@@ -1728,7 +1730,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 8, bm: 8, by: 1937, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, },
+	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000163', wiki_ua: '%D0%94%D0%B0%D1%81%D1%82%D1%96%D0%BD_%D0%93%D0%BE%D1%84%D1%84%D0%BC%D0%B0%D0%BD', },
 },
 {
@@ -1738,7 +1740,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 2, bm: 5, by: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, movie_actor: 1, sport: 1, fighter: 1, wrestling: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, wrestling: 1, },
 	internet: { imdb: '0425005', wiki_ua: '%D0%94%D0%B2%D0%B5%D0%B9%D0%BD_%D0%94%D0%B6%D0%BE%D0%BD%D1%81%D0%BE%D0%BD', },
 },
 {
@@ -1751,21 +1753,6 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '20.01.1953 - 20.01.1961', n: 34, }, ], },
 	internet: { wiki_ua: '%D0%94%D1%83%D0%B0%D0%B9%D1%82_%D0%95%D0%B9%D0%B7%D0%B5%D0%BD%D1%85%D0%B0%D1%83%D0%B5%D1%80', },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'e_type_27081965', 
 	name: { n: 'E-Type', },
@@ -1773,10 +1760,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 8, by: 1965, },
 	img: [ 1, 1 ],
 	country: { swe: 1, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ru: 'E-Type', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: 'E-Type', },
 	note: 'Martin Eriksson', 
 },
 {
@@ -1786,11 +1771,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 11, by: 1950, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000438', 
-		wiki_ru: '%D0%A5%D0%B0%D1%80%D1%80%D0%B8%D1%81,_%D0%AD%D0%B4', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000438', wiki_ua: '%D0%95%D0%B4_%D0%93%D0%B0%D1%80%D1%80%D1%96%D1%81', },
 },
 {
 	id: 'eddie_murphy_03041961', 
@@ -1799,11 +1781,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 4, by: 1961, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000552', 
-		wiki_ru: '%D0%9C%D0%B5%D1%80%D1%84%D0%B8,_%D0%AD%D0%B4%D0%B4%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000552', wiki_ua: '%D0%95%D0%B4%D0%B4%D1%96_%D0%9C%D0%B5%D1%80%D1%84%D1%96', },
 },
 {
 	id: 'edgar_burroughs_01091875', 
@@ -1811,10 +1790,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 1, bm: 9, by: 1875, dd: 19, dm: 3, dy: 1950, },
 	country: { usa: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%91%D0%B5%D1%80%D1%80%D0%BE%D1%83%D0%B7,_%D0%AD%D0%B4%D0%B3%D0%B0%D1%80_%D0%A0%D0%B0%D0%B9%D1%81', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%95%D0%B4%D0%B3%D0%B0%D1%80_%D0%A0%D0%B0%D0%B9%D1%81_%D0%91%D0%B0%D1%80%D1%80%D0%BE%D1%83%D0%B7', },
 },
 {
 	id: 'edgar_poe_19011809', 
@@ -1822,10 +1799,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 19, bm: 1, by: 1809, dd: 7, dm: 10, dy: 1849, },
 	country: { fra: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%9F%D0%BE,_%D0%AD%D0%B4%D0%B3%D0%B0%D1%80_%D0%90%D0%BB%D0%BB%D0%B0%D0%BD', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%95%D0%B4%D0%B3%D0%B0%D1%80_%D0%90%D0%BB%D0%BB%D0%B0%D0%BD_%D0%9F%D0%BE', },
 },
 {
 	id: 'edward_furlong_02081977', 
@@ -1835,11 +1810,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	img: [ 1, 1 ],
 	country: { usa: 1, },
 	child: 1, 
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000411', 
-		wiki_ru: '%D0%A4%D1%91%D1%80%D0%BB%D0%BE%D0%BD%D0%B3,_%D0%AD%D0%B4%D0%B2%D0%B0%D1%80%D0%B4', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000411', wiki_ua: '%D0%95%D0%B4%D0%B2%D0%B0%D1%80%D0%B4_%D0%A4%D1%83%D1%80%D0%BB%D0%BE%D0%BD%D0%B3', },
 },
 {
 	id: 'edward_grieg_15061843', 
@@ -1847,10 +1819,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 15, bm: 6, by: 1843, dd: 4, dm: 9, dy: 1907, },
 	country: { nor: 1, },
-	music: { composer: 1, },
-	internet: {
-		wiki_ru: '%D0%93%D1%80%D0%B8%D0%B3,_%D0%AD%D0%B4%D0%B2%D0%B0%D1%80%D0%B4', 
-	},
+	hash: { music: 1, composer: 1, },
+	internet: { wiki_ua: '%D0%95%D0%B4%D0%B2%D0%B0%D1%80%D0%B4_%D0%93%D1%80%D1%96%D0%B3', },
 },
 {
 	id: 'elijah_wood_28011981', 
@@ -1859,11 +1829,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 1, by: 1981, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000704', 
-		wiki_ru: '%D0%92%D1%83%D0%B4,_%D0%AD%D0%BB%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000704', wiki_ua: '%D0%95%D0%BB%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0_%D0%92%D1%83%D0%B4', },
 },
 {
 	id: 'elizabeth_II_21041926', 
@@ -1871,10 +1838,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 21, bm: 4, by: 1926, dd: 8, dm: 9, dy: 2022, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%84%D0%BB%D0%B8%D0%B7%D0%B0%D0%B2%D0%B5%D1%82%D0%B0_II', 
-	},
+	hash: { politics: 1, queen: 1, },
+	internet: { wiki_ua: '%D0%84%D0%BB%D0%B8%D0%B7%D0%B0%D0%B2%D0%B5%D1%82%D0%B0_II', },
 	note: 'Королева',
 },
 {
@@ -1883,11 +1848,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 6, bm: 10, by: 1963, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000223', 
-		wiki_ru: '%D0%A8%D1%83,_%D0%AD%D0%BB%D0%B8%D0%B7%D0%B0%D0%B1%D0%B5%D1%82', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000223', wiki_ua: '%D0%95%D0%BB%D1%96%D0%B7%D0%B0%D0%B1%D0%B5%D1%82_%D0%A8%D1%83', },
 },
 {
 	id: 'elizabeth_berkley_28071972', 
@@ -1895,11 +1857,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 7, by: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000924', 
-		wiki_ru: '%D0%91%D0%B5%D1%80%D0%BA%D0%BB%D0%B8,_%D0%AD%D0%BB%D0%B8%D0%B7%D0%B0%D0%B1%D0%B5%D1%82', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000924', wiki_ua: '%D0%95%D0%BB%D1%96%D0%B7%D0%B0%D0%B1%D0%B5%D1%82_%D0%91%D0%B5%D1%80%D0%BA%D0%BB%D1%96', },
 },
 {
 	id: 'elizabeth_taylor_27021932', 
@@ -1907,10 +1866,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 2, by: 1932, dd: 23, dm: 3, dy: 2011, },
 	img: [ 3, 1 ],
 	country: { gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		wiki_ua: '%D0%95%D0%BB%D1%96%D0%B7%D0%B0%D0%B1%D0%B5%D1%82_%D0%A2%D0%B5%D0%B9%D0%BB%D0%BE%D1%80', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BB%D1%96%D0%B7%D0%B0%D0%B1%D0%B5%D1%82_%D0%A2%D0%B5%D0%B9%D0%BB%D0%BE%D1%80', },
 },
 {
 	id: 'elon_musk_28061971', 
@@ -1918,11 +1875,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 28, bm: 6, by: 1971, },
 	img: [ 1, 1 ],
-	country: { usa: 1, },
-	internet: {
-		imdb: '1907769', 
-		wiki_ru: '%D0%9C%D0%B0%D1%81%D0%BA,_%D0%98%D0%BB%D0%BE%D0%BD', 
-	},
+	country: { usa: 1, can: 1, zaf: 1, },
+	hash: { business: 1, develope: 1, billionaire: 1, },
+	internet: { imdb: '1907769', wiki_ua: '%D0%86%D0%BB%D0%BE%D0%BD_%D0%9C%D0%B0%D1%81%D0%BA', },
 	note: 'Предприниматель, инженер, миллиардер', 
 },
 {
@@ -1932,12 +1887,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 25, bm: 3, by: 1947, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '0005056', 
-		wiki_ru: '%D0%94%D0%B6%D0%BE%D0%BD,_%D0%AD%D0%BB%D1%82%D0%BE%D0%BD', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/producer/euro/52343/works/', 
-	},
+	hash: { music: 1, singer: 1, composer: 1, },
+	internet: { imdb: '0005056', wiki_ua: '%D0%95%D0%BB%D1%82%D0%BE%D0%BD_%D0%94%D0%B6%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/producer/euro/52343/works/', },
 },
 {
 	id: 'elvis_presley_08011935', 
@@ -1945,10 +1896,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 8, bm: 1, by: 1935, dd: 16, dm: 8, dy: 1977, },
 	country: { usa: 1, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ru: '%D0%9F%D1%80%D0%B5%D1%81%D0%BB%D0%B8,_%D0%AD%D0%BB%D0%B2%D0%B8%D1%81', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BB%D0%B2%D1%96%D1%81_%D0%9F%D1%80%D0%B5%D1%81%D0%BB%D1%96', },
 },
 {
 	id: 'emile_zola_02041840', 
@@ -1956,11 +1905,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 4, by: 1840, dd: 29, dm: 9, dy: 1902, },
 	country: { fra: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%97%D0%BE%D0%BB%D1%8F,_%D0%AD%D0%BC%D0%B8%D0%BB%D1%8C', 
-		wiki_en: '%C3%89mile_Zola', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BC%D1%96%D0%BB%D1%8C_%D0%97%D0%BE%D0%BB%D1%8F', },
 },
 {
 	id: 'emilia_clarke_23101986', 
@@ -1968,11 +1914,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 23, bm: 10, by: 1986, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '3592338', 
-		wiki_ru: '%D0%9A%D0%BB%D0%B0%D1%80%D0%BA,_%D0%AD%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '3592338', wiki_ua: '%D0%95%D0%BC%D1%96%D0%BB%D1%96%D1%8F_%D0%9A%D0%BB%D0%B0%D1%80%D0%BA', },
 },
 {
 	id: 'emilio_estevez_12051962', 
@@ -1981,11 +1924,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 5, by: 1962, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000389', 
-		wiki_ru: '%D0%AD%D1%81%D1%82%D0%B5%D0%B2%D0%B5%D1%81,_%D0%AD%D0%BC%D0%B8%D0%BB%D0%B8%D0%BE', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000389', wiki_ua: '%D0%95%D0%BC%D1%96%D0%BB%D1%96%D0%BE_%D0%95%D1%81%D1%82%D0%B5%D0%B2%D0%B5%D1%81', },
 },
 {
 	id: 'emily_blunt_23021983', 
@@ -1993,11 +1933,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 23, bm: 2, by: 1983, },
 	img: [ 1, 1 ],
 	country: { usa: 1, gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '1289434', 
-		wiki_ru: '%D0%91%D0%BB%D0%B0%D0%BD%D1%82,_%D0%AD%D0%BC%D0%B8%D0%BB%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1289434', wiki_ua: '%D0%95%D0%BC%D1%96%D0%BB%D1%96_%D0%91%D0%BB%D0%B0%D0%BD%D1%82', },
 },
 {
 	id: 'emma_watson_15041990', 
@@ -2005,11 +1942,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 15, bm: 4, by: 1990, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0914612', 
-		wiki_ru: '%D0%A3%D0%BE%D1%82%D1%81%D0%BE%D0%BD,_%D0%AD%D0%BC%D0%BC%D0%B0', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0914612', wiki_ua: '%D0%95%D0%BC%D0%BC%D0%B0_%D0%92%D0%BE%D1%82%D1%81%D0%BE%D0%BD', },
 },
 {
 	id: 'enrico_caruso_25021873', 
@@ -2017,10 +1951,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 2, by: 1873, dd: 2, dm: 8, dy: 1921, },
 	country: { ita: 1, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%95%D0%BD%D1%80%D1%96%D0%BA%D0%BE_%D0%9A%D0%B0%D1%80%D1%83%D0%B7%D0%BE', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BD%D1%80%D1%96%D0%BA%D0%BE_%D0%9A%D0%B0%D1%80%D1%83%D0%B7%D0%BE', },
 },
 {
 	id: 'enrique_iglesias_08051975',
@@ -2029,10 +1961,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 8, bm: 5, by: 1975, },
 	img: [ 1, 1 ],
 	country: { esp: 1, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ru: '%D0%98%D0%B3%D0%BB%D0%B5%D1%81%D0%B8%D0%B0%D1%81,_%D0%AD%D0%BD%D1%80%D0%B8%D0%BA%D0%B5', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BD%D1%80%D1%96%D0%BA%D0%B5_%D0%86%D0%B3%D0%BB%D0%B5%D1%81%D1%96%D0%B0%D1%81', },
 },
 {
 	id: 'enzo_ferrari_18021898',
@@ -2040,10 +1970,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 18, bm: 2, by: 1898, dd: 14, dm: 8, dy: 1988, },
 	country: { ita: 1, },
-	develope: { },
-	internet: {
-		wiki_ua: '%D0%95%D0%BD%D1%86%D0%BE_%D0%A4%D0%B5%D1%80%D1%80%D0%B0%D1%80%D1%96', 
-	},
+	hash: { develope: 1, auto: 1, konstruktor: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BD%D1%86%D0%BE_%D0%A4%D0%B5%D1%80%D1%80%D0%B0%D1%80%D1%96', },
 },
 {
 	id: 'ernest_hemingway_21071899', 
@@ -2052,9 +1980,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 21, bm: 7, by: 1899, dd: 2, dm: 7, dy: 1961, },
 	country: { usa: 1, },
 	writer: {},
-	internet: {
-		wiki_ru: '%D0%A5%D0%B5%D0%BC%D0%B8%D0%BD%D0%B3%D1%83%D1%8D%D0%B9,_%D0%AD%D1%80%D0%BD%D0%B5%D1%81%D1%82', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%95%D1%80%D0%BD%D0%B5%D1%81%D1%82_%D0%A5%D0%B5%D0%BC%D1%96%D0%BD%D0%B3%D1%83%D0%B5%D0%B9', },
 },
 {
 	id: 'ernesto_che_guevara_14061928',
@@ -2063,10 +1990,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 14, bm: 6, by: 1928, dd: 9, dm: 10, dy: 1967, },
 	img: [ 1, 1 ],
 	country: { cub: 1, },
-	politics: { },
-	internet: {
-		wiki_ru: '%D0%A7%D0%B5_%D0%93%D0%B5%D0%B2%D0%B0%D1%80%D0%B0,_%D0%AD%D1%80%D0%BD%D0%B5%D1%81%D1%82%D0%BE', 
-	},
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%95%D1%80%D0%BD%D0%B5%D1%81%D1%82%D0%BE_%D0%A7%D0%B5_%D0%93%D0%B5%D0%B2%D0%B0%D1%80%D0%B0', },
 },
 {
 	id: 'eva_braun_06021912',
@@ -2074,10 +1999,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 6, bm: 2, by: 1912, dd: 30, dm: 4, dy: 1945, },
 	img: [ 1, 1 ],
 	country: { deu: 1, },
-	politics: { relative: [ 'adolf_hitler_20041889', ], },
-	internet: {
-		wiki_ru: 'https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%BD,_%D0%95%D0%B2%D0%B0', 
-	},
+	hash: { politics: 1, relative: 1, },
+	internet: { wiki_ua: '%D0%84%D0%B2%D0%B0_%D0%91%D1%80%D0%B0%D1%83%D0%BD', },
+	note: 'Коханка Адольфа Гітлера',
 },
 {
 	id: 'evander_holyfield_19101962', 
@@ -2085,10 +2009,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 19, bm: 10, by: 1962, },
 	country: { usa: 1, },
-	sport: { },
-	internet: { 
-		wiki_ru: '%D0%A5%D0%BE%D0%BB%D0%B8%D1%84%D0%B8%D0%BB%D0%B4,_%D0%AD%D0%B2%D0%B0%D0%BD%D0%B4%D0%B5%D1%80', 
-	},
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%95%D0%B2%D0%B0%D0%BD%D0%B4%D0%B5%D1%80_%D0%A5%D0%BE%D0%BB%D1%96%D1%84%D1%96%D0%BB%D0%B4', },
 },
 {
 	id: 'farinelli_24011705', 
@@ -2096,10 +2018,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 24, bm: 1, by: 1705, dd: 17, dm: 9, dy: 1782,},
 	country: { ita: 1, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ru: '%D0%A4%D0%B0%D1%80%D0%B8%D0%BD%D0%B5%D0%BB%D0%BB%D0%B8', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%A4%D0%B0%D1%80%D1%96%D0%BD%D0%B5%D0%BB%D0%BB%D1%96', },
 },
 {
 	id: 'federico_fellini_20011920', 
@@ -2107,11 +2027,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 20, bm: 1, by: 1920, dd: 31, dm: 10, dy: 1993,},
 	country: { ita: 1, },
-	movie: { director: {}, },
-	internet: {
-		imdb: '0000019', 
-		wiki_ru: '%D0%A4%D0%B5%D0%BB%D0%BB%D0%B8%D0%BD%D0%B8,_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B8%D0%BA%D0%BE', 
-	},
+	hash: { movie: 1, director: 1, },
+	internet: { imdb: '0000019', wiki_ua: '%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D1%96%D0%BA%D0%BE_%D0%A4%D0%B5%D0%BB%D0%BB%D1%96%D0%BD%D1%96', },
 },
 {
 	id: 'ferruccio_lamborghini_28041916',
@@ -2119,10 +2036,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 28, bm: 4, by: 1916, dd: 20, dm: 2, dy: 1993, },
 	country: { ita: 1, },
-	develope: { },
-	internet: {
-		wiki_ru: '%D0%9B%D0%B0%D0%BC%D0%B1%D0%BE%D1%80%D0%B3%D0%B8%D0%BD%D0%B8,_%D0%A4%D0%B5%D1%80%D1%80%D1%83%D1%87%D1%87%D0%BE', 
-	},
+	hash: { develope: 1, auto: 1, konstruktor: 1, },
+	internet: { wiki_ua: '%D0%A4%D0%B5%D1%80%D1%80%D1%83%D1%87%D1%87%D0%BE_%D0%9B%D0%B0%D0%BC%D0%B1%D0%BE%D1%80%D0%B3%D1%96%D0%BD%D1%96', },
 },
 {
 	id: 'fidel_castro_13081936',
@@ -2131,10 +2046,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 13, bm: 8, by: 1926, dd: 25, dm: 11, dy: 2016, },
 	img: [ 1, 1 ],
 	country: { cub: 1, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A4%D1%96%D0%B4%D0%B5%D0%BB%D1%8C_%D0%9A%D0%B0%D1%81%D1%82%D1%80%D0%BE', 
-	},
+	hash: { politics: 1, state_head: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%96%D0%B4%D0%B5%D0%BB%D1%8C_%D0%9A%D0%B0%D1%81%D1%82%D1%80%D0%BE', },
+	note: '1-й голова Державної ради Куби (як 15-й президент)',
 },
 {
 	id: 'freddie_mercury_05091946', 
@@ -2142,10 +2056,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 9, by: 1946, dd: 24, dm: 11, dy: 1991, },
 	country: { gbr: 1, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96_%D0%9C%D0%B5%D1%80%D0%BA%27%D1%8E%D1%80%D1%96',
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96_%D0%9C%D0%B5%D1%80%D0%BA%27%D1%8E%D1%80%D1%96', },
 },
 {
 	id: 'frederic_chopin_01031810', 
@@ -2153,12 +2065,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 1, bm: 3, by: 1810, dd: 17, dm: 10, dy: 1849, },
 	country: { fra: 1, },
-	music: { composer: 1, },
-	internet: {
-		wiki_ua: '%D0%A4%D1%80%D0%B8%D0%B4%D0%B5%D1%80%D0%B8%D0%BA_%D0%A8%D0%BE%D0%BF%D0%B5%D0%BD', 
-		wiki_ru: '%D0%A8%D0%BE%D0%BF%D0%B5%D0%BD,_%D0%A4%D1%80%D0%B8%D0%B4%D0%B5%D1%80%D0%B8%D0%BA', 
-		wiki_en: 'Fr%C3%A9d%C3%A9ric_Chopin', 
-	},
+	hash: { music: 1, composer: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%80%D0%B8%D0%B4%D0%B5%D1%80%D0%B8%D0%BA_%D0%A8%D0%BE%D0%BF%D0%B5%D0%BD', },
 },
 {
 	id: 'friedrich_engels_28111820', 
@@ -2167,10 +2075,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 11, by: 1820, dd: 5, dm: 8, dy: 1895, },
 	country: { deu: 1, },
 	politics: { },
-	science: { philosophy: 1 },
-	internet: {
-		wiki_ru: '%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81,_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85', 
-	},
+	hash: { politics: 1, philosophy: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%80%D1%96%D0%B4%D1%80%D1%96%D1%85_%D0%95%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81', },
 },
 {
 	id: 'friedrich_von_esmarch_09011823', 
@@ -2178,11 +2084,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 9, bm: 1, by: 1823, dd: 23, dm: 2, dy: 1908, },
 	country: { deu: 1, },
-	medicine: { },
-	internet: {
-		wiki_ru: '%D0%AD%D1%81%D0%BC%D0%B0%D1%80%D1%85,_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85_%D0%90%D0%B2%D0%B3%D1%83%D1%81%D1%82_%D1%84%D0%BE%D0%BD', 
-		wiki_en: 'Friedrich_von_Esmarch', 
-	},
+	hash: { medicine: 1, doctor: 1, },
+	internet: { wiki_ru: '%D0%AD%D1%81%D0%BC%D0%B0%D1%80%D1%85,_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85_%D0%90%D0%B2%D0%B3%D1%83%D1%81%D1%82_%D1%84%D0%BE%D0%BD', },
 },
 {
 	id: 'forest_whitaker_15071961', 
@@ -2191,11 +2094,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 15, bm: 7, by: 1961, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0001845', 
-		wiki_ru: '%D0%A3%D0%B8%D1%82%D0%B0%D0%BA%D0%B5%D1%80,_%D0%A4%D0%BE%D1%80%D0%B5%D1%81%D1%82', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001845', wiki_ua: '%D0%A4%D0%BE%D1%80%D0%B5%D1%81%D1%82_%D0%92%D1%96%D1%82%D0%B0%D0%BA%D0%B5%D1%80', },
 },
 {
 	id: 'francis_ford_coppola_07041939', 
@@ -2204,11 +2104,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 7, bm: 4, by: 1939, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { director: {}, },
-	internet: {
-		imdb: '0000338', 
-		wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%BF%D0%BE%D0%BB%D0%B0,_%D0%A4%D1%80%D1%8D%D0%BD%D1%81%D0%B8%D1%81_%D0%A4%D0%BE%D1%80%D0%B4', 
-	},
+	hash: { movie: 1, director: 1, },
+	internet: { imdb: '0000338', wiki_ua: '%D0%A4%D1%80%D0%B5%D0%BD%D1%81%D1%96%D1%81_%D0%A4%D0%BE%D1%80%D0%B4_%D0%9A%D0%BE%D0%BF%D0%BF%D0%BE%D0%BB%D0%B0', },
 },
 {
 	id: 'franklin_roosevelt_30011882', 
@@ -2217,11 +2114,25 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 30, bm: 1, by: 1882, dd: 12, dm: 4, dy: 1945, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	politics: { president: { country: { usa: { date: '4.03.1933 - 12.04.1945', n: 32 }, }, }, },
-	internet: { 
-		wiki_ru: '%D0%A0%D1%83%D0%B7%D0%B2%D0%B5%D0%BB%D1%8C%D1%82,_%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BB%D0%B8%D0%BD_%D0%94%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE', 
-	},
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '4.03.1933 - 12.04.1945', n: 32, }, ], },
+	internet: { wiki_ua: '%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BB%D1%96%D0%BD_%D0%94%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE_%D0%A0%D1%83%D0%B7%D0%B2%D0%B5%D0%BB%D1%8C%D1%82', },
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'gabriel_marquez_06031927', 
 	name: { n: 'Gabriel', s: 'Marquez', },
