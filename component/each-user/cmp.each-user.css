@@ -124,5 +124,17 @@ cmp-each-user .imgOther {
 
 
 
+cmp-each-user a {
+	text-decoration: none;
+	color: aqua;
+}
+	cmp-each-user a:hover {
+		color: pink;
+	}
+
+
+
+
+
 
 

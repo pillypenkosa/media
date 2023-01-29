@@ -6,11 +6,11 @@ const arrPeopleHash = [
 { id: 'music' 				, title: 'Музика' 						, },
 { id: 'politics' 			, title: 'Політики' 					, },
 
-
 { id: 'comedy' 				, title: 'Comedy' 						, },
 { id: 'dj' 					, title: 'DJ' 							, },
+{ id: 'it' 					, title: 'IT' 							, },
 { id: 'mma' 				, title: 'MMA' 							, },
-{ id: 'auto' 				, title: 'Авто' 						, },
+{ id: 'car' 				, title: 'Авто' 						, },
 { id: 'actor' 				, title: 'Актори' 						, },
 { id: 'business' 			, title: 'Бізнесмени' 					, },
 { id: 'fighter' 			, title: 'Бійці' 						, },
@@ -20,6 +20,7 @@ const arrPeopleHash = [
 { id: 'war' 				, title: 'Військові' 					, },
 { id: 'state_head' 			, title: 'ГоловаДержави' 				, },
 { id: 'humor' 				, title: 'Гумор' 						, },
+{ id: 'railway' 			, title: 'Залізниця' 					, },
 { id: 'criminal' 			, title: 'Злочинці' 					, },
 { id: 'illusion' 			, title: 'Ілюзіоністи' 					, },
 { id: 'internet' 			, title: 'Інтернет' 					, },
@@ -221,7 +222,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Abraham', s: 'Lincoln', },
 	sex: 1,
 	life: { bd: 12, bm: 2, by: 1809, dd: 15, dm: 4, dy: 1865, },
-	img: [ 1, 1 ],
+	img: [ 1, 2 ],
 	country: { usa: 1, },
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '4.03.1861 - 15.04.1865', n: 16, }, ], },
 	internet: { wiki_ua: '%D0%90%D0%B2%D1%80%D0%B0%D0%B0%D0%BC_%D0%9B%D1%96%D0%BD%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD', wiki_en: 'Abraham_Lincoln', },
@@ -982,7 +983,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 11, by: 1844, dd: 4, dm: 4, dy: 1929, },
 	country: { deu: 1, },
-	hash: { develope: 1, auto: 1, konstruktor: 1, },
+	hash: { develope: 1, car: 1, konstruktor: 1, },
 	internet: {
 		wiki_ua: '%D0%9A%D0%B0%D1%80%D0%BB_%D0%A4%D1%80%D1%96%D0%B4%D1%80%D1%96%D1%85_%D0%91%D0%B5%D0%BD%D1%86', 
 	},
@@ -1970,7 +1971,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 18, bm: 2, by: 1898, dd: 14, dm: 8, dy: 1988, },
 	country: { ita: 1, },
-	hash: { develope: 1, auto: 1, konstruktor: 1, },
+	hash: { develope: 1, car: 1, konstruktor: 1, },
 	internet: { wiki_ua: '%D0%95%D0%BD%D1%86%D0%BE_%D0%A4%D0%B5%D1%80%D1%80%D0%B0%D1%80%D1%96', },
 },
 {
@@ -2036,7 +2037,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 28, bm: 4, by: 1916, dd: 20, dm: 2, dy: 1993, },
 	country: { ita: 1, },
-	hash: { develope: 1, auto: 1, konstruktor: 1, },
+	hash: { develope: 1, car: 1, konstruktor: 1, },
 	internet: { wiki_ua: '%D0%A4%D0%B5%D1%80%D1%80%D1%83%D1%87%D1%87%D0%BE_%D0%9B%D0%B0%D0%BC%D0%B1%D0%BE%D1%80%D0%B3%D1%96%D0%BD%D1%96', },
 },
 {
@@ -2117,32 +2118,14 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '4.03.1933 - 12.04.1945', n: 32, }, ], },
 	internet: { wiki_ua: '%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BB%D1%96%D0%BD_%D0%94%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE_%D0%A0%D1%83%D0%B7%D0%B2%D0%B5%D0%BB%D1%8C%D1%82', },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'gabriel_marquez_06031927', 
 	name: { n: 'Gabriel', s: 'Marquez', },
 	sex: 1,
 	life: { bd: 6, bm: 3, by: 1927, dd: 17, dm: 4, dy: 2014, },
 	country: { col: 1, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%93%D0%B0%D0%B1%D1%80%D1%96%D1%94%D0%BB%D1%8C_%D0%93%D0%B0%D1%80%D1%81%D1%96%D1%8F_%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%81', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B0%D0%B1%D1%80%D1%96%D1%94%D0%BB%D1%8C_%D0%93%D0%B0%D1%80%D1%81%D1%96%D1%8F_%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%81', },
 	note: 'Gabriel Jose de la Concordia García Marquez',
 },
 {
@@ -2151,11 +2134,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 30, bm: 4, by: 1985, },
 	img: [ 1, 1 ],
 	country: { isr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '2933757', 
-		wiki_ru: '%D0%93%D0%B0%D0%B4%D0%BE%D1%82,_%D0%93%D0%B0%D0%BB%D1%8C', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '2933757', wiki_ua: '%D0%93%D0%B0%D0%BB%D1%8C_%D0%93%D0%B0%D0%B4%D0%BE%D1%82', },
 },
 {
 	id: 'galileo_galilei_15021564', 
@@ -2163,10 +2143,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 15, bm: 2, by: 1564, dd: 8, dm: 1, dy: 1642, },
 	country: { ita: 1, },
-	science: { astronomy: 1, },
-	internet: {
-		wiki_ua: '%D0%93%D0%B0%D0%BB%D1%96%D0%BB%D0%B5%D0%BE_%D0%93%D0%B0%D0%BB%D1%96%D0%BB%D0%B5%D0%B9', 
-	},
+	hash: { science: 1, astronomy: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B0%D0%BB%D1%96%D0%BB%D0%B5%D0%BE_%D0%93%D0%B0%D0%BB%D1%96%D0%BB%D0%B5%D0%B9', },
 },
 {
 	id: 'gary_busey_29061944', 
@@ -2175,11 +2153,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 29, bm: 6, by: 1944, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000997', 
-		wiki_ru: '%D0%91%D1%8C%D1%8E%D0%B7%D0%B8,_%D0%93%D1%8D%D1%80%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000997', wiki_ua: '%D0%93%D0%B5%D1%80%D1%96_%D0%91%27%D1%8E%D0%B7%D1%96', },
 },
 {
 	id: 'gary_daniels_09051963', 
@@ -2188,11 +2163,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 5, by: 1963, },
 	img: [ 1, 1 ],
 	country: { usa: 1, gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0199939', 
-		wiki_ru: '%D0%94%D1%8D%D0%BD%D0%B8%D0%B5%D0%BB%D1%81,_%D0%93%D1%8D%D1%80%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0199939', wiki_ua: '%D0%93%D0%B5%D1%80%D1%96_%D0%94%D0%B5%D0%BD%D1%96%D0%B5%D0%BB%D1%81', },
 },
 {
 	id: 'gary_hudson_26031956', 
@@ -2201,11 +2173,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 3, by: 1956, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0399839', 
-		wiki_ru: '%D0%A5%D0%B0%D0%B4%D1%81%D0%BE%D0%BD,_%D0%93%D1%8D%D1%80%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0399839', wiki_ua: '%D2%90%D0%B5%D1%80%D1%96_%D0%93%D0%B0%D0%B4%D1%81%D0%BE%D0%BD', },
 },
 {
 	id: 'gary_oldman_21031958', 
@@ -2215,10 +2184,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
 	movie: { actor: {}, },
-	internet: {
-		imdb: '0000198', 
-		wiki_ru: '%D0%9E%D0%BB%D0%B4%D0%BC%D0%B5%D0%BD,_%D0%93%D1%8D%D1%80%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000198', wiki_ua: '%D2%90%D0%B5%D1%80%D1%96_%D0%9E%D0%BB%D0%B4%D0%BC%D0%B5%D0%BD', },
 },
 {
 	id: 'georg_ohm_16031789', 
@@ -2226,11 +2193,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 16, bm: 3, by: 1789, dd: 6, dm: 7, dy: 1854, },
 	country: { deu: 1, },
-	science: { },
-	internet: {
-		wiki_ru: '%D0%9E%D0%BC,_%D0%93%D0%B5%D0%BE%D1%80%D0%B3_%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD', 
-		wiki_ua: '%D0%93%D0%B5%D0%BE%D1%80%D0%B3_%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD_%D0%9E%D0%BC', 
-	},
+	hash: { science: 1, physics: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B5%D0%BE%D1%80%D0%B3_%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD_%D0%9E%D0%BC', },
 },
 {
 	id: 'george_bush_12061924', 
@@ -2239,11 +2203,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 6, by: 1924, dd: 30, dm: 11, dy: 2018, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	politics: { president: { country: { usa: { date: '20.01.1989 - 20.01.1993', n: 41 }, }, }, },
-	internet: {
-		imdb: '0124132', 
-		wiki_ru: '%D0%91%D1%83%D1%88,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%93%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D1%82_%D0%A3%D0%BE%D0%BA%D0%B5%D1%80', 
-	},
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '20.01.1989 - 20.01.1993', n: 41, }, ], },
+	internet: { imdb: '0124132', wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%93%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D1%82_%D0%92%D0%BE%D0%BA%D0%B5%D1%80_%D0%91%D1%83%D1%88', },
 },
 {
 	id: 'george_bush_06071946', 
@@ -2252,9 +2213,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 6, bm: 7, by: 1946, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	politics: { president: { country: { usa: { date: '20.01.2001 - 20.01.2009', n: 43 }, }, }, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '20.01.2001 - 20.01.2009', n: 43, }, ], },
 	internet: {
-		wiki_ru: '%D0%91%D1%83%D1%88,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%A3%D0%BE%D0%BA%D0%B5%D1%80', 
+		wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%92%D0%BE%D0%BA%D0%B5%D1%80_%D0%91%D1%83%D1%88', 
 	},
 },
 {
@@ -2263,10 +2224,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 1, by: 1788, dd: 19, dm: 4, dy: 1824, },
 	country: { gbr: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%91%D0%B0%D0%B9%D1%80%D0%BE%D0%BD,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%93%D0%BE%D1%80%D0%B4%D0%BE%D0%BD', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%93%D0%BE%D1%80%D0%B4%D0%BE%D0%BD_%D0%91%D0%B0%D0%B9%D1%80%D0%BE%D0%BD', },
 },
 {
 	id: 'george_clooney_06051961', 
@@ -2276,10 +2235,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	img: [ 1, 1 ],
 	country: { usa: 1, },
 	movie: { actor: {}, },
-	internet: {
-		imdb: '0000123', 
-		wiki_ru: '%D0%9A%D0%BB%D1%83%D0%BD%D0%B8,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000123', wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9A%D0%BB%D1%83%D0%BD%D1%96', },
 },
 {
 	id: 'george_lucas_14051944', 
@@ -2288,11 +2245,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 14, bm: 5, by: 1944, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { director: {}, },
-	internet: {
-		imdb: '0000184', 
-		wiki_ru: '%D0%9B%D1%83%D0%BA%D0%B0%D1%81,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6', 
-	},
+	hash: { movie: 1, director: 1, },
+	internet: { imdb: '0000184', wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9B%D1%83%D0%BA%D0%B0%D1%81', },
 },
 {
 	id: 'george_orwell_25061903', 
@@ -2300,10 +2254,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 6, by: 1903, dd: 21, dm: 1, dy: 1950, },
 	country: { gbr: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9E%D1%80%D1%83%D1%8D%D0%BB%D0%BB', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9E%D1%80%D0%B2%D0%B5%D0%BB%D0%BB', },
 },
 {
 	id: 'george_mortimer_pullman_03031831', 
@@ -2311,34 +2263,19 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 3, bm: 3, by: 1831, dd: 19, dm: 10, dy: 1897, },
 	country: { usa: 1, },
-	develope: { },
-	internet: {
-		wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9C%D0%BE%D1%80%D1%82%D1%96%D0%BC%D0%B5%D1%80_%D0%9F%D1%83%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD', 
-	},
+	hash: { develope: 1, railway: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9C%D0%BE%D1%80%D1%82%D1%96%D0%BC%D0%B5%D1%80_%D0%9F%D1%83%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD', },
 	note: 'Компанія «Пульман», займалася будівництвом вагонів для залізниці',
-},
-{
-	id: 'georges_simenon_13021903', 
-	name: { n: 'Georges', s: 'Simenon', },
-	sex: 1,
-	life: { bd: 13, bm: 2, by: 1903, dd: 4, dm: 9, dy: 1989, },
-	country: { bel: 1, },
-	writer: {},
-	internet: {
-		wiki_ua: '%D0%96%D0%BE%D1%80%D0%B6_%D0%A1%D1%96%D0%BC%D0%B5%D0%BD%D0%BE%D0%BD', 
-	},
 },
 {
 	id: 'george_washington_22021732', 
 	name: { n: 'George', s: 'Washington', },
 	sex: 1,
 	life: { bd: 22, bm: 2, by: 1732, dd: 14, dm: 12, dy: 1799, },
-	img: [ 1, 1 ],
+	img: [ 1, 2 ],
 	country: { usa: 1, },
-	politics: { president: { country: { usa: { date: '30.04.1789 - 4.03.1797', n: 1 }, }, }, },
-	internet: {
-		wiki_ru: '%D0%92%D0%B0%D1%88%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6', 
-	},
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '30.04.1789 - 4.03.1797', n: 1, }, ], },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%92%D0%B0%D1%88%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD', },
 },
 {
 	id: 'gerard_butler_13111969', 
@@ -2347,11 +2284,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 13, bm: 11, by: 1969, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0124930', 
-		wiki_ru: '%D0%91%D0%B0%D1%82%D0%BB%D0%B5%D1%80,_%D0%94%D0%B6%D0%B5%D1%80%D0%B0%D1%80%D0%B4', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0124930', wiki_ua: '%D0%94%D0%B6%D0%B5%D1%80%D0%B0%D1%80%D0%B4_%D0%91%D0%B0%D1%82%D0%BB%D0%B5%D1%80', },
 },
 {
 	id: 'gerard_depardieu_27121948', 
@@ -2360,11 +2294,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 12, by: 1948, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000367', 
-		wiki_ru: '%D0%94%D0%B5%D0%BF%D0%B0%D1%80%D0%B4%D1%8C%D1%91,_%D0%96%D0%B5%D1%80%D0%B0%D1%80', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000367', wiki_ua: '%D0%96%D0%B5%D1%80%D0%B0%D1%80_%D0%94%D0%B5%D0%BF%D0%B0%D1%80%D0%B4%D1%8C%D1%94', },
 },
 {
 	id: 'gillian_anderson_09081968', 
@@ -2372,11 +2303,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 8, by: 1968, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000096', 
-		wiki_ru: '%D0%90%D0%BD%D0%B4%D0%B5%D1%80%D1%81%D0%BE%D0%BD,_%D0%94%D0%B6%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000096', wiki_ua: '%D0%94%D0%B6%D0%B8%D0%BB%D0%BB%D1%96%D0%B0%D0%BD_%D0%90%D0%BD%D0%B4%D0%B5%D1%80%D1%81%D0%BE%D0%BD', },
 },
 {
 	id: 'gina_gershon_10061962', 
@@ -2384,11 +2312,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 10, bm: 6, by: 1962, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000153', 
-		wiki_ru: '%D0%93%D0%B5%D1%80%D1%88%D0%BE%D0%BD,_%D0%94%D0%B6%D0%B8%D0%BD%D0%B0', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000153', wiki_ua: '%D0%94%D0%B6%D0%B8%D0%BD%D0%B0_%D0%93%D0%B5%D1%80%D1%88%D0%BE%D0%BD', },
 },
 {
 	id: 'giordano_bruno_00001548', 
@@ -2396,11 +2321,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { by: 1548, dd: 17, dm: 2, dy: 1600, },
 	country: { ita: 1, },
-	politics: { },
-	science: { philosophy: 1 },
-	internet: {
-		wiki_ru: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B0%D0%BD%D0%BE_%D0%91%D1%80%D1%83%D0%BD%D0%BE', 
-	},
+	hash: { science: 1, philosophy: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B0%D0%BD%D0%BE_%D0%91%D1%80%D1%83%D0%BD%D0%BE', },
 },
 {
 	id: 'giuseppe_verdi_10101813', 
@@ -2408,10 +2330,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 10, by: 1813, dd: 27, dm: 1, dy: 1901, },
 	country: { ita: 1, },
-	music: { composer: 1, },
-	internet: {
-		wiki_ru: '%D0%92%D0%B5%D1%80%D0%B4%D0%B8,_%D0%94%D0%B6%D1%83%D0%B7%D0%B5%D0%BF%D0%BF%D0%B5', 
-	},
+	hash: { music: 1, composer: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D1%83%D0%B7%D0%B5%D0%BF%D0%BF%D0%B5_%D0%92%D0%B5%D1%80%D0%B4%D1%96', },
 },
 {
 	id: 'goldie_hawn_21111945', 
@@ -2419,11 +2339,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 21, bm: 11, by: 1945, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000443', 
-		wiki_ru: '%D0%A5%D0%BE%D1%83%D0%BD,_%D0%93%D0%BE%D0%BB%D0%B4%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000443', wiki_ua: '%D0%93%D0%BE%D0%BB%D0%B4%D1%96_%D0%93%D0%BE%D1%83%D0%BD', },
 },
 {
 	id: 'gottlieb_daimler_17031834', 
@@ -2431,10 +2348,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 17, bm: 3, by: 1834, dd: 6, dm: 3, dy: 1900, },
 	country: { deu: 1, },
-	develope: { },
-	internet: {
-		wiki_ru: '%D0%94%D0%B0%D0%B9%D0%BC%D0%BB%D0%B5%D1%80,_%D0%93%D0%BE%D1%82%D1%82%D0%BB%D0%B8%D0%B1', 
-	},
+	hash: { develope: 1, car: 1, konstruktor: 1, },
+	internet: { wiki_ua: '%D0%93%D0%BE%D1%82%D1%82%D0%BB%D1%96%D0%B1_%D0%94%D0%B0%D0%B9%D0%BC%D0%BB%D0%B5%D1%80', },
 },
 {
 	id: 'grady_booch_27021955', 
@@ -2442,10 +2357,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 2, by: 1955,  },
 	country: { usa: 1, },
-	develope: { programmer: 1, },
-	internet: {
-		wiki_ru: '%D0%91%D1%83%D1%87,_%D0%93%D1%80%D0%B0%D0%B4%D0%B8', 
-	},
+	hash: { develope: 1, it: 1, },
+	internet: { wiki_ua: '%D0%93%D1%80%D0%B0%D0%B4%D1%96_%D0%91%D1%83%D1%87', },
 },
 {
 	id: 'guccio_gucci_26031981', 
@@ -2453,10 +2366,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 26, bm: 3, by: 1881, dd: 2, dm: 1, dy: 1953, },
 	country: { ita: 1, },
-	fashion: { },
-	internet: {
-		wiki_ru: '%D0%93%D1%83%D1%87%D1%87%D0%B8,_%D0%93%D1%83%D1%87%D1%87%D0%BE', 
-	},
+	hash: { fashion: 1, },
+	internet: { wiki_ua: '%D0%93%D1%83%D1%87%D1%87%D0%BE_%D0%93%D1%83%D1%87%D1%87%D1%96', },
 	note: 'Модельер, основатель компании Gucci',
 },
 {
@@ -2465,10 +2376,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 8, by: 1850, dd: 6, dm: 7, dy: 1893, },
 	country: { fra: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%9C%D0%BE%D0%BF%D0%B0%D1%81%D1%81%D0%B0%D0%BD,_%D0%93%D0%B8_%D0%B4%D0%B5', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%93%D1%96_%D0%B4%D0%B5_%D0%9C%D0%BE%D0%BF%D0%B0%D1%81%D1%81%D0%B0%D0%BD', },
 },
 {
 	id: 'gwyneth_paltrow_27091972', 
@@ -2476,11 +2385,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 27, bm: 9, by: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000569', 
-		wiki_ru: '%D0%9F%D1%8D%D0%BB%D1%82%D1%80%D0%BE%D1%83,_%D0%93%D0%B2%D0%B8%D0%BD%D0%B5%D1%82', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000569', wiki_ua: '%D0%93%D0%B2%D1%96%D0%BD%D0%B5%D1%82_%D0%9F%D0%B5%D0%BB%D1%82%D1%80%D0%BE%D1%83', },
 },
 {
 	id: 'halle_berry_14081966', 
@@ -2488,22 +2394,17 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 14, bm: 8, by: 1966, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000932', 
-		wiki_ru: '%D0%91%D0%B5%D1%80%D1%80%D0%B8,_%D0%A5%D1%8D%D0%BB%D0%BB%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000932', wiki_ua: '%D0%93%D0%B5%D0%BB%D0%BB%D1%96_%D0%91%D0%B5%D1%80%D1%80%D1%96', },
 },
 {
-	id: 'hans_christian_andersen_', 
+	id: 'hans_christian_andersen_02041805', 
 	name: { n: 'Hans', s: 'Andersen', p: 'Christian', },
 	sex: 1,
 	life: { bd: 2, bm: 4, by: 1805, dd: 4, dm: 8, dy: 1875, },
 	country: { dnk: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%90%D0%BD%D0%B4%D0%B5%D1%80%D1%81%D0%B5%D0%BD,_%D0%A5%D0%B0%D0%BD%D1%81_%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B0%D0%BD%D1%81_%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%B0%D0%BD_%D0%90%D0%BD%D0%B4%D0%B5%D1%80%D1%81%D0%B5%D0%BD', },
 },
 {
 	id: 'hans_eysenck_04031916', 
@@ -2511,11 +2412,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 4, bm: 3, by: 1916, dd: 4, dm: 9, dy: 1997, },
 	country: { deu: 1, },
-	science: { psychology: 1, },
-	internet: {
-		wiki_ua: '%D0%93%D0%B0%D0%BD%D1%81_%D0%90%D0%B9%D0%B7%D0%B5%D0%BD%D0%BA', 
-		wiki_en: 'Hans_Eysenck', 
-	},
+	hash: { science: 1, psychology: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B0%D0%BD%D1%81_%D0%90%D0%B9%D0%B7%D0%B5%D0%BD%D0%BA', },
 },
 {
 	id: 'hans_zimmer_12091957', 
@@ -2524,11 +2422,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 9, by: 1957, },
 	img: [ 1, 1 ],
 	country: { deu: 1, },
-	music: { composer: 1, },
-	internet: {
-		imdb: '0001877', 
-		wiki_ru: '%D0%A6%D0%B8%D0%BC%D0%BC%D0%B5%D1%80,_%D0%A5%D0%B0%D0%BD%D1%81', 
-	},
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '0001877', wiki_ua: '%D0%93%D0%B0%D0%BD%D1%81_%D0%A6%D0%B8%D0%BC%D0%BC%D0%B5%D1%80', },
 },
 {
 	id: 'harrison_ford_13071942', 
@@ -2537,11 +2432,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 13, bm: 7, by: 1942, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000148', 
-		wiki_ru: '%D0%A4%D0%BE%D1%80%D0%B4,_%D0%A5%D0%B0%D1%80%D1%80%D0%B8%D1%81%D0%BE%D0%BD', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000148', wiki_ua: '%D0%93%D0%B0%D1%80%D1%80%D1%96%D1%81%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B4', },
 },
 {
 	id: 'harry_truman_08051884', 
@@ -2550,10 +2442,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 8, bm: 5, by: 1884, dd: 26, dm: 12, dy: 1972, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	politics: { president: { country: { usa: { date: '12.04.1945 - 20.01.1953', n: 33 }, }, }, },
-	internet: {
-		wiki_ru: '%D0%A2%D1%80%D1%83%D0%BC%D1%8D%D0%BD,_%D0%93%D0%B0%D1%80%D1%80%D0%B8', 
-	},
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '12.04.1945 - 20.01.1953', n: 33, }, ], },
+	internet: { wiki_ua: '%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%A2%D1%80%D1%83%D0%BC%D0%B5%D0%BD', },
 },
 {
 	id: 'heather_locklear_25091961', 
@@ -2561,11 +2451,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 25, bm: 9, by: 1961, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000181', 
-		wiki_ru: '%D0%9B%D0%BE%D0%BA%D0%BB%D0%B8%D1%80,_%D0%A5%D0%B8%D0%B7%D0%B5%D1%80', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000181', wiki_ua: '%D0%93%D1%96%D0%B7%D0%B5%D1%80_%D0%9B%D0%BE%D0%BA%D0%BB%D1%96%D1%80', },
 },
 {
 	id: 'heinrich_hertz_22021857',
@@ -2573,10 +2460,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 2, by: 1857, dd: 1, dm: 1, dy: 1894, },
 	country: { deu: 1, },
-	science: { physics: 1, },
-	internet: {
-		wiki_ua: '%D0%93%D0%B5%D0%BD%D1%80%D1%96%D1%85_%D0%93%D0%B5%D1%80%D1%86', 
-	},
+	hash: { science: 1, physics: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B5%D0%BD%D1%80%D1%96%D1%85_%D0%93%D0%B5%D1%80%D1%86', },
 },
 {
 	id: 'henry_ford_30071863', 
@@ -2584,10 +2469,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 30, bm: 7, by: 1863, dd: 7, dm: 4, dy: 1947, },
 	country: { usa: 1, },
-	develope: { },
-	internet: {
-		wiki_ru: '%D0%A4%D0%BE%D1%80%D0%B4,_%D0%93%D0%B5%D0%BD%D1%80%D0%B8', 
-	},
+	hash: { develope: 1, car: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B5%D0%BD%D1%80%D1%96_%D0%A4%D0%BE%D1%80%D0%B4', },
 },
 {
 	id: 'herbert_hoover_10081874', 
@@ -2596,10 +2479,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 10, bm: 8, by: 1874, dd: 20, dm: 10, dy: 19644, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	politics: { president: { country: { usa: { date: '4.03.1929 - 4.03.1933', n: 31 }, }, }, },
-	internet: {
-		wiki_ru: '%D0%93%D1%83%D0%B2%D0%B5%D1%80,_%D0%93%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D1%82', 
-	},
+	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '4.03.1929 - 4.03.1933', n: 31, }, ], },
+	internet: { wiki_ua: '%D0%93%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D1%82_%D0%93%D1%83%D0%B2%D0%B5%D1%80', },
 },
 {
 	id: 'herbert_wells_21091866', 
@@ -2607,10 +2488,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 21, bm: 9, by: 1866, dd: 13, dm: 8, dy: 1946, },
 	country: { gbr: 1, },
-	writer: {},
-	internet: {
-		wiki_ru: '%D0%A3%D1%8D%D0%BB%D0%BB%D1%81,_%D0%93%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D1%82_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B5%D1%80%D0%B1%D0%B5%D1%80%D1%82_%D0%92%D0%B5%D0%BB%D0%BB%D1%81', },
 },
 {
 	id: 'hugh_grant_09091960', 
@@ -2619,11 +2498,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 9, by: 1960, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000424', 
-		wiki_ru: '%D0%93%D1%80%D0%B0%D0%BD%D1%82,_%D0%A5%D1%8C%D1%8E', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000424', wiki_ua: '%D0%93%27%D1%8E_%D2%90%D1%80%D0%B0%D0%BD%D1%82', },
 },
 {
 	id: 'hugh_jackman_12101968', 
@@ -2632,24 +2508,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 10, by: 1968, },
 	img: [ 1, 1 ],
 	country: { aus: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0413168', 
-		wiki_ru: '%D0%94%D0%B6%D0%B5%D0%BA%D0%BC%D0%B0%D0%BD,_%D0%A5%D1%8C%D1%8E', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0413168', wiki_ua: '%D0%93%27%D1%8E_%D0%94%D0%B6%D0%B5%D0%BA%D0%BC%D0%B0%D0%BD', },
 },
 {
 	id: 'hugo_weaving_04041960', 
 	name: { n: 'Hugo', s: 'Weaving', },
 	sex: 1,
 	life: { bd: 4, bm: 4, by: 1960, },
-	img: [ 1, 1 ],
+	img: [ 1, 2 ],
 	country: { gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0915989', 
-		wiki_ru: '%D0%A3%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3,_%D0%A5%D1%8C%D1%8E%D0%B3%D0%BE', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0915989', wiki_ua: '%D0%93%27%D1%8E%D0%B3%D0%BE_%D0%92%D1%96%D0%B2%D1%96%D0%BD%D0%B3', },
 },
 {
 	id: 'hulk_hogan_11081953', 
@@ -2657,13 +2527,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 11, bm: 8, by: 1953, },
 	sex: 1,
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	sport: {},
-	internet: {
-		imdb: '0107612', 
-		wiki_ru: '%D0%A5%D0%B0%D0%BB%D0%BA_%D0%A5%D0%BE%D0%B3%D0%B0%D0%BD', 
-		wiki_en: 'Hulk_Hogan', 
-	},
+	hash: { movie: 1, actor: 1, sport: 1, wrestling: 1,  },
+	internet: { imdb: '0107612', wiki_ua: '%D0%93%D0%B0%D0%BB%D0%BA_%D0%93%D0%BE%D0%B3%D0%B0%D0%BD', },
 },
 {
 	id: 'ice_t_16021958', 
@@ -2672,23 +2537,17 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 16, bm: 2, by: 1958, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '0001384', 
-		wiki_ru: 'Ice-T', 
-	},
+	hash: { music: 1, singer: 1, movie: 1, actor: 1, },
+	internet: { imdb: '0001384', wiki_ua: 'Ice-T', },
 },
 {
-	id: 'immanuel_kant_', 
+	id: 'immanuel_kant_22041724', 
 	name: { n: 'Immanuel', s: 'Kant', },
 	sex: 1,
 	life: { bd: 22, bm: 4, by: 1724, dd: 12, dm: 2, dy: 1804, },
 	country: { deu: 1, },
-	science: { philosophy: 1, },
-	internet: {
-		wiki_ru: '%D0%9A%D0%B0%D0%BD%D1%82,_%D0%98%D0%BC%D0%BC%D0%B0%D0%BD%D1%83%D0%B8%D0%BB', 
-	},
-	note: 'Прусский философ',
+	hash: { science: 1, philosophy: 1, },
+	internet: { wiki_ua: '%D0%86%D0%BC%D0%BC%D0%B0%D0%BD%D1%83%D1%97%D0%BB_%D0%9A%D0%B0%D0%BD%D1%82', },
 },
 {
 	id: 'indira_gandhi_19111917', 
@@ -2696,10 +2555,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 19, bm: 11, by: 1917, dd: 31, dm: 10, dy: 1984, },
 	img: [ 1, 1 ],
 	country: { ind: 1, },
-	politics: { },
-	internet: {
-		wiki_ru: '%D0%93%D0%B0%D0%BD%D0%B4%D0%B8,_%D0%98%D0%BD%D0%B4%D0%B8%D1%80%D0%B0', 
-	},
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D1%80%D0%B0_%D0%93%D0%B0%D0%BD%D0%B4%D1%96', },
 },
 {
 	id: 'isaac_newton_04011643', 
@@ -2708,10 +2565,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 4, bm: 1, by: 1643, dd: 31, dm: 3, dy: 1727, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	science: { physics: 1, },
-	internet: {
-		wiki_ru: '%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD,_%D0%98%D1%81%D0%B0%D0%B0%D0%BA', 
-	},
+	hash: { science: 1, physics: 1, },
+	internet: { wiki_ua: '%D0%86%D1%81%D0%B0%D0%B0%D0%BA_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD', },
 },
 {
 	id: 'jack_black_28081969', 
@@ -2720,11 +2575,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 8, by: 1969, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0085312', 
-		wiki_ru: '%D0%91%D0%BB%D1%8D%D0%BA,_%D0%94%D0%B6%D0%B5%D0%BA', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0085312', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%91%D0%BB%D0%B5%D0%BA', },
 },
 {
 	id: 'jack_london_12011876', 
@@ -2732,10 +2584,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 12, bm: 1, by: 1876, dd: 22, dm: 11, dy: 1916, },
 	country: { usa: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD', },
 },
 {
 	id: 'jack_nicholson_22041937', 
@@ -2744,12 +2594,21 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 4, by: 1937, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000197', 
-		wiki_ru: '%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%81%D0%BE%D0%BD,_%D0%94%D0%B6%D0%B5%D0%BA', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000197', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D1%81%D0%BE%D0%BD', },
 },
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'jackie_chan_07041954', 
 	name: { n: 'Jackie', s: 'Chan', },

@@ -93,7 +93,15 @@ class ComponentEachUser {
 		if ( user.hash ) {
 
 			for ( let k in user.hash ) {
-				hash += ' #' + objPeopleHash[ k ].title;
+				//hash += ' #' + objPeopleHash[ k ].title;
+
+
+
+
+				hash += ` <a href="file:///F:/web/media/index.html?win=people&sex=allsex&hash=${ k }">#${ objPeopleHash[ k ].title }</a>`;
+
+
+
 			}
 
 			if ( user.hash.president ) {
