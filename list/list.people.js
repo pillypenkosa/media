@@ -2182,7 +2182,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 5, by: 1963, },
 	img: [ 1, 1 ],
 	country: { usa: 1, gbr: 1, },
-	hash: { movie: 1, actor: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, },
 	internet: { imdb: '0199939', wiki_ua: '%D0%93%D0%B5%D1%80%D1%96_%D0%94%D0%B5%D0%BD%D1%96%D0%B5%D0%BB%D1%81', },
 },
 {
@@ -2790,7 +2790,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 7, by: 1967, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, actor: 1, },
+	hash: { movie: 1, actor: 1, fighter: 1, },
 	internet: { imdb: '0005458', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D1%81%D0%BE%D0%BD_%D0%A1%D1%82%D0%B5%D0%B9%D1%82%D0%B5%D0%BC', },
 },
 {
@@ -2830,7 +2830,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 18, bm: 10, by: 1960, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, actor: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, fighter: 1, kickboxing: 1, },
 	internet: { imdb: '0000241', wiki_ua: '%D0%96%D0%B0%D0%BD-%D0%9A%D0%BB%D0%BE%D0%B4_%D0%92%D0%B0%D0%BD_%D0%94%D0%B0%D0%BC', },
 },
 {
