@@ -233,6 +233,52 @@ class Router {
 	}
 
 
+
+
+
+	static clcHashTag( elem ) {
+
+
+		const name 		= 'clcHashTag';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
+
+
+
+		console.log( ok + 'elem.dataset.id:', elem.dataset.id  ); 
+
+
+
+		if ( history.pushState )
+			history.pushState( null, null, '?win=people&hash=' + elem.dataset.id );
+
+
+
+		this.ini();
+
+		// подсветка меню
+		ComponentMenu.activeLight();
+
+		// загрузка контентк
+		this.loadContent();
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

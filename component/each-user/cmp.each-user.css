@@ -77,38 +77,26 @@ cmp-each-user .main {
 			font-weight: bold;
 			font-style: oblique;
 		}
-
-
 		cmp-each-user .info .date {
 			text-align: center;
 		}
-
-
 		cmp-each-user .info .hash {
 			font-style: oblique;
 			color: aqua;
 		}
-
-
-
-
-
-
+			cmp-each-user .info .hash .each {
+				cursor: pointer;
+			}
+				cmp-each-user .info .hash .each:hover {
+					color: yellow;
+				}
 
 
 	cmp-each-user .ava img {
 		height: 100%;
 		width: 100%;
-
 		border-radius: 20px;
 	}
-
-
-
-cmp-each-user .imgOther {
-
-}
-
 
 cmp-each-user .imgOther {
 	
@@ -123,7 +111,7 @@ cmp-each-user .imgOther {
 		}
 
 
-
+/*
 cmp-each-user a {
 	text-decoration: none;
 	color: aqua;
@@ -132,7 +120,7 @@ cmp-each-user a {
 		color: pink;
 	}
 
-
+*/
 
 
 

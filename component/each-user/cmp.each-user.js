@@ -93,15 +93,9 @@ class ComponentEachUser {
 		if ( user.hash ) {
 
 			for ( let k in user.hash ) {
-				//hash += ' #' + objPeopleHash[ k ].title;
-
-
-
-
-				hash += ` <a href="file:///F:/web/media/index.html?win=people&sex=allsex&hash=${ k }">#${ objPeopleHash[ k ].title }</a>`;
-
-
-
+				//hash += ` <a href="file:///F:/web/media/index.html?win=people&sex=allsex&hash=${ k }">#${ objPeopleHash[ k ].title }</a>`;
+				
+				hash += `<span class="each" onclick="Router.clcHashTag( this )" data-id="${ k }" title="Відобразити всіх за тегом: ${ objPeopleHash[ k ].title }">#${ objPeopleHash[ k ].title }</span>`;
 			}
 
 			if ( user.hash.president ) {
@@ -247,11 +241,26 @@ class ComponentEachUser {
 
 
 
+/*
+
+	static clcHashTag( elem ) {
+
+		console.log( elem.dataset.id );
+
+
+		Router.ini();
+
+		// подсветка меню
+		this.activeLight();
+
+		// загрузка контентк
+		Router.loadContent();
 
 
 
+	}
 
-
+*/
 
 
 
