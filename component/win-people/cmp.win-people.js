@@ -89,9 +89,18 @@ class ComponentWinPeople {
 
 				let sexClass = k.sex ? 'm' : 'w';
 
+
+				let htmlAva = k.img ? `<img src="img/people/${ k.id }/${ k.img[ 0 ] }.jpg" alt="${ k.id }">` : '';
+
+
+
+						//<img src="img/people/${ k.id }/1.jpg" alt="${ k.id }">
+
+
 				htmlPeople += `<div class="each ${ sexClass }" data-id="${ k.id }" onclick="${ this.className }.clcUser( this )">
 					<div class="img">
-						<img src="img/people/${ k.id }/1.jpg" alt="${ k.id }">
+
+						${ htmlAva }
 					</div>
 					<div class="name">${ k.name.n }<br/>${ k.name.s }</div>
 				</div>`;

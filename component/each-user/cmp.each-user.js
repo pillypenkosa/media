@@ -154,16 +154,35 @@ class ComponentEachUser {
 			htmlImgOther = `<div class="imgOther">${ htmlImgOther }</div>`;
 		}
 
+		let htmlRibbon = '';
+		if ( user.life ) {
+			if ( user.life.dy ) {
+
+				htmlRibbon = '<div class="ribbon"><img src="img/pic/ribbon.png"></div>';
+			}
+		}
+
+		let htmlAva = '';
+		if ( user.img ) {
+
+			htmlAva = `<img src="img/people/${ user.id }/${ user.img[ 0 ]}.jpg" alt="${ user.name.n } ${ user.name.s }">`;
+		} else {
+
+			htmlAva = `<img src="img/pic/no_img_${ user.sex ? 'm' : 'w' }.jpg" alt="Немає фото">`;
+		}
 
 		let htmlNote = user.note ? `<div class="note"><hr/>${ user.note }</div>` : '';
 
 
+		let letterSex = user.sex ? 'm' : 'w';
+
+
 		let html = `<div class="">
-			<div class="close" onclick="${ this.className }.clcClose()" title="Close">&#10006;</div>
 
 			<div class="main">
-				<div class="ava">
-					<img src="img/people/${ user.id }/1.jpg" alt="${ user.name.n } ${ user.name.s }">
+				<div class="ava ${ letterSex }">
+					${ htmlAva }
+					${ htmlRibbon }
 				</div>
 
 				<div class="info">
@@ -178,6 +197,8 @@ class ComponentEachUser {
 					${ htmlPresident }
 					${ htmlNote }
 				</div>
+				
+				<div class="close" onclick="${ this.className }.clcClose()" title="Close">&#10006;</div>
 			</div>
 
 			${ htmlImgOther }

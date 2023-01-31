@@ -54,15 +54,67 @@ cmp-each-user .main {
 }
 
 
-	cmp-each-user .main .ava {
+	cmp-each-user .ava {
 		/*display: inline-block;*/
 		/*max-height: 500px;*/
-		width: 100%;
-		max-width: 500px;
+		position: relative;
+		
 
+/*
+		width: 512px;
+		height: 512px;
+*/
 
+/*
+		max-width: 512px;
+		max-height: 512px;
+*/
+
+		border-radius: 20px;
 
 	}
+		cmp-each-user .ava.m {
+			background: linear-gradient( to bottom, #001, #005 );
+		}
+		cmp-each-user .ava.w {
+			background: linear-gradient( to bottom, #100, #500 );
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		cmp-each-user .ava img {
+			/*height: 100%;*/
+			width: 100%;
+			border-radius: 20px;
+		}
+		cmp-each-user .ava .ribbon {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+
+			cmp-each-user .ava .ribbon img {
+				height: 100%;
+				width: 100%;
+			}
+
+
+
+
+
+
+
+
 
 	cmp-each-user .main .info {
 		/*display: inline-block;*/
@@ -92,11 +144,10 @@ cmp-each-user .main {
 				}
 
 
-	cmp-each-user .ava img {
-		height: 100%;
-		width: 100%;
-		border-radius: 20px;
-	}
+
+
+
+
 
 cmp-each-user .imgOther {
 	
@@ -121,6 +172,16 @@ cmp-each-user a {
 	}
 
 */
+
+
+
+
+
+
+
+
+
+
 
 
 
