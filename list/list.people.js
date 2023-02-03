@@ -22,6 +22,8 @@ const arrPeopleHash = [
 { id: 'state_head' 			, title: 'ГоловаДержави' 				, },
 { id: 'humor' 				, title: 'Гумор' 						, },
 { id: 'dictator' 			, title: 'Диктатор' 					, },
+{ id: 'dianetics' 			, title: 'Діанетика' 					, },
+{ id: 'child' 				, title: 'Діти' 						, },
 { id: 'railway' 			, title: 'Залізниця' 					, },
 { id: 'weapon' 				, title: 'Зброя' 						, },
 { id: 'criminal' 			, title: 'Злочинці' 					, },
@@ -35,8 +37,10 @@ const arrPeopleHash = [
 { id: 'konstruktor' 		, title: 'Конструктори' 				, },
 { id: 'queen' 				, title: 'Королева' 					, },
 { id: 'kungfu' 				, title: 'Кунгфу' 						, },
+{ id: 'cook' 				, title: 'Кухарі' 						, },
 { id: 'doctor' 				, title: 'Лікарі' 						, },
 { id: 'literature' 			, title: 'Література' 					, },
+{ id: 'traveler' 			, title: 'Мандрівники' 					, },
 { id: 'math' 				, title: 'Математика' 					, },
 { id: 'medicine' 			, title: 'Медицина' 					, },
 { id: 'billionaire' 		, title: 'Мільярдери' 					, },
@@ -49,6 +53,7 @@ const arrPeopleHash = [
 { id: 'producer' 			, title: 'Продюсери' 					, },
 { id: 'psychology' 			, title: 'Психологія' 					, },
 { id: 'director' 			, title: 'Режисери' 					, },
+{ id: 'religion' 			, title: 'Релігія' 						, },
 { id: 'wrestling' 			, title: 'Реслінг' 						, },
 { id: 'relative' 			, title: 'Родичі' 						, },
 { id: 'develope' 			, title: 'Розробники' 					, },
@@ -60,6 +65,7 @@ const arrPeopleHash = [
 { id: 'philosophy' 			, title: 'Філософія' 					, },
 { id: 'football' 			, title: 'Футбол' 						, },
 { id: 'fuhrer' 				, title: 'Фюрер' 						, },
+{ id: 'painter' 			, title: 'Художники' 					, },
 { id: 'show' 				, title: 'Шоу' 							, },
 { id: 'showman' 			, title: 'Шоу-мени' 					, },
 
@@ -111,7 +117,6 @@ const arrPeopleHash = [
 { id: 'prince' 				, title: 'Принц' 						, },
 { id: 'programmer' 			, title: 'Программісти' 				, },
 { id: 'propaganda' 			, title: 'Пропагандисти' 				, },
-{ id: 'religion' 			, title: 'Релігія' 						, },
 { id: 'violin' 				, title: 'Скрипалі' 					, },
 { id: 'sociology' 			, title: 'Соціологія' 					, },
 { id: 'dance' 				, title: 'Танцюристи' 					, },
@@ -119,7 +124,6 @@ const arrPeopleHash = [
 { id: 'tennis' 				, title: 'Теніс' 						, },
 { id: 'figure_skating' 		, title: 'ФігурнеКатання' 				, },
 { id: 'chemistry' 			, title: 'Хімія' 						, },
-{ id: 'painter' 			, title: 'Художники' 					, },
 { id: 'circus' 				, title: 'Цирк' 						, },
 
 
@@ -1828,8 +1832,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 2, bm: 8, by: 1977, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	child: 1, 
-	hash: { movie: 1, actor: 1, },
+	hash: { movie: 1, actor: 1, child: 1, },
 	internet: { imdb: '0000411', wiki_ua: '%D0%95%D0%B4%D0%B2%D0%B0%D1%80%D0%B4_%D0%A4%D1%83%D1%80%D0%BB%D0%BE%D0%BD%D0%B3', },
 },
 {
@@ -3482,20 +3485,6 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	hash: { politics: 1, state_head: 1, gensec: [ { country: 'prk', date: 'с 30.06.2016', n: 3, }, ], },
 	internet: { wiki_ua: '%D0%9A%D1%96%D0%BC_%D0%A7%D0%B5%D0%BD_%D0%98%D0%BD', },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'kris_kristofferson_22061936', 
 	name: { n: 'Kris', s: 'Kristofferson', },
@@ -3503,11 +3492,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 6, by: 1936, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0001434', 
-		wiki_ru: '%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%84%D1%84%D0%B5%D1%80%D1%81%D0%BE%D0%BD,_%D0%9A%D1%80%D0%B8%D1%81', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: {imdb: '0001434', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%BE%D1%84%D0%B5%D1%80%D1%81%D0%BE%D0%BD', },
 },
 {
 	id: 'kristanna_loken_08101979', 
@@ -3515,11 +3501,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 8, bm: 10, by: 1979, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0518085', 
-		wiki_ru: '%D0%9B%D0%BE%D0%BA%D0%B5%D0%BD,_%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D0%B0', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0518085', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D0%B0_%D0%9B%D0%BE%D0%BA%D0%B5%D0%BD', },
 },
 {
 	id: 'kurt_cobain_20021967', 
@@ -3527,10 +3510,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 20, bm: 2, by: 1967, dd: 5, dm: 4, dy: 1994 },
 	sex: 1,
 	country: { usa: 1, },
-	music: { },
-	internet: {
-		wiki_ua: '%D0%9A%D1%83%D1%80%D1%82_%D0%9A%D0%BE%D0%B1%D0%B5%D0%B9%D0%BD', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%83%D1%80%D1%82_%D0%9A%D0%BE%D0%B1%D0%B5%D0%B9%D0%BD', },
 },
 {
 	id: 'kurt_russell_17031951', 
@@ -3539,11 +3520,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 3, by: 1951, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000621', 
-		wiki_ru: '%D0%A0%D0%B0%D1%81%D1%81%D0%B5%D0%BB,_%D0%9A%D1%83%D1%80%D1%82', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000621', wiki_ua: '%D0%9A%D1%83%D1%80%D1%82_%D0%A0%D0%B0%D1%81%D1%81%D0%B5%D0%BB%D0%BB', },
 },
 {
 	id: 'kyle_chandler_17091965', 
@@ -3552,11 +3530,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 17, bm: 9, by: 1965, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0151419', 
-		wiki_ru: '%D0%A7%D0%B5%D0%BD%D0%B4%D0%BB%D0%B5%D1%80,_%D0%9A%D0%B0%D0%B9%D0%BB', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0151419', wiki_ua: '%D0%9A%D0%B0%D0%B9%D0%BB_%D0%A7%D0%B5%D0%BD%D0%B4%D0%BB%D0%B5%D1%80', },
 },
 {
 	id: 'kyle_maclachlan_22021959', 
@@ -3565,11 +3540,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 2, by: 1959, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0001492', 
-		wiki_ru: '%D0%9C%D0%B0%D0%BA%D0%BB%D0%B0%D1%85%D0%BB%D0%B5%D0%BD,_%D0%9A%D0%B0%D0%B9%D0%BB', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001492', wiki_ua: '%D0%9A%D0%B0%D0%B9%D0%BB_%D0%9C%D0%B0%D0%BA%D0%BB%D0%B0%D0%BA%D0%BB%D0%B5%D0%BD', },
 },
 {
 	id: 'lafayette_ronald_hubbard_13031911', 
@@ -3577,11 +3549,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 13, bm: 3, by: 1911, dd: 24, dm: 1, dy: 1986, },
 	country: { usa: 1, },
-	writer: {},
-	religion: {},
-	internet: {
-		wiki_ru: '%D0%A5%D0%B0%D0%B1%D0%B1%D0%B0%D1%80%D0%B4,_%D0%9B%D0%B0%D1%84%D0%B0%D0%B9%D0%B5%D1%82_%D0%A0%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4', 
-	},
+	hash: { writer: 1, religion: 1, dianetics: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B0%D1%84%D0%B0%D1%94%D1%82_%D0%A0%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%93%D0%B0%D0%B1%D0%B1%D0%B0%D1%80%D0%B4', },
 	note: 'Lafayette Ronald Hubbard. Автор книг по дианетике и саентологии',
 },
 {
@@ -3590,11 +3559,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 28, bm: 3, by: 1986, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '3078932', 
-		wiki_ru: '%D0%9B%D0%B5%D0%B4%D0%B8_%D0%93%D0%B0%D0%B3%D0%B0', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '3078932', wiki_ua: '%D0%9B%D0%B5%D0%B4%D1%96_%D0%93%D0%B0%D0%B3%D0%B0', },
 },
 {
 	id: 'lamon_brewster_05061973', 
@@ -3602,11 +3568,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 6, by: 1973, },
 	country: { usa: 1, },
-	sport: { },
-	internet: {
-		wiki_ru: '%D0%91%D1%80%D1%8E%D1%81%D1%82%D0%B5%D1%80,_%D0%9B%D0%B5%D0%B9%D0%BC%D0%BE%D0%BD', 
-		wiki_en: 'Lamon_Brewster', 
-	},
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B5%D0%B9%D0%BC%D0%BE%D0%BD_%D0%91%D1%80%D1%8E%D1%81%D1%82%D0%B5%D1%80', },
 },
 {
 	id: 'lara_fabian_09011970', 
@@ -3614,10 +3577,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 1, by: 1970, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%A4%D0%B0%D0%B1%D1%96%D0%B0%D0%BD', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: 'Lara_Fabian', },
 },
 {
 	id: 'lauren_cohan_07011982', 
@@ -3625,11 +3586,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 7, bm: 1, by: 1982, },
 	img: [ 3, 1 ],
 	country: { usa: 1, },
-	movie : { actor: 1, },
-	internet: {
-		imdb: '1659348',
-		wiki_ua: '%D0%9B%D0%BE%D1%80%D0%B5%D0%BD_%D0%9A%D0%BE%D0%B5%D0%BD', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1659348',wiki_ua: '%D0%9B%D0%BE%D1%80%D0%B5%D0%BD_%D0%9A%D0%BE%D0%B5%D0%BD', },
 },
 {
 	id: 'laurence_fishburne_30071961', 
@@ -3638,11 +3596,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 30, bm: 7, by: 1961, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000401', 
-		wiki_ru: '%D0%A4%D0%B8%D1%88%D0%B1%D0%B5%D1%80%D0%BD,_%D0%9B%D0%BE%D1%80%D0%B5%D0%BD%D1%81', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000401', wiki_ua: '%D0%9B%D0%BE%D1%80%D0%B5%D0%BD%D1%81_%D0%A4%D1%96%D1%88%D0%B1%D0%B5%D1%80%D0%BD', },
 },
 {
 	id: 'lena_headey_03101973', 
@@ -3650,11 +3605,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 10, by: 1973, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0372176', 
-		wiki_ru: '%D0%A5%D0%B8%D0%B4%D0%B8,_%D0%9B%D0%B8%D0%BD%D0%B0', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0372176', wiki_ua: '%D0%9B%D1%96%D0%BD%D0%B0_%D0%93%D1%96%D0%B4%D1%96', },
 },
 {
 	id: 'lennox_lewis_02091965', 
@@ -3662,11 +3614,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 9, by: 1965, },
 	country: { gbr: 1, can: 1, },
-	sport: { },
-	internet: {
-		wiki_ru: '%D0%9B%D1%8C%D1%8E%D0%B8%D1%81,_%D0%9B%D0%B5%D0%BD%D0%BD%D0%BE%D0%BA%D1%81', 
-		wiki_en: 'Lennox_Lewis', 
-	},
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B5%D0%BD%D0%BD%D0%BE%D0%BA%D1%81_%D0%9B%D1%8C%D1%8E%D1%97%D1%81', },
 },
 {
 	id: 'leonardo_da_vinci_15041452', 
@@ -3674,10 +3623,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 15, bm: 4, by: 1452, dd: 2, dm: 5, dy: 1519, },
 	country: { ita: 1, },
-	painter: { },
-	internet: {
-		wiki_ua: '%D0%9B%D0%B5%D0%BE%D0%BD%D0%B0%D1%80%D0%B4%D0%BE_%D0%B4%D0%B0_%D0%92%D1%96%D0%BD%D1%87%D1%96', 
-	},
+	hash: { painter: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B5%D0%BE%D0%BD%D0%B0%D1%80%D0%B4%D0%BE_%D0%B4%D0%B0_%D0%92%D1%96%D0%BD%D1%87%D1%96', },
 },
 {
 	id: 'leonardo_dicaprio_11111974', 
@@ -3686,11 +3633,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 11, bm: 11, by: 1974, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000138', 
-		wiki_ru: '%D0%94%D0%B8_%D0%9A%D0%B0%D0%BF%D1%80%D0%B8%D0%BE,_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B0%D1%80%D0%B4%D0%BE', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000138', wiki_ua: '%D0%9B%D0%B5%D0%BE%D0%BD%D0%B0%D1%80%D0%B4%D0%BE_%D0%94%D1%96_%D0%9A%D0%B0%D0%BF%D1%80%D1%96%D0%BE', },
 },
 {
 	id: 'leslie_nielsen_11021926', 
@@ -3699,11 +3643,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 11, bm: 2, by: 1926, dd: 28, dm: 11, dy: 2010, },
 	img: [ 1, 1 ],
 	country: { usa: 1, can: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000558', 
-		wiki_ru: '%D0%9D%D0%B8%D0%BB%D1%8C%D1%81%D0%B5%D0%BD,_%D0%9B%D0%B5%D1%81%D0%BB%D0%B8', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000558', wiki_ua: '%D0%9B%D0%B5%D1%81%D0%BB%D1%96_%D0%9D%D1%96%D0%BB%D1%8C%D1%81%D0%B5%D0%BD', },
 },
 {
 	id: 'lewis_carroll_27011832', 
@@ -3711,10 +3652,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 1, by: 1832, dd: 14, dm: 1, dy: 1898, },
 	country: { gbr: 1, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%9B%D1%8C%D1%8E%D0%B8%D1%81_%D0%9A%D1%8D%D1%80%D1%80%D0%BE%D0%BB%D0%BB', 
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9B%D1%8C%D1%8E%D1%97%D1%81_%D0%9A%D0%B5%D1%80%D1%80%D0%BE%D0%BB', },
 	note: 'Charles Lutwidge Dodgson',
 },
 {
@@ -3723,11 +3662,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 9, by: 1956, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000157', 
-		wiki_ru: '%D0%A5%D1%8D%D0%BC%D0%B8%D0%BB%D1%82%D0%BE%D0%BD,_%D0%9B%D0%B8%D0%BD%D0%B4%D0%B0', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000157', wiki_ua: '%D0%9B%D1%96%D0%BD%D0%B4%D0%B0_%D0%93%D0%B0%D0%BC%D1%96%D0%BB%D1%8C%D1%82%D0%BE%D0%BD', },
 },
 {
 	id: 'liv_tyler_01071977', 
@@ -3735,11 +3671,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 1, bm: 7, by: 1977, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000239', 
-		wiki_ru: '%D0%A2%D0%B0%D0%B9%D0%BB%D0%B5%D1%80,_%D0%9B%D0%B8%D0%B2', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000239', wiki_ua: '%D0%9B%D1%96%D0%B2_%D0%A2%D0%B0%D0%B9%D0%BB%D0%B5%D1%80', },
 },
 {
 	id: 'lively_blake_25081987', 
@@ -3747,11 +3680,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 25, bm: 8, by: 1987, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0515116', 
-		wiki_ru: '%D0%9B%D0%B0%D0%B9%D0%B2%D0%BB%D0%B8,_%D0%91%D0%BB%D0%B5%D0%B9%D0%BA', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0515116', wiki_ua: '%D0%91%D0%BB%D0%B5%D0%B9%D0%BA_%D0%9B%D0%B0%D0%B9%D0%B2%D0%BB%D1%96', },
 },
 {
 	id: 'liza_minnelli_12031946', 
@@ -3759,11 +3689,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 3, by: 1946, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	music: { singer: {}, },
-	internet: {
-		imdb: '0591485', 
-		wiki_ua: '%D0%9B%D0%B0%D0%B9%D0%B7%D0%B0_%D0%9C%D1%96%D0%BD%D0%BD%D0%B5%D0%BB%D0%BB%D1%96', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0591485', wiki_ua: '%D0%9B%D0%B0%D0%B9%D0%B7%D0%B0_%D0%9C%D1%96%D0%BD%D0%BD%D0%B5%D0%BB%D0%BB%D1%96', },
 },
 {
 	id: 'lloyd_bridges_15011913', 
@@ -3772,11 +3699,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 15, bm: 1, by: 1913, dd: 10, dm: 3, dy: 1998, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000978', 
-		wiki_ru: '%D0%91%D1%80%D0%B8%D0%B4%D0%B6%D0%B5%D1%81,_%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000978', wiki_ua: '%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4_%D0%91%D1%80%D1%96%D0%B4%D0%B6%D0%B5%D1%81', },
 },
 {
 	id: 'louis_de_funes_31071914', 
@@ -3785,11 +3709,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 31, bm: 7, by: 1914, dd: 27, dm: 1, dy: 1983, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000086', 
-		wiki_ru: '%D0%A4%D1%8E%D0%BD%D0%B5%D1%81,_%D0%9B%D1%83%D0%B8_%D0%B4%D0%B5', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000086', wiki_ua: '%D0%9B%D1%83%D1%97_%D0%B4%D0%B5_%D0%A4%D1%8E%D0%BD%D0%B5%D1%81', },
 },
 {
 	id: 'luc_besson_18031959', 
@@ -3798,11 +3719,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 18, bm: 3, by: 1959, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	movie: { director: {}, },
-	internet: {
-		imdb: '0000108', 
-		wiki_ru: '%D0%91%D0%B5%D1%81%D1%81%D0%BE%D0%BD,_%D0%9B%D1%8E%D0%BA', 
-	},
+	hash: { movie: 1, director: 1, },
+	internet: { imdb: '0000108', wiki_ua: '%D0%9B%D1%8E%D0%BA_%D0%91%D0%B5%D1%81%D1%81%D0%BE%D0%BD', },
 },
 {
 	id: 'ludwig_van_beethoven_16120770', 
@@ -3810,10 +3728,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 16, bm: 12, by: 1770, dd: 26, dm: 3, dy: 1827, },
 	country: { deu: 1, },
-	music: { composer: 1, },
-	internet: {
-		wiki_ru: '%D0%91%D0%B5%D1%82%D1%85%D0%BE%D0%B2%D0%B5%D0%BD,_%D0%9B%D1%8E%D0%B4%D0%B2%D0%B8%D0%B3_%D0%B2%D0%B0%D0%BD', 
-	},
+	hash: { music: 1, composer: 1, },
+	internet: { wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B2%D1%96%D0%B3_%D0%B2%D0%B0%D0%BD_%D0%91%D0%B5%D1%82%D1%85%D0%BE%D0%B2%D0%B5%D0%BD', },
 },
 {
 	id: 'lucelia_santos_20051957', 
@@ -3821,24 +3737,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 20, bm: 5, by: 1957, },
 	img: [ 2, 1 ],
 	country: { bra: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0764176', 
-		wiki_ru: '%D0%A1%D0%B0%D0%BD%D1%82%D1%83%D1%81,_%D0%9B%D1%83%D1%81%D0%B5%D0%BB%D0%B8%D1%8F', 
-		wiki_en: 'Luc%C3%A9lia_Santos', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0764176', wiki_ua: '%D0%9B%D1%83%D1%81%D0%B5%D0%BB%D1%96%D1%8F_%D0%A1%D0%B0%D0%BD%D1%82%D1%83%D1%88', },
 },
 {
 	id: 'lucien_olivier_00001838', 
 	name: { n: 'Lucien', s: 'Olivier', },
 	sex: 1,
-	life: { by: 1838, dd: 26, dm: 1, dy: 1883, },
-	country: { fra: 1, },
-	movie: { actor: {}, },
-	internet: {
-		wiki_ru: '%D0%9E%D0%BB%D0%B8%D0%B2%D1%8C%D0%B5,_%D0%9B%D1%8E%D1%81%D1%8C%D0%B5%D0%BD', 
-	},
-	note: 'Создатель рецепта оливье',
+	life: { by: 1838, dd: 26, dm: 11, dy: 1883, },
+	country: { rus: 1, },
+	hash: { cook: 1, },
+	internet: { wiki_ua: '%D0%9B%D1%8E%D1%81%D1%8C%D1%94%D0%BD_%D0%9E%D0%BB%D1%96%D0%B2%27%D1%94', },
+	note: 'Творець рецепта салату олів\'є. Французьського походження',
 },
 {
 	id: 'macaulay_culkin_26081980', 
@@ -3847,12 +3757,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 8, by: 1980, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	child: 1, 
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000346', 
-		wiki_ru: '%D0%9A%D0%B0%D0%BB%D0%BA%D0%B8%D0%BD,_%D0%9C%D0%B0%D0%BA%D0%BE%D0%BB%D0%B5%D0%B9', 
-	},
+	hash: { movie: 1, actor: 1, child: 1, },
+	internet: { imdb: '0000346', wiki_ua: '%D0%9C%D0%B0%D0%BA%D0%BE%D0%BB%D0%B5%D0%B9_%D0%9A%D0%B0%D0%BB%D0%BA%D1%96%D0%BD', },
 },
 {
 	id: 'madonna_16081958', 
@@ -3860,11 +3766,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 16, bm: 8, by: 1958, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '0000187', 
-		wiki_ru: '%D0%9C%D0%B0%D0%B4%D0%BE%D0%BD%D0%BD%D0%B0_(%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D0%B0)', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0000187', wiki_ua: '%D0%9C%D0%B0%D0%B4%D0%BE%D0%BD%D0%BD%D0%B0_(%D1%81%D0%BF%D1%96%D0%B2%D0%B0%D1%87%D0%BA%D0%B0)', },
 },
 {
 	id: 'maggie_q_22051979', 
@@ -3872,11 +3775,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 22, bm: 5, by: 1979, },
 	img: [ 1, 1 ],
 	country: { vnm: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0702572', 
-		wiki_ru: '%D0%9C%D1%8D%D0%B3%D0%B3%D0%B8_%D0%9A%D1%8C%D1%8E', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0702572', wiki_ua: '%D0%9C%D0%B5%D0%B3%D0%B3%D1%96_%D0%9A%27%D1%8E', },
 },
 {
 	id: 'mahatma_gandhi_02101869', 
@@ -3884,10 +3784,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 10, by: 1869, dd: 30, dm: 1, dy: 1948, },
 	country: { ind: 1, },
-	politics: { },
-	internet: {
-		wiki_ru: '%D0%9C%D0%B0%D1%85%D0%B0%D1%82%D0%BC%D0%B0_%D0%93%D0%B0%D0%BD%D0%B4%D0%B8', 
-	},
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D0%B3%D0%B0%D1%82%D0%BC%D0%B0_%D2%90%D0%B0%D0%BD%D0%B4%D1%96', },
 },
 {
 	id: 'marco_polo_15091254', 
@@ -3895,10 +3793,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 15, bm: 9, by: 1254, dd: 8, dm: 1, dy: 1324, },
 	country: { ita: 1, },
-	internet: {
-		wiki_ru: '%D0%9F%D0%BE%D0%BB%D0%BE,_%D0%9C%D0%B0%D1%80%D0%BA%D0%BE', 
-	},
-	note: 'Путешественник',
+	hash: { traveler: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D1%80%D0%BA%D0%BE_%D0%9F%D0%BE%D0%BB%D0%BE', },
+	note: 'Мандрівник',
 },
 {
 	id: 'margaret_thatcher_13101925', 
@@ -3906,10 +3803,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 13, bm: 10, by: 1925, dd: 8, dm: 4, dy: 2013, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	politics: { },
-	internet: {
-		wiki_ru: '%D0%A2%D1%8D%D1%82%D1%87%D0%B5%D1%80,_%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B5%D1%82', 
-	},
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B5%D1%82_%D0%A2%D0%B5%D1%82%D1%87%D0%B5%D1%80', },
 },
 {
 	id: 'margot_robbie_02071990', 
@@ -3917,11 +3812,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 2, bm: 7, by: 1990, },
 	img: [ 1, 1 ],
 	country: { aus: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '3053338', 
-		wiki_ru: '%D0%A0%D0%BE%D0%B1%D0%B1%D0%B8,_%D0%9C%D0%B0%D1%80%D0%B3%D0%BE', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '3053338', wiki_ua: '%D0%9C%D0%B0%D1%80%D0%B3%D0%BE_%D0%A0%D0%BE%D0%B1%D0%B1%D1%96', },
 },
 {
 	id: 'marie_tussaud_12121761', 
@@ -3929,10 +3821,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 12, bm: 12, by: 1761, dd: 18, dm: 4, dy: 1850, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
-	internet: {
-		wiki_ru: '%D0%A2%D1%8E%D1%81%D1%81%D0%BE,_%D0%9C%D0%B0%D1%80%D0%B8%D1%8F', 
-	},
-	note: 'Основательница музея восковых фигур',
+	hash: { sculptor: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D1%80%D1%96_%D0%A2%D1%8E%D1%81%D1%81%D0%BE', },
+	note: 'Засновниця музею воскових фігур',
 },
 {
 	id: 'marilyn_manson_05011969', 
@@ -3941,9 +3832,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 5, bm: 1, by: 1969,  },
 	country: { usa: 1, },
 	music: { singer: {}, },
-	internet: {
-		wiki_ru: '%D0%9C%D1%8D%D1%80%D0%B8%D0%BB%D0%B8%D0%BD_%D0%9C%D1%8D%D0%BD%D1%81%D0%BE%D0%BD', 
-	},
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B5%D1%80%D1%96%D0%BB%D1%96%D0%BD_%D0%9C%D0%B5%D0%BD%D1%81%D0%BE%D0%BD', },
+	note: 'Brian Hugh Warner',
 },
 {
 	id: 'marilyn_monroe_01061926', 
@@ -3951,11 +3842,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 1, bm: 6, by: 1926, dd: 4, dm: 8, dy: 1962, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000054', 
-		wiki_ru: '%D0%9C%D1%8D%D1%80%D0%B8%D0%BB%D0%B8%D0%BD_%D0%9C%D0%BE%D0%BD%D1%80%D0%BE', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000054', wiki_ua: '%D0%9C%D0%B5%D1%80%D1%96%D0%BB%D1%96%D0%BD_%D0%9C%D0%BE%D0%BD%D1%80%D0%BE', },
 },
 {
 	id: 'mario_kassar_10101951', 
@@ -3964,11 +3852,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 10, bm: 10, by: 1951, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { producer: {}, },
-	internet: {
-		imdb: '0440830', 
-		wiki_ru: '%D0%9A%D0%B0%D1%81%D1%81%D0%B0%D1%80,_%D0%9C%D0%B0%D1%80%D0%B8%D0%BE', 
-	},
+	hash: { movie: 1, producer: 1, },
+	internet: { imdb: '0440830', wiki_ua: '%D0%9C%D0%B0%D1%80%D1%96%D0%BE_%D0%9A%D0%B0%D1%81%D1%81%D0%B0%D1%80', },
 },
 {
 	id: 'mario_puzo_15101920', 
@@ -3977,9 +3862,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	country: { usa: 1, },
 	writer: { },
-	internet: {
-		wiki_ru: '%D0%9F%D1%8C%D1%8E%D0%B7%D0%BE,_%D0%9C%D0%B0%D1%80%D0%B8%D0%BE',
-	},
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D1%80%D1%96%D0%BE_%D0%9F%27%D1%8E%D0%B7%D0%BE',},
 },
 {
 	id: 'mark_dacascos_26021964', 
@@ -3988,11 +3872,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 26, bm: 2, by: 1964, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0001092', 
-		wiki_ru: '%D0%94%D0%B0%D0%BA%D0%B0%D1%81%D0%BA%D0%BE%D1%81,_%D0%9C%D0%B0%D1%80%D0%BA', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001092', wiki_ua: '%D0%9C%D0%B0%D1%80%D0%BA_%D0%94%D0%B0%D0%BA%D0%B0%D1%81%D0%BA%D0%BE%D1%81', },
 },
 {
 	id: 'mark_mancina_09031957', 
@@ -4001,11 +3882,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 9, bm: 3, by: 1957, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	music: { composer: 1, },
-	internet: {
-		imdb: '0006183', 
-		wiki_ru: '%D0%9C%D0%B0%D0%BD%D1%87%D0%B8%D0%BD%D0%B0,_%D0%9C%D0%B0%D1%80%D0%BA', 
-	},
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '0006183', wiki_ru: '%D0%9C%D0%B0%D0%BD%D1%87%D0%B8%D0%BD%D0%B0,_%D0%9C%D0%B0%D1%80%D0%BA', },
 },
 {
 	id: 'mark_wahlberg_05061971', 
@@ -4014,11 +3892,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 5, bm: 6, by: 1971, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000242', 
-		wiki_ru: '%D0%A3%D0%BE%D0%BB%D0%B1%D0%B5%D1%80%D0%B3,_%D0%9C%D0%B0%D1%80%D0%BA', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000242', wiki_ua: '%D0%9C%D0%B0%D1%80%D0%BA_%D0%92%D0%BE%D0%BB%D0%B1%D0%B5%D1%80%D0%B3', },
 },
 {
 	id: 'marlon_brando_03041924', 
@@ -4027,11 +3902,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 4, by: 1924, dd: 1, dm: 7, dy: 2004, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000008', 
-		wiki_ru: '%D0%91%D1%80%D0%B0%D0%BD%D0%B4%D0%BE,_%D0%9C%D0%B0%D1%80%D0%BB%D0%BE%D0%BD', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000008', wiki_ua: '%D0%9C%D0%B0%D1%80%D0%BB%D0%BE%D0%BD_%D0%91%D1%80%D0%B0%D0%BD%D0%B4%D0%BE', },
 },
 {
 	id: 'martin_lawrence_16041965', 
@@ -4040,11 +3912,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 16, bm: 4, by: 1965, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0001454', 
-		wiki_ru: '%D0%9B%D0%BE%D1%83%D1%80%D0%B5%D0%BD%D1%81,_%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001454', wiki_ua: '%D0%9C%D0%B0%D1%80%D1%82%D1%96%D0%BD_%D0%9B%D0%BE%D0%B2%D1%80%D0%B5%D0%BD%D1%81', },
 },
 {
 	id: 'martin_luther_king_15011929', 
@@ -4052,10 +3921,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 15, bm: 1, by: 1929, dd: 4, dm: 4, dy: 1968, },
 	country: { usa: 1, },
-	religion: {},
-	internet: {
-		wiki_ru: '%D0%9A%D0%B8%D0%BD%D0%B3,_%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD_%D0%9B%D1%8E%D1%82%D0%B5%D1%80', 
-	},
+	hash: { religion: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D1%80%D1%82%D1%96%D0%BD_%D0%9B%D1%8E%D1%82%D0%B5%D1%80_%D0%9A%D1%96%D0%BD%D0%B3', },
 },
 {
 	id: 'martin_sheen_03081940', 
@@ -4064,11 +3931,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 3, bm: 8, by: 1940, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000640', 
-		wiki_ru: '%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD_%D0%A8%D0%B8%D0%BD', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000640', wiki_ua: '%D0%9C%D0%B0%D1%80%D1%82%D1%96%D0%BD_%D0%A8%D0%B8%D0%BD', },
 },
 {
 	id: 'matt_damon_08101970', 
@@ -4077,11 +3941,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 8, bm: 10, by: 1970, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000354', 
-		wiki_ru: '%D0%94%D0%B5%D0%B9%D0%BC%D0%BE%D0%BD,_%D0%9C%D1%8D%D1%82%D1%82', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000354', wiki_ua: '%D0%9C%D0%B5%D1%82%D1%82_%D0%94%D0%B5%D0%B9%D0%BC%D0%BE%D0%BD', },
 },
 {
 	id: 'matt_dillon_18021964', 
@@ -4090,11 +3951,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 18, bm: 2, by: 1964, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000369', 
-		wiki_ru: '%D0%94%D0%B8%D0%BB%D0%BB%D0%BE%D0%BD,_%D0%9C%D1%8D%D1%82%D1%82', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000369', wiki_ua: '%D0%9C%D0%B5%D1%82%D1%82_%D0%94%D1%96%D0%BB%D0%BB%D0%BE%D0%BD', },
 },
 {
 	id: 'matthew_mcconaughey_04111969', 
@@ -4103,11 +3961,8 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 4, bm: 11, by: 1969, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0000190', 
-		wiki_ru: '%D0%9C%D0%B0%D0%BA%D0%BA%D0%BE%D0%BD%D0%B0%D1%85%D0%B8,_%D0%9C%D1%8D%D1%82%D1%82%D1%8C%D1%8E', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000190', wiki_ua: '%D0%9C%D0%B5%D1%82%D1%82%D1%8C%D1%8E_%D0%9C%D0%B0%D0%BA-%D0%9A%D0%BE%D0%BD%D0%B0%D0%B3%D0%B5%D0%B9', },
 },
 {
 	id: 'matthew_perry_19081969', 
@@ -4116,12 +3971,28 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 19, bm: 8, by: 1969, },
 	img: [ 1, 1 ],
 	country: { usa: 1, can: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0001612', 
-		wiki_ru: '%D0%9F%D0%B5%D1%80%D1%80%D0%B8,_%D0%9C%D1%8D%D1%82%D1%82%D1%8C%D1%8E_(%D0%B0%D0%BA%D1%82%D1%91%D1%80)', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001612', wiki_ua: '%D0%9C%D0%B5%D1%82%D1%82%D1%8C%D1%8E_%D0%9F%D0%B5%D1%80%D1%80%D1%96_(%D0%B0%D0%BA%D1%82%D0%BE%D1%80)', },
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'max_planck_23041858', 
 	name: { n: 'Max ', s: 'Planck', },
