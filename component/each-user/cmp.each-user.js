@@ -102,7 +102,7 @@ class ComponentEachUser {
 
 				let html = '';
 				user.hash.president.forEach( k => {
-					html += `<div class="">${ k.n }-й Президент ${ objCountry[ k.country ].title.ua }, ${ k.date }</div>`;
+					html += `<div class="">${ k.n }-й Президент, ${ objCountry[ k.country ].title.ua }, ${ k.date }</div>`;
 				});
 
 				if ( html ) {

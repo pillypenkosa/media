@@ -102,7 +102,7 @@ class ComponentWinPeople {
 
 						${ htmlAva }
 					</div>
-					<div class="name">${ k.name.n }<br/>${ k.name.s }</div>
+					<div class="name">${ k.name.n ? k.name.n : '***' }<br/>${ k.name.s ? k.name.s : '***' }</div>
 				</div>`;
 			});
 		}
