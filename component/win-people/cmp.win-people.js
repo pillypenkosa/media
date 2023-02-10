@@ -90,7 +90,7 @@ class ComponentWinPeople {
 				let sexClass = k.sex ? 'm' : 'w';
 
 
-				let htmlAva = k.img ? `<img src="img/people/${ k.id }/${ k.img[ 0 ] }.jpg" alt="${ k.id }">` : '';
+				let htmlAva = k.img ? `<img src="img/people/${ k.id }/${ k.img[ 1 ] }.jpg" alt="${ k.id }">` : '';
 
 
 

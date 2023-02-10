@@ -14,18 +14,25 @@ const arrPeopleHash = [
 { id: 'car' 				, title: 'Авто' 						, },
 { id: 'actor' 				, title: 'Актори' 						, },
 { id: 'architect' 			, title: 'Архітектори' 					, },
+{ id: 'astronomy' 			, title: 'Астрономія' 					, },
+{ id: 'ballet' 				, title: 'Балет' 						, },
+{ id: 'drummer' 			, title: 'Барабанщики' 					, },
 { id: 'basketball' 			, title: 'Баскетбол' 					, },
 { id: 'business' 			, title: 'Бізнесмени' 					, },
 { id: 'fighter' 			, title: 'Бійці' 						, },
 { id: 'biology' 			, title: 'Біологія' 					, },
 { id: 'blogger' 			, title: 'Блогери' 						, },
 { id: 'box' 				, title: 'Бокс' 						, },
+{ id: 'volleyball' 			, title: 'Волейбол' 					, },
 { id: 'leading' 			, title: 'Ведучі' 						, },
 { id: 'war' 				, title: 'Військові' 					, },
 { id: 'gensec' 				, title: 'Генсек' 						, },
-{ id: 'state_head' 			, title: 'Правителі' 					, },
+{ id: 'getman' 				, title: 'Гетьмани' 					, },
+{ id: 'gymnastics' 			, title: 'Гімнастика' 					, },
 { id: 'humor' 				, title: 'Гумор' 						, },
+{ id: 'diesel' 				, title: 'ДизельШоу' 					, },
 { id: 'dictator' 			, title: 'Диктатор' 					, },
+{ id: 'conductor' 			, title: 'Диригенти' 					, },
 { id: 'dianetics' 			, title: 'Діанетика' 					, },
 { id: 'child' 				, title: 'Діти' 						, },
 { id: 'dramaturge' 			, title: 'Драматургія' 					, },
@@ -39,8 +46,9 @@ const arrPeopleHash = [
 { id: 'internet' 			, title: 'Інтернет' 					, },
 { id: 'story' 				, title: 'Історики' 					, },
 { id: 'karate' 				, title: 'Карате' 						, },
+{ id: 'kvartal95' 			, title: 'Квартал95' 					, },
+{ id: 'kvn' 				, title: 'КВК' 							, },
 { id: 'kickboxing' 			, title: 'Кікбоксінг' 					, },
-{ id: 'comic' 				, title: 'Коміки' 						, },
 { id: 'composer' 			, title: 'Композитори' 					, },
 { id: 'konstruktor' 		, title: 'Конструктори' 				, },
 { id: 'queen' 				, title: 'Королева' 					, },
@@ -54,6 +62,7 @@ const arrPeopleHash = [
 { id: 'maski' 				, title: 'МаскиШоу' 					, },
 { id: 'math' 				, title: 'Математика' 					, },
 { id: 'medicine' 			, title: 'Медицина' 					, },
+{ id: 'mayor' 				, title: 'Мери' 						, },
 { id: 'billionaire' 		, title: 'Мільярдери' 					, },
 { id: 'fashion' 			, title: 'Мода' 						, },
 { id: 'model' 				, title: 'Моделі' 						, },
@@ -61,8 +70,11 @@ const arrPeopleHash = [
 { id: 'science' 			, title: 'Наука' 						, },
 { id: 'opera' 				, title: 'Опера' 						, },
 { id: 'writer' 				, title: 'Письменники' 					, },
+{ id: 'swim' 				, title: 'Плавання' 					, },
+{ id: 'state_head' 			, title: 'Правителі' 					, },
 { id: 'president' 			, title: 'Президенти' 					, },
 { id: 'princess' 			, title: 'Принцеса' 					, },
+{ id: 'programmer' 			, title: 'Программісти' 				, },
 { id: 'producer' 			, title: 'Продюсери' 					, },
 { id: 'psychology' 			, title: 'Психологія' 					, },
 { id: 'director' 			, title: 'Режисери' 					, },
@@ -71,6 +83,7 @@ const arrPeopleHash = [
 { id: 'relative' 			, title: 'Родичі' 						, },
 { id: 'screenwriter' 		, title: 'Сценаристи' 					, },
 { id: 'develope' 			, title: 'Розробники' 					, },
+{ id: 'violin' 				, title: 'Скрипалі' 					, },
 { id: 'sculptor' 			, title: 'Скульптори' 					, },
 { id: 'singer' 				, title: 'Співаки' 						, },
 { id: 'sport' 				, title: 'Спорт' 						, },
@@ -88,42 +101,37 @@ const arrPeopleHash = [
 
 
 
+
+
+
+
+
+
+
+
+
+
 { id: 'standup' 			, title: 'StandUp' 						, },
-{ id: 'sport_auto' 			, title: 'Автоспорт' 					, },
 { id: 'writer_music' 		, title: 'АвториПісень' 				, },
 { id: 'arranger' 			, title: 'Аранжувальники' 				, },
 { id: 'astrology' 			, title: 'Астрологія' 					, },
-{ id: 'astronomy' 			, title: 'Астрономія' 					, },
-{ id: 'ballet' 				, title: 'Балет' 						, },
-{ id: 'drummer' 			, title: 'Барабанщики' 					, },
 { id: 'weightlifting' 		, title: 'Важкоатлети' 					, },
 { id: 'cycle' 				, title: 'Вело' 						, },
-{ id: 'volleyball' 			, title: 'Волейбол' 					, },
 { id: 'geography' 			, title: 'Географія' 					, },
-{ id: 'getman' 				, title: 'Гетьмани' 					, },
-{ id: 'gymnastics' 			, title: 'Гімнастика' 					, },
 { id: 'guitar' 				, title: 'Гітаристи' 					, },
 { id: 'deputy' 				, title: 'Депутати' 					, },
-{ id: 'diesel' 				, title: 'ДизельШоу' 					, },
-{ id: 'conductor' 			, title: 'Диригенти' 					, },
 { id: 'economy' 			, title: 'Економіка' 					, },
-{ id: 'kvartal95' 			, title: 'Квартал95' 					, },
-{ id: 'kvn' 				, title: 'КВН' 							, },
 { id: 'operator_movie' 		, title: 'Кінооператори' 				, },
 { id: 'keyboard' 			, title: 'Клавішники' 					, },
 { id: 'king' 				, title: 'Король' 						, },
 { id: 'medicine' 			, title: 'Медицина' 					, },
-{ id: 'mayor' 				, title: 'Мер' 							, },
 { id: 'moto' 				, title: 'Мото' 						, },
 { id: 'dubbing_movie' 		, title: 'Озвучування' 					, },
 { id: 'translator' 			, title: 'Перекладачі' 					, },
 { id: 'piano' 				, title: 'Піаністи' 					, },
 { id: 'prince' 				, title: 'Принц' 						, },
-{ id: 'programmer' 			, title: 'Программісти' 				, },
 { id: 'propaganda' 			, title: 'Пропагандисти' 				, },
-{ id: 'violin' 				, title: 'Скрипалі' 					, },
 { id: 'sociology' 			, title: 'Соціологія' 					, },
-{ id: 'dance' 				, title: 'Танцюристи' 					, },
 { id: 'theatre' 			, title: 'Театр' 						, },
 { id: 'tennis' 				, title: 'Теніс' 						, },
 { id: 'chemistry' 			, title: 'Хімія' 						, },
@@ -233,7 +241,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Abraham', s: 'Lincoln', },
 	sex: 1,
 	life: { bd: 12, bm: 2, by: 1809, dd: 15, dm: 4, dy: 1865, },
-	img: [ 1, 2 ],
+	img: [ 2, 1 ],
 	country: { usa: 1, },
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '4.03.1861 - 15.04.1865', n: 16, }, ], },
 	internet: { wiki_ua: '%D0%90%D0%B2%D1%80%D0%B0%D0%B0%D0%BC_%D0%9B%D1%96%D0%BD%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD', wiki_en: 'Abraham_Lincoln', },
@@ -681,7 +689,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Benjamin', s: 'Franklin', },
 	sex: 1,
 	life: { bd: 17, bm: 1, by: 1706, dd: 17, dm: 4, dy: 1790, },
-	img: [ 1, 2 ],
+	img: [ 2, 1 ],
 	country: { usa: 1, },
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%91%D0%B5%D0%BD%D0%B4%D0%B6%D0%B0%D0%BC%D1%96%D0%BD_%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BB%D1%96%D0%BD', },
@@ -703,7 +711,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 21, bm: 1, by: 1924, dd: 20, dm: 4, dy: 1992, },
 	country: { gbr: 1, },
-	hash: { show: 1, humor: 1, comic: 1, },
+	hash: { show: 1, humor: 1, },
 	internet: { wiki_ua: '%D0%91%D0%B5%D0%BD%D0%BD%D1%96_%D0%93%D1%96%D0%BB%D0%BB', },
 	note: 'Alfred Hawthorn «Benny» Hill',
 },
@@ -1121,7 +1129,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 16, bm: 4, by: 1889, dd: 25, dm: 12, dy: 1977, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, actor: 1, director: 1, comic: 1,  },
+	hash: { movie: 1, actor: 1, director: 1, },
 	internet: { imdb: '0000122', wiki_ua: '%D0%A7%D0%B0%D1%80%D0%BB%D1%96_%D0%A7%D0%B0%D0%BF%D0%BB%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/59133/works/', },
 },
 {
@@ -1578,7 +1586,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Denzel', s: 'Washington', },
 	sex: 1,
 	life: { bd: 28, bm: 12, by: 1954, },
-	img: [ 1, 2 ],
+	img: [ 2, 1 ],
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000243', wiki_ua: '%D0%94%D0%B5%D0%BD%D0%B7%D0%B5%D0%BB_%D0%92%D0%B0%D1%88%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD', },
@@ -2299,7 +2307,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'George', s: 'Washington', },
 	sex: 1,
 	life: { bd: 22, bm: 2, by: 1732, dd: 14, dm: 12, dy: 1799, },
-	img: [ 1, 2 ],
+	img: [ 2, 1 ],
 	country: { usa: 1, },
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '30.04.1789 - 4.03.1797', n: 1, }, ], },
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%92%D0%B0%D1%88%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD', },
@@ -2896,6 +2904,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'jenna_ortega_27092002', 
 	name: { n: 'Jenna', s: 'Ortega', },
 	life: { bd: 27, bm: 9, by: 2002, },
+	img: [ 3, 3 ],
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '4911194', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0_%D0%9E%D1%80%D1%82%D0%B5%D0%B3%D0%B0', },
@@ -6118,7 +6127,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 11, by: 1972, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: 'Mr._Credo',
@@ -6182,7 +6191,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 29, bm: 5, by: 1965, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0012845', 
@@ -6195,7 +6204,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Жанна', s: 'Агузарова', },
 	sex: 1,
 	life: { bd: 7, bm: 7, by: 1962, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0013811', 
@@ -6208,7 +6217,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Леонид', s: 'Агутин', },
 	sex: 1,
 	life: { bd: 16, bm: 7, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0013808', 
@@ -6232,7 +6241,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Оксана', s: 'Акиньшина', },
 	life: { bd: 19, bm: 4, by: 1987, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0968541', 
@@ -6272,7 +6281,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Любовь', s: 'Аксёнова', },
 	life: { bd: 15, bm: 3, by: 1990, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '4705505', 
@@ -6298,7 +6307,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юлия', s: 'Александрова', },
 	life: { bd: 14, bm: 4, by: 1982, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3113292', 
@@ -6311,7 +6320,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Бари', s: 'Алибасов', },
 	sex: 1,
 	life: { bd: 6, bm: 6, by: 1947, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { composer: 1, producer: 1, group: 'На-На', },
 	internet: {
 		imdb: '0019543', 
@@ -6336,7 +6345,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олег', s: 'Алмазов', },
 	sex: 1,
 	life: { bd: 16, bm: 10, by: 1972, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1538041', 
@@ -6347,7 +6356,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'alsu_27061983', 
 	name: { n: 'Алсу', },
 	life: { bd: 27, bm: 6, by: 1983, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%90%D0%BB%D1%81%D1%83', 
@@ -6358,7 +6367,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Кирилл', s: 'Андреев', },
 	sex: 1,
 	life: { bd: 6, bm: 4, by: 1971, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Иванушки International', },
 	internet: {
 		wiki_ru: '%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2,_%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -6369,7 +6378,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Паулина', s: 'Андреева', },
 	life: { bd: 12, bm: 10, by: 1988, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5475514', 
@@ -6421,7 +6430,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'alena_apina_23081964', 
 	name: { n: 'Алёна', s: 'Апина', },
 	life: { bd: 23, bm: 8, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0032043', 
@@ -6444,7 +6453,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 17, bm: 3, by: 1964, dd: 18, dm: 7, dy: 2015, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1467875', 
@@ -6482,7 +6491,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Кристина', s: 'Асмус', },
 	life: { bd: 14, bm: 4, by: 1988, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3891226', 
@@ -6496,7 +6505,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 28, bm: 5, by: 1969, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1427667', 
@@ -6510,7 +6519,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 17, bm: 3, by: 1957, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0040125', 
@@ -6596,7 +6605,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 3, bm: 7, by: 1970, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '4968198', 
@@ -6648,7 +6657,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 18, bm: 11, by: 1984, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1794432', 
@@ -6707,7 +6716,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Николай', s: 'Басков', },
 	sex: 1,
 	life: { bd: 15, bm: 10, by: 1976, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%91%D0%B0%D1%81%D0%BA%D0%BE%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -6733,7 +6742,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 11, bm: 2, by: 1978, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { comedy: 1, }, },
 	internet: {
 		imdb: '3226491', 
@@ -6746,7 +6755,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 13, bm: 8, by: 1972, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2798316', 
@@ -6760,7 +6769,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 6, by: 1981, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5816561', 
@@ -6773,7 +6782,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 3, by: 1965, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1188554', 
@@ -6786,7 +6795,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 8, by: 1974, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0045388', 
@@ -6833,7 +6842,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 18, bm: 10, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0080115', 
@@ -6856,7 +6865,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 18, bm: 5, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '6572524', 
@@ -6868,7 +6877,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Сергей', s: 'Белов', },
 	sex: 1,
 	life: { bd: 21, bm: 1, by: 1986, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '6386270', 
@@ -6881,7 +6890,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 1, bm: 8, by: 1972, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0069783', 
@@ -6909,7 +6918,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 26, bm: 5, by: 1957, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0073101', 
@@ -6932,7 +6941,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юлия', s: 'Беретта', },
 	life: { bd: 19, bm: 2, by: 1979, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Стрелки', },
 	internet: {
 		imdb: '2927429', 
@@ -6955,7 +6964,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Елена', s: 'Беркова', },
 	life: { bd: 11, bm: 3, by: 1985, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { },
 	internet: {
 		imdb: '2736394', 
@@ -6969,7 +6978,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 9, bm: 10, by: 1977, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0077257', 
@@ -6982,7 +6991,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Мария', s: 'Берсенева', },
 	life: { bd: 30, bm: 5, by: 1981, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '4546374', 
@@ -7016,7 +7025,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дима', s: 'Билан', },
 	sex: 1,
 	life: { bd: 24, bm: 12, by: 1981, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%91%D0%B8%D0%BB%D0%B0%D0%BD,_%D0%94%D0%B8%D0%BC%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -7056,7 +7065,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 12, by: 1971, dd: 20, dm: 9, dy: 2002, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0091074', 
@@ -7092,7 +7101,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 9, bm: 5, by: 1967, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0094080', 
@@ -7105,7 +7114,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Надежда', s: 'Борисова', },
 	life: { bd: 2, bm: 1, by: 1979, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5990485', 
@@ -7131,7 +7140,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Елена', s: 'Борщёва', },
 	life: { bd: 11, bm: 4, by: 1981, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, }, },
 	internet: {
 		imdb: '5111520', 
@@ -7144,7 +7153,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Елизавета', s: 'Боярская', },
 	life: { bd: 20, bm: 12, by: 1985, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1799184', 
@@ -7192,7 +7201,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дмитрий', s: 'Брекоткин', },
 	sex: 1,
 	life: { bd: 28, bm: 3, by: 1970,  },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, }, },
 	internet: {
 		imdb: '7407865', 
@@ -7271,7 +7280,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ольга', s: 'Будина', },
 	life: { bd: 22, bm: 2, by: 1975, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0119022', 
@@ -7283,7 +7292,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александр', s: 'Буйнов', },
 	sex: 1,
 	life: { bd: 24, bm: 3, by: 1950, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '2445725', 
@@ -7294,7 +7303,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'tatyana_bulanova_06031969', 
 	name: { n: 'Татьяна', s: 'Буланова', },
 	life: { bd: 6, bm: 3, by: 1969, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%91%D1%83%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0,_%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -7420,7 +7429,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 4, bm: 9, by: 1954, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0125732', 
@@ -7467,7 +7476,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'valeria_17041968', 
 	name: { n: 'Валерия', },
 	life: { bd: 17, bm: 4, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0884572', 
@@ -7481,7 +7490,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 21, bm: 8, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	sport: { },
 	internet: {
 		wiki_ru: '%D0%92%D0%B0%D0%BB%D1%83%D0%B5%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -7504,7 +7513,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'angelika_varum_26051969', 
 	name: { n: 'Анжелика', s: 'Варум', },
 	life: { bd: 26, bm: 5, by: 1969, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	birthplace: 'Львов',
 	music: { singer: 1, },
 	internet: {
@@ -7544,7 +7553,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 5, by: 1970, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0890548', 
@@ -7555,7 +7564,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'anastasia_vvedenskaya_14101984', 
 	name: { n: 'Анастасия', s: 'Веденская', },
 	life: { bd: 14, bm: 10, by: 1984, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5322419', 
@@ -7579,7 +7588,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 13, bm: 8, by: 1971, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1284690', 
@@ -7618,7 +7627,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'lidia_velezheva_02101966', 
 	name: { n: 'Лидия', s: 'Вележева', },
 	life: { bd: 2, bm: 10, by: 1966, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0892484', 
@@ -7652,7 +7661,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 21, bm: 9, by: 1959, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0895133', 
@@ -7675,7 +7684,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 11, bm: 10, by: 1963, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { },
 	internet: {
@@ -7701,7 +7710,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'natalya_vetlickaya_17081964', 
 	name: { n: 'Наталья', s: 'Ветлицкая', },
 	life: { bd: 17, bm: 8, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '1680164', 
@@ -7727,7 +7736,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Екатерина', s: 'Вилкова', },
 	life: { bd: 11, bm: 7, by: 1984, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2611557', 
@@ -7750,7 +7759,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Эммануил', s: 'Виторган', },
 	sex: 1,
 	life: { bd: 27, bm: 12, by: 1939, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0900076', 
@@ -7786,7 +7795,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'angelina_vovk_16091942', 
 	name: { n: 'Ангелина', s: 'Вовк', },
 	life: { bd: 16, bm: 9, by: 1942, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		imdb: '0903872', 
@@ -7808,7 +7817,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'julia_volkova_20021985', 
 	name: { n: 'Юлия', s: 'Волкова', },
 	life: { bd: 20, bm: 2, by: 1985, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 't.A.T.u.', },
 	internet: {
 		wiki_ru: '%D0%92%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D0%B0,_%D0%AE%D0%BB%D0%B8%D1%8F_%D0%9E%D0%BB%D0%B5%D0%B3%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -7819,7 +7828,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Михаил', s: 'Волонтир', },
 	sex: 1,
 	life: { bd: 9, bm: 3, by: 1934, dd: 15, dm: 9, dy: 2015, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0901689', 
@@ -7833,7 +7842,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 14, bm: 3, by: 1979, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { comedy: 1, }, },
 	internet: {
 		imdb: '2910093', 
@@ -7846,7 +7855,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Алексей', s: 'Воробьёв', },
 	sex: 1,
 	life: { bd: 19, bm: 1, by: 1988, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		wiki_ru: '%D0%92%D0%BE%D1%80%D0%BE%D0%B1%D1%8C%D1%91%D0%B2,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87_(%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BD%D1%82)', 
@@ -7897,7 +7906,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'Гаврилов', },
 	sex: 1,
 	life: { bd: 27, bm: 1, by: 1952, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { dubbing: 1, translator: 1, },
 	internet: {
 		wiki_ru: '%D0%93%D0%B0%D0%B2%D1%80%D0%B8%D0%BB%D0%BE%D0%B2,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%AE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -7922,7 +7931,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'polina_gagarina_27031987', 
 	name: { n: 'Полина', s: 'Гагарина', },
 	life: { bd: 27, bm: 3, by: 1987, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B0,_%D0%9F%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%BD%D0%B0', 
@@ -8016,7 +8025,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 12, by: 1971, dd: 25, dm: 2, dy: 2010, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0302270', 
@@ -8028,7 +8037,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юлия', s: 'Галкина', },
 	life: { bd: 24, bm: 12, by: 1984, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3040083', 
@@ -8041,7 +8050,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 10, by: 1979, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, }, },
 	internet: {
 		imdb: '2804487', 
@@ -8055,7 +8064,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 12, bm: 4, by: 1961, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { humor: {}, },
 	internet: {
@@ -8093,7 +8102,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 6, bm: 8, by: 1974, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2537125', 
@@ -8120,7 +8129,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Элина', s: 'Гейман', },
 	life: { bd: 31, bm: 10, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5634523', 
@@ -8216,7 +8225,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 13, bm: 1, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1946577', 
@@ -8230,7 +8239,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 7, by: 1983, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0326746', 
@@ -8293,7 +8302,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 20, bm: 2, by: 1964, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		imdb: '2073296', 
@@ -8317,7 +8326,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 29, bm: 7, by: 1972, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1330495', 
@@ -8329,7 +8338,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Василий', s: 'Горчаков', },
 	sex: 1,
 	life: { bd: 5, bm: 7, by: 1951, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { translator: 1, },
 	internet: {
 		imdb: '1772648', 
@@ -8392,7 +8401,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Борис', s: 'Гребенщиков', },
 	sex: 1,
 	life: { bd: 27, bm: 11, by: 1953, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Аквариум', },
 	internet: {
 		imdb: '0337369', 
@@ -8404,7 +8413,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'alisa_grebenschikova_12061978', 
 	name: { n: 'Алиса', s: 'Гребенщикова', },
 	life: { bd: 12, bm: 6, by: 1978, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1671276', 
@@ -8442,7 +8451,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'Григорьев-Апполонов', },
 	sex: 1,
 	life: { bd: 26, bm: 7, by: 1970, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Иванушки International', },
 	internet: {
 		wiki_ru: '%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2-%D0%90%D0%BF%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -8462,7 +8471,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 28, bm: 6, by: 1962, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0342578', 
@@ -8496,7 +8505,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'Губин', },
 	sex: 1,
 	life: { bd: 30, bm: 4, by: 1974, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '2448775', 
@@ -8516,6 +8525,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'natalya_kostyantyn_gumenyuk_00000000', 
 	name: { n: 'Наталя', s: 'Гуменюк', p: 'Костянтинівна', },
 	life: { bd: 0, bm: 0, by: 0, },
+	img: [ 2, 2 ],
 	country: { ukr: 1, },
 	hash: { war: 1, },
 	internet: { wiki_ua: '%D0%93%D1%83%D0%BC%D0%B5%D0%BD%D1%8E%D0%BA_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8F_%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
@@ -8535,7 +8545,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'diana_gurckaya_02071978', 
 	name: { n: 'Диана', s: 'Гурцкая', },
 	life: { bd: 2, bm: 7, by: 1978, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	birthplace: 'Сухуми (Абхазия)',
 	music: { singer: 1, },
 	internet: {
@@ -8602,7 +8612,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Елена', s: 'Гущина', },
 	life: { bd: 23, bm: 1, by: 1983, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, }, },
 	internet: {
 		wiki_ru: '%D0%93%D1%83%D1%89%D0%B8%D0%BD%D0%B0,_%D0%95%D0%BB%D0%B5%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0', 
@@ -8624,49 +8634,21 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	},
 	note: 'Кинорежиссёр, сценарист', 
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'andry_myhaylo_danylko_02101973', 
 	name: { n: 'Андрій', s: 'Данилко', p: 'Михайлович', },
 	sex: 1,
 	life: { bd: 2, bm: 10, by: 1973, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { humor: {}, },
-	internet: {
-		imdb: '2594453', 
-		wiki_ua: '%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BA%D0%BE_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/1194/works/', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, showman: 1, humor: 1, }, 
+	internet: { imdb: '2594453', wiki_ua: '%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BA%D0%BE_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/1194/works/', },
 },
 {
 	id: 'ingeborga_dapkunayte_20011963', 
 	name: { n: 'Ингеборга', s: 'Дапкунайте', },
 	life: { bd: 20, bm: 1, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0200848', 
@@ -8693,7 +8675,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 7, by: 1976, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1125711', 
@@ -8706,7 +8688,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'Державин', },
 	sex: 1,
 	life: { bd: 20, bm: 9, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%B8%D0%BD,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -8733,19 +8715,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 1, bm: 1, by: 1960, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { humor: { maski: 1, }, },
-	internet: {
-		imdb: '0217239', 
-		wiki_ua: '%D0%94%D0%B5%D0%BB%D1%96%D1%94%D0%B2_%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D1%96%D0%B9_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, maski: 1, humor: 1, }, 
+	internet: { imdb: '0217239', wiki_ua: '%D0%94%D0%B5%D0%BB%D1%96%D1%94%D0%B2_%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D1%96%D0%B9_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'ivan_demidov_23071963', 
 	name: { n: 'Иван', s: 'Демидов', },
 	sex: 1,
 	life: { bd: 23, bm: 7, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		imdb: '0218471', 
@@ -8799,7 +8778,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 3, by: 1961, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0246152', 
@@ -8823,7 +8802,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'diana_19041972', 
 	name: { n: 'Диана', },
 	life: { bd: 19, bm: 4, by: 1972, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Reflex', },
 	internet: {
 		wiki_ru: '%D0%9D%D0%B5%D0%BB%D1%8C%D1%81%D0%BE%D0%BD,_%D0%98%D1%80%D0%B8%D0%BD%D0%B0', 
@@ -8834,7 +8813,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Агния', s: 'Дитковските', },
 	life: { bd: 11, bm: 5, by: 1988, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2478923', 
@@ -8848,7 +8827,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 16, bm: 6, by: 1976, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2470004', 
@@ -8861,11 +8840,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 26, bm: 1, by: 1970, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%94%D0%BE%D0%B1%D0%BA%D1%96%D0%BD_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE_%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%94%D0%BE%D0%B1%D0%BA%D1%96%D0%BD_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE_%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'fedor_dobronravov_11091961', 
@@ -8873,7 +8850,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 11, bm: 9, by: 1961, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0229810', 
@@ -8886,7 +8863,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Вячеслав', s: 'Добрынин', },
 	sex: 1,
 	life: { bd: 25, bm: 1, by: 1946, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%BD%D0%B8%D0%BD,_%D0%92%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -8898,7 +8875,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Николай ', s: 'Добрынин', },
 	sex: 1,
 	life: { bd: 17, bm: 8, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0229866', 
@@ -8960,11 +8937,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Надія', s: 'Дорофєєва', p: 'Володимирівна', },
 	life: { bd: 21, bm: 4, by: 1990,  },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, group: 'Время и Стекло', },
-	internet: {
-		wiki_ua: '%D0%94%D0%BE%D1%80%D0%BE%D1%84%D1%94%D1%94%D0%B2%D0%B0_%D0%9D%D0%B0%D0%B4%D1%96%D1%8F_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%94%D0%BE%D1%80%D0%BE%D1%84%D1%94%D1%94%D0%B2%D0%B0_%D0%9D%D0%B0%D0%B4%D1%96%D1%8F_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'mihail_dostoevsky_25101820', 
@@ -8981,7 +8956,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'olga_drozdova_01041965', 
 	name: { n: 'Ольга', s: 'Дроздова', },
 	life: { bd: 1, bm: 4, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0238424', 
@@ -9007,7 +8982,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ирина', s: 'Дубцова', },
 	life: { bd: 14, bm: 2, by: 1982, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%94%D1%83%D0%B1%D1%86%D0%BE%D0%B2%D0%B0,_%D0%98%D1%80%D0%B8%D0%BD%D0%B0_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -9018,7 +8993,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Джохар', s: 'Дудаев', },
 	sex: 1,
 	life: { bd: 15, bm: 2, by: 1944, dd: 21, dm: 4, dy: 1996, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { },
 	internet: {
 		wiki_ru: '%D0%94%D1%83%D0%B4%D0%B0%D0%B5%D0%B2,_%D0%94%D0%B6%D0%BE%D1%85%D0%B0%D1%80_%D0%9C%D1%83%D1%81%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -9031,7 +9006,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 17, bm: 5, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1113851', 
@@ -9058,7 +9033,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 10, by: 1984,  },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	develope: { programmer: 1, },
 	internet: {
 		wiki_ru: '%D0%94%D1%83%D1%80%D0%BE%D0%B2,_%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -9070,7 +9045,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 12, bm: 6, by: 1965, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0224430', 
@@ -9084,7 +9059,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 9, bm: 7, by: 1978, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1282927', 
@@ -9096,7 +9071,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'lada_dens_11091966', 
 	name: { n: 'Лада', s: 'Дэнс', },
 	life: { bd: 11, bm: 9, by: 1966, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0199151', 
@@ -9110,20 +9085,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 20, bm: 3, by: 1959, dd: 13, dm: 7, dy: 2005, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { },
-	internet: {
-		imdb: '1117979', 
-		wiki_ua: '%D0%94%D1%8F%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_(%D0%B0%D0%BA%D1%82%D0%BE%D1%80)', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/post/7229/works/', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, showman: 1, },
+	internet: { imdb: '1117979', wiki_ua: '%D0%94%D1%8F%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_(%D0%B0%D0%BA%D1%82%D0%BE%D1%80)', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/post/7229/works/', },
 },
 {
 	id: 'mihail_evdokimov_06121957', 
 	name: { n: 'Михаил', s: 'Евдокимов', },
 	sex: 1,
 	life: { bd: 6, bm: 12, by: 1957, dd: 7, dm: 8, dy: 2005, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	politics: { },
 	internet: {
@@ -9150,7 +9121,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Михаил', s: 'Евланов', },
 	sex: 1,
 	life: { bd: 26, bm: 3, by: 1976, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2367180', 
@@ -9164,7 +9135,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 1, bm: 2, by: 1931, dd: 23, dm: 4, dy: 2007, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { president: { country: { rus: { date: '10.07.1991 - 31.12.1999', n: 1, }, }, }, },
 	internet: {
 		wiki_ru: '%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD,_%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -9176,7 +9147,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 20, bm: 2, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3628094', 
@@ -9189,7 +9160,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 8, bm: 9, by: 1971, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1596785', 
@@ -9215,7 +9186,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Сергей', s: 'Есенин', },
 	sex: 1,
 	life: { bd: 3, bm: 10, by: 1895, dd: 28, dm: 12, dy: 1925, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	writer: {},
 	internet: {
 		wiki_ru: '%D0%95%D1%81%D0%B5%D0%BD%D0%B8%D0%BD,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -9226,7 +9197,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Тимур', s: 'Ефременков', },
 	sex: 1,
 	life: { bd: 23, bm: 6, by: 1976, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3428235', 
@@ -9266,11 +9237,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрій', s: 'Єрмак', p: 'Борисович', },
 	sex: 1,
 	life: { bd: 21, bm: 11, by: 1971, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%84%D1%80%D0%BC%D0%B0%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%84%D1%80%D0%BC%D0%B0%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'vladimir_zharikov_06111938', 
@@ -9315,12 +9284,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олег', s: 'Жданов', p: 'Володимирович', },
 	sex: 1,
 	life: { bd: 30, bm: 3, by: 1966, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	war: { },
-	show: { blogger: 1, },
-	internet: {
-		wiki_ua: '%D0%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { war: 1, internet: 1, blogger: 1, },
+	internet: { wiki_ua: '%D0%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'georgy_zhzhenov_22031915', 
@@ -9367,7 +9333,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Игорь', s: 'Жижикин', },
 	sex: 1,
 	life: { bd: 8, bm: 10, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1216826', 
@@ -9380,7 +9346,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Жириновский', },
 	sex: 1,
 	life: { bd: 25, bm: 4, by: 1946, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	birthplace: ' Алма-Ата (Казахстан)',
 	politics: { },
 	internet: {
@@ -9403,7 +9369,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Сергей', s: 'Жуков', },
 	sex: 1,
 	life: { bd: 22, bm: 5, by: 1976, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Руки Вверх!', },
 	internet: {
 		wiki_ru: '%D0%96%D1%83%D0%BA%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -9413,7 +9379,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'marina_zhuravleva_08071963', 
 	name: { n: 'Марина', s: 'Журавлёва', },
 	life: { bd: 8, bm: 7, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BB%D1%91%D0%B2%D0%B0,_%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0', 
@@ -9425,7 +9391,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анастасия', s: 'Заворотнюк', },
 	life: { bd: 3, bm: 4, by: 1971, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0953816', 
@@ -9437,7 +9403,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'anastasia_zadorozhnaya_30081985', 
 	name: { n: 'Анастасия', s: 'Задорожная', },
 	life: { bd: 30, bm: 8, by: 1985, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1935955', 
@@ -9450,11 +9416,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Валерій', s: 'Залужний', p: 'Федорович', },
 	sex: 1,
 	life: { bd: 8, bm: 7, by: 1973, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%97%D0%B0%D0%BB%D1%83%D0%B6%D0%BD%D0%B8%D0%B9_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9_%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { war: 1, },
+	internet: { wiki_ua: '%D0%97%D0%B0%D0%BB%D1%83%D0%B6%D0%BD%D0%B8%D0%B9_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9_%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'makar_zaporozhsky_05091989', 
@@ -9462,7 +9426,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 9, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5638673', 
@@ -9473,7 +9437,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'elena_zaharova_02111975', 
 	name: { n: 'Елена', s: 'Захарова', },
 	life: { bd: 2, bm: 11, by: 1975, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1254161', 
@@ -9486,12 +9450,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олександр', s: 'Захарченко', p: 'Володимирович', },
 	sex: 1,
 	life: { bd: 26, bm: 6, by: 1976, dd: 31, dm: 8, dy: 2018, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%97%D0%B0%D1%85%D0%B0%D1%80%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%97%D0%B0%D1%85%D0%B0%D1%80%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexandr_zbruev_31031938', 
@@ -9521,7 +9482,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'galina_zvyaginceva_02071986', 
 	name: { n: 'Галина', s: 'Звягинцева', },
 	life: { bd: 2, bm: 7, by: 1986, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '4992558', 
@@ -9534,26 +9495,20 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 1, by: 1978, },
 	img: [ 3, 2 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { president: { country: { ukr: { date: 'c 20.05.2019', n: 6, }, }, }, },
-	show: { humor: { kvn: 1, kvartal95: 1, }, },
-	internet: {
-		imdb: '3305952', 
-		wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/producer/post/6413/works/', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'ukr', date: 'з 20.05.2019', n: 6, }, ], show: 1, humor: 1, kvn: 1, kvartal95: 1, },
+	internet: { imdb: '3305952', wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/producer/post/6413/works/', },
 },
 {
 	id: 'olena_volodymyr_zelenska_06021978', 
 	name: { n: 'Олена', s: 'Зеленська', p: 'Володимирівна', },
 	life: { bd: 6, bm: 2, by: 1978, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
+	country: { ukr: 1, },
 	politics: { relative: {}, },
 	show: { kvn: 1, kvartal95: 1, },
-	internet: {
-		wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BD%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	hash: { relative: 1, politics: 1, kvartal95: 1, },
+	internet: { wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BD%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'rina_zelenaya_07111901', 
@@ -9585,7 +9540,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Наталья', s: 'Земцова', },
 	life: { bd: 7, bm: 12, by: 1987, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '4030124', 
@@ -9598,11 +9553,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Павло', s: 'Зібров', p: 'Миколайович', },
 	life: { bd: 21, bm: 6, by: 1957, },
 	sex: 1,
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: {}, },
-	internet: {
-		wiki_ua: '%D0%97%D1%96%D0%B1%D1%80%D0%BE%D0%B2_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%97%D1%96%D0%B1%D1%80%D0%BE%D0%B2_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'valery_zolotuhin_21061941', 
@@ -9622,7 +9575,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'И', },
 	sex: 1,
 	life: { bd: 27, bm: 6, by: 1959, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0246990', 
@@ -9635,7 +9588,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Султан', s: 'Ибрагимов', },
 	sex: 1,
 	life: { bd: 8, bm: 3, by: 1975, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	sport: { },
 	internet: {
 		wiki_ru: '%D0%98%D0%B1%D1%80%D0%B0%D0%B3%D0%B8%D0%BC%D0%BE%D0%B2,_%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD-%D0%90%D1%85%D0%BC%D0%B5%D0%B4_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B5%D0%B4%D1%81%D0%B0%D0%BB%D0%B8%D1%85%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -9646,7 +9599,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олег', s: 'Иваница', },
 	sex: 1,
 	life: { bd: 26, bm: 4, by: 1978, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { diesel: 1, }, },
 	internet: {
 		wiki_ua: '%D0%86%D0%B2%D0%B0%D0%BD%D0%B8%D1%86%D1%8F_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -9657,7 +9610,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'anastasia_ivleeva_08031991', 
 	name: { n: 'Настя', s: 'Ивлеева', },
 	life: { bd: 8, bm: 3, by: 1991, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		wiki_ru: '%D0%98%D0%B2%D0%BB%D0%B5%D0%B5%D0%B2%D0%B0,_%D0%9D%D0%B0%D1%81%D1%82%D1%8F', 
@@ -9668,7 +9621,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Ильин', },
 	sex: 1,
 	life: { bd: 16, bm: 11, by: 1947, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0407959', 
@@ -9694,7 +9647,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Лукерья', s: 'Ильяшенко', },
 	life: { bd: 9, bm: 6, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '4762741', 
@@ -9706,12 +9659,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Йолка', },
 	life: { bd: 2, bm: 7, by: 1982, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: {}, },
-	internet: {
-		imdb: '3004941', 
-		wiki_ua: '%D0%99%D0%BE%D0%BB%D0%BA%D0%B0_(%D1%81%D0%BF%D1%96%D0%B2%D0%B0%D1%87%D0%BA%D0%B0)', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'uzhhorod',
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '3004941', wiki_ua: '%D0%99%D0%BE%D0%BB%D0%BA%D0%B0_(%D1%81%D0%BF%D1%96%D0%B2%D0%B0%D1%87%D0%BA%D0%B0)', },
 	note: 'Єлизавета Вальдемарівна Іванців',
 },
 {
@@ -9719,7 +9670,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Алина', s: 'Кабаева', },
 	life: { bd: 12, bm: 5, by: 1983, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { },
 	sport: { },
 	internet: {
@@ -9742,7 +9693,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Рамзан', s: 'Кадыров', },
 	sex: 1,
 	life: { bd: 5, bm: 10, by: 1976, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { },
 	internet: {
 		wiki_ru: '%D0%9A%D0%B0%D0%B4%D1%8B%D1%80%D0%BE%D0%B2,_%D0%A0%D0%B0%D0%BC%D0%B7%D0%B0%D0%BD_%D0%90%D1%85%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -9752,7 +9703,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'nadezhda_kadysheva_01061959', 
 	name: { n: 'Надежда', s: 'Кадышева', },
 	life: { bd: 1, bm: 6, by: 1959, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Золотое кольцо', },
 	internet: {
 		wiki_ru: '%D0%9A%D0%B0%D0%B4%D1%8B%D1%88%D0%B5%D0%B2%D0%B0,_%D0%9D%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0_%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D1%87%D0%BD%D0%B0', 
@@ -9764,13 +9715,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 19, bm: 12, by: 1974, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { humor: { kvartal95: 1, }, },
-	internet: {
-		imdb: '5216675', 
-		wiki_ua: '%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%96%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/post/259522/works/', 
-	},
+	country: { ukr: 1, },
+	hash: {  show: 1, humor: 1, kvartal95: 1, },
+	internet: { imdb: '5216675', wiki_ua: '%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%96%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/post/259522/works/', },
 	note: 'Казанін Сергій Юрійович', 
 },
 {
@@ -9778,7 +9725,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Вадим', s: 'Казаченко', },
 	sex: 1,
 	life: { bd: 13, bm: 7, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9A%D0%B0%D0%B7%D0%B0%D1%87%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -9788,7 +9735,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'kristina_kazinskaya_03101989', 
 	name: { n: 'Кристина', s: 'Казинская', },
 	life: { bd: 3, bm: 10, by: 1989, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5458086', 
@@ -9800,7 +9747,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Татьяна', s: 'Казючиц', },
 	life: { bd: 25, bm: 1, by: 1986, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5565065', 
@@ -9812,7 +9759,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Михаил', s: 'Калашников', },
 	sex: 1,
 	life: { bd: 10, bm: 11, by: 1919, dd: 23, dm: 12, dy: 2013, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	develope: { },
 	internet: {
 		wiki_ru: '%D0%9A%D0%B0%D0%BB%D0%B0%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%A2%D0%B8%D0%BC%D0%BE%D1%84%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -9822,7 +9769,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'tina_kandelaki_10111975', 
 	name: { n: 'Тина', s: 'Канделаки', },
 	life: { bd: 10, bm: 11, by: 1975, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		wiki_ru: '%D0%9A%D0%B0%D0%BD%D0%B4%D0%B5%D0%BB%D0%B0%D0%BA%D0%B8,_%D0%A2%D0%B8%D0%BD%D0%B0', 
@@ -9833,11 +9780,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анастасія', s: 'Каменських', p: 'Олексіївна', },
 	life: { bd: 4, bm: 5, by: 1987, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85_%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D1%96%D1%8F_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%97%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85_%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D1%96%D1%8F_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'nikolay_kamov_01091902', 
@@ -9870,11 +9815,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Тіна', s: 'Кароль', },
 	life: { bd: 25, bm: 1, by: 1985, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1 },
-	internet: {
-		wiki_ua: '%D0%A2%D1%96%D0%BD%D0%B0_%D0%9A%D0%B0%D1%80%D0%BE%D0%BB%D1%8C', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%A2%D1%96%D0%BD%D0%B0_%D0%9A%D0%B0%D1%80%D0%BE%D0%BB%D1%8C', },
 	note: 'Тетяна Григорівна Ліберман',
 },
 {
@@ -9905,7 +9848,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'elena_katina_40101984', 
 	name: { n: 'Елена', s: 'Катина', },
 	life: { bd: 4, bm: 10, by: 1984, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 't.A.T.u.', },
 	internet: {
 		wiki_ru: '%D0%9A%D0%B0%D1%82%D0%B8%D0%BD%D0%B0,_%D0%95%D0%BB%D0%B5%D0%BD%D0%B0_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%BD%D0%B0', 
@@ -9915,7 +9858,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'alexandra_kashtanova_22071995', 
 	name: { n: 'Александра', s: 'Каштанова', },
 	life: { bd: 22, bm: 7, by: 1995, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '9336936', 
@@ -9952,11 +9895,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 6, by: 1959, dd: 17, dm: 12, dy: 2020, },
 	img: [ 2, 2 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%B5%D1%80%D0%BD%D0%B5%D1%81_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D1%96%D0%B9_%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, mayor: 1, }, 
+	internet: { wiki_ua: '%D0%9A%D0%B5%D1%80%D0%BD%D0%B5%D1%81_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D1%96%D0%B9_%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'illya_volodymyr_kyva_02061977', 
@@ -9964,33 +9905,26 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 6, by: 1977, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%B8%D0%B2%D0%B0_%D0%86%D0%BB%D0%BB%D1%8F_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, }, 
+	internet: { wiki_ua: '%D0%9A%D0%B8%D0%B2%D0%B0_%D0%86%D0%BB%D0%BB%D1%8F_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
-	id: 'vahtang_kikabidze_19071938', 
-	name: { n: 'Вахтанг', s: 'Кикабидзе', },
+	id: 'vahtang_kostyantyn_kikabidze_19071938', 
+	name: { n: 'Вахтанг', s: 'Кікабідзе', p: 'Костянтинович', },
 	sex: 1,
-	life: { bd: 19, bm: 7, by: 1938, },
+	life: { bd: 19, bm: 7, by: 1938, dd: 15, dm: 1, dy: 2023, },
 	img: [ 1, 1 ],
-	country: { geo: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '0452795', 
-		wiki_ru: '%D0%9A%D0%B8%D0%BA%D0%B0%D0%B1%D0%B8%D0%B4%D0%B7%D0%B5,_%D0%92%D0%B0%D1%85%D1%82%D0%B0%D0%BD%D0%B3_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/1949/works/', 
-	},
+	country: { geo: 1, sun: 1, },
+	hash: { music: 1, singer: 1, movie: 1, actor: 1, }, 
+	internet: { imdb: '0452795', wiki_ua: '%D0%9A%D1%96%D0%BA%D0%B0%D0%B1%D1%96%D0%B4%D0%B7%D0%B5_%D0%92%D0%B0%D1%85%D1%82%D0%B0%D0%BD%D0%B3_%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/1949/works/', },
 },
 {
 	id: 'nikolay_kim_25031956', 
 	name: { n: 'Николай', s: 'Ким', },
 	sex: 1,
 	life: { bd: 25, bm: 3, by: 1956, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Арамис', },
 	internet: {
 		wiki_ru: '%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%9A%D0%B8%D0%BC', 
@@ -10001,7 +9935,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Константин', s: 'Кинчев', },
 	sex: 1,
 	life: { bd: 25, bm: 12, by: 1958, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Алиса', },
 	internet: {
 		wiki_ru: '%D0%9A%D0%B8%D0%BD%D1%87%D0%B5%D0%B2,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -10011,7 +9945,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'vera_kincheva_01091991', 
 	name: { n: 'Вера', s: 'Кинчева', },
 	life: { bd: 1, bm: 9, by: 1991, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '6027646', 
@@ -10025,7 +9959,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Валерий', s: 'Кипелов', },
 	sex: 1,
 	life: { bd: 12, bm: 7, by: 1958, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Ария', },
 	internet: {
 		imdb: '3079952', 
@@ -10037,7 +9971,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Игорь', s: 'Кириллов', },
 	sex: 1,
 	life: { bd: 14, bm: 9, by: 1932, dd: 29, dm: 10, dy: 2021, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		imdb: '0456390', 
@@ -10049,7 +9983,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Филипп', s: 'Киркоров', },
 	sex: 1,
 	life: { bd: 30, bm: 4, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0456697', 
@@ -10062,7 +9996,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дмитрий', s: 'Киселёв', },
 	sex: 1,
 	life: { bd: 26, bm: 4, by: 1954, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: {
 		leading: 1,
 		propaganda: 1,
@@ -10077,7 +10011,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 5, by: 1964, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2815281', 
@@ -10090,18 +10024,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Віталій', s: 'Кім', p: 'Олександрович', },
 	sex: 1,
 	life: { bd: 13, bm: 3, by: 1981, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9A%D1%96%D0%BC_%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%96%D0%BC_%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'ekaterina_klimova_24011978', 
 	name: { n: 'Екатерина', s: 'Климова', },
 	life: { bd: 24, bm: 1, by: 1978, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1269036', 
@@ -10115,12 +10047,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 19, bm: 7, by: 1971, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	sport: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BB%D0%B8%D1%87%D0%BA%D0%BE_%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { sport: 1, fighter: 1, box: 1, politics: 1, mayor: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BB%D0%B8%D1%87%D0%BA%D0%BE_%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'volodymyr_volodymyr_klychko_25031976', 
@@ -10128,23 +10057,19 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 3, by: 1976, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	sport: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BB%D0%B8%D1%87%D0%BA%D0%BE_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BB%D0%B8%D1%87%D0%BA%D0%BE_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'yana_olexandr_klochkova_07081982', 
 	name: { n: 'Яна', s: 'Клочкова', p: 'Олександрівна', },
 	life: { bd: 7, bm: 8, by: 1982, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Сімферополь',
-	sport: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BB%D0%BE%D1%87%D0%BA%D0%BE%D0%B2%D0%B0_%D0%AF%D0%BD%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'simferopol',
+	hash: { sport: 1, swim: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BB%D0%BE%D1%87%D0%BA%D0%BE%D0%B2%D0%B0_%D0%AF%D0%BD%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'iosif_kobzon_11091937', 
@@ -10164,18 +10089,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ольга', s: 'Кобилянська', p: 'Юліанівна', },
 	life: { bd: 27, bm: 11, by: 1863, dd: 21, dm: 3, dy: 1942, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, rev: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_%D0%AE%D0%BB%D1%96%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_%D0%AE%D0%BB%D1%96%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'dmitry_kozhoma_18021981', 
 	name: { n: 'Дмитрий', s: 'Кожома', },
 	sex: 1,
 	life: { bd: 18, bm: 2, by: 1981, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { },
 	internet: {
 		imdb: '5652513', 
@@ -10187,7 +10110,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Данила', s: 'Козловский', },
 	sex: 1,
 	life: { bd: 3, bm: 5, by: 1985, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1572716', 
@@ -10214,11 +10137,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ігор', s: 'Коломойський', p: 'Валерійович', },
 	sex: 1,
 	life: { bd: 13, bm: 2, by: 1963, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%86%D0%B3%D0%BE%D1%80_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, billionaire: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%86%D0%B3%D0%BE%D1%80_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'volodymyr_valentyn_komarov_29021964', 
@@ -10226,12 +10147,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 29, bm: 2, by: 1964, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { humor: { maski: 1, }, },
-	internet: {
-		imdb: '0464566', 
-		wiki_ru: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, humor: 1, maski: 1, },
+	internet: { imdb: '0464566', wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'elena_kondulaynen_09041958', 
@@ -10251,7 +10169,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 6, by: 1975, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0465273', 
@@ -10264,11 +10182,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юрій', s: 'Кононенко', p: 'Савич', },
 	sex: 1,
 	life: { bd: 5, bm: 8, by: 1955, dd: 22, dm: 1, dy: 2001, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D1%80%D1%96%D0%B9_%D0%A1%D0%B0%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'kharkiv',
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D1%80%D1%96%D0%B9_%D0%A1%D0%B0%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'mihail_kononov_25041940', 
@@ -10316,12 +10233,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Наталія', s: 'Королевська', p: 'Юріївна', },
 	life: { bd: 18, bm: 5, by: 1975, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Красный Луч (Луганська область)',
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96%D1%8F_%D0%AE%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96%D1%8F_%D0%AE%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'sergey_pavel_korolev_12011907', 
@@ -10340,24 +10254,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Наташа', s: 'Корольова', },
 	life: { bd: 31, bm: 5, by: 1973, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '0466570', 
-		wiki_ua: '%D0%9D%D0%B0%D1%82%D0%B0%D1%88%D0%B0_%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/2155/works/', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { music: 1, singer: 1, traitor: 1, },
+	internet: { imdb: '0466570', wiki_ua: '%D0%9D%D0%B0%D1%82%D0%B0%D1%88%D0%B0_%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/2155/works/', },
 },
 {
 	id: 'lina_kostenko_19031930', 
 	name: { n: 'Ліна', s: 'Костенко', },
 	life: { bd: 19, bm: 3, by: 1930, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%9A%D0%BE%D1%81%D1%82%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9B%D1%96%D0%BD%D0%B0_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BE%D1%81%D1%82%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9B%D1%96%D0%BD%D0%B0_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'anatoly_kot_05061973', 
@@ -10365,7 +10273,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 6, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	internet: {
 		imdb: '1554789', 
 		wiki_ru: '%D0%9A%D0%BE%D1%82,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -10389,7 +10297,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анна', s: 'Котова', },
 	life: { bd: 7, bm: 6, by: 1986, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3356090', 
@@ -10402,18 +10310,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олена', s: 'Кравець', p: 'Юріївна', },
 	life: { bd: 1, bm: 1, by: 1977, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { humor: { kvartal95: 1, }, },
-	internet: {
-		wiki_ua: '%D0%9A%D1%80%D0%B0%D0%B2%D0%B5%D1%86%D1%8C_%D0%9E%D0%BB%D0%B5%D0%BD%D0%B0_%D0%AE%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, humor: 1, kvartal95: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%80%D0%B0%D0%B2%D0%B5%D1%86%D1%8C_%D0%9E%D0%BB%D0%B5%D0%BD%D0%B0_%D0%AE%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'marina_kravec_18051984', 
 	name: { n: 'Марина', s: 'Кравец', },
 	life: { bd: 18, bm: 5, by: 1984, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { comedy: 1, }, },
 	internet: {
 		wiki_ru: '%D0%9A%D1%80%D0%B0%D0%B2%D0%B5%D1%86,_%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -10425,7 +10331,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 10, by: 1969, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0470385', 
@@ -10439,11 +10345,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 1, by: 1934, dd: 10, dm: 5, dy: 2022, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { president: { country: { ukr: { date: '5.12.1991 - 19.07.1994', n: 1, }, }, }, },
-	internet: {
-		wiki_ua: '%D0%9A%D1%80%D0%B0%D0%B2%D1%87%D1%83%D0%BA_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'ukr', date: '5.12.1991 - 19.07.1994', n: 1, }, ], },
+	internet: { wiki_ua: '%D0%9A%D1%80%D0%B0%D0%B2%D1%87%D1%83%D0%BA_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'savely_kramarov_13101934', 
@@ -10477,7 +10381,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Михаил', s: 'Круг', },
 	sex: 1,
 	life: { bd: 7, bm: 4, by: 1962, dd: 1, dm: 7, dy: 2002, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, bard: 1, },
 	internet: {
 		wiki_ru: '%D0%9A%D1%80%D1%83%D0%B3,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -10510,7 +10414,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'lera_kudryavceva_19051971', 
 	name: { n: 'Лера', s: 'Кудрявцева', },
 	life: { bd: 19, bm: 5, by: 1971, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { },
 	internet: {
 		imdb: '3026722', 
@@ -10574,17 +10478,15 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Лесь', s: 'Курбас', },
 	sex: 1,
 	life: { bd: 25, bm: 2, by: 1887, dd: 3, dm: 11, dy: 1937, },
-	country: { ukr: 1, our: { sun: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%9B%D0%B5%D1%81%D1%8C_%D0%9A%D1%83%D1%80%D0%B1%D0%B0%D1%81', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B5%D1%81%D1%8C_%D0%9A%D1%83%D1%80%D0%B1%D0%B0%D1%81', },
 },
 {
 	id: 'ravshana_kurkova_22081980', 
 	name: { n: 'Равшана', s: 'Куркова', },
 	life: { bd: 22, bm: 8, by: 1980, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2045831', 
@@ -10598,7 +10500,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 14, bm: 3, by: 1985, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3406682', 
@@ -10610,7 +10512,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'polina_kutepova_01081971', 
 	name: { n: 'Полина', s: 'Кутепова', },
 	life: { bd: 1, bm: 8, by: 1971, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0476483', 
@@ -10623,11 +10525,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Катерина', s: 'Кухар', p: 'Ігорівна', },
 	life: { bd: 18, bm: 1, by: 1982, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { ballet: 1, },
-	internet: {
-		wiki_ua: '%D0%9A%D1%83%D1%85%D0%B0%D1%80_%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0_%D0%86%D0%B3%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, ballet: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%83%D1%85%D0%B0%D1%80_%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0_%D0%86%D0%B3%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'gosha_kucenko_20051967', 
@@ -10635,7 +10535,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 20, bm: 5, by: 1967, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0476544', 
@@ -10649,7 +10549,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Иван', s: 'Кучин', },
 	sex: 1,
 	life: { bd: 13, bm: 3, by: 1959, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9A%D1%83%D1%87%D0%B8%D0%BD,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -10661,18 +10561,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 9, bm: 8, by: 1938, },
 	img: [ 1, 1 ],	
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { president: { country: { ukr: { date: '19.07.1994 - 23.01.2005', n: 2, }, }, }, },
-	internet: {
-		wiki_ua: '%D0%9A%D1%83%D1%87%D0%BC%D0%B0_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'ukr', date: '19.07.1994 - 23.01.2005', n: 2, }, ], },
+	internet: { wiki_ua: '%D0%9A%D1%83%D1%87%D0%BC%D0%B0_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'otar_shalva_kushanashvili_', 
 	name: { n: 'Отар', s: 'Кушанашвілі', p: 'Шалвович', },
 	sex: 1,
 	life: { bd: 22, bm: 6, by: 1970, },
-	country: { geo: 1, our: { sng: 1, }, },
+	country: { geo: 1, },
 	show: { leading: 1, },
 	internet: {
 		wiki_ua: '%D0%9A%D1%83%D1%88%D0%B0%D0%BD%D0%B0%D1%88%D0%B2%D1%96%D0%BB%D1%96_%D0%9E%D1%82%D0%B0%D1%80_%D0%A8%D0%B0%D0%BB%D0%B2%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -10683,11 +10581,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Євген', s: 'Кушнарьов', p: 'Петрович', },
 	sex: 1,
 	life: { bd: 29, bm: 1, by: 1951, dd: 17, dm: 1, dy: 2007, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9A%D1%83%D1%88%D0%BD%D0%B0%D1%80%D1%8C%D0%BE%D0%B2_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%83%D1%88%D0%BD%D0%B0%D1%80%D1%8C%D0%BE%D0%B2_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'kirill_kyaro_24021975', 
@@ -10695,7 +10591,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 24, bm: 2, by: 1975, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1874211', 
@@ -10708,7 +10604,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Илья', s: 'Лагутенко', },
 	sex: 1,
 	life: { bd: 16, bm: 10, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Мумий Тролль', },
 	internet: {
 		imdb: '1493344', 
@@ -10742,7 +10638,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Профессор', s: 'Лебединский', },
 	sex: 1,
 	life: { bd: 28, bm: 5, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80_%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9', 
@@ -10753,7 +10649,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'anna_legchilova_22121969', 
 	name: { n: 'Анна', s: 'Легчилова', },
 	life: { bd: 22, bm: 12, by: 1969, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0499246', 
@@ -10790,7 +10686,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Максим', s: 'Леонидов', },
 	sex: 1,
 	life: { bd: 13, bm: 2, by: 1962, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Секрет', },
 	internet: {
 		imdb: '0503069', 
@@ -10828,7 +10724,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Григорий', s: 'Лепс', },
 	sex: 1,
 	life: { bd: 16, bm: 7, by: 1962, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9B%D0%B5%D0%BF%D1%81,_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -10865,7 +10761,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Литвинов', },
 	sex: 1,
 	life: { bd: 15, bm: 3, by: 1951, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0514851', 
@@ -10877,7 +10773,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'renata_litvinova_12011967', 
 	name: { n: 'Рената', s: 'Литвинова', },
 	life: { bd: 12, bm: 1, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0514852', 
@@ -10891,19 +10787,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 11, bm: 9, by: 1963, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, }, },
-	sport: { },
-	internet: {
-		wiki_ua: '%D0%9B%D0%B8%D1%82%D0%BE%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
-	note: 'Футболіст', 
+	country: { ukr: 1, sun: 1, },
+	hash: { sport: 1, football: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B8%D1%82%D0%BE%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'igor_lifanov_25121965', 
 	name: { n: 'Игорь', s: 'Лифанов', },
 	sex: 1,
 	life: { bd: 25, bm: 12, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0509809', 
@@ -10916,7 +10809,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Арнис', s: 'Лицитис', },
 	sex: 1,
 	life: { bd: 8, bm: 1, by: 1946, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0509111', 
@@ -10929,18 +10822,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Світлана', s: 'Лобода', p: 'Сергіївна', },
 	life: { bd: 18, bm: 10, by: 1982, },
 	img: [ 2, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Київ',
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9B%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0_%D0%A1%D0%B2%D1%96%D1%82%D0%BB%D0%B0%D0%BD%D0%B0_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D1%97%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'kyiv',
+	hash: { music: 1, singer: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0_%D0%A1%D0%B2%D1%96%D1%82%D0%BB%D0%B0%D0%BD%D0%B0_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'lolita_milyavskaya_14111963', 
 	name: { n: 'Лолита', },
 	life: { bd: 14, bm: 11, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0590747', 
@@ -10964,12 +10855,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ані', s: 'Лорак', },
 	life: { bd: 27, bm: 9, by: 1978, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '1847028', 
-		wiki_ua: '%D0%90%D0%BD%D1%96_%D0%9B%D0%BE%D1%80%D0%B0%D0%BA', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, traitor: 1, },
+	internet: { imdb: '1847028', wiki_ua: '%D0%90%D0%BD%D1%96_%D0%9B%D0%BE%D1%80%D0%B0%D0%BA', },
 	note: 'Куєк Кароліна Мирославівна',
 },
 {
@@ -10978,7 +10866,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 30, bm: 8, by: 1954, },
 	img: [ 1, 1 ],
-	country: { blr: 1, our: { sng: 1, }, },
+	country: { blr: 1, },
 	politics: { president: { country: { blr: { date: 'c 20.07.1994', n: 1 }, }, }, },
 	internet: {
 		wiki_ru: '%D0%9B%D1%83%D0%BA%D0%B0%D1%88%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -10990,18 +10878,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Руслана', s: 'Лижичко', p: 'Степанівна', },
 	life: { bd: 24, bm: 5, by: 1973, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9B%D0%B8%D0%B6%D0%B8%D1%87%D0%BA%D0%BE_%D0%A0%D1%83%D1%81%D0%BB%D0%B0%D0%BD%D0%B0_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B8%D0%B6%D0%B8%D1%87%D0%BA%D0%BE_%D0%A0%D1%83%D1%81%D0%BB%D0%B0%D0%BD%D0%B0_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'alexandr_lykov_30111961', 
 	name: { n: 'Александр', s: 'Лыков', },
 	sex: 1,
 	life: { bd: 30, bm: 11, by: 1961, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0528071', 
@@ -11029,19 +10915,17 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 3, bm: 12, by: 1972, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Чернигов',
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9B%D1%8F%D1%88%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'chernihiv',
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9B%D1%8F%D1%88%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'muslim_magomaev_17081942', 
 	name: { n: 'Муслим ', s: 'Магомаев', },
 	sex: 1,
 	life: { bd: 17, bm: 8, by: 1942, dd: 25, dm: 10, dy: 2008, },
-	country: { aze: 1, our: { sng: 1, }, },
+	country: { aze: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0536439', 
@@ -11055,7 +10939,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 7, by: 1962, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0535295', 
@@ -11068,12 +10952,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Іван', s: 'Мазепа', },
 	sex: 1,
 	life: { by: 1639, dd: 2, dm: 10, dy: 1709, },
-	country: { ukr: 1, our: { rev: 1, }, },
-	politics: { },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%86%D0%B2%D0%B0%D0%BD_%D0%9C%D0%B0%D0%B7%D0%B5%D0%BF%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, },
+	internet: { wiki_ua: '%D0%86%D0%B2%D0%B0%D0%BD_%D0%9C%D0%B0%D0%B7%D0%B5%D0%BF%D0%B0', },
 	note: 'Дати життя не точні',
 },
 {
@@ -11081,7 +10962,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Майсурадзе', },
 	sex: 1,
 	life: { bd: 27, bm: 5, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0537929', 
@@ -11092,7 +10973,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'anastasia_makarevich_17401977', 
 	name: { n: 'Анастасия', s: 'Макаревич', },
 	life: { bd: 17, bm: 4, by: 1977, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Лицей', },
 	internet: {
 		wiki_ru: '%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87,_%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B5%D0%B2%D0%BD%D0%B0', 
@@ -11103,7 +10984,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'Макаревич', },
 	sex: 1,
 	life: { bd: 11, bm: 12, by: 1953, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Машина времени', },
 	internet: {
 		imdb: '0538383', 
@@ -11116,7 +10997,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Иван', s: 'Макаревич', },
 	sex: 1,
 	life: { bd: 30, bm: 6, by: 1987, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2917745', 
@@ -11129,7 +11010,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Алексей', s: 'Макаров', },
 	sex: 1,
 	life: { bd: 15, bm: 2, by: 1972, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0538394', 
@@ -11192,7 +11073,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Мистер', s: 'Малой', },
 	sex: 1,
 	life: { bd: 1, bm: 4, by: 1979, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9C%D0%B0%D0%BB%D0%BE%D0%B9', 
@@ -11203,18 +11084,17 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'ganna_vasyly_malyar_28071978', 
 	name: { n: 'Ганна', s: 'Маляр', p: 'Василівна', },
 	life: { bd: 28, bm: 7, by: 1978, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9C%D0%B0%D0%BB%D1%8F%D1%80_%D0%93%D0%B0%D0%BD%D0%BD%D0%B0_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	img: [ 3, 1 ],
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D0%BB%D1%8F%D1%80_%D0%93%D0%B0%D0%BD%D0%BD%D0%B0_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'dmitry_narkis_mamin_sibiryak_', 
 	name: { n: 'Дмитрий', s: 'Мамин-Сибиряк', p: 'Наркисович', },
 	sex: 1,
 	life: { bd: 6, bm: 11, by: 1852, dd: 15, dm: 11, dy: 1912, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	writer: {},
 	internet: {
 		wiki_ru: '%D0%9C%D0%B0%D0%BC%D0%B8%D0%BD-%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8F%D0%BA,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%9D%D0%B0%D1%80%D0%BA%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -11225,7 +11105,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Гарик', s: 'Мартиросян', },
 	sex: 1,
 	life: { bd: 13, bm: 2, by: 1974, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, comedy: 1, }, },
 	internet: {
 		imdb: '2955149', 
@@ -11263,7 +11143,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дмитрий', s: 'Марьянов', },
 	sex: 1,
 	life: { bd: 1, bm: 12, by: 1969, dd: 15, dm: 10, dy: 2017, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0555728', 
@@ -11276,7 +11156,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Самуил', s: 'Маршак', p: 'Яковлевич', },
 	sex: 1,
 	life: { bd: 3, bm: 11, by: 1887, dd: 4, dm: 7, dy: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	writer: {},
 	internet: {
 		wiki_ru: '%D0%9C%D0%B0%D1%80%D1%88%D0%B0%D0%BA,_%D0%A1%D0%B0%D0%BC%D1%83%D0%B8%D0%BB_%D0%AF%D0%BA%D0%BE%D0%B2%D0%BB%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -11299,7 +11179,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Максим', s: 'Матвеев', },
 	sex: 1,
 	life: { bd: 28, bm: 7, by: 1982, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2671076', 
@@ -11313,7 +11193,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 11, by: 1963, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0556343', 
@@ -11325,7 +11205,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'olga_mashnaya_29061964', 
 	name: { n: 'Ольга', s: 'Машная', },
 	life: { bd: 29, bm: 6, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0556347', 
@@ -11338,7 +11218,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Маяковский', },
 	sex: 1,
 	life: { bd: 19, bm: 7, by: 1893, dd: 14, dm: 4, dy: 1930, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	writer: {},
 	internet: {
 		wiki_ru: '%D0%9C%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -11350,7 +11230,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 14, bm: 9, by: 1965, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	birthplace: 'Санкт-Петербург',
 	politics: { president: { country: { rus: { date: '7.05.2008 - 7.05.2012', n: 3, }, }, }, },
 	internet: {
@@ -11362,7 +11242,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ирина', s: 'Медведева', },
 	life: { bd: 14, bm: 8, by: 1982, },
 	img: [ 7, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { },
 	internet: {
 		imdb: '3629793', 
@@ -11373,7 +11253,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'natalya_medvedeva_09031985', 
 	name: { n: 'Наталья', s: 'Медведева', },
 	life: { bd: 9, bm: 3, by: 1985, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { },
 	internet: {
@@ -11387,18 +11267,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Віктор', s: 'Медведчук', p: 'Володимирович', },
 	sex: 1,
 	life: { bd: 7, bm: 8, by: 1954, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%87%D1%83%D0%BA_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%87%D1%83%D0%BA_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'valery_meladze_23061965', 
 	name: { n: 'Валерий', s: 'Меладзе', },
 	sex: 1,
 	life: { bd: 23, bm: 6, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0577319', 
@@ -11411,7 +11289,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дмитрий', s: 'Менделеев', },
 	sex: 1,
 	life: { bd: 8, bm: 2, by: 1834, dd: 2, dm: 2, dy: 1907, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	science: { },
 	internet: {
 		wiki_ru: '%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -11448,7 +11326,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'julia_menshova_28071969', 
 	name: { n: 'Юлия', s: 'Меньшова', },
 	life: { bd: 28, bm: 7, by: 1969, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		wiki_ru: '%D0%9C%D0%B5%D0%BD%D1%8C%D1%88%D0%BE%D0%B2%D0%B0,_%D0%AE%D0%BB%D0%B8%D1%8F_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -11460,7 +11338,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 24, bm: 3, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1459463', 
@@ -11473,7 +11351,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Кай', s: 'Метов', },
 	sex: 1,
 	life: { bd: 19, bm: 9, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9C%D0%B5%D1%82%D0%BE%D0%B2,_%D0%9A%D0%B0%D0%B9', 
@@ -11534,7 +11412,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Игорь', s: 'Миркурбанов', },
 	sex: 1,
 	life: { bd: 2, bm: 10, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0586681', 
@@ -11547,11 +11425,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Панас', s: 'Мирний', },
 	sex: 1,
 	life: { bd: 13, bm: 5, by: 1849, dd: 28, dm: 1, dy: 1920, },
-	country: { ukr: 1, our: { rev: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%9F%D0%B0%D0%BD%D0%B0%D1%81_%D0%9C%D0%B8%D1%80%D0%BD%D0%B8%D0%B9', 
-	},
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B0%D0%BD%D0%B0%D1%81_%D0%9C%D0%B8%D1%80%D0%BD%D0%B8%D0%B9', },
 },
 {
 	id: 'andrey_mironov_07031941', 
@@ -11571,7 +11447,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Евгений', s: 'Миронов', },
 	sex: 1,
 	life: { bd: 29, bm: 11, by: 1966, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0592491', 
@@ -11584,7 +11460,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дарья', s: 'Михайлова', },
 	life: { bd: 22, bm: 2, by: 1965, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0584589', 
@@ -11625,7 +11501,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'nadezhda_mihalkova_27091986', 
 	name: { n: 'Надежда', s: 'Михалкова', },
 	life: { bd: 27, bm: 9, by: 1986, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0586486', 
@@ -11664,11 +11540,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Наталія', s: 'Могилевська', p: 'Олексіївна', },
 	life: { bd: 2, bm: 8, by: 1975, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96%D1%8F_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%97%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96%D1%8F_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'boris_moiseev_04031954', 
@@ -11698,11 +11572,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Денис', s: 'Монастирський', p: 'Анатолійович', },
 	sex: 1,
 	life: { bd: 12, bm: 6, by: 1980, dd: 18, dm: 1, dy: 2023, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9C%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'eugeny_morgunov_27041927', 
@@ -11747,19 +11619,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 12, by: 1976, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Готвальд (Харківська область)',
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9C%D1%83%D1%80%D0%B0%D1%94%D0%B2_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9C%D1%83%D1%80%D0%B0%D1%94%D0%B2_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'radner_muratov_21101928', 
 	name: { n: 'Раднэр', s: 'Муратов', },
 	sex: 1,
 	life: { bd: 21, bm: 10, by: 1928, dd: 10, dm: 12, dy: 2004, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0613638', 
@@ -11773,7 +11642,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 26, bm: 11, by: 1969, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0996004', 
@@ -11798,7 +11667,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'liza_myalik_04071967', 
 	name: { n: 'Лиза', s: 'Мялик', },
 	life: { bd: 4, bm: 7, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 	},
@@ -11808,7 +11677,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дмитрий', s: 'Нагиев', },
 	sex: 1,
 	life: { bd: 4, bm: 4, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { leading: 1, },
 	internet: {
@@ -11834,7 +11703,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Мурат', s: 'Насыров', },
 	sex: 1,
 	life: { bd: 13, bm: 12, by: 1969, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9D%D0%B0%D1%81%D1%8B%D1%80%D0%BE%D0%B2,_%D0%9C%D1%83%D1%80%D0%B0%D1%82_%D0%98%D1%81%D0%BC%D0%B0%D0%B8%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -11844,7 +11713,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'natali_31031974', 
 	name: { n: 'Натали', },
 	life: { bd: 31, bm: 3, by: 1974, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D0%B8_(%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D0%B0)', 
@@ -11856,7 +11725,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 1, bm: 8, by: 1958, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0622633', 
@@ -11904,11 +11773,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Леся', s: 'Нікітюк', p: 'Іванівна', },
 	life: { bd: 19, bm: 10, by: 1987, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		wiki_ua: '%D0%9D%D1%96%D0%BA%D1%96%D1%82%D1%8E%D0%BA_%D0%9B%D0%B5%D1%81%D1%8F_%D0%86%D0%B2%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%9D%D1%96%D0%BA%D1%96%D1%82%D1%8E%D0%BA_%D0%9B%D0%B5%D1%81%D1%8F_%D0%86%D0%B2%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'denis_nikiforov_02081977', 
@@ -11916,7 +11783,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 8, by: 1977, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1649882', 
@@ -11929,7 +11796,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Игорь', s: 'Николаев', },
 	sex: 1,
 	life: { bd: 17, bm: 1, by: 1960, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, composer: 1, },
 	internet: {
 		imdb: '0631838', 
@@ -11983,7 +11850,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Алексей', s: 'Нилов', },
 	sex: 1,
 	life: { bd: 31, bm: 1, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0632082', 
@@ -11996,18 +11863,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Аіда', s: 'Ніколайчук', p: 'Юріївна', },
 	life: { bd: 3, bm: 3, by: 1982, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: {}, },
-	internet: {
-		wiki_ua: '%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D1%87%D1%83%D0%BA_%D0%90%D1%96%D0%B4%D0%B0_%D0%AE%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D1%87%D1%83%D0%BA_%D0%90%D1%96%D0%B4%D0%B0_%D0%AE%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'alexandr_nosik_06111971', 
 	name: { n: 'Александр', s: 'Носик', },
 	sex: 1,
 	life: { bd: 6, bm: 11, by: 1971, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1460967', 
@@ -12032,7 +11897,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 26, bm: 4, by: 1978, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2682384', 
@@ -12044,7 +11909,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'tatyana_ovsienko_22101966', 
 	name: { n: 'Татьяна', s: 'Овсиенко', },
 	life: { bd: 22, bm: 10, by: 1966, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '1921064', 
@@ -12056,18 +11921,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Злата', s: 'Огнєвіч', p: 'Леонідівна', },
 	life: { bd: 12, bm: 1, by: 1986, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9E%D0%B3%D0%BD%D1%94%D0%B2%D1%96%D1%87_%D0%97%D0%BB%D0%B0%D1%82%D0%B0_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9E%D0%B3%D0%BD%D1%94%D0%B2%D1%96%D1%87_%D0%97%D0%BB%D0%B0%D1%82%D0%B0_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'ilya_oleynokov_10071947', 
 	name: { n: 'Илья', s: 'Олейников', },
 	sex: 1,
 	life: { bd: 10, bm: 7, by: 1947, dd: 11, dm: 11, dy: 2012, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { humor: {}, },
 	internet: {
@@ -12093,7 +11956,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'kristina_orbakayte_25051971', 
 	name: { n: 'Кристина', s: 'Орбакайте', },
 	life: { bd: 25, bm: 5, by: 1971, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0649387', 
@@ -12106,18 +11969,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Пилип', s: 'Орлик', },
 	sex: 1,
 	life: { bd: 21, bm: 10, by: 1672, dd: 24, dm: 5, dy: 1742, },
-	country: { ukr: 1, our: { rev: 1, }, },
+	country: { ukr: 1, },
 	politics: { getman: 1, },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%9F%D0%B8%D0%BB%D0%B8%D0%BF_%D0%9E%D1%80%D0%BB%D0%B8%D0%BA', 
-	},
+	hash: { politics: 1, war: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B8%D0%BB%D0%B8%D0%BF_%D0%9E%D1%80%D0%BB%D0%B8%D0%BA', },
 },
 {
 	id: 'olga_orlova_13111977', 
 	name: { n: 'Ольга', s: 'Орлова', },
 	life: { bd: 13, bm: 11, by: 1977, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Блестящие', },
 	internet: {
 		imdb: '2662314', 
@@ -12130,7 +11991,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Евгений', s: 'Осин', },
 	sex: 1,
 	life: { bd: 4, bm: 10, by: 1964, dd: 17, dm: 11, dy: 2018, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%9E%D1%81%D0%B8%D0%BD,_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -12141,7 +12002,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Иван', s: 'Охлобыстин', },
 	sex: 1,
 	life: { bd: 22, bm: 7, by: 1966, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0645612', 
@@ -12155,7 +12016,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 19, bm: 9, by: 1966, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1459730', 
@@ -12192,7 +12053,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Арсен', s: 'Павлов', p: 'Сергеевич', },
 	sex: 1,
 	life: { bd: 2, bm: 2, by: 1983, dd: 16, dm: 10, dy: 2016, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	war: { },
 	internet: {
 		wiki_ru: '%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2,_%D0%90%D1%80%D1%81%D0%B5%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -12204,7 +12065,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владислав', s: 'Павлов', },
 	sex: 1,
 	life: { bd: 29, bm: 4, by: 1984, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5435365', 
@@ -12216,11 +12077,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Марічка', s: 'Падалко', },
 	life: { bd: 26, bm: 2, by: 1976, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		wiki_ua: '%D0%9C%D0%B0%D1%80%D1%96%D1%87%D0%BA%D0%B0_%D0%9F%D0%B0%D0%B4%D0%B0%D0%BB%D0%BA%D0%BE', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D1%80%D1%96%D1%87%D0%BA%D0%B0_%D0%9F%D0%B0%D0%B4%D0%B0%D0%BB%D0%BA%D0%BE', },
 	note: 'Марія Володимирівна Падалко', 
 },
 {
@@ -12229,7 +12088,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 9, by: 1977, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0962345', 
@@ -12243,7 +12102,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 28, bm: 5, by: 1962, dd: 6, dm: 3, dy: 2013, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0659521', 
@@ -12295,7 +12154,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Леонид', s: 'Парфёнов', },
 	sex: 1,
 	life: { bd: 26, bm: 1, by: 1960, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		wiki_ru: '%D0%9F%D0%B0%D1%80%D1%84%D1%91%D0%BD%D0%BE%D0%B2,_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -12320,7 +12179,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анатолий', s: 'Пашинин', },
 	sex: 1,
 	life: { bd: 15, bm: 9, by: 1978, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1465348', 
@@ -12345,7 +12204,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 8, bm: 7, by: 1963, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0678933', 
@@ -12358,7 +12217,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Валдис', s: 'Пельш', },
 	sex: 1,
 	life: { bd: 5, bm: 6, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		imdb: '0671295', 
@@ -12372,7 +12231,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 14, bm: 10, by: 1963, dd: 26, dm: 12, dy: 2009, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1596428', 
@@ -12385,7 +12244,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александр', s: 'Песков', },
 	sex: 1,
 	life: { bd: 19, bm: 5, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0676014', 
@@ -12398,7 +12257,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Петлюра', },
 	sex: 1,
 	life: { bd: 14, bm: 4, by: 1974, dd: 27, dm: 9, dy: 1996, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%91%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D1%88,_%D0%AE%D1%80%D0%B8%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -12410,7 +12269,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Виктор', s: 'Петлюра', },
 	sex: 1,
 	life: { bd: 30, bm: 10, by: 1975, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ua: '%D0%9F%D0%B5%D1%82%D0%BB%D1%8E%D1%80%D0%B0_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -12423,12 +12282,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 5, by: 1879, dd: 25, dm: 5, dy: 1926, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { rev: 1, sun: 1, }, },
-	politics: { },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%9F%D0%B5%D1%82%D0%BB%D1%8E%D1%80%D0%B0_%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { politics: 1, war: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B5%D1%82%D0%BB%D1%8E%D1%80%D0%B0_%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexey_petrenko_26031938', 
@@ -12449,7 +12305,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Марина', s: 'Петренко', },
 	life: { bd: 19, bm: 1, by: 1987, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3655466', 
@@ -12462,11 +12318,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Тарас', s: 'Петриненко', p: 'Гаринальдович', },
 	sex: 1,
 	life: { bd: 10, bm: 3, by: 1953, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9F%D0%B5%D1%82%D1%80%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A2%D0%B0%D1%80%D0%B0%D1%81_%D0%93%D0%B0%D1%80%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D0%B2%D0%B8%D1%87',
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B5%D1%82%D1%80%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A2%D0%B0%D1%80%D0%B0%D1%81_%D0%93%D0%B0%D1%80%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D0%B2%D0%B8%D1%87',},
 },
 {
 	id: 'alexandr_petrov_25011989', 
@@ -12474,7 +12328,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 1, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5003252', 
@@ -12488,7 +12342,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 4, bm: 9, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0685235', 
@@ -12501,13 +12355,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Руслана', s: 'Писанка', p: 'Ігорівна', },
 	life: { bd: 17, bm: 11, by: 1965, dd: 19, dm: 7, dy: 2022, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		imdb: '0685396', 
-		wiki_ua: '%D0%9F%D0%B8%D1%81%D0%B0%D0%BD%D0%BA%D0%B0_%D0%A0%D1%83%D1%81%D0%BB%D0%B0%D0%BD%D0%B0_%D0%86%D0%B3%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/3355/works/', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { imdb: '0685396', wiki_ua: '%D0%9F%D0%B8%D1%81%D0%B0%D0%BD%D0%BA%D0%B0_%D0%A0%D1%83%D1%81%D0%BB%D0%B0%D0%BD%D0%B0_%D0%86%D0%B3%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/3355/works/', },
 },
 {
 	id: 'kirill_pletnev_30121979', 
@@ -12515,7 +12365,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 30, bm: 12, by: 1979, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1767417', 
@@ -12552,7 +12402,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'taisia_povaliy_10121964', 
 	name: { n: 'Таисия', s: 'Повалий', },
 	life: { bd: 10, bm: 12, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '2598160', 
@@ -12564,7 +12414,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'daria_poverennova_15061972', 
 	name: { n: 'Дарья', s: 'Повереннова', },
 	life: { bd: 15, bm: 6, by: 1972, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0693936', 
@@ -12602,11 +12452,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Михайло', s: 'Подоляк', p: 'Михайлович', },
 	sex: 1,
 	life: { bd: 16, bm: 2, by: 1972, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8F%D0%BA_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8F%D0%BA_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'les_podervyansky_03111952', 
@@ -12614,11 +12462,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 3, bm: 11, by: 1952, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%9B%D0%B5%D1%81%D1%8C_%D0%9F%D0%BE%D0%B4%D0%B5%D1%80%D0%B2%27%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9', 
-	},
+	country: { ukr: 1, },
+	hash: { writer: 1, dramaturge: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B5%D1%81%D1%8C_%D0%9F%D0%BE%D0%B4%D0%B5%D1%80%D0%B2%27%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9', },
 	note: 'Олександр Сергі́йович Подерв\'янський',
 },
 {
@@ -12626,19 +12472,17 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Лілія', s: 'Подкопаєва', p: 'Олександрівна', },
 	life: { bd: 15, bm: 8, by: 1978, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Донецк',
-	sport: { gymnastics: 1, },
-	internet: {
-		wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%BA%D0%BE%D0%BF%D0%B0%D1%94%D0%B2%D0%B0_%D0%9B%D1%96%D0%BB%D1%96%D1%8F_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'donetsk',
+	hash: { sport: 1, gymnastics: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%BA%D0%BE%D0%BF%D0%B0%D1%94%D0%B2%D0%B0_%D0%9B%D1%96%D0%BB%D1%96%D1%8F_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'julia_pozhidaeva_22091982', 
 	name: { n: 'Юлия', s: 'Пожидаева', },
 	life: { bd: 22, bm: 9, by: 1982, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1728824', 
@@ -12651,7 +12495,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Наталья', s: 'Поклонская', },
 	life: { bd: 18, bm: 3, by: 1980, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	birthplace: 'Алексеевка (Луганская область)',
 	politics: { },
 	internet: {
@@ -12676,7 +12520,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 3, bm: 5, by: 1969, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3907421', 
@@ -12689,7 +12533,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Алексей', s: 'Полуян', },
 	sex: 1,
 	life: { bd: 4, bm: 4, by: 1965, dd: 8, dm: 1, dy: 2010, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0689894', 
@@ -12713,7 +12557,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александр', s: 'Пономарёв', },
 	sex: 1,
 	life: { bd: 9, bm: 8, by: 1973, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '1487929', 
@@ -12737,9 +12581,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Евгений', s: 'Попов', },
 	sex: 1,
 	life: { bd: 11, bm: 9, by: 1978, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: {
-		deputy: { country: { rus: 1, our: { sng: 1, }, }, },
+		deputy: { country: { rus: 1, }, },
 	},
 	show: { 
 		leading: 1,
@@ -12754,7 +12598,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олег', s: 'Попов', },
 	sex: 1,
 	life: { bd: 31, bm: 7, by: 1930, dd: 2, dm: 11, dy: 2016, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: {}, circus: {}, },
 	internet: {
 		imdb: '0691347', 
@@ -12779,7 +12623,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 3, by: 1969, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { leading: 1, },
 	internet: {
@@ -12807,18 +12651,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	img: [ 1, 1 ],
 	life: { bd: 26, bm: 9, by: 1965, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { president: { country: { ukr: { date: '7.06.2014 - 20.05.2019', n: 5, }, }, }, },
-	internet: {
-		wiki_ua: '%D0%9F%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'ukr', date: '7.06.2014 - 20.05.2019', n: 5, }, ], billionaire: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'maria_poroshina_01111973', 
 	name: { n: 'Мария', s: 'Порошина', },
 	life: { bd: 1, bm: 11, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1115009', 
@@ -12832,11 +12674,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 8, bm: 5, by: 1981, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9F%D0%BE%D1%82%D0%B0%D0%BF%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D1%82%D0%B0%D0%BF%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 	note: 'Потапенко Олексій Андрійович', 
 },
 {
@@ -12844,7 +12684,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Пресняков', },
 	sex: 1,
 	life: { bd: 29, bm: 3, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0696204', 
@@ -12858,7 +12698,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 5, bm: 11, by: 1987, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3488770', 
@@ -12896,19 +12736,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 4, bm: 2, by: 1964, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, }, },
-	sport: { },
-	internet: {
-		wiki_ua: '%D0%9F%D1%80%D0%BE%D1%82%D0%B0%D1%81%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
-	note: 'Футболіст', 
+	country: { ukr: 1, sun: 1, },
+	hash: { sport: 1, football: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%80%D0%BE%D1%82%D0%B0%D1%81%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'oleg_protasov_04121967', 
 	name: { n: 'Олег', s: 'Протасов', },
 	sex: 1,
 	life: { bd: 4, bm: 12, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2271413', 
@@ -12922,11 +12759,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 5, by: 1984, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { blogger: 1, leading: 1, },
-	internet: {
-		wiki_ua: '%D0%9F%D1%82%D1%83%D1%88%D0%BA%D1%96%D0%BD_%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, internet: 1, blogger: 1, traveler: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%82%D1%83%D1%88%D0%BA%D1%96%D0%BD_%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alla_pugacheva_15041949', 
@@ -12959,7 +12794,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 7, bm: 10, by: 1952, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { president: { country: { rus: { date: '1-й срок: 26.03.2000 - 7.05.2008<br/> 2-й срок: с 7.05.2012', n: 2, }, }, }, },
 	internet: {
 		wiki_ru: '%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -12970,11 +12805,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Денис', s: 'Пушилін', p: 'Володимирович', },
 	sex: 1,
 	life: { bd: 9, bm: 5, by: 1981, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%9F%D1%83%D1%88%D0%B8%D0%BB%D1%96%D0%BD_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%83%D1%88%D0%B8%D0%BB%D1%96%D0%BD_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexandr_pushkin_26051799', 
@@ -13005,7 +12838,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анатолий', s: 'Равикович', },
 	sex: 1,
 	life: { bd: 24, bm: 12, by: 1936, dd: 8, dm: 4, dy: 2012, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0712462', 
@@ -13019,7 +12852,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 14, bm: 10, by: 1965, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0713614', 
@@ -13043,7 +12876,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Карина', s: 'Разумовская', },
 	life: { bd: 9, bm: 3, by: 1983, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2149437', 
@@ -13080,7 +12913,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александрa', s: 'Ребенок', },
 	life: { bd: 6, bm: 5, by: 1980, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3539193', 
@@ -13093,7 +12926,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александр', s: 'Ревва', },
 	sex: 1,
 	life: { bd: 10, bm: 9, by: 1974, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, comedy: 1, }, },
 	internet: {
 		imdb: '3320936', 
@@ -13119,22 +12952,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Максим', s: 'Рильський', p: 'Тадейович', },
 	sex: 1,
 	life: { bd: 19, bm: 3, by: 1895, dd: 24, dm: 7, dy: 1964, },
-	country: { ukr: 1, our: { sun: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%A0%D0%B8%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC_%D0%A2%D0%B0%D0%B4%D0%B5%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A0%D0%B8%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC_%D0%A2%D0%B0%D0%B4%D0%B5%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'svyatoslav_teofil_rihter_20031915', 
 	name: { n: 'Святослав', s: 'Ріхтер', p: 'Теофілович', },
 	sex: 1,
 	life: { bd: 20, bm: 3, by: 1915, dd: 1, dm: 8, dy: 1997, },
-	country: { ukr: 1, our: { sun: 1, }, },
-	music: { piano: 1, },
-	internet: {
-		wiki_ua: '%D0%A0%D1%96%D1%85%D1%82%D0%B5%D1%80_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%81%D0%BB%D0%B0%D0%B2_%D0%A2%D0%B5%D0%BE%D1%84%D1%96%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { music: 1, piano: 1, },
+	internet: { wiki_ua: '%D0%A0%D1%96%D1%85%D1%82%D0%B5%D1%80_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%81%D0%BB%D0%B0%D0%B2_%D0%A2%D0%B5%D0%BE%D1%84%D1%96%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexandr_robak_28121973', 
@@ -13142,7 +12971,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 28, bm: 12, by: 1973, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1468457', 
@@ -13155,20 +12984,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ада', s: 'Роговцева', p: 'Миколаївна', },
 	life: { bd: 16, bm: 7, by: 1937, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0737385', 
-		wiki_ua: '%D0%A0%D0%BE%D0%B3%D0%BE%D0%B2%D1%86%D0%B5%D0%B2%D0%B0_%D0%90%D0%B4%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/3602/works/', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0737385', wiki_ua: '%D0%A0%D0%BE%D0%B3%D0%BE%D0%B2%D1%86%D0%B5%D0%B2%D0%B0_%D0%90%D0%B4%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/3602/works/', },
 },
 {
 	id: 'andrey_rozhkov_28031971', 
 	name: { n: 'Андрей', s: 'Рожков', },
 	sex: 1,
 	life: { bd: 28, bm: 3, by: 1971,  },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, }, },
 	internet: {
 		imdb: '7407864', 
@@ -13180,7 +13005,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Евгения', s: 'Розанова', },
 	life: { bd: 5, bm: 12, by: 1990, },
 	img: [ 3, 2 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '6625482', 
@@ -13205,7 +13030,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Николай', s: 'Романов', p: 'Александрович', },
 	sex: 1,
 	life: { bd: 18, bm: 5, by: 1868, dd: 17, dm: 7, dy: 1918, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { president: { country: { rus: { date: '1.11.1894 - 15.03.1917', n: 0, status: 'Император', }, }, }, },
 	internet: {
 		wiki_ru: '%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II', 
@@ -13217,7 +13042,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 16, bm: 7, by: 1992, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3601400', 
@@ -13243,13 +13068,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Софія', s: 'Ротару', p: 'Михайлівна', },
 	life: { bd: 7, bm: 8, by: 1947, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		imdb: '0744719', 
-		wiki_ua: '%D0%A0%D0%BE%D1%82%D0%B0%D1%80%D1%83_%D0%A1%D0%BE%D1%84%D1%96%D1%8F_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/3634/works/', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0744719', wiki_ua: '%D0%A0%D0%BE%D1%82%D0%B0%D1%80%D1%83_%D0%A1%D0%BE%D1%84%D1%96%D1%8F_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/3634/works/', },
 },
 {
 	id: 'klara_rumyanova_08121929', 
@@ -13283,7 +13104,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Сергей', s: 'Русскин', },
 	sex: 1,
 	life: { bd: 22, bm: 8, by: 1955, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0750834', 
@@ -13296,7 +13117,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Виктор', s: 'Рыбин', },
 	sex: 1,
 	life: { bd: 21, bm: 8, by: 1962, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Дюна', },
 	internet: {
 		imdb: '0752979', 
@@ -13334,7 +13155,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'julia_savicheva_14021987', 
 	name: { n: 'Юлия', s: 'Савичева', },
 	life: { bd: 14, bm: 2, by: 1987, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '1575561', 
@@ -13347,24 +13168,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Надія', s: 'Савченко', p: 'Вікторівна', },
 	life: { bd: 11, bm: 5, by: 1981, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%A1%D0%B0%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9D%D0%B0%D0%B4%D1%96%D1%8F_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%B0%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9D%D0%B0%D0%B4%D1%96%D1%8F_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'petro_sagajdachny_00001582', 
 	name: { n: 'Петро', s: 'Сагайдачний', },
 	sex: 1,
 	life: { by: 1582, dd: 20, dm: 4, dy: 1622, },
-	country: { ukr: 1, our: { rev: 1, }, },
-	politics: { getman: 1, },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%9A%D0%BE%D0%BD%D0%B0%D1%88%D0%B5%D0%B2%D0%B8%D1%87-%D0%A1%D0%B0%D0%B3%D0%B0%D0%B9%D0%B4%D0%B0%D1%87%D0%BD%D0%B8%D0%B9', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, getman: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%9A%D0%BE%D0%BD%D0%B0%D1%88%D0%B5%D0%B2%D0%B8%D1%87-%D0%A1%D0%B0%D0%B3%D0%B0%D0%B9%D0%B4%D0%B0%D1%87%D0%BD%D0%B8%D0%B9', },
 	note: 'Петро Конашевич-Сагайдачний',
 },
 {
@@ -13384,7 +13199,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'irina_saltykova_05051966', 
 	name: { n: 'Ирина', s: 'Салтыкова', },
 	life: { bd: 5, bm: 5, by: 1966, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0759138', 
@@ -13396,7 +13211,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Майя', s: 'Санду', p: 'Григорьевна', },
 	life: { bd: 24, bm: 5, by: 1972, },
 	img: [ 1, 1 ],
-	country: { mda: 1, our: { sng: 1, }, },
+	country: { mda: 1, },
 	politics: { president: { country: { mda: { date: 'с 24.12.2020', n: 6, }, }, }, },
 	internet: {
 		wiki_ua: '%D0%9C%D0%B0%D1%8F_%D0%A1%D0%B0%D0%BD%D0%B4%D1%83', 
@@ -13408,7 +13223,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Никас', s: 'Сафронов', },
 	sex: 1,
 	life: { bd: 8, bm: 4, by: 1956, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	painter: { },
 	internet: {
 		wiki_ru: '%D0%A1%D0%B0%D1%84%D1%80%D0%BE%D0%BD%D0%BE%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%B0%D1%81_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -13434,7 +13249,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 12, bm: 12, by: 1977, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: 1, },
 	show: { humor: { kvn: 1, }, },
 	internet: {
@@ -13459,7 +13274,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'alena_sviridova_14081962', 
 	name: { n: 'Алёна', s: 'Свиридова', },
 	life: { bd: 14, bm: 8, by: 1962, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0841308', 
@@ -13472,11 +13287,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анна', s: 'Сєдокова', p: 'Володимирівна', },
 	life: { bd: 16, bm: 12, by: 1982, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music : { singer: {}, },
-	internet: {
-		wiki_ua: '%D0%A1%D1%94%D0%B4%D0%BE%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%BD%D0%BD%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%94%D0%B4%D0%BE%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%BD%D0%BD%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'natalya_selezneva_19061945', 
@@ -13495,7 +13308,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Сергей', s: 'Селин', },
 	sex: 1,
 	life: { bd: 12, bm: 3, by: 1961, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0783208', 
@@ -13507,7 +13320,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'anna_semenovich_01031980', 
 	name: { n: 'Анна', s: 'Семенович', },
 	life: { bd: 1, bm: 3, by: 1980, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '2480813', 
@@ -13520,7 +13333,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александр', s: 'Семчев', },
 	sex: 1,
 	life: { bd: 16, bm: 4, by: 1969, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0783740', 
@@ -13533,11 +13346,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Микола', s: 'Сєрга', p: 'Едуардович', },
 	sex: 1,
 	life: { bd: 23, bm: 3, by: 1989, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		wiki_ua: '%D0%A1%D1%94%D1%80%D0%B3%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%95%D0%B4%D1%83%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%94%D1%80%D0%B3%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%95%D0%B4%D1%83%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexey_serebryakov_03071964', 
@@ -13569,18 +13380,17 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Сергій', s: 'Сивохо', p: 'Анатолійович', },
 	sex: 1,
 	life: { bd: 8, bm: 2, by: 1969, },
-	country: { ukr: 1, our: { sng: 1, }, },
+	country: { ukr: 1, },
 	show: { humor: { kvn: {}, }, },
-	internet: {
-		wiki_ua: '%D0%A1%D0%B8%D0%B2%D0%BE%D1%85%D0%BE_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	hash: { show: 1, showman: 1, humor: 1, kvn: 1, },
+	internet: { imdb: '0803411', wiki_ua: '%D0%A1%D0%B8%D0%B2%D0%BE%D1%85%D0%BE_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'eugeny_sidihin_02101964', 
 	name: { n: 'Евгений', s: 'Сидихин', },
 	sex: 1,
 	life: { bd: 2, bm: 10, by: 1964, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0796606', 
@@ -13593,7 +13403,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Игорь', s: 'Сикорский', },
 	sex: 1,
 	life: { bd: 6, bm: 6, by: 1889, dd: 26, dm: 10, dy: 1972, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	develope: { },
 	internet: {
 		wiki_ru: '%D0%A1%D0%B8%D0%BA%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -13616,7 +13426,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'margarita_simonyan_06041980', 
 	name: { n: 'Маргарита', s: 'Симоньян', },
 	life: { bd: 6, bm: 4, by: 1980, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: {
 		leading: 1,
 		propaganda: 1,
@@ -13630,11 +13440,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олег', s: 'Синєгубов', p: 'Васильович', },
 	sex: 1,
 	life: { bd: 10, bm: 8, by: 1983, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A1%D0%B8%D0%BD%D1%94%D0%B3%D1%83%D0%B1%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%B8%D0%BD%D1%94%D0%B3%D1%83%D0%B1%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'grigory_siyatvinda_26041970', 
@@ -13642,7 +13450,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 26, bm: 4, by: 1970, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1253263', 
@@ -13655,19 +13463,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Іван', s: 'Сірко', },
 	sex: 1,
 	life: { by: 1605, dy: 1680, },
-	country: { ukr: 1, our: { rev: 1, }, },
-	politics: { },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%86%D0%B2%D0%B0%D0%BD_%D0%A1%D1%96%D1%80%D0%BA%D0%BE', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, },
+	internet: { wiki_ua: '%D0%86%D0%B2%D0%B0%D0%BD_%D0%A1%D1%96%D1%80%D0%BA%D0%BE', },
 	note: 'Кошовий отаман Запорозької Січі. Дати життя невідомі',
 },
 {
 	id: 'olga_skabeeva_11121984', 
 	name: { n: 'Ольга', s: 'Скабеева', },
 	life: { bd: 11, bm: 12, by: 1984, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: {
 		leading: 1,
 		propaganda: 1,
@@ -13709,23 +13514,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 3, bm: 12, by: 1722, dd: 9, dm: 11, dy: 1794, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { rev: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%A1%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9_%D0%A1%D0%B0%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9_%D0%A1%D0%B0%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'pavlo_petro_skoropadsky_15051873', 
 	name: { n: 'Павло', s: 'Скоропадський', p: 'Петрович', },
 	sex: 1,
 	life: { bd: 15, bm: 5, by: 1873, dd: 26, dm: 4, dy: 1945, },
-	country: { ukr: 1, our: { sun: 1, }, },
-	politics: { },
-	war: { getman: 1, },
-	internet: {
-		wiki_ua: '%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D0%BF%D0%B0%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, getman: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D0%BF%D0%B0%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'oleg_jury_skrypka_24051964', 
@@ -13733,13 +13533,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 24, bm: 5, by: 1964, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, group: 'Воплі Відоплясова', },
-	internet: {
-		imdb: '1846062', 
-		wiki_ua: '%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D0%BA%D0%B0_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/8392/works/', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '1846062', wiki_ua: '%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D0%BA%D0%B0_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/8392/works/', },
 },
 {
 	id: 'roman_andry_skrypin_27051973', 
@@ -13747,12 +13543,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 5, by: 1973, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Полтава',
-	show: { leading: 1, },
-	internet: {
-		wiki_ua: '%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D1%96%D0%BD_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'poltava',
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D1%96%D0%BD_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'kuzma_skryabin_17081968', 
@@ -13760,19 +13554,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 17, bm: 8, by: 1968, dd: 2, dm: 2, dy: 2015, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	music: { singer: 1, },
-	internet: {
-		wiki_ua: '%D0%9A%D1%83%D0%B7%D1%8C%D0%BC%D0%B0_%D0%A1%D0%BA%D1%80%D1%8F%D0%B1%D1%96%D0%BD', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/43999/works/', 
-	},
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%83%D0%B7%D1%8C%D0%BC%D0%B0_%D0%A1%D0%BA%D1%80%D1%8F%D0%B1%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/43999/works/', },
 	note: 'Кузьменко Андрій Вікторович',
 },
 {
 	id: 'slava_15051980', 
 	name: { n: 'Слава', },
 	life: { bd: 15, bm: 5, by: 1980, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '1921440', 
@@ -13785,7 +13576,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Семён', s: 'Слепаков', },
 	sex: 1,
 	life: { bd: 23, bm: 8, by: 1979, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, comedy: 1, }, },
 	internet: {
 		imdb: '2955009', 
@@ -13796,7 +13587,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'alika_smehova_27031968', 
 	name: { n: 'Алика', s: 'Смехова', },
 	life: { bd: 27, bm: 3, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0806799', 
@@ -13849,7 +13640,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 27, bm: 10, by: 1983, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0810638', 
@@ -13863,7 +13654,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 24, bm: 11, by: 1958, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0810632', 
@@ -13876,7 +13667,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ксения', s: 'Собчак', },
 	life: { bd: 5, bm: 11, by: 1981, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { },
 	show: { leading: 1, },
 	internet: {
@@ -13890,7 +13681,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Дмитрий', s: 'Соколов', },
 	sex: 1,
 	life: { bd: 11, bm: 4, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { kvn: 1, }, },
 	internet: {
 		wiki_ru: '%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -13900,7 +13691,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'lyubov_sokolova_31071921', 
 	name: { n: 'Любовь', s: 'Соколова', },
 	life: { bd: 31, bm: 7, by: 1921, dd: 6, dm: 6, dy: 2001, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0812492', 
@@ -13913,7 +13704,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Соловьёв', },
 	sex: 1,
 	life: { bd: 20, bm: 10, by: 1963, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: {
 		leading: 1,
 		propaganda: 1,
@@ -13927,7 +13718,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Игорь', s: 'Сорин', },
 	sex: 1,
 	life: { bd: 10, bm: 11, by: 1969, dd: 4, dm: 9, dy: 1998, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Иванушки International', },
 	internet: {
 		wiki_ru: '%D0%A1%D0%BE%D1%80%D0%B8%D0%BD,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -13939,7 +13730,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 1, bm: 1, by: 1955, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3052337', 
@@ -13952,11 +13743,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Володимир', s: 'Сосюра', p: 'Миколайович', },
 	sex: 1,
 	life: { bd: 6, bm: 1, by: 1898, dd: 8, dm: 1, dy: 1965, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%A1%D0%BE%D1%81%D1%8E%D1%80%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%BE%D1%81%D1%8E%D1%80%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'iosif_stalin_06121878', 
@@ -13975,7 +13764,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'irina_starshenbaum_30031992', 
 	name: { n: 'Ирина', s: 'Старшенбаум', },
 	life: { bd: 30, bm: 3, by: 1992, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '7590244', 
@@ -13987,7 +13776,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'galina_stahanova_12101940', 
 	name: { n: 'Галина', s: 'Стаханова', },
 	life: { bd: 12, bm: 10, by: 1940, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0821626', 
@@ -14000,7 +13789,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Влад', s: 'Сташевский', },
 	sex: 1,
 	life: { bd: 19, bm: 1, by: 1974, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%A1%D1%82%D0%B0%D1%85%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0,_%D0%93%D0%B0%D0%BB%D0%B8%D0%BD%D0%B0_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -14026,7 +13815,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юрий', s: 'Степанов', },
 	sex: 1,
 	life: { bd: 7, bm: 6, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0826784', 
@@ -14039,7 +13828,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анастасия', s: 'Стоцкая', },
 	life: { bd: 7, bm: 10, by: 1982, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '1856500', 
@@ -14052,7 +13841,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 7, by: 1957, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { humor: {}, leading: 1, },
 	internet: {
@@ -14079,18 +13868,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Василь', s: 'Стус', p: 'Семенович', },
 	sex: 1,
 	life: { bd: 6, bm: 1, by: 1938, dd: 4, dm: 9, dy: 1985, },
-	country: { ukr: 1, our: { sun: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%A1%D1%82%D1%83%D1%81_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C_%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%82%D1%83%D1%81_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C_%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'semen_strugachev_10121957', 
 	name: { n: 'Семён', s: 'Стругачёв', },
 	sex: 1,
 	life: { bd: 10, bm: 12, by: 1957, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0835292', 
@@ -14104,7 +13891,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 6, by: 1974, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0836534', 
@@ -14129,7 +13916,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олеся', s: 'Судзиловская', },
 	life: { bd: 20, bm: 5, by: 1974, },
 	img: [ 8, 6 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0837242', 
@@ -14142,7 +13929,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Гарик', s: 'Сукачёв', },
 	sex: 1,
 	life: { bd: 1, bm: 12, by: 1959, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '0837690', 
@@ -14155,26 +13942,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Наталя', s: 'Сумська', p: 'В\'ячеславівна', },
 	life: { bd: 25, bm: 4, by: 1956, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		imdb: '0838920', 
-		wiki_ua: '%D0%A1%D1%83%D0%BC%D1%81%D1%8C%D0%BA%D0%B0_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8F_%D0%92%27%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D1%96%D0%B2%D0%BD%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/5691/works/', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { imdb: '0838920', wiki_ua: '%D0%A1%D1%83%D0%BC%D1%81%D1%8C%D0%BA%D0%B0_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8F_%D0%92%27%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D1%96%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/5691/works/', },
 },
 {
 	id: 'olga_vyacheslav_sumska_22081966', 
 	name: { n: 'Ольга', s: 'Сумська', p: 'В\'ячеславівна', },
 	life: { bd: 22, bm: 8, by: 1966, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		imdb: '0838921', 
-		wiki_ua: '%D0%A1%D1%83%D0%BC%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_%D0%92%27%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D1%96%D0%B2%D0%BD%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/4174/works/', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { imdb: '0838921', wiki_ua: '%D0%A1%D1%83%D0%BC%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_%D0%92%27%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D1%96%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/post/4174/works/', },
 },
 {
 	id: 'pavel_suhoy_22071895', 
@@ -14193,7 +13972,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 10, bm: 11, by: 1951, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0837744', 
@@ -14206,7 +13985,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Сычёв', },
 	sex: 1,
 	life: { bd: 6, bm: 6, by: 1971, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0842962', 
@@ -14219,19 +13998,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Вікторія', s: 'Сюмар', p: 'Петрівна', },
 	life: { bd: 23, bm: 10, by: 1977, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Никополь',
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A1%D1%8E%D0%BC%D0%B0%D1%80_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%9F%D0%B5%D1%82%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%8E%D0%BC%D0%B0%D1%80_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%9F%D0%B5%D1%82%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'valery_syutkin_22031958', 
 	name: { n: 'Валерий', s: 'Сюткин', },
 	sex: 1,
 	life: { bd: 22, bm: 3, by: 1958, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Браво', },
 	internet: {
 		imdb: '0843542', 
@@ -14257,7 +14033,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 26, bm: 8, by: 1967, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0847727', 
@@ -14270,13 +14046,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Володимир', s: 'Талашко', p: 'Дмитрович', },
 	sex: 1,
 	life: { bd: 6, bm: 3, by: 1946, },
-	country: { ukr: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0847826', 
-		wiki_ua: '%D0%A2%D0%B0%D0%BB%D0%B0%D1%88%D0%BA%D0%BE_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/4215/works/', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0847826', wiki_ua: '%D0%A2%D0%B0%D0%BB%D0%B0%D1%88%D0%BA%D0%BE_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/4215/works/', },
 },
 {
 	id: 'igor_talkov_04111956', 
@@ -14307,7 +14079,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Левон', s: 'Тер-Петросян', p: 'Акопович', },
 	sex: 1,
 	life: { bd: 9, bm: 1, by: 1945, },
-	country: { arm: 1, our: { sng: 1, }, },
+	country: { arm: 1, },
 	politics: { president: { country: { arm: { date: '16.10.1991 - 3.02.1998', n: 1, }, }, }, },
 	internet: {
 		wiki_ru: '%D0%A2%D0%B5%D1%80-%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D1%81%D1%8F%D0%BD,_%D0%9B%D0%B5%D0%B2%D0%BE%D0%BD_%D0%90%D0%BA%D0%BE%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -14330,7 +14102,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Тимати', },
 	sex: 1,
 	life: { bd: 15, bm: 8, by: 1983, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '2446292', 
@@ -14344,18 +14116,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юлія', s: 'Тимошенко', p: 'Володимирівна', },
 	life: { bd: 27, bm: 11, by: 1960, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A2%D0%B8%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D0%BB%D1%96%D1%8F_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%B8%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D0%BB%D1%96%D1%8F_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'bogdan_titomir_16031967', 
 	name: { n: 'Богдан', s: 'Титомир', },
 	sex: 1,
 	life: { bd: 16, bm: 3, by: 1967, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Кар-мэн', },
 	internet: {
 		imdb: '1679413', 
@@ -14405,22 +14175,18 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Павло', s: 'Тичина', p: 'Григорович', },
 	sex: 1,
 	life: { bd: 23, bm: 1, by: 1891, dd: 16, dm: 9, dy: 1967, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%A2%D0%B8%D1%87%D0%B8%D0%BD%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%B8%D1%87%D0%B8%D0%BD%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'regina_petro_todorenko_14061990', 
 	name: { n: 'Регіна', s: 'Тодоренко', p: 'Петрівна', },
 	life: { bd: 14, bm: 6, by: 1990, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		wiki_ua: '%D0%A2%D0%BE%D0%B4%D0%BE%D1%80%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A0%D0%B5%D0%B3%D1%96%D0%BD%D0%B0_%D0%9F%D0%B5%D1%82%D1%80%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%BE%D0%B4%D0%BE%D1%80%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A0%D0%B5%D0%B3%D1%96%D0%BD%D0%B0_%D0%9F%D0%B5%D1%82%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'villy_ivan_tokarev_11111934', 
@@ -14462,7 +14228,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Виктория', s: 'Толстоганова', },
 	life: { bd: 24, bm: 3, by: 1972, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1204437', 
@@ -14475,7 +14241,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Лев', s: 'Толстой', p: 'Николаевич', },
 	sex: 1,
 	life: { bd: 9, bm: 9, by: 1828, dd: 20, dm: 11, dy: 1910, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	writer: {},
 	internet: {
 		wiki_ru: '%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9,_%D0%9B%D0%B5%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -14486,7 +14252,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Михаил', s: 'Толстых', p: 'Сергеевич', },
 	sex: 1,
 	life: { bd: 19, bm: 7, by: 1980, dd: 8, dm: 2, dy: 2017, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	war: { },
 	internet: {
 		wiki_ru: '%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8B%D1%85,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -14498,7 +14264,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Роман', s: 'Трахтенберг', },
 	sex: 1,
 	life: { bd: 28, bm: 9, by: 1968, dd: 20, dm: 11, dy: 2009, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { },
 	internet: {
 		wiki_ru: '%D0%A2%D1%80%D0%B0%D1%85%D1%82%D0%B5%D0%BD%D0%B1%D0%B5%D1%80%D0%B3,_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -14510,7 +14276,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Тимофей', s: 'Трибунцев', },
 	sex: 1,
 	life: { bd: 1, bm: 7, by: 1973, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1466457', 
@@ -14561,7 +14327,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владимир', s: 'Турчинский', },
 	sex: 1,
 	life: { bd: 28, bm: 9, by: 1963, dd: 16, dm: 12, dy: 2009, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1501475', 
@@ -14575,7 +14341,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 11, by: 1962, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0864588', 
@@ -14610,12 +14376,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'lesya_ukrainka_25021871', 
 	name: { n: 'Леся', s: 'Українка', },
 	life: { bd: 25, bm: 2, by: 1871, dd: 1, dm: 8, dy: 1913, },
-	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%9B%D0%B5%D1%81%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B0', 
-	},
+	img: [ 3, 2 ],
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B5%D1%81%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B0', },
 	note: 'Лариса Петрівна Косач-Квітка',
 },
 {
@@ -14636,7 +14400,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Иван', s: 'Ургант', },
 	sex: 1,
 	life: { bd: 16, bm: 4, by: 1978, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, humor: {}, },
 	internet: {
 		imdb: '1679435', 
@@ -14673,18 +14437,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олександр', s: 'Усик', p: 'Олександрович', },
 	sex: 1,
 	life: { bd: 17, bm: 1, by: 1987, },
-	country: { ukr: 1, our: { sun: 1, }, },
-	sport: { },
-	internet: {
-		wiki_ua: '%D0%A3%D1%81%D0%B8%D0%BA_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%A3%D1%81%D0%B8%D0%BA_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'svetlana_ustinova_01051982', 
 	name: { n: 'Светлана', s: 'Устинова', },
 	life: { bd: 1, bm: 5, by: 1982, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1801747', 
@@ -14734,7 +14496,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'Федорцов', },
 	sex: 1,
 	life: { bd: 13, bm: 8, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0270206', 
@@ -14759,7 +14521,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Марк', s: 'Фейгин', p: 'Захарович', },
 	life: { bd: 3, bm: 6, by: 1971, },
 	sex: 1,
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	politics: { },
 	internet: {
 		wiki_ru: '%D0%A4%D0%B5%D0%B9%D0%B3%D0%B8%D0%BD,_%D0%9C%D0%B0%D1%80%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
@@ -14770,7 +14532,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александр', s: 'Феклистов', },
 	sex: 1,
 	life: { bd: 7, bm: 12, by: 1955, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0270876', 
@@ -14811,7 +14573,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Александр', s: 'Фисенко', },
 	sex: 1,
 	life: { bd: 5, bm: 12, by: 1975, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1468086', 
@@ -14838,18 +14600,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 25, bm: 10, by: 1932, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A4%D0%BE%D0%BA%D1%96%D0%BD_%D0%92%D1%96%D1%82%D0%BE%D0%BB%D1%8C%D0%B4_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A4%D0%BE%D0%BA%D1%96%D0%BD_%D0%92%D1%96%D1%82%D0%BE%D0%BB%D1%8C%D0%B4_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'nikolay_fomenko_30041962', 
 	name: { n: 'Николай', s: 'Фоменко', },
 	sex: 1,
 	life: { bd: 30, bm: 4, by: 1962, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	show: { leading: 1, },
 	internet: {
@@ -14863,7 +14623,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Алексей', s: 'Фомкин', },
 	sex: 1,
 	life: { bd: 30, bm: 8, by: 1969, dd: 24, dm: 2, dy: 1996, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	child: 1, 
 	movie: { actor: {}, },
 	internet: {
@@ -14877,18 +14637,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Іван', s: 'Франко', p: 'Якович', },
 	sex: 1,
 	life: { bd: 27, bm: 8, by: 1856, dd: 28, dm: 5, dy: 1916, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE_%D0%86%D0%B2%D0%B0%D0%BD_%D0%AF%D0%BA%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE_%D0%86%D0%B2%D0%B0%D0%BD_%D0%AF%D0%BA%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'julia_franc_29051989', 
 	name: { n: 'Юлия', s: 'Франц', },
 	life: { bd: 29, bm: 5, by: 1989, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '5710031', 
@@ -14901,12 +14659,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ольга', s: 'Фреймут', p: 'Михайлівна', },
 	life: { bd: 25, bm: 2, by: 1982, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Новий Розділ (Львівська область)',
-	show: { leading: 1, },
-	internet: {
-		wiki_ua: '%D0%A4%D1%80%D0%B5%D0%B9%D0%BC%D1%83%D1%82_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%80%D0%B5%D0%B9%D0%BC%D1%83%D1%82_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'alisa_freindlih_08121934', 
@@ -14924,7 +14679,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'janna_friske_08071974', 
 	name: { n: 'Жанна', s: 'Фриске', },
 	life: { bd: 8, bm: 7, by: 1974, dd: 15, dm: 6, dy: 2015, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		imdb: '1597038', 
@@ -14937,7 +14692,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Андрей', s: 'Фролов', },
 	sex: 1,
 	life: { bd: 3, bm: 8, by: 1979, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/4555/works/', 
@@ -14950,7 +14705,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 11, bm: 1, by: 1972, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0450975', 
@@ -14963,7 +14718,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Виталий', s: 'Хаев', },
 	sex: 1,
 	life: { bd: 1, bm: 6, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1181610', 
@@ -14989,7 +14744,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Роза', s: 'Хайруллина', },
 	life: { bd: 12, bm: 9, by: 1961, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3474050', 
@@ -15016,7 +14771,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Гарик', s: 'Харламов', },
 	sex: 1,
 	life: { bd: 28, bm: 2, by: 1981, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { comedy: 1, }, },
 	internet: {
 		imdb: '2152569', 
@@ -15029,7 +14784,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анна', s: 'Хилькевич', },
 	life: { bd: 15, bm: 10, by: 1986, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1767872', 
@@ -15042,7 +14797,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Алёна', s: 'Хмельницкая', },
 	life: { bd: 12, bm: 1, by: 1971, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0451696', 
@@ -15056,18 +14811,15 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 6, bm: 1, by: 1596, dd: 6, dm: 8, dy: 1657, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { rev: 1, }, },
-	politics: { getman: 1, },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD_%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, getman: 1, },
+	internet: { wiki_ua: '%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD_%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9', },
 },
 {
 	id: 'marina_hlebnikova_06111965', 
 	name: { n: 'Марина', s: 'Хлебникова', },
 	life: { bd: 6, bm: 11, by: 1965, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%A5%D0%BB%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0,_%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -15078,7 +14830,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Светлана', s: 'Ходченкова', },
 	life: { bd: 21, bm: 1, by: 1983, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1300303', 
@@ -15091,7 +14843,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юрий', s: 'Хой', },
 	sex: 1,
 	life: { bd: 27, bm: 7, by: 1964, dd: 4, dm: 7, dy: 2000, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Сектор Газа', },
 	internet: {
 		wiki_ru: '%D0%9A%D0%BB%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%85,_%D0%AE%D1%80%D0%B8%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -15102,7 +14854,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ирина', s: 'Хакамада', },
 	sex: 1,
 	life: { bd: 15, bm: 4, by: 1955, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	internet: {
 		wiki_ru: '%D0%A5%D0%B0%D0%BA%D0%B0%D0%BC%D0%B0%D0%B4%D0%B0,_%D0%98%D1%80%D0%B8%D0%BD%D0%B0_%D0%9C%D1%83%D1%86%D1%83%D0%BE%D0%B2%D0%BD%D0%B0', 
 	},
@@ -15113,7 +14865,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Олег', s: 'Хромов', },
 	sex: 1,
 	life: { bd: 13, bm: 1, by: 1966, dd: 3, dm: 8, dy: 2006, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%A5%D1%80%D0%BE%D0%BC%D0%BE%D0%B2,_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%AE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -15136,7 +14888,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Вадим', s: 'Цаллати', },
 	sex: 1,
 	life: { bd: 17, bm: 6, by: 1976, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3886359', 
@@ -15149,7 +14901,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Ян', s: 'Цапник', },
 	sex: 1,
 	life: { bd: 15, bm: 8, by: 1968, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1067373', 
@@ -15163,12 +14915,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 6, by: 1970, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Днепропетровск',
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A6%D0%B0%D1%80%D1%8C%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'dnipro',
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%A6%D0%B0%D1%80%D1%8C%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexandr_cekalo_22031961', 
@@ -15176,7 +14926,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 3, by: 1961, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, producer: 1, },
 	show: { },
 	internet: {
@@ -15203,7 +14953,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Евгений', s: 'Цыганов', },
 	sex: 1,
 	life: { bd: 15, bm: 3, by: 1979, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1142921', 
@@ -15217,7 +14967,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 2, bm: 9, by: 1981, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '1128120', 
@@ -15242,12 +14992,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 21, bm: 7, by: 1959, dd: 8, dm: 2, dy: 2017, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sun: 1, }, },
-	sport: { },
-	internet: {
-		wiki_ua: '%D0%A7%D0%B0%D0%BD%D0%BE%D0%B2_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
-	note: 'Футболіст', 
+	country: { ukr: 1, sun: 1, },
+	hash: { sport: 1, football: 1, },
+	internet: { wiki_ua: '%D0%A7%D0%B0%D0%BD%D0%BE%D0%B2_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'nadezhda_chepraga_01091956', 
@@ -15263,7 +15010,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'larisa_chernikova_17081974', 
 	name: { n: 'Лариса', s: 'Черникова', },
 	life: { bd: 17, bm: 8, by: 1974, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%A7%D0%B5%D1%80%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0,_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BD%D0%B0', 
@@ -15275,28 +15022,24 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	life: { bd: 24, bm: 12, by: 1937, dd: 25, dm: 3, dy: 1999, },
 	img: [ 1, 1 ],
 	sex: 1,
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B2%D1%96%D0%BB_%D0%92%27%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B2%D1%96%D0%BB_%D0%92%27%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'tetyana_mykola_chornovol_04061979',
 	name: { n: 'Тетяна', s: 'Чорновол', p: 'Миколаївна', },
 	life: { bd: 4, bm: 6, by: 1979, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B2%D0%BE%D0%BB_%D0%A2%D0%B5%D1%82%D1%8F%D0%BD%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B2%D0%BE%D0%BB_%D0%A2%D0%B5%D1%82%D1%8F%D0%BD%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'anfisa_chehova_21121977', 
 	name: { n: 'Анфиса', s: 'Чехова', },
 	life: { bd: 21, bm: 12, by: 1977, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		imdb: '3002412', 
@@ -15309,7 +15052,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Чиж', },
 	sex: 1,
 	life: { bd: 6, bm: 2, by: 1961, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Чиж & Co', },
 	internet: {
 		wiki_ru: '%D0%A7%D0%B8%D0%B3%D1%80%D0%B0%D0%BA%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
@@ -15322,7 +15065,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 8, bm: 3, by: 1947, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0157831', 
@@ -15334,7 +15077,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'anna_chipovskaya_16061987', 
 	name: { n: 'Анна', s: 'Чиповская', },
 	life: { bd: 16, bm: 6, by: 1987, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2246436', 
@@ -15361,7 +15104,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 11, bm: 3, by: 1980, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2067903', 
@@ -15426,12 +15169,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Анатолій', s: 'Шарій', p: 'Анатолійович', },
 	sex: 1,
 	life: { bd: 20, bm: 8, by: 1978, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Киев',
-	show: { blogger: 1, },
-	internet: {
-		wiki_ua: '%D0%A8%D0%B0%D1%80%D1%96%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'kyiv',
+	hash: { show: 1, blogger: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%A8%D0%B0%D1%80%D1%96%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'jury_shatunov_06091973', 
@@ -15450,7 +15191,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 24, bm: 11, by: 1981, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '4023825', 
@@ -15477,7 +15218,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 17, bm: 6, by: 1964, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '0792921', 
@@ -15491,18 +15232,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 9, bm: 3, by: 1814, dd: 10, dm: 3, dy: 1861, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { rev: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ua: '%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A2%D0%B0%D1%80%D0%B0%D1%81_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A2%D0%B0%D1%80%D0%B0%D1%81_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'jury_shevchuk_16051957', 
 	name: { n: 'Юрий', s: 'Шевчук', },
 	sex: 1,
 	life: { bd: 16, bm: 5, by: 1957, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'ДДТ', },
 	internet: {
 		imdb: '0786228', 
@@ -15527,7 +15266,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'julia_shilova_11051969', 
 	name: { n: 'Юлия', s: 'Шилова', },
 	life: { bd: 11, bm: 5, by: 1969, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	writer: {},
 	internet: {
 		wiki_ru: '%D0%A8%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0,_%D0%AE%D0%BB%D0%B8%D1%8F_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0', 
@@ -15561,7 +15300,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	id: 'valeria_shkirando_21111988', 
 	name: { n: 'Валерия', s: 'Шкирандо', },
 	life: { bd: 21, bm: 11, by: 1988, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '6821548', 
@@ -15587,18 +15326,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Денис', s: 'Шмигаль', p: 'Анатолійович', },
 	sex: 1,
 	life: { bd: 15, bm: 10, by: 1975, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A8%D0%BC%D0%B8%D0%B3%D0%B0%D0%BB%D1%8C_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A8%D0%BC%D0%B8%D0%B3%D0%B0%D0%BB%D1%8C_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'sergey_shnurov_13041973', 
 	name: { n: 'Сергей', s: 'Шнуров', },
 	sex: 1,
 	life: { bd: 13, bm: 4, by: 1973, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, group: 'Ленинград', },
 	internet: {
 		imdb: '1460167', 
@@ -15611,7 +15348,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Екатерина', s: 'Шпица', },
 	life: { bd: 29, bm: 10, by: 1985, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '3454631', 
@@ -15624,18 +15361,16 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Володимир', s: 'Шумілкін', p: 'Андрійович', },
 	life: { bd: 12, bm: 5, by: 1959, },
 	sex: 1,
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A8%D1%83%D0%BC%D1%96%D0%BB%D0%BA%D1%96%D0%BD_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A8%D1%83%D0%BC%D1%96%D0%BB%D0%BA%D1%96%D0%BD_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'shura_20051975', 
 	name: { n: 'Шура', },
 	sex: 1,
 	life: { bd: 20, bm: 5, by: 1975, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	music: { singer: 1, },
 	internet: {
 		wiki_ru: '%D0%A8%D1%83%D1%80%D0%B0_(%D0%BF%D0%B5%D0%B2%D0%B5%D1%86)', 
@@ -15647,11 +15382,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Савік', s: 'Шустер', p: 'Михайлович', },
 	sex: 1,
 	life: { bd: 22, bm: 11, by: 1952, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { leading: 1, },
-	internet: {
-		wiki_ua: '%D0%A8%D1%83%D1%81%D1%82%D0%B5%D1%80_%D0%A1%D0%B0%D0%B2%D1%96%D0%BA_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	img: [ 1, 1 ],
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%A8%D1%83%D1%81%D1%82%D0%B5%D1%80_%D0%A1%D0%B0%D0%B2%D1%96%D0%BA_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'nestor_ivan_shufrich_29121966', 
@@ -15659,12 +15393,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 29, bm: 12, by: 1966, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	birthplace: 'Ужгород',
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%A8%D1%83%D1%84%D1%80%D0%B8%D1%87_%D0%9D%D0%B5%D1%81%D1%82%D0%BE%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	birthplace: 'uzhhorod',
+	hash: { politics: 1, leading: 1, traitor: 1},
+	internet: { wiki_ua: '%D0%A8%D1%83%D1%84%D1%80%D0%B8%D1%87_%D0%9D%D0%B5%D1%81%D1%82%D0%BE%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'mihail_shufutinsky_13041948', 
@@ -15695,18 +15427,17 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Микола', s: 'Щорс', p: 'Олександрович', },
 	sex: 1,
 	life: { bd: 6, bm: 6, by: 1895, dd: 30, dm: 7, dy: 1919, },
-	country: { ukr: 1, our: { rev: 1, }, },
-	war: { },
-	internet: {
-		wiki_ua: '%D0%A9%D0%BE%D1%80%D1%81_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	img: [ 1, 1 ],
+	country: { ukr: 1, sun: 1, },
+	hash: { war: 1, },
+	internet: { wiki_ua: '%D0%A9%D0%BE%D1%80%D1%81_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'konstantin_ernst_06021961', 
 	name: { n: 'Константин', s: 'Эрнст', },
 	sex: 1,
 	life: { bd: 6, bm: 2, by: 1961, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { },
 	internet: {
 		imdb: '0259712', 
@@ -15733,7 +15464,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Роман', s: 'Юнусов', },
 	sex: 1,
 	life: { bd: 9, bm: 9, by: 1980, },
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { humor: { comedy: 1, }, },
 	internet: {
 		imdb: '5479944', 
@@ -15746,7 +15477,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Юлия', s: 'Юрченко', },
 	life: { bd: 21, bm: 9, by: 1988, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '6552872', 
@@ -15759,11 +15490,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 23, bm: 2, by: 1954, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { president: { country: { ukr: { date: '23.01.2005 - 25.02.2010', n: 3, }, }, }, },
-	internet: {
-		wiki_ua: '%D0%AE%D1%89%D0%B5%D0%BD%D0%BA%D0%BE_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'ukr', date: '23.01.2005 - 25.02.2010', n: 3, }, ], },
+	internet: { wiki_ua: '%D0%AE%D1%89%D0%B5%D0%BD%D0%BA%D0%BE_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'vladimir_yaglych_14011983', 
@@ -15771,7 +15500,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 14, bm: 1, by: 1983, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	movie: { actor: {}, },
 	internet: {
 		imdb: '2402424', 
@@ -15837,7 +15566,7 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 31, bm: 7, by: 1945, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sng: 1, }, },
+	country: { rus: 1, },
 	show: { leading: 1, },
 	internet: {
 		imdb: '0945112', 
@@ -15850,12 +15579,10 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	name: { n: 'Владислав', s: 'Яма', p: 'Миколайович', },
 	sex: 1,
 	life: { bd: 10, bm: 7, by: 1982, },
-	country: { ukr: 1, our: { sng: 1, }, },
-	show: { showman: 1, dance: 1, },
-	internet: {
-		imdb: '9546212', 
-		wiki_ua: '%D0%AF%D0%BC%D0%B0_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	img: [ 1, 1 ],
+	country: { ukr: 1, },
+	hash: { show: 1, showman: 1, },
+	internet: { imdb: '9546212', wiki_ua: '%D0%AF%D0%BC%D0%B0_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'viktor_fedir_yanukovych_09071950', 
@@ -15863,11 +15590,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 9, bm: 7, by: 1950, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { president: { country: { ukr: { date: '25.02.2010 - 22.02.2014', n: 4, }, }, }, },
-	internet: {
-		wiki_ua: '%D0%AF%D0%BD%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D1%87_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'ukr', date: '25.02.2010 - 22.02.2014', n: 4, }, ], },
+	internet: { wiki_ua: '%D0%AF%D0%BD%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D1%87_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'leonid_yarmolnik_22011954', 
@@ -15904,11 +15629,9 @@ https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%
 	sex: 1,
 	life: { bd: 22, bm: 5, by: 1974, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, our: { sng: 1, }, },
-	politics: { },
-	internet: {
-		wiki_ua: '%D0%AF%D1%86%D0%B5%D0%BD%D1%8E%D0%BA_%D0%90%D1%80%D1%81%D0%B5%D0%BD%D1%96%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%AF%D1%86%D0%B5%D0%BD%D1%8E%D0%BA_%D0%90%D1%80%D1%81%D0%B5%D0%BD%D1%96%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 
 

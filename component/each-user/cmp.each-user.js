@@ -102,7 +102,16 @@ class ComponentEachUser {
 
 				let html = '';
 				user.hash.president.forEach( k => {
-					html += `<div class="">${ k.n }-й Президент, ${ objCountry[ k.country ].title.ua }, ${ k.date }</div>`;
+					html += `<div class="each">
+						<div>${ k.n }-й Президент</div>
+						<div class="country">${ objCountry[ k.country ].title.ua }</div>
+						<div class="date">${ k.date }</div>
+					</div>`;
+
+						
+					//${ k.n }-й Президент, ${ objCountry[ k.country ].title.ua } (${ k.date })
+
+
 				});
 
 				if ( html ) {
@@ -131,8 +140,21 @@ class ComponentEachUser {
 		}
 
 
+		let htmlBirthplace = '';
+		if ( user.birthplace ) {
 
+			let city = '';
+			let country = '';
 
+			if ( objCity[ user.birthplace ] ) {
+				city = objCity[ user.birthplace ].title.ua;
+
+				if ( objCity[ user.birthplace ].country ) 
+					country = objCountry[ objCity[ user.birthplace ].country ].title.ua;
+			}
+
+			htmlBirthplace = `<div>Місце народження: ${ city }, ${ country }</div>`;
+		}
 
 
 
@@ -141,8 +163,8 @@ class ComponentEachUser {
 
 		let htmlImgOther = '';
 		if ( user.img ) {
-			if ( user.img[ 1 ] > 1 ) {
-				for ( let i = 0; i < user.img[ 1 ]; i++ ) {
+			if ( user.img[ 0 ] > 1 ) {
+				for ( let i = 0; i < user.img[ 0 ]; i++ ) {
 					let n = i + 1;
 					htmlImgOther += `<div class="each" onmouseover="${ this.className }.clcImgOther( '${ user.id }', ${ n } )"><img src="img/people/${ user.id }/${ n }.jpg"></div>`;
 				}
@@ -165,7 +187,7 @@ class ComponentEachUser {
 		let htmlAva = '';
 		if ( user.img ) {
 
-			htmlAva = `<img src="img/people/${ user.id }/${ user.img[ 0 ]}.jpg" alt="${ user.name.n } ${ user.name.s }">`;
+			htmlAva = `<img src="img/people/${ user.id }/${ user.img[ 1 ]}.jpg" alt="${ user.name.n } ${ user.name.s }">`;
 		} else {
 
 			htmlAva = `<img src="img/pic/no_img_${ user.sex ? 'm' : 'w' }.jpg" alt="Немає фото">`;
@@ -192,6 +214,10 @@ class ComponentEachUser {
 
 					<div class="internet">${ wikiUa } ${ wikiRu } ${ wikiEn } ${ imdb } ${ kinoteatr }</div>
 					<div class="country">${ country }</div>
+
+					${ htmlBirthplace }
+
+
 					<div class="hash">${ hash }</div>
 
 					${ htmlPresident }

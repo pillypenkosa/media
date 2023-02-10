@@ -175,13 +175,29 @@ cmp-each-user a {
 
 
 
+cmp-each-user .president {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 20px;
+	border: 1px solid #777;
+	border-radius: 10px;
+	font-weight: bold;
+	background: linear-gradient( to bottom, #115, #226 );
+	color: #fff;
+}
+	cmp-each-user .president .each {
+		display: block;
+		margin: 5px 0;
+	}
 
 
-
-
-
-
-
+	cmp-each-user .president .date {
+		margin: 5px 0 0 0;
+		text-align: left;
+		font-style: oblique;
+		font-size: 85%;
+		color: #ccc;
+	}
 
 
 
