@@ -163,12 +163,8 @@ let arrPeople = [
 
 /*
 
-ДР wiki
-20.03
-https://uk.wikipedia.org/wiki/20_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
 
-
-31.03 - в закладках браузера
+31.03 
 https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 
 
@@ -1124,6 +1120,14 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: { imdb: '0001876', wiki_ua: '%D0%9A%D0%B5%D1%82%D1%80%D1%96%D0%BD_%D0%97%D0%B5%D1%82%D0%B0-%D0%94%D0%B6%D0%BE%D0%BD%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/50190/works/', },
 },
 {
+	id: 'celine_dion_30031968', 
+	name: { n: 'Celine', s: 'Dion', },
+	life: { bd: 30, bm: 3, by: 1968, },
+	country: { can: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0001144', wiki_ua: '%D0%A1%D0%B5%D0%BB%D1%96%D0%BD_%D0%94%D1%96%D0%BE%D0%BD', },
+},
+{
 	id: 'charles_darwin_12021809', 
 	name: { n: 'Charles', s: 'Darwin', },
 	sex: 1,
@@ -1141,7 +1145,7 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	life: { bd: 16, bm: 4, by: 1889, dd: 25, dm: 12, dy: 1977, },
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
-	hash: { movie: 1, actor: 1, director: 1, },
+	hash: { movie: 1, actor: 1, director: 1, humor: 1, },
 	internet: { imdb: '0000122', wiki_ua: '%D0%A7%D0%B0%D1%80%D0%BB%D1%96_%D0%A7%D0%B0%D0%BF%D0%BB%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/59133/works/', },
 },
 {
@@ -1279,7 +1283,6 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	life: { bd: 18, bm: 12, by: 1980, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	music: { singer: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { imdb: '0004694', wiki_ua: 'Christina_Aguilera', },
 },
@@ -1795,7 +1798,6 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	life: { bd: 26, bm: 8, by: 1957, },
 	img: [ 1, 1 ],
 	country: { swe: 1, },
-	music: { singer: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { imdb: '0236561', wiki_ua: '%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%D0%90%D0%BB%D0%B1%D0%B0%D0%BD', },
 },
@@ -2075,6 +2077,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	country: { ita: 1, },
 	hash: { develope: 1, car: 1, konstruktor: 1, },
 	internet: { wiki_ua: '%D0%95%D0%BD%D1%86%D0%BE_%D0%A4%D0%B5%D1%80%D1%80%D0%B0%D1%80%D1%96', },
+},
+{
+	id: 'earle_mac_pherson_06071891', 
+	name: { n: 'Earle', s: 'MacPherson', },
+	sex: 1,
+	life: { bd: 6, bm: 7, by: 1891, dd: 26, dm: 1, dy: 1960, },
+	country: { usa: 1, },
+	hash: { develope: 1, car: 1, },
+	internet: { wiki_ru: '%D0%9C%D0%B0%D0%BA%D1%84%D0%B5%D1%80%D1%81%D0%BE%D0%BD,_%D0%AD%D1%80%D0%BB', },
 },
 {
 	id: 'ernest_hemingway_21071899', 
@@ -4032,6 +4043,14 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: { imdb: '3053338', wiki_ua: '%D0%9C%D0%B0%D1%80%D0%B3%D0%BE_%D0%A0%D0%BE%D0%B1%D0%B1%D1%96', },
 },
 {
+	id: 'mariah_carey_27031969', 
+	name: { n: 'Mariah', s: 'Carey', },
+	life: { bd: 27, bm: 3, by: 1969, },
+	country: { usa: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B5%D1%80%D0%B0%D1%8F_%D0%9A%D0%B5%D1%80%D1%96', },
+},
+{
 	id: 'marie_tussaud_12121761', 
 	name: { n: 'Marie ', s: 'Tussaud', },
 	life: { bd: 12, bm: 12, by: 1761, dd: 18, dm: 4, dy: 1850, },
@@ -5171,6 +5190,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	note: 'Recep Tayyip Erdogan',
 },
 {
+	id: 'rene_descartes_31031596',
+	name: { n: 'Rene', s: 'Descartes', },
+	sex: 1,
+	life: { bd: 31, bm: 3, by: 1596, dd: 11, dm: 2, dy: 1650, },
+	country: { fra: 1, },
+	hash: { science: 1, math: 1, },
+	internet: { wiki_ua: '%D0%A0%D0%B5%D0%BD%D0%B5_%D0%94%D0%B5%D0%BA%D0%B0%D1%80%D1%82', },
+},
+{
 	id: 'rudolf_dassler_23031898', 
 	name: { n: 'Rudolf', s: 'Dassler', },
 	sex: 1,
@@ -5422,6 +5450,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	country: { usa: 1, },
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '20.01.1981 - 20.01.1989', n: 40, }, ], },
 	internet: { wiki_ua: '%D0%A0%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%A0%D0%B5%D0%B9%D0%B3%D0%B0%D0%BD', },
+},
+{
+	id: 'ronaldinho_21031980', 
+	name: { n: 'Ronaldinho', },
+	sex: 1,
+	life: { bd: 21, bm: 3, by: 1980, },
+	country: { bra: 1, },
+	hash: { sport: 1, football: 1, },
+	internet: { wiki_ua: '%D0%A0%D0%BE%D0%BD%D0%B0%D0%BB%D0%B4%D1%96%D0%BD%D1%8C%D1%8E', },
 },
 {
 	id: 'rose_leslie_09021987', 
@@ -5896,6 +5933,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: { imdb: '0000347', wiki_ua: '%D0%A2%D1%96%D0%BC_%D0%9A%D0%B0%D1%80%D1%80%D1%96', },
 },
 {
+	id: 'timothy_dalton_21031946', 
+	name: { n: 'Timothy', s: 'Dalton', },
+	sex: 1,
+	life: { bd: 21, bm: 3, by: 1946, },
+	country: { gbr: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001096', wiki_ua: '%D0%A2%D1%96%D0%BC%D0%BE%D1%82%D1%96_%D0%94%D0%B0%D0%BB%D1%82%D0%BE%D0%BD', },
+},
+{
 	id: 'timothy_olyphant_20051968', 
 	name: { n: 'Timothy', s: 'Olyphant', },
 	sex: 1,
@@ -6088,6 +6134,16 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	hash: { psychic: 1, predictor: 1, },
 	internet: { wiki_ua: '%D0%92%D0%B0%D0%BD%D0%B3%D0%B0', },
 	note: 'Вангелія Пандева Димитрова',
+},
+{
+	id: 'vangelis_29031943', 
+	name: { n: 'Vangelis', },
+	sex: 1,
+	life: { bd: 29, bm: 3, by: 1943, dd: 17, dm: 5, dy: 2022, },
+	country: { grc: 1, },
+	hash: { music: 1, composer: 1, },
+	internet: { wiki_ua: '%D0%92%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%96%D1%81', },
+	note: 'Evangelos Odysseas Papathanassiou',
 },
 {
 	id: 'veronica_castro_19101952', 
@@ -6947,6 +7003,16 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	},
 },
 {
+	id: 'mykola_pavlo_barabashov_30031894', 
+	name: { n: 'Микола', s: 'Барабашов', p: 'Павлович', },
+	sex: 1,
+	life: { bd: 30, bm: 3, by: 1894, dd: 29, dm: 4, dy: 1971, },
+	country: { ukr: 1, sun: 1, },
+	birthplace: 'dnipro',
+	hash: { science: 1, astronomy: 1, },
+	internet: { wiki_ua: '%D0%91%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D1%88%D0%BE%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'alexey_bardukov_18111984', 
 	name: { n: 'Алексей', s: 'Бардуков', },
 	sex: 1,
@@ -7119,7 +7185,7 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	life: { bd: 16, bm: 11, by: 1977, },
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
-	birthplace: 'Дніпро',
+	birthplace: 'dnipro',
 	hash: { sport: 1, figure_skating: 1, },
 	internet: { wiki_ua: '%D0%91%D0%B0%D1%8E%D0%BB_%D0%9E%D0%BA%D1%81%D0%B0%D0%BD%D0%B0_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
@@ -7674,6 +7740,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: {
 		wiki_ru: '%D0%91%D1%83%D0%BD%D0%B8%D0%BD,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'borys_oskar_burda_25031950', 
+	name: { n: 'Борис', s: 'Бурда', p: 'Оскарович', },
+	sex: 1,
+	life: { bd: 25, bm: 3, by: 1950, },
+	country: { ukr: 1, sun: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%91%D1%83%D1%80%D0%B4%D0%B0_%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9E%D1%81%D0%BA%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'georgy_burkov_31051933', 
@@ -9236,6 +9311,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	},
 },
 {
+	id: 'olexandr_petro_dovzhenko_10091894', 
+	name: { n: 'Олександр', s: 'Довженко', p: 'Петрович', },
+	life: { bd: 10, bm: 9, by: 1894, dd: 25, dm: 11, dy: 1956, },
+	sex: 1,
+	country: { ukr: 1, sun: 1, },
+	hash: { movie: 1, director: 1, },
+	internet: { wiki_ua: '%D0%94%D0%BE%D0%B2%D0%B6%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'tatyana_dogileva_27021957', 
 	name: { n: 'Татьяна', s: 'Догилева', },
 	life: { bd: 27, bm: 2, by: 1957, },
@@ -10678,6 +10762,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	},
 },
 {
+	id: 'ivan_petro_kotlyarevsky_09091769', 
+	name: { n: 'Іван', s: 'Котляревський', p: 'Петрович', },
+	life: { bd: 9, bm: 9, by: 1769, dd: 10, dm: 11, dy: 1838, },
+	sex: 1,
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BE%D1%82%D0%BB%D1%8F%D1%80%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%86%D0%B2%D0%B0%D0%BD_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'anna_kotova_07061986', 
 	name: { n: 'Анна', s: 'Котова', },
 	life: { bd: 7, bm: 6, by: 1986, },
@@ -11192,6 +11285,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	},
 },
 {
+	id: 'mykola_vitaly_lysenko_22031842', 
+	name: { n: 'Микола', s: 'Лисенко', p: 'Віталійович', },
+	life: { bd: 22, bm: 3, by: 1842, dd: 6, dm: 11, dy: 1912, },
+	sex: 1,
+	country: { ukr: 1, },
+	hash: { music: 1, composer: 1, conductor: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B8%D1%81%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'vladimir_litvinov_15031951', 
 	name: { n: 'Владимир', s: 'Литвинов', },
 	sex: 1,
@@ -11524,6 +11626,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9C%D0%B0%D0%BB%D0%BE%D0%B9', 
 	},
 	note: 'Андре́й Евгеньевич Цыганов',
+},
+{
+	id: 'denys_leonty_malyuska_19111981', 
+	name: { n: 'Денис', s: 'Малюська', p: 'Леонтійович', },
+	sex: 1,
+	life: { bd: 19, bm: 11, by: 1981,  },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D0%BB%D1%8E%D1%81%D1%8C%D0%BA%D0%B0_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%9B%D0%B5%D0%BE%D0%BD%D1%82%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'ganna_vasyly_malyar_28071978', 
@@ -11900,6 +12011,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 		wiki_ru: '%D0%9C%D0%B8%D1%80%D0%BE%D0%BD%D0%BE%D0%B2,_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/2868/works/', 
 	},
+},
+{
+	id: 'olexy_olexandr_myhaylychenko_30031963', 
+	name: { n: 'Олексій', s: 'Михайличенко', p: 'Олександрович', },
+	sex: 1,
+	life: { bd: 30, bm: 3, by: 1963, },
+	country: { ukr: 1, sun: 1, },
+	hash: { sport: 1, football: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%B8%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'darya_mihaylova_22021965', 
@@ -12975,6 +13095,14 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 		wiki_ru: '%D0%9F%D0%BE%D0%BB%D0%B8%D1%89%D1%83%D0%BA,_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/ros/3417/works/', 
 	},
+},
+{
+	id: 'kateryna_olexandr_polischuk_31032001', 
+	name: { n: 'Катерина', s: 'Поліщук', p: 'Олександрівна', },
+	life: { bd: 31, bm: 3, by: 2001, },
+	country: { ukr: 1, },
+	hash: { writer: 1, war: 1, medicine: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%89%D1%83%D0%BA_%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'kirill_poluhin_03051969', 
@@ -14305,6 +14433,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	},
 },
 {
+	id: 'myhaylo_panas_stelmah_24051912', 
+	name: { n: 'Михайло', s: 'Стельмах', p: 'Панасович', },
+	sex: 1,
+	life: { bd: 24, bm: 5, by: 1912, dd: 27, dm: 9, dy: 1983, },
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%82%D0%B5%D0%BB%D1%8C%D0%BC%D0%B0%D1%85_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE_%D0%9F%D0%B0%D0%BD%D0%B0%D1%81%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'jury_stepanov_07061967', 
 	name: { n: 'Юрий', s: 'Степанов', },
 	sex: 1,
@@ -14828,6 +14965,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 		wiki_ru: '%D0%A2%D1%83%D0%BF%D0%BE%D0%BB%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
 	},
 	note: 'Авиаконструктор', 
+},
+{
+	id: 'olexandr_valentyn_turchynov_31031964', 
+	name: { n: 'Олександр', s: 'Турчинов', p: 'Валентинович', },
+	sex: 1,
+	life: { bd: 31, bm: 3, by: 1964,  },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A2%D1%83%D1%80%D1%87%D0%B8%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'vladimir_turchinsky_28091963', 
@@ -15909,6 +16055,14 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	},
 },
 {
+	id: 'klavdia_ivan_shulzhenko_24031906', 
+	name: { n: 'Клавдія', s: 'Шульженко', p: 'Іванівна', },
+	life: { bd: 24, bm: 3, by: 1906, dd: 17, dm: 6, dy: 1984, },
+	country: { ukr: 1, sun: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%A8%D1%83%D0%BB%D1%8C%D0%B6%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9A%D0%BB%D0%B0%D0%B2%D0%B4%D1%96%D1%8F_%D0%86%D0%B2%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
+},
+{
 	id: 'volodymyr_andry_shumilkin_12051959', 
 	name: { n: 'Володимир', s: 'Шумілкін', p: 'Андрійович', },
 	life: { bd: 12, bm: 5, by: 1959, },
@@ -15960,6 +16114,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: {
 		wiki_ru: '%D0%A8%D1%83%D1%84%D1%83%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'roman_osypovych_shuhevych_30061907', 
+	name: { n: 'Роман', s: 'Шухевич', p: 'Осипович', },
+	sex: 1,
+	life: { bd: 30, bm: 6, by: 1907, dd: 5, dm: 3, dy: 1950, },
+	country: { ukr: 1, },
+	hash: { politics: 1, war: 1, },
+	internet: { wiki_ua: '%D0%A8%D1%83%D1%85%D0%B5%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%9E%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'boris_scherbakov_11121949', 
