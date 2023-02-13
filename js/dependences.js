@@ -16,14 +16,14 @@ const dependences = {
 
 	listGIT: [ 		// https://pillypenkosa.github.io/database/list/list. ${ k } .js
 
-		'people',
+		//'people',
 		'city',
 		'country',
 	],
 
 	listApp: [ 		// list/list. ${ k } .js
 
-		//'people',
+		'people',
 	],
 
 };
