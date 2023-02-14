@@ -90,63 +90,62 @@ class ComponentMenu {
 
 
 		const countryWithPeople = [
-			'ukr',
+			'ukr', 	// Україна
+			'usa', 	// США
+			'aus', 	// Австралія
+			'gbr', 	// Велика Британія
+			'can', 	// Канада
+			'deu', 	// Німеччина
+			'esp', 	// Іспанія
+			'ita', 	// Італія
+			'fra', 	// Франція
 
-			'usa',
-			'gbr',
-			'fra',
-			'deu',
-			'can',
-			'aus',
-			'blr',
-			'geo',
-			'mda',
-			'rus',
-
-			'aut',
-			'arg',
-			'brb',
-			'bel',
-			'bgr',
-			'bra',
-			'vnm',
-			'hkg',
-			'grc',
-			'dnk',
-			'dma',
-			'isr',
-			'ind',
-			'irq',
-			'irn',
-			'irl',
-			'esp',
-			'ita',
-			'chn',
-			'col',
-			'cub',
-			'lby',
-			'mex',
-			'nld',
-			'nzl',
-			'nor',
-			'per',
-			'zaf',
-			'prk',
-			'pol',
-			'prt',
-			'pri',
-			'rou',
-			'sau',
-			'srb',
-			'sun',
-			'twn',
-			'tto',
-			'tur',
-			'cze',
-			'che',
-			'swe',
-			'yug',
-			'jpn',
+			'aut', 	// 
+			'arg', 	// 
+			'brb', 	// 
+			'bel', 	// 
+			'blr', 	// 
+			'bgr', 	// 
+			'bra', 	// 
+			'vnm', 	// 
+			'hkg', 	// 
+			'grc', 	// 
+			'geo', 	// 
+			'dnk', 	// 
+			'dma', 	// 
+			'isr', 	// 
+			'ind', 	// 
+			'irq', 	// 
+			'irn', 	// 
+			'irl', 	// 
+			'chn', 	// 
+			'col', 	// 
+			'cub', 	// 
+			'lby', 	// 
+			'mex', 	// 
+			'mda', 	// 
+			'nld', 	// 
+			'nzl', 	// 
+			'nor', 	// 
+			'per', 	// 
+			'zaf', 	// 
+			'prk', 	// 
+			'pol', 	// 
+			'prt', 	// 
+			'pri', 	// 
+			'rou', 	// 
+			'rus', 	// 
+			'sau', 	// 
+			'srb', 	// 
+			'sun', 	// СРСР
+			'twn', 	// 
+			'tto', 	// 
+			'tur', 	// 
+			'cze', 	// 
+			'che', 	// 
+			'swe', 	// 
+			'yug', 	// 
+			'jpn', 	// 
 
 
 
@@ -246,8 +245,8 @@ class ComponentMenu {
 
 
 		let htmlSelect = `
-			<select class="country" onchange="${ this.className }.clcCountry( this )">
-				<option value="">Обрати країну</option>
+			<select class="country" onchange="${ this.className }.changeCountry( this )">
+				<option id="component_menu_country_delete_1" value="">Обрати країну</option>
 				<option value="all">Всі країни</option>
 				${ htmlOption }
 			</select>`;
@@ -330,7 +329,7 @@ class ComponentMenu {
 
 
 
-	static clcCountry( elem ) {
+	static changeCountry( elem ) {
 		const name 		= 'clcCountry';
 		const method 	= `${ this.name }.${ name }()`;
 		const ok 		= `\x1b[32m ok ${ method } `;
@@ -340,6 +339,11 @@ class ComponentMenu {
 
 		Router.urlGET.country = elem.value;
 
+
+/*
+		if ( !Router.urlGET.country ) 
+			document.getElementById( 'component_menu_country_delete_1' ).remove();
+*/
 
 
 		//console.log( elem.dataset.id );
@@ -468,14 +472,23 @@ class ComponentMenu {
 		// вибір країни в <select> за GET-параметром &country=
 		if ( Router.urlGET.country ) {
 
+			// приховування пункту меню <option>Обрати країну</option>
+			let delOption = document.getElementById( 'component_menu_country_delete_1' );
+
+			if ( delOption ) 
+				delOption.remove();
+
+
+
 			let elemOption = document.querySelectorAll( `cmp-menu select.country option[ value="${ Router.urlGET.country }"]` )[ 0 ];
 			//console.log( ok, elemOption );
 
 
 			elemOption.selected = true;
+
+
+
 		}
-
-
 	}
 
 

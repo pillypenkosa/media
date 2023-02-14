@@ -105,21 +105,10 @@ const arrPeopleHash = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*
 { id: 'standup' 			, title: 'StandUp' 						, },
 { id: 'writer_music' 		, title: 'АвториПісень' 				, },
 { id: 'arranger' 			, title: 'Аранжувальники' 				, },
-{ id: 'astrology' 			, title: 'Астрологія' 					, },
 { id: 'weightlifting' 		, title: 'Важкоатлети' 					, },
 { id: 'cycle' 				, title: 'Вело' 						, },
 { id: 'geography' 			, title: 'Географія' 					, },
@@ -140,11 +129,7 @@ const arrPeopleHash = [
 { id: 'tennis' 				, title: 'Теніс' 						, },
 { id: 'chemistry' 			, title: 'Хімія' 						, },
 { id: 'circus' 				, title: 'Цирк' 						, },
-
-
-
-
-
+*/
 
 
 //{ id: '' 		, title: '' 	, },
@@ -168,6 +153,17 @@ let arrPeople = [
 
 31.03 
 https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
+
+
+30.04 - в закладках
+https://uk.wikipedia.org/wiki/30_%D0%BA%D0%B2%D1%96%D1%82%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
+
+
+
+
+
+
+
 
 
 
@@ -8679,12 +8675,9 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'Николай', s: 'Гоголь', p: 'Васильевич', },
 	sex: 1,
 	life: { bd: 1, bm: 4, by: 1809, dd: 4, dm: 3, dy: 1852, },
-	country: { rus: 1, our: { rev: 1, }, },
-	writer: {},
-	internet: {
-		wiki_ru: '%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
-		wiki_ua: '%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { rus: 1, ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexandr_golovin_13011989', 
