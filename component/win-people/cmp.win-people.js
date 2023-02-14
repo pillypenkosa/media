@@ -37,6 +37,8 @@ class ComponentWinPeople {
 		];
 
 
+
+
 		const name 		= 'html';
 		const method 	= `${ this.name }.${ name }()`;
 		const ok 		= `\x1b[32m ok ${ method } `;
@@ -53,7 +55,7 @@ class ComponentWinPeople {
 		//console.log( ok, 'Router.urlGET.sex:', Router.urlGET.sex ); 
 
 		let htmlPeople = '';
-		if ( Router.urlGET.sex || Router.urlGET.hash ) {
+		if ( Router.urlGET.country || Router.urlGET.sex || Router.urlGET.hash ) {
 
 			let and = '';
 			if ( Router.urlGET.sex == 'men' ) 
@@ -64,6 +66,26 @@ class ComponentWinPeople {
 
 			if ( Router.urlGET.sex == 'allsex' ) 
 				and = 'true && ';
+
+
+
+			if ( Router.urlGET.country ) {
+
+				if ( Router.urlGET.country == 'all' ) {
+					and += `true && `;
+
+				} else {
+					
+					and += `k.country.${ Router.urlGET.country } && `;
+				}
+
+
+
+
+				//if ( Router.urlGET.country != 'all' ) 
+			}
+
+
 
 			for ( let k in Router.userHash ) 
 				and += `k.hash[ '${ k }'] && `;

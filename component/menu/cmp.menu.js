@@ -89,11 +89,158 @@ class ComponentMenu {
 		//let html = `<section class="sex">${ htmlBtnsSex }</section><section class="hash">${ htmlBtnsHash }</section>`;
 
 
+		const countryWithPeople = [
+			'ukr',
+
+			'usa',
+			'gbr',
+			'fra',
+			'deu',
+			'can',
+			'aus',
+			'blr',
+			'geo',
+			'mda',
+			'rus',
+
+			'aut',
+			'arg',
+			'brb',
+			'bel',
+			'bgr',
+			'bra',
+			'vnm',
+			'hkg',
+			'grc',
+			'dnk',
+			'dma',
+			'isr',
+			'ind',
+			'irq',
+			'irn',
+			'irl',
+			'esp',
+			'ita',
+			'chn',
+			'col',
+			'cub',
+			'lby',
+			'mex',
+			'nld',
+			'nzl',
+			'nor',
+			'per',
+			'zaf',
+			'prk',
+			'pol',
+			'prt',
+			'pri',
+			'rou',
+			'sau',
+			'srb',
+			'sun',
+			'twn',
+			'tto',
+			'tur',
+			'cze',
+			'che',
+			'swe',
+			'yug',
+			'jpn',
+
+
+
+
+
+
+
+
+
+
+/*
+			'aze',
+			'arm',
+			'kaz',
+			'kgz',
+			'lva',
+			'ltu',
+			'tjk',
+			'tkm',
+			'uzb',
+			'est',
+			'alb',
+			'dza',
+			'ago',
+			'and',
+			'afg',
+			'bgd',
+			'bhr',
+			'blz',
+			'ben',
+			'bur',
+			'bol',
+			'bih',
+			'bwa',
+			'brn',
+			'btn',
+			'vat',
+			'ven',
+			'gab',
+			'hti',
+			'gmb',
+			'gha',
+			'guy',
+			'gtm',
+			'gin',
+			'gnb',
+			'gib',
+			'hnd',
+			'grl',
+			'dji',
+			'egy',
+			'yem',
+			'zmb',
+			'zwe',
+			'idn',
+			'isl',
+			'jor',
+			'khm',
+			'cmr',
+			'qat',
+			'ken',
+			'cyp',
+			'kir',
+			'cod',
+			'cog',
+			'cri',
+			'civ',
+			'kwt',
+			'lao',
+			'lso',
+			'lbr',
+			'lbn',
+			'lie',
+			'lux',
+			'mrt',
+			'mdg',
+			'mkd',
+			'mys',
+			'mli',
+			'mlt',
+			'mar',
+			'moz',
+*/
+
+		];
 
 
 		let htmlOption = '';
-		arrCountry.forEach( k => {
-			htmlOption += `<option data-id="${ k.id }" value="${ k.id }">${ k.title.ua }</option>`;
+		countryWithPeople.forEach( k => {
+
+			//console.log( k.id );
+
+
+			htmlOption += `<option data-id="${ k }" value="${ k }">${ objCountry[ k ].title.ua }</option>`;
 		});
 
 
@@ -101,7 +248,7 @@ class ComponentMenu {
 		let htmlSelect = `
 			<select class="country" onchange="${ this.className }.clcCountry( this )">
 				<option value="">Обрати країну</option>
-				<option value="ukr2">Всі країни</option>
+				<option value="all">Всі країни</option>
 				${ htmlOption }
 			</select>`;
 
@@ -196,7 +343,7 @@ class ComponentMenu {
 
 
 		//console.log( elem.dataset.id );
-		console.log( ok, elem.value );
+		//console.log( ok, elem.value );
 
 
 		this.setHashParamByOBJ();
@@ -307,18 +454,21 @@ class ComponentMenu {
 
 			if ( Router.userHash[ k.dataset.id ] ) {
 
-				console.log( Router.userHash );
-				console.log( k.dataset.id );
+				//console.log( Router.userHash );
+				//console.log( k.dataset.id );
 				k.classList.add( 'active' );
 			}
 		});
 
 
 
+		//console.log( ok, Router.urlGET.country );
+
+
 		// вибір країни в <select> за GET-параметром &country=
 		if ( Router.urlGET.country ) {
 
-			let elemOption = document.querySelectorAll( `cmp-menu select.country option[ data-id="${ Router.urlGET.country }"]` )[ 0 ];
+			let elemOption = document.querySelectorAll( `cmp-menu select.country option[ value="${ Router.urlGET.country }"]` )[ 0 ];
 			//console.log( ok, elemOption );
 
 
