@@ -164,10 +164,15 @@ let arrPeople = [
 /*
 
 
+
+
 31.03 
 https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 
 
+
+1.12
+https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
 
 */
 
@@ -438,6 +443,16 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: { imdb: '0005442', wiki_ua: '%D0%95%D0%BC%D1%96_%D0%A1%D0%BC%D0%B0%D1%80%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/65792/works/', },
 },
 {
+	id: 'andrzej_duda_16051972', 
+	name: { n: 'Andrzej', s: 'Duda', },
+	sex: 1,
+	life: { bd: 16, bm: 5, by: 1972, },
+	img: [ 1, 1 ],
+	country: { pol: 1, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'pol', date: '6 серпня 2015', n: 8, }, ], },
+	internet: { wiki_ua: '%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%B9_%D0%94%D1%83%D0%B4%D0%B0', },
+},
+{
 	id: 'anna_german_14021936', 
 	name: { n: 'Anna', s: 'German', },
 	life: { bd: 14, bm: 2, by: 1936, dd: 26, dm: 8, dy: 1982, },
@@ -503,6 +518,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0947338', wiki_ua: '%D0%84%D0%BB%D1%8C%D1%87%D1%96%D0%BD_%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
+	id: 'antony_blinken_16041962', 
+	name: { n: 'Anthony', s: 'Blinken', },
+	sex: 1,
+	life: { bd: 16, bm: 4, by: 1962, },
+	country: { usa: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BD%D1%82%D0%BE%D0%BD%D1%96_%D0%91%D0%BB%D1%96%D0%BD%D0%BA%D0%B5%D0%BD', },
 },
 {
 	id: 'anthony_hopkins_31121937', 
@@ -3065,6 +3089,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: { imdb: '0000182', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D1%96%D1%84%D0%B5%D1%80_%D0%9B%D0%BE%D0%BF%D0%B5%D1%81', },
 },
 {
+	id: 'jens_stoltenberg_16031959', 
+	name: { n: 'Jens', s: 'Stoltenberg', },
+	sex: 1,
+	life: { bd: 16, bm: 3, by: 1959, },
+	country: { nor: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%84%D0%BD%D1%81_%D0%A1%D1%82%D0%BE%D0%BB%D1%82%D0%B5%D0%BD%D0%B1%D0%B5%D1%80%D0%B3', },
+},
+{
 	id: 'jerome_klapka_jerome_02051859', 
 	name: { n: 'Jerome', s: 'K.Jerome', },
 	sex: 1,
@@ -3919,6 +3952,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000978', wiki_ua: '%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4_%D0%91%D1%80%D1%96%D0%B4%D0%B6%D0%B5%D1%81', },
+},
+{
+	id: 'lloyd_austin_08081953', 
+	name: { n: 'Lloyd', s: 'Austin', },
+	sex: 1,
+	life: { bd: 8, bm: 8, by: 1953, },
+	country: { usa: 1, },
+	hash: { war: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4_%D0%9E%D1%81%D1%82%D1%96%D0%BD', },
 },
 {
 	id: 'louis_armstrong_04081901', 
@@ -5742,6 +5784,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	internet: { imdb: '0000244', wiki_ua: '%D0%A1%D1%96%D0%B3%D1%83%D1%80%D0%BD%D1%96_%D0%92%D1%96%D0%B2%D0%B5%D1%80', },
 },
 {
+	id: 'silvio_berlusconi_29091936', 
+	name: { n: 'Silvio', s: 'Berlusconi', },
+	sex: 1,
+	life: { bd: 29, bm: 9, by: 1936, },
+	country: { ita: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%96%D0%BB%D1%8C%D0%B2%D1%96%D0%BE_%D0%91%D0%B5%D1%80%D0%BB%D1%83%D1%81%D0%BA%D0%BE%D0%BD%D1%96', },
+},
+{
 	id: 'slobodan_milosevic_20081941',
 	name: { n: 'Slobodan', s: 'Milosevic', },
 	sex: 1,
@@ -6715,6 +6766,7 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	name: { n: 'Микола', s: 'Амосов', p: 'Михайлович', },
 	sex: 1,
 	life: { bd: 6, bm: 12, by: 1913, dd: 12, dm: 12, dy: 2002, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, sun: 1, },
 	hash: { writer: 1, medicine: 1, doctor: 1, },
 	internet: { wiki_ua: '%D0%90%D0%BC%D0%BE%D1%81%D0%BE%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
@@ -10273,6 +10325,15 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 		wiki_ru: '%D0%9A%D0%B0%D0%BC%D0%BE%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%98%D0%BB%D1%8C%D0%B8%D1%87', 
 	},
 	note: 'Авиаконструктор', 
+},
+{
+	id: 'oleg_jury_karatumanov_26101962', 
+	name: { n: 'Олег', s: 'Каратуманов', p: 'Юрійович', },
+	sex: 1,
+	life: { bd: 26, bm: 10, by: 1962, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D1%83%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'nikolay_karachencov_27101944', 
@@ -14993,6 +15054,7 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	name: { n: 'Олександр', s: 'Турчинов', p: 'Валентинович', },
 	sex: 1,
 	life: { bd: 31, bm: 3, by: 1964,  },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%A2%D1%83%D1%80%D1%87%D0%B8%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
@@ -16087,8 +16149,9 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 {
 	id: 'volodymyr_andry_shumilkin_12051959', 
 	name: { n: 'Володимир', s: 'Шумілкін', p: 'Андрійович', },
-	life: { bd: 12, bm: 5, by: 1959, },
 	sex: 1,
+	life: { bd: 12, bm: 5, by: 1959, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%A8%D1%83%D0%BC%D1%96%D0%BB%D0%BA%D1%96%D0%BD_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
@@ -16142,6 +16205,7 @@ https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 	name: { n: 'Роман', s: 'Шухевич', p: 'Осипович', },
 	sex: 1,
 	life: { bd: 30, bm: 6, by: 1907, dd: 5, dm: 3, dy: 1950, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, war: 1, },
 	internet: { wiki_ua: '%D0%A8%D1%83%D1%85%D0%B5%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%9E%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', },
