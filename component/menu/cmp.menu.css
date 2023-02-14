@@ -2,7 +2,8 @@ cmp-menu {
 	all: initial;
 	display: block;
 
-	background: linear-gradient( to bottom, #111, #115 );
+	/*background: linear-gradient( to bottom, #111, #115 );*/
+	background: rgba( 0, 0, 0, .3 );
 
 }
 	cmp-menu .btn {
@@ -11,7 +12,8 @@ cmp-menu {
 		border-radius: 5px;
 		font-family: Courier;
 		text-align: center;
-		background: linear-gradient( to bottom, #111, #115 );
+		/*background: linear-gradient( to bottom, #111, #115 );*/
+		background: linear-gradient( to bottom, rgba( 0, 0, 50, .9 ), rgba( 0, 0, 50, .1 ) );
 		color: lime;
 		cursor: pointer;
 	}
