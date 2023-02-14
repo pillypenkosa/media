@@ -89,7 +89,26 @@ class ComponentMenu {
 		//let html = `<section class="sex">${ htmlBtnsSex }</section><section class="hash">${ htmlBtnsHash }</section>`;
 
 
-		return getComponentHtml( this.paramAttr, `<section class="sex">${ htmlBtnsSex }</section><section class="hash">${ htmlBtnsHash }</section>` );
+
+
+		let htmlOption = '';
+		arrCountry.forEach( k => {
+			htmlOption += `<option data-id="${ k.id }" value="${ k.id }">${ k.title.ua }</option>`;
+		});
+
+
+
+		let htmlSelect = `
+			<select class="country" onchange="${ this.className }.clcCountry( this )">
+				<option value="">Обрати країну</option>
+				<option value="ukr2">Всі країни</option>
+				${ htmlOption }
+			</select>`;
+
+
+
+
+		return getComponentHtml( this.paramAttr, `${ htmlSelect }<section class="sex">${ htmlBtnsSex }</section><section class="hash">${ htmlBtnsHash }</section>` );
 	}
 
 
@@ -122,10 +141,7 @@ class ComponentMenu {
 		Router.urlGET.sex = elem.dataset.id;
 		
 		//console.log( ok, 'Router.urlGET:', Router.urlGET );
-
-
 		this.setHashParamByOBJ();
-
 
 		Router.ini();
 
@@ -145,9 +161,7 @@ class ComponentMenu {
 		const ok 		= `\x1b[32m ok ${ method } `;
 		const err 		= `\x1b[31m err ${ method } `;
 
-
 		//console.log( ok, 'elem.dataset.id:', elem.dataset.id  );
-
 
 		if ( Router.userHash[ elem.dataset.id ] ) {
 
@@ -155,19 +169,37 @@ class ComponentMenu {
 		}
 		else Router.userHash[ elem.dataset.id ] = 1;
 
-
-
 		//console.log( ok, 'Router.userHash:', Router.userHash  );
+		this.setHashParamByOBJ();
+
+		Router.ini();
+
+		// подсветка меню
+		this.activeLight();
+
+		// загрузка контентк
+		Router.loadContent();
+	}
 
 
 
+	static clcCountry( elem ) {
+		const name 		= 'clcCountry';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
 
+
+
+		Router.urlGET.country = elem.value;
+
+
+
+		//console.log( elem.dataset.id );
+		console.log( ok, elem.value );
 
 
 		this.setHashParamByOBJ();
-
-
-
 
 		Router.ini();
 
@@ -187,21 +219,22 @@ class ComponentMenu {
 
 	// сформувати параметр &hash=
 	static setHashParamByOBJ() {
-
-
 		const name 		= 'setHashParamByOBJ';
 		const method 	= `${ this.name }.${ name }()`;
 		const ok 		= `\x1b[32m ok ${ method } `;
 		const err 		= `\x1b[31m err ${ method } `;
 
-		console.log( ok );
-
+		//console.log( ok );
+		//alert( Router.urlGET.country );
 
 
 		let url = '';
 		if ( Router.urlGET.sex ) 
 			url += `&sex=${ Router.urlGET.sex }`;
-		
+
+		if ( Router.urlGET.country ) 
+			url += `&country=${ Router.urlGET.country }`;
+
 		let hashParam = '';
 		for ( let k in Router.userHash ) 
 			hashParam += k + '/'; 
@@ -259,28 +292,6 @@ class ComponentMenu {
 			if ( Router.urlGET.sex == k.dataset.sex ) 
 				k.classList.add( 'active' );
 
-			
-
-
-
-
-
-
-/*
-			if ( Router.urlGET ) {
-				if ( Router.urlGET.sex ) {
-					if ( Router.urlGET.sex == k.dataset.sex ) {
-
-						k.classList.add( 'active' );
-					}
-
-				} else if ( k.dataset.sex == 'allsex' ) {
-
-					k.classList.add( 'active' );
-				}
-			}
-*/
-
 		});
 
 
@@ -301,6 +312,20 @@ class ComponentMenu {
 				k.classList.add( 'active' );
 			}
 		});
+
+
+
+		// вибір країни в <select> за GET-параметром &country=
+		if ( Router.urlGET.country ) {
+
+			let elemOption = document.querySelectorAll( `cmp-menu select.country option[ data-id="${ Router.urlGET.country }"]` )[ 0 ];
+			//console.log( ok, elemOption );
+
+
+			elemOption.selected = true;
+		}
+
+
 	}
 
 
