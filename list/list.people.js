@@ -40,9 +40,11 @@ const arrPeopleHash = [
 { id: 'dianetics' 			, title: 'Діанетика' 					, },
 { id: 'child' 				, title: 'Діти' 						, },
 { id: 'dramaturge' 			, title: 'Драматургія' 					, },
+{ id: 'economy' 			, title: 'Економіка' 					, },
 { id: 'psychic' 			, title: 'Екстрасенси' 					, },
 { id: 'journalist' 			, title: 'Журналісти' 					, },
 { id: 'railway' 			, title: 'Залізниця' 					, },
+{ id: 'founder' 			, title: 'Засновники' 					, },
 { id: 'weapon' 				, title: 'Зброя' 						, },
 { id: 'criminal' 			, title: 'Злочинці' 					, },
 { id: 'traitor' 			, title: 'Зрадники' 					, },
@@ -116,7 +118,6 @@ const arrPeopleHash = [
 { id: 'geography' 			, title: 'Географія' 					, },
 { id: 'guitar' 				, title: 'Гітаристи' 					, },
 { id: 'deputy' 				, title: 'Депутати' 					, },
-{ id: 'economy' 			, title: 'Економіка' 					, },
 { id: 'operator_movie' 		, title: 'Кінооператори' 				, },
 { id: 'keyboard' 			, title: 'Клавішники' 					, },
 { id: 'king' 				, title: 'Король' 						, },
@@ -153,17 +154,11 @@ let arrPeople = [
 
 
 
-31.03 
-https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
 
 
 
-30.04 - в закладках
-https://uk.wikipedia.org/wiki/30_%D0%BA%D0%B2%D1%96%D1%82%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
-
-
-
-
+31.05 
+https://uk.wikipedia.org/wiki/31_%D1%82%D1%80%D0%B0%D0%B2%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
 
 
 
@@ -172,6 +167,16 @@ https://uk.wikipedia.org/wiki/30_%D0%BA%D0%B2%D1%96%D1%82%D0%BD%D1%8F#%D0%9D%D0%
 
 1.12
 https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
+
+
+
+
+
+
+
+
+
+
 
 */
 
@@ -249,6 +254,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: '4.03.1861 - 15.04.1865', n: 16, }, ], },
 	internet: { wiki_ua: '%D0%90%D0%B2%D1%80%D0%B0%D0%B0%D0%BC_%D0%9B%D1%96%D0%BD%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD', wiki_en: 'Abraham_Lincoln', },
+},
+{
+	id: 'adam_opel_09051837', 
+	name: { n: 'Adam', s: 'Opel', },
+	sex: 1,
+	life: { bd: 9, bm: 5, by: 1837, dd: 8, dm: 9, dy: 1895, },
+	country: { deu: 1, },
+	hash: { founder: 1, car: 1, },
+	internet: { wiki_ua: '%D0%90%D0%B4%D0%B0%D0%BC_%D0%9E%D0%BF%D0%B5%D0%BB%D1%8C', },
 },
 {
 	id: 'adolf_dassler_03111900', 
@@ -567,6 +581,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96%D0%BE_%D0%92%D1%96%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D1%96', },
 },
 {
+	id: 'aristotle_0000m384', 
+	name: { n: 'Aristotle',  },
+	sex: 1,
+	life: { bd: 0, bm: 0, by: -384, dd: 0, dm: 0, dy: -322, },
+	country: { grc: 1, },
+	hash: { science: 1, philosophy: 1, },
+	internet: { wiki_ua: '%D0%90%D1%80%D1%96%D1%81%D1%82%D0%BE%D1%82%D0%B5%D0%BB%D1%8C', },
+},
+{
 	id: 'armin_van_buuren_25121976', 
 	name: { n: 'Armin', s: 'van Buuren', },
 	sex: 1,
@@ -594,6 +617,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0903677', wiki_ua: '%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%92%D0%BE%D1%81%D0%BB%D1%83', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/65163/works/', },
+},
+{
+	id: 'arthur_conan_doyle_22051859', 
+	name: { n: 'Arthur Conan', s: 'Doyle', },
+	sex: 1,
+	life: { bd: 22, bm: 5, by: 1859, dd: 7, dm: 7, dy: 1930, },
+	country: { gbr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%90%D1%80%D1%82%D1%83%D1%80_%D0%9A%D0%BE%D0%BD%D0%B0%D0%BD_%D0%94%D0%BE%D0%B9%D0%BB', },
 },
 {
 	id: 'arthur_schopenhauer_22021788', 
@@ -661,6 +693,16 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	hash: { relative: 1, politics: 1, },
 	internet: { wiki_ua: '%D0%91%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D0%B0_%D0%91%D1%83%D1%88', },
 	note: 'Дружина Джорджа Буша старшого, мати Джорджа Буша молодшого',
+},
+{
+	id: 'baron_munchausen_11051720', 
+	name: { n: 'Baron', s: 'Munchausen', },
+	sex: 1,
+	life: { bd: 11, bm: 5, by: 1720, dd: 22, dm: 2, dy: 1797, },
+	country: { deu: 1, },
+	hash: { war: 1, },
+	internet: { wiki_ua: '%D0%91%D0%B0%D1%80%D0%BE%D0%BD_%D0%9C%D1%8E%D0%BD%D1%85%D0%B3%D0%B0%D1%83%D0%B7%D0%B5%D0%BD', },
+	note: 'Hieronymus von Munchausen',
 },
 {
 	id: 'barry_pepper_04041970', 
@@ -1233,6 +1275,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000234', wiki_ua: '%D0%A8%D0%B0%D1%80%D0%BB%D1%96%D0%B7_%D0%A2%D0%B5%D1%80%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/49113/works/', },
+},
+{
+	id: 'cher_20051946',
+	name: { n: 'Cher', },
+	life: { bd: 20, bm: 5, by: 1946, },
+	country: { usa: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0000333', wiki_ua: '%D0%A8%D0%B5%D1%80', },
 },
 {
 	id: 'chris_cooper_09071951', 
@@ -2745,6 +2795,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0107612', wiki_ua: '%D0%93%D0%B0%D0%BB%D0%BA_%D0%93%D0%BE%D0%B3%D0%B0%D0%BD', },
 },
 {
+	id: 'ian_fleming_28051908', 
+	name: { n: 'Ian', s: 'Fleming', },
+	sex: 1,
+	life: { bd: 28, bm: 5, by: 1908, dd: 12, dm: 8, dy: 1964, },
+	country: { gbr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%AF%D0%BD_%D0%A4%D0%BB%D0%B5%D0%BC%D1%96%D0%BD%D0%B3', },
+},
+{
 	id: 'ice_t_16021958', 
 	name: { n: 'Ice-T', },
 	sex: 1,
@@ -3239,6 +3298,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	birthplace: 'Скрентон (штат Пенсільванія, США)',
 	hash: { politics: 1, state_head: 1, president: [ { country: 'usa', date: 'з 20.01.2021', n: 46, }, ], },
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE_%D0%91%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD', },
+},
+{
+	id: 'joe_cocker_20051944',
+	name: { n: 'Joe', s: 'Cocker', },
+	sex: 1,
+	life: { bd: 20, bm: 5, by: 1944, bd: 22, bm: 12, by: 2014, },
+	country: { usa: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0168312', wiki_ua: '%D0%94%D0%B6%D0%BE_%D0%9A%D0%BE%D0%BA%D0%B5%D1%80', },
 },
 {
 	id: 'joe_morton_18101947', 
@@ -3800,6 +3868,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001492', wiki_ua: '%D0%9A%D0%B0%D0%B9%D0%BB_%D0%9C%D0%B0%D0%BA%D0%BB%D0%B0%D0%BA%D0%BB%D0%B5%D0%BD', },
+},
+{
+	id: 'kylie_minogue_28051968', 
+	name: { n: 'Kylie', s: 'Minogue', },
+	life: { bd: 28, bm: 5, by: 1968, },
+	country: { aus: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0001541', wiki_ua: '%D0%9A%D0%B0%D0%B9%D0%BB%D1%96_%D0%9C%D1%96%D0%BD%D0%BE%D1%83%D0%B3', },
 },
 {
 	id: 'lafayette_ronald_hubbard_13031911', 
@@ -4642,6 +4718,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%9C%D1%83%D1%85%D0%B0%D0%BC%D0%BC%D0%B5%D0%B4_%D0%90%D0%BB%D1%96', },
 },
 {
+	id: 'naomi_campbell_22051970', 
+	name: { n: 'Naomi', s: 'Campbell', },
+	life: { bd: 22, bm: 5, by: 1970, },
+	country: { gbr: 1, },
+	hash: { model: 1, },
+	internet: { imdb: '0001984', wiki_ua: '%D0%9D%D0%B0%D0%BE%D0%BC%D1%96_%D0%9A%D0%B5%D0%BC%D0%BF%D0%B1%D0%B5%D0%BB%D0%BB', },
+},
+{
 	id: 'naomi_watts_28091968', 
 	name: { n: 'Naomi', s: 'Watts', },
 	life: { bd: 28, bm: 9, by: 1968, },
@@ -4865,6 +4949,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	hash: { science: 1, philosophy: 1, },
 	internet: { wiki_ua: '%D0%9E%D0%BC%D0%B0%D1%80_%D0%A5%D0%B0%D1%8F%D0%BC', },
 	note: 'Персія',
+},
+{
+	id: 'honore_de_balzac_20051799', 
+	name: { n: 'Honore', s: 'de Balzac', },
+	sex: 1,
+	life: { bd: 20, bm: 5, by: 1799, dd: 18, dm: 8, dy: 1850, },
+	country: { fra: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9E%D0%BD%D0%BE%D1%80%D0%B5_%D0%B4%D0%B5_%D0%91%D0%B0%D0%BB%D1%8C%D0%B7%D0%B0%D0%BA', },
 },
 {
 	id: 'oprah_winfrey_29011954', 
@@ -5195,6 +5288,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%81%D1%96%D0%B4%D0%BE_%D0%94%D0%BE%D0%BC%D1%96%D0%BD%D0%B3%D0%BE', },
 },
 {
+	id: 'plato_0000m427', 
+	name: { n: 'Plato', },
+	sex: 1,
+	life: { bd: 0, bm: 0, by: -427, dd: 0, dm: 0, dy: -348, },
+	country: { grc: 1, },
+	hash: { science: 1, philosophy: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%82%D0%BE%D0%BD', },
+},
+{
 	id: 'prince_07061958', 
 	name: { n: 'Prince', },
 	sex: 1,
@@ -5203,6 +5305,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { imdb: '0002239', wiki_ua: '%D0%9F%D1%80%D1%96%D0%BD%D1%81', },
+},
+{
+	id: 'pythagoras_0000m570', 
+	name: { n: 'Pythagoras', },
+	sex: 1,
+	life: { bd: 0, bm: 0, by: -570, dd: 0, dm: 0, dy: -497, },
+	country: { grc: 1, },
+	hash: { science: 1, philosophy: 1, math: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%96%D1%84%D0%B0%D0%B3%D0%BE%D1%80', },
 },
 {
 	id: 'quentin_tarantino_27031963', 
@@ -5636,6 +5747,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0000161', wiki_ua: '%D0%A1%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0_%D0%A5%D0%B0%D1%94%D0%BA', },
 },
 {
+	id: 'salvador_dali_11051904', 
+	name: { n: 'Salvador', s: 'Dali', },
+	sex: 1,
+	life: { bd: 11, bm: 5, by: 1904, dd: 23, dm: 1, dy: 1989, },
+	country: { esp: 1, },
+	hash: { painter: 1, sculptor: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%B0%D0%BB%D1%8C%D0%B2%D0%B0%D0%B4%D0%BE%D1%80_%D0%94%D0%B0%D0%BB%D1%96', },
+},
+{
 	id: 'sam_worthington_02081976', 
 	name: { n: 'Sam', s: 'Worthington', },
 	sex: 1,
@@ -5673,6 +5793,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { fra: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0618651', wiki_ua: '%D0%A1%D0%B0%D0%BC%D1%96_%D0%9D%D0%B0%D1%81%D0%B5%D1%80%D1%96', },
+},
+{
+	id: 'sandra_18051962', 
+	name: { n: 'Sandra', },
+	life: { bd: 18, bm: 5, by: 1962, },
+	country: { deu: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '1117030', wiki_ua: '%D0%A1%D0%B0%D0%BD%D0%B4%D1%80%D0%B0_(%D1%81%D0%BF%D1%96%D0%B2%D0%B0%D1%87%D0%BA%D0%B0)', },
 },
 {
 	id: 'sandra_bullock_26071964', 
@@ -5857,6 +5985,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0004879', wiki_ua: 'Snoop_Dogg', },
 },
 {
+	id: 'socrates_0000m470', 
+	name: { n: 'Socrates', },
+	sex: 1,
+	life: { bd: 0, bm: 0, by: -470, dd: 0, dm: 0, dy: -399, },
+	country: { grc: 1, },
+	hash: { science: 1, philosophy: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%BE%D0%BA%D1%80%D0%B0%D1%82', },
+},
+{
 	id: 'sophie_turner_21021996', 
 	name: { n: 'Sophie', s: 'Turner', },
 	life: { bd: 21, bm: 2, by: 1996, },
@@ -5953,6 +6090,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { movie: 1, director: 1, },
 	internet: { imdb: '0000229', wiki_ua: '%D0%A1%D1%82%D1%96%D0%B2%D0%B5%D0%BD_%D0%A1%D0%BF%D1%96%D0%BB%D0%B1%D0%B5%D1%80%D0%B3', },
+},
+{
+	id: 'stevie_wonder_13051950', 
+	name: { n: 'Stevie', s: 'Wonder', },
+	sex: 1,
+	life: { bd: 13, bm: 5, by: 1950, },
+	country: { usa: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0005567', wiki_ua: '%D0%A1%D1%82%D1%96%D0%B2%D1%96_%D0%92%D0%B0%D0%BD%D0%B4%D0%B5%D1%80', },
 },
 {
 	id: 'sylvester_stallone_06071946', 
@@ -7397,18 +7543,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
-	id: 'bogdan_benyuk_26051957', 
-	name: { n: 'Богдан', s: 'Бенюк', },
+	id: 'bogdan_myhaylo_benyuk_26051957', 
+	name: { n: 'Богдан', s: 'Бенюк', p: 'Михайлович', },
 	sex: 1,
 	life: { bd: 26, bm: 5, by: 1957, },
 	img: [ 1, 1 ],
 	country: { rus: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0073101', 
-		wiki_ru: '%D0%91%D0%B5%D0%BD%D1%8E%D0%BA,_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/post/412/works/', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0073101', wiki_ua: '%D0%91%D0%B5%D0%BD%D1%8E%D0%BA_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/post/412/works/', },
 },
 {
 	id: 'iryna_grygory_berezhna_13081980', 
@@ -7523,6 +7665,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { ukr: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { wiki_ua: '%D0%91%D1%96%D0%BB%D0%B8%D0%BA_%D0%86%D1%80%D0%B8%D0%BD%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/30054/works/', },
+},
+{
+	id: 'oxana_volodymyr_bilozir_30051957', 
+	name: { n: 'Оксана', s: 'Білозір', p: 'Володимирівна', },
+	life: { bd: 30, bm: 5, by: 1957, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%91%D1%96%D0%BB%D0%BE%D0%B7%D1%96%D1%80_%D0%9E%D0%BA%D1%81%D0%B0%D0%BD%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'evelina_visvald_blyodans_05041969', 
@@ -8777,6 +8927,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		wiki_ru: '%D0%93%D0%BE%D0%BC%D0%B8%D0%B0%D1%88%D0%B2%D0%B8%D0%BB%D0%B8,_%D0%90%D1%80%D1%87%D0%B8%D0%BB_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/1039/works/', 
 	},
+},
+{
+	id: 'georgy_ruslan_gongadze_21051969', 
+	name: { n: 'Георгій', s: 'Гонгадзе', p: 'Русланович', },
+	sex: 1,
+	life: { bd: 21, bm: 5, by: 1969, dd: 17, dm: 9, dy: 2000, },
+	country: { ukr: 1, },
+	hash: { show: 1, journalist: 1, },
+	internet: { wiki_ua: '%D0%93%D0%BE%D0%BD%D0%B3%D0%B0%D0%B4%D0%B7%D0%B5_%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D1%96%D0%B9_%D0%A0%D1%83%D1%81%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'oles_terenty_gonchar_03041918', 
@@ -12655,17 +12814,13 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
-	id: 'nikolay_olyalin_22051941', 
-	name: { n: 'Николай', s: 'Олялин', },
+	id: 'mykola_volodymyr_olyalin_22051941', 
+	name: { n: 'Микола', s: 'Олялін', p: 'Володимирович', },
 	sex: 1,
 	life: { bd: 22, bm: 5, by: 1941, dd: 17, dm: 11, dy: 2009, },
-	country: { rus: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0648243', 
-		wiki_ru: '%D0%9E%D0%BB%D1%8F%D0%BB%D0%B8%D0%BD,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/3169/works/', 
-	},
+	country: { ukr: 1, sun: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0648243', wiki_ua: '%D0%9E%D0%BB%D1%8F%D0%BB%D1%96%D0%BD_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/3169/works/', },
 },
 {
 	id: 'kristina_orbakayte_25051971', 
@@ -13406,6 +13561,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		wiki_ru: '%D0%9F%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%BD%D0%B0,_%D0%9C%D0%B0%D1%80%D0%B8%D1%8F_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/ros/3463/works/', 
 	},
+},
+{
+	id: 'vitaly_eduard_portnykov_14051967', 
+	name: { n: 'Віталій', s: 'Портников', p: 'Едуардович', },
+	sex: 1,
+	life: { bd: 14, bm: 5, by: 1967, },
+	country: { ukr: 1, },
+	hash: { show: 1, journalist: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D1%80%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9_%D0%95%D0%B4%D1%83%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'potap_08051981', 
@@ -16098,6 +16262,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { ukr: 1, },
 	hash: { writer: 1, literature: 1, },
 	internet: { wiki_ua: '%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A2%D0%B0%D1%80%D0%B0%D1%81_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
+	id: 'vyacheslav_anatoly_shevchuk_13051979', 
+	name: { n: 'В\'ячеслав', s: 'Шевчук', p: 'Анатолійович', },
+	sex: 1,
+	life: { bd: 13, bm: 5, by: 1979, },
+	country: { ukr: 1, },
+	hash: { sport: 1, football: 1, },
+	internet: { wiki_ua: '%D0%A8%D0%B5%D0%B2%D1%87%D1%83%D0%BA_%D0%92%27%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'jury_shevchuk_16051957', 
