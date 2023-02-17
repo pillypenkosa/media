@@ -884,6 +884,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0001372', wiki_ua: '%D0%91%D0%BE%D0%BD%D0%BD%D1%96_%D0%93%D0%B0%D0%BD%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/58243/works/', },
 },
 {
+	id: 'boris_pistorius_14031960', 
+	name: { n: 'Boris', s: 'Pistorius', },
+	sex: 1,
+	life: { bd: 14, bm: 3, by: 1960, },
+	country: { deu: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9F%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%83%D1%81', },
+},
+{
 	id: 'brad_pitt_18121963', 
 	name: { n: 'Brad', s: 'Pitt', },
 	sex: 1,
@@ -4596,6 +4605,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0005321', wiki_ua: '%D0%9C%D0%BE%D0%BD%D1%96%D0%BA%D0%B0_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80', },
 },
 {
+	id: 'montserrat_caballe_12041933', 
+	name: { n: 'Montserrat', s: 'Caballe', },
+	life: { bd: 12, bm: 4, by: 1933, dd: 6, dm: 10, dy: 2018, },
+	country: { esp: 1, },
+	hash: { music: 1, singer: 1, opera: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D1%80%D0%B0%D1%82_%D0%9A%D0%B0%D0%B1%D0%B0%D0%BB%D1%8C%D1%94', },
+},
+{
 	id: 'morgan_freeman_01061937', 
 	name: { n: 'Morgan', s: 'Freeman', },
 	sex: 1,
@@ -5606,7 +5623,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	sex: 1,
 	life: { bd: 28, bm: 4, by: 1937, dd: 30, dm: 12, dy: 2006, },
 	country: { irq: 1, },
-	hash: { politics: 1, dictator: 1, },
+	hash: { politics: 1, state_head: 1,  dictator: 1, },
 	internet: { wiki_ua: '%D0%A1%D0%B0%D0%B4%D0%B4%D0%B0%D0%BC_%D0%A5%D1%83%D1%81%D0%B5%D0%B9%D0%BD', },
 },
 {
@@ -12458,6 +12475,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'ivan_semen_nechuylevycky_25111838', 
+	name: { n: 'Іван', s: 'Нечуй-Левицький ', p: 'Семенович', },
+	sex: 1,
+	life: { bd: 25, bm: 11, by: 1838, dd: 2, dm: 4, dy: 1918, },
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9D%D0%B5%D1%87%D1%83%D0%B9-%D0%9B%D0%B5%D0%B2%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9_%D0%86%D0%B2%D0%B0%D0%BD_%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'lesya_ivan_nikityuk_19101987', 
 	name: { n: 'Леся', s: 'Нікітюк', p: 'Іванівна', },
 	life: { bd: 19, bm: 10, by: 1987, },
@@ -15263,6 +15289,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		wiki_ru: '%D0%A4%D0%B0%D1%80%D0%B0%D0%B4%D0%B0,_%D0%A1%D0%B5%D0%BC%D1%91%D0%BD_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/4463/works/', 
 	},
+},
+{
+	id: 'iryna_dmytro_farion_29041964', 
+	name: { n: 'Ірина', s: 'Фаріон', p: 'Дмитрівна', },
+	life: { bd: 29, bm: 4, by: 1964, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A4%D0%B0%D1%80%D1%96%D0%BE%D0%BD_%D0%86%D1%80%D0%B8%D0%BD%D0%B0_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'mika_grygory_fatalov_31031983', 
