@@ -265,6 +265,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%90%D0%B4%D0%B0%D0%BC_%D0%9E%D0%BF%D0%B5%D0%BB%D1%8C', },
 },
 {
+	id: 'adam_savage_15071967', 
+	name: { n: 'Adam', s: 'Savage', },
+	sex: 1,
+	life: { bd: 15, bm: 7, by: 1967, },
+	country: { usa: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { imdb: '0767234', wiki_ua: '%D0%90%D0%B4%D0%B0%D0%BC_%D0%A1%D0%B5%D0%B2%D1%96%D0%B4%D0%B6', },
+},
+{
 	id: 'adolf_dassler_03111900', 
 	name: { n: 'Adolf', s: 'Dassler', },
 	sex: 1,
@@ -486,6 +495,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'andrzej_golota_05011968', 
+	name: { n: 'Andrzej', s: 'Golota', },
+	sex: 1,
+	life: { bd: 5, bm: 1, by: 1968, },
+	country: { pol: 1, },
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%B9_%D2%90%D0%BE%D0%BB%D0%BE%D1%82%D0%B0', },
+},
+{
 	id: 'andy_garcia_12041956', 
 	name: { n: 'Andy', s: 'Garcia', },
 	sex: 1,
@@ -550,6 +568,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000164', wiki_ua: '%D0%95%D0%BD%D1%82%D0%BE%D0%BD%D1%96_%D0%93%D0%BE%D0%BF%D0%BA%D1%96%D0%BD%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/euro/53027/works/', },
+},
+{
+	id: 'anthony_joshua_15101989', 
+	name: { n: 'Anthony', s: 'Joshua', },
+	sex: 1,
+	life: { bd: 15, bm: 10, by: 1989, },
+	country: { gbr: 1, },
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%95%D0%BD%D1%82%D0%BE%D0%BD%D1%96_%D0%94%D0%B6%D0%BE%D1%88%D1%83%D0%B0', },
 },
 {
 	id: 'antoine_de_saint_exupery_29061900', 
@@ -685,6 +712,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%91%D0%B0%D1%80%D0%B0%D0%BA_%D0%9E%D0%B1%D0%B0%D0%BC%D0%B0', },
 },
 {
+	id: 'barbara_brylska_05061941', 
+	name: { n: 'Barbara', s: 'Brylska', },
+	life: { bd: 5, bm: 6, by: 1941, },
+	img: [ 1, 1 ],
+	country: { pol: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0117390', wiki_ua: '%D0%91%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D0%B0_%D0%91%D1%80%D0%B8%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/euro/582/works/', },
+},
+{
 	id: 'barbara_bush_08061925', 
 	name: { n: 'Barbara', s: 'Bush', },
 	life: { bd: 8, bm: 6, by: 1925, dd: 17, dm: 4, dy: 2018, },
@@ -713,6 +749,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { can: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001608', wiki_ua: '%D0%91%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/57227/works/', },
+},
+{
+	id: 'bear_grylls_07061974', 
+	name: { n: 'Bear', s: 'Grylls', },
+	sex: 1,
+	life: { bd: 7, bm: 6, by: 1974, },
+	country: { gbr: 1, },
+	hash: { show: 1, leading: 1, traveler: 1, },
+	internet: { wiki_ua: '%D0%91%D0%B5%D1%80_%D0%93%D1%80%D1%96%D0%BB%D0%BB%D0%B7', },
 },
 {
 	id: 'becky_g_02031997', 
@@ -2948,6 +2993,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { gbr: 1, },
 	hash: { writer: 1, literature: 1, },
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%93%D0%B5%D0%B4%D0%BB%D1%96_%D0%A7%D0%B5%D0%B9%D0%B7', },
+},
+{
+	id: 'james_hyneman_25091956', 
+	name: { n: 'James', s: 'Hyneman', },
+	sex: 1,
+	life: { bd: 25, bm: 9, by: 1956, },
+	country: { usa: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { imdb: '1367178', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%96_%D0%93%D0%B0%D0%B9%D0%BD%D0%B5%D0%BC%D0%B0%D0%BD', },
 },
 {
 	id: 'james_marsden_18091973', 
@@ -6335,6 +6389,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0004772', wiki_ua: '%D0%A2%D0%BE%D0%BD%D1%96_%D0%91%D1%80%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/147218/works/', },
 },
 {
+	id: 'tyson_fury_12081988', 
+	name: { n: 'Tyson', s: 'Fury', },
+	sex: 1,
+	life: { bd: 12, bm: 8, by: 1988, },
+	country: { gbr: 1, },
+	hash: { sport: 1, fighter: 1, box: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%B0%D0%B9%D1%81%D0%BE%D0%BD_%D0%A4%27%D1%8E%D1%80%D1%96', },
+},
+{
 	id: 'uma_thurman_29041970', 
 	name: { n: 'Uma', s: 'Thurman', },
 	life: { bd: 29, bm: 4, by: 1970, },
@@ -6696,6 +6759,17 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0757855', wiki_ua: '%D0%97%D0%BE%D1%97_%D0%A1%D0%B0%D0%BB%D0%B4%D0%B0%D0%BD%D0%B0', },
 },
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 {
 	id: 'el_kravchuk_17031975',
 	name: { n: 'EL', s: 'Кравчук', },
@@ -7721,6 +7795,14 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'ganna_boka_11091987', 
+	name: { n: 'Ганна', s: 'Бока', },
+	life: { bd: 11, bm: 9, by: 1987, },
+	country: { ukr: 1, },
+	hash: { show: 1, journalist: 1, },
+	internet: { imdb: '', wiki_ua: '%D0%93%D0%B0%D0%BD%D0%BD%D0%B0_%D0%91%D0%BE%D0%BA%D0%B0', },
+},
+{
 	id: 'olena_anatoly_bondarenko_26051974', 
 	name: { n: 'Олена', s: 'Бондаренко', p: 'Анатоліївна', },
 	life: { bd: 26, bm: 5, by: 1974, },
@@ -7864,19 +7946,6 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		imdb: '0111424', 
 		wiki_ru: '%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B2%D0%BE%D0%B9,_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/576/works/', 
-	},
-},
-{
-	id: 'barbara_brylska_05061941', 
-	name: { n: 'Барбара', s: 'Брыльска', },
-	life: { bd: 5, bm: 6, by: 1941, },
-	img: [ 1, 1 ],
-	country: { pol: 1, rus: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0117390', 
-		wiki_ru: '%D0%91%D1%80%D1%8B%D0%BB%D1%8C%D1%81%D0%BA%D0%B0,_%D0%91%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/euro/582/works/', 
 	},
 },
 {
@@ -10500,6 +10569,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		imdb: '5565065', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/ros/27565/works/', 
 	},
+},
+{
+	id: 'kaha_kaladze_27021978', 
+	name: { n: 'Каха', s: 'Каладзе', },
+	sex: 1,
+	life: { bd: 27, bm: 2, by: 1978,  },
+	country: { geo: 1, },
+	hash: { politics: 1, sport: 1, football: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%B0%D1%85%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B0%D0%B4%D0%B7%D0%B5', },
 },
 {
 	id: 'mihail_kalashnikov_10111919', 
