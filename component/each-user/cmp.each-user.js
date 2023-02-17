@@ -45,14 +45,16 @@ class ComponentEachUser {
 
 		
 		//console.log( ok ); 
-		console.log( ok, 'завантаження компоненту...' ); 
+		//console.log( ok, 'завантаження компоненту...' ); 
 
 
 
-		let user = arrPeople.filter( k => k.id == data );
-		user = user[ 0 ];
+		let users = arrPeople.filter( k => k.id == data );
+		let user = users[ 0 ];
 
-		console.log( ok, 'user:', user[ 0 ] ); 
+		//console.log( ok, 'users:', users ); 
+		//console.log( ok, 'users:', users[ 0 ] ); 
+		//console.log( ok, 'user:', user ); 
 
 
 		let dateLife = ''; 
@@ -95,7 +97,7 @@ class ComponentEachUser {
 			for ( let k in user.hash ) {
 				//hash += ` <a href="file:///F:/web/media/index.html?win=people&sex=allsex&hash=${ k }">#${ objPeopleHash[ k ].title }</a>`;
 				
-				hash += `<span class="each" onclick="Router.clcHashTag( this )" data-id="${ k }" title="Відобразити всіх за тегом: ${ objPeopleHash[ k ].title }">#${ objPeopleHash[ k ].title }</span>`;
+				hash += `<span class="each hashTag" onclick="Router.clcHashTag( this )" data-id="${ k }" title="Відобразити всіх за тегом: ${ objPeopleHash[ k ].title }">#${ objPeopleHash[ k ].title }</span>`;
 			}
 
 			if ( user.hash.president ) {
@@ -133,27 +135,31 @@ class ComponentEachUser {
 		if ( user.country ) {
 
 			for ( let k in user.country ) {
-				country += objCountry[ k ].title.ua + ', ';
-			}
+				country += `<span class="hashTag hashCountry" data-id="${ k }" onclick="Router.clcHashCountry( this )">#${ objCountry[ k ].title.ua }</span> `;
 
-			country = 'Країна: ' + country.slice( 0, -2 );
+
+				//country = `<span class="hashCountry" data-id="${ }" onclick="${ this.className }.clcHashCountry( this )">${ country.slice( 0, -2 ) }</span>`;
+
+
+			}
+			//country = 'Країна: ' + country.slice( 0, -2 );
 		}
 
 
 		let htmlBirthplace = '';
 		if ( user.birthplace ) {
 
-			let city = '';
-			let country = '';
+			let cityBirth = '';
+			let countryBirth = '';
 
 			if ( objCity[ user.birthplace ] ) {
-				city = objCity[ user.birthplace ].title.ua;
+				cityBirth = objCity[ user.birthplace ].title.ua;
 
 				if ( objCity[ user.birthplace ].country ) 
-					country = objCountry[ objCity[ user.birthplace ].country ].title.ua;
+					countryBirth = objCountry[ objCity[ user.birthplace ].country ].title.ua;
 			}
 
-			htmlBirthplace = `<div>Місце народження: ${ city }, ${ country }</div>`;
+			htmlBirthplace = `<div>Місце народження: ${ cityBirth }, ${ countryBirth }</div>`;
 		}
 
 
@@ -283,6 +289,9 @@ class ComponentEachUser {
 */
 
 	}
+
+
+
 
 
 

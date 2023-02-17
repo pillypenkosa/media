@@ -39,7 +39,7 @@ class ComponentMiddle {
 		let ok = `\x1b[32m ok ${ this.className }.${ name }() `;
 		let err = `\x1b[31m err ${ this.className }.${ name }() `;
 
-		console.log( ok, 'завантаження компонента...' );
+		//console.log( ok, 'завантаження компонента...' );
 
 
 		let html = `<div id="content"></div>`;

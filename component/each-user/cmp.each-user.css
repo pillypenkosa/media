@@ -73,13 +73,15 @@ cmp-each-user .main {
 		border-radius: 20px;
 
 	}
+
+	/*
 		cmp-each-user .ava.m {
 			background: linear-gradient( to bottom, #001, #005 );
 		}
 		cmp-each-user .ava.w {
 			background: linear-gradient( to bottom, #100, #500 );
 		}
-
+*/
 
 
 
@@ -136,13 +138,15 @@ cmp-each-user .main {
 			font-style: oblique;
 			color: aqua;
 		}
+
+		/*
 			cmp-each-user .info .hash .each {
 				cursor: pointer;
 			}
 				cmp-each-user .info .hash .each:hover {
 					color: yellow;
 				}
-
+*/
 
 
 
@@ -198,6 +202,31 @@ cmp-each-user .president {
 		font-size: 85%;
 		color: #ccc;
 	}
+
+
+
+
+
+
+cmp-each-user .hashCountry {
+
+}
+
+
+cmp-each-user .hashTag {
+	padding: 0px 10px;
+	border: 1px solid #777;
+	border-radius: 5px;
+	/*font-size: 110%;*/
+	font-style: oblique;
+	color: #0ff;	
+	cursor: pointer;
+}
+	cmp-each-user .hashTag:hover {
+		background-color: #000;
+		color: #ff0;
+	}
+
 
 
 

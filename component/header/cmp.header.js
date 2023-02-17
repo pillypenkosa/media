@@ -52,7 +52,7 @@ class ComponentHeader {
 		let err = `\x1b[31m err ${ this.className }.${ name }() `;
 
 
-		console.log( ok, 'завантаження компонента...' );
+		//console.log( ok, 'завантаження компонента...' );
 		//console.log( ok + 'this.className:', this.className );
 
 

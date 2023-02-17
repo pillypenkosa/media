@@ -237,8 +237,6 @@ class Router {
 
 
 	static clcHashTag( elem ) {
-
-
 		const name 		= 'clcHashTag';
 		const method 	= `${ this.name }.${ name }()`;
 		const ok 		= `\x1b[32m ok ${ method } `;
@@ -246,12 +244,29 @@ class Router {
 
 
 
-		console.log( ok + 'elem.dataset.id:', elem.dataset.id  ); 
+		//console.log( ok + 'elem.dataset.id:', elem.dataset.id  ); 
+
+
+		//console.log( ok + 'this.urlGET:', this.urlGET  ); 
+
+		// скинути країну
+		delete this.urlGET.country;
+
+
+		let country = '';
+		//let country = this.urlGET.country ? '&country=' +  this.urlGET.country : '';
+
+		if ( this.urlGET.country ) {
+			if ( this.urlGET.country != 'all' ) {
+				country = '&country=' + this.urlGET.country;
+			}
+		}
+
 
 
 
 		if ( history.pushState )
-			history.pushState( null, null, '?win=people&hash=' + elem.dataset.id );
+			history.pushState( null, null, '?win=people' + country + '&hash=' + elem.dataset.id );
 
 
 
@@ -270,6 +285,41 @@ class Router {
 	}
 
 
+
+
+
+
+
+
+	// клік по хеш-тегу країни
+	static clcHashCountry( elem ) {
+		const name 		= 'clcHashCountry';
+		const method 	= `${ this.name }.${ name }()`;
+		const ok 		= `\x1b[32m ok ${ method } `;
+		const err 		= `\x1b[31m err ${ method } `;
+
+
+		// скинути хеш-теги
+		this.userHash = {};
+
+
+		//console.log( elem.dataset.id );
+
+		if ( history.pushState )
+			history.pushState( null, null, '?win=people&country=' + elem.dataset.id );
+
+		this.ini();
+
+		//console.log( ok + 'this.urlGET:', this.urlGET  ); 
+		//console.log( ok + 'this.userHash:', this.userHash  ); 
+
+
+		// подсветка меню
+		ComponentMenu.activeLight();
+
+		// загрузка контентк
+		this.loadContent();
+	}
 
 
 

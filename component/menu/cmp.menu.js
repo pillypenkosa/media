@@ -54,7 +54,7 @@ class ComponentMenu {
 		//this.setObjByHashParam();
 
 
-		console.log( ok, 'завантаження компонента...' );
+		//console.log( ok, 'завантаження компонента...' );
 		//console.log( ok + 'this.className:', this.className );
 
 
