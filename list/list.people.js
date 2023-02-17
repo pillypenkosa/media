@@ -2,6 +2,8 @@ const arrPeopleHash = [
 
 
 
+
+
 { id: 'movie' 				, title: 'Кіно' 						, },
 { id: 'music' 				, title: 'Музика' 						, },
 { id: 'politics' 			, title: 'Політики' 					, },
@@ -153,6 +155,7 @@ let arrPeople = [
 
 31.03 
 https://uk.wikipedia.org/wiki/31_%D0%B1%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F
+
 
 
 30.04 - в закладках
@@ -851,6 +854,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { fra: 1, },
 	hash: { science: 1, physics: 1, },
 	internet: { wiki_ua: '%D0%91%D0%BB%D0%B5%D0%B7_%D0%9F%D0%B0%D1%81%D0%BA%D0%B0%D0%BB%D1%8C', },
+},
+{
+	id: 'bob_marley_06021945', 
+	name: { n: 'Bob', s: 'Marley', },
+	sex: 1,
+	life: { bd: 6, bm: 2, by: 1945, dd: 11, dm: 5, dy: 1981, },
+	country: { usa: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0002490', wiki_ua: '%D0%91%D0%BE%D0%B1_%D0%9C%D0%B0%D1%80%D0%BB%D1%96', },
 },
 {
 	id: 'bolo_yeung_03071946', 
@@ -2340,6 +2352,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	movie: { actor: {}, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000198', wiki_ua: '%D2%90%D0%B5%D1%80%D1%96_%D0%9E%D0%BB%D0%B4%D0%BC%D0%B5%D0%BD', },
+},
+{
+	id: 'genghis_khan_00001162', 
+	name: { n: 'Genghis', s: 'Khan', },
+	sex: 1,
+	life: { bd: 0, bm: 0, by: 1162, dd: 18, dm: 8, dy: 1227, },
+	country: { mng: 1, },
+	hash: { war: 1, state_head: 1, },
+	internet: { wiki_ua: '%D0%A7%D0%B8%D0%BD%D0%B3%D1%96%D1%81%D1%85%D0%B0%D0%BD', },
 },
 {
 	id: 'georg_ohm_16031789', 
@@ -4866,6 +4887,16 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%9E%D1%81%D0%B0%D0%BC%D0%B0_%D0%B1%D0%B5%D0%BD_%D0%9B%D0%B0%D0%B4%D0%B5%D0%BD', },
 },
 {
+	id: 'otto_von_bismarck_01041815', 
+	name: { n: 'Otto', s: 'von Bismarck', },
+	sex: 1,
+	life: { bd: 1, bm: 4, by: 1815, dd: 30, dm: 7, dy: 1898, },
+	country: { deu: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9E%D1%82%D1%82%D0%BE_%D1%84%D0%BE%D0%BD_%D0%91%D1%96%D1%81%D0%BC%D0%B0%D1%80%D0%BA', },
+	note: 'Otto Eduard Leopold von Bismarck',
+},
+{
 	id: 'ozzy_osbourne_03121948', 
 	name: { n: 'Ozzy', s: 'Osbourne', },
 	sex: 1,
@@ -5964,6 +5995,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { gbr: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0628601', wiki_ua: '%D0%A2%D0%B5%D0%BD%D0%B4%D1%96_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD', },
+},
+{
+	id: 'thomas_mayne_reid_04041818', 
+	name: { n: 'Thomas', s: 'Mayne Reid', },
+	sex: 1,
+	life: { bd: 4, bm: 4, by: 1818, dd: 22, dm: 10, dy: 1883, },
+	country: { irl: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: {  wiki_ua: '%D0%A2%D0%BE%D0%BC%D0%B0%D1%81_%D0%9C%D0%B0%D0%B9%D0%BD_%D0%A0%D1%96%D0%B4', },
 },
 {
 	id: 'tia_carrere_02011967', 
@@ -8720,6 +8760,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		wiki_ru: '%D0%93%D0%BE%D0%BC%D0%B8%D0%B0%D1%88%D0%B2%D0%B8%D0%BB%D0%B8,_%D0%90%D1%80%D1%87%D0%B8%D0%BB_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/1039/works/', 
 	},
+},
+{
+	id: 'oles_terenty_gonchar_03041918', 
+	name: { n: 'Олесь', s: 'Гончар', p: 'Терентійович', },
+	sex: 1,
+	life: { bd: 3, bm: 4, by: 1918, dd: 14, dm: 7, dy: 1995, },
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%93%D0%BE%D0%BD%D1%87%D0%B0%D1%80_%D0%9E%D0%BB%D0%B5%D1%81%D1%8C_%D0%A2%D0%B5%D1%80%D0%B5%D0%BD%D1%82%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'mihail_sergey_gorbachev_02031931', 
@@ -14767,6 +14816,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		wiki_ru: '%D0%A2%D0%B0%D0%BB%D1%8C%D0%BA%D0%BE%D0%B2,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/13742/works/', 
 	},
+},
+{
+	id: 'tamerlan_09041336', 
+	name: { n: 'Тамерлан', },
+	sex: 1,
+	life: { bd: 9, bm: 4, by: 1336, dd: 19, dm: 2, dy: 1405, },
+	country: { uzb: 1, },
+	hash: { war: 1, state_head: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%B8%D0%BC%D1%83%D1%80', },
 },
 {
 	id: 'alexandr_trifon_tvardovsky_21061910', 
