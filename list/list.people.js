@@ -13,6 +13,7 @@ const arrPeopleHash = [
 { id: 'it' 					, title: 'IT' 							, },
 { id: 'mma' 				, title: 'MMA' 							, },
 { id: 'wwar2' 				, title: '2WWar' 						, },
+{ id: 'aviation' 			, title: 'Авіація' 						, },
 { id: 'car' 				, title: 'Авто' 						, },
 { id: 'actor' 				, title: 'Актори' 						, },
 { id: 'architect' 			, title: 'Архітектори' 					, },
@@ -39,6 +40,7 @@ const arrPeopleHash = [
 { id: 'conductor' 			, title: 'Диригенти' 					, },
 { id: 'dianetics' 			, title: 'Діанетика' 					, },
 { id: 'child' 				, title: 'Діти' 						, },
+{ id: 'discoverer' 			, title: 'Дослідник' 					, },
 { id: 'dramaturge' 			, title: 'Драматургія' 					, },
 { id: 'economy' 			, title: 'Економіка' 					, },
 { id: 'psychic' 			, title: 'Екстрасенси' 					, },
@@ -157,11 +159,8 @@ let arrPeople = [
 
 
 
-31.05 
-https://uk.wikipedia.org/wiki/31_%D1%82%D1%80%D0%B0%D0%B2%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
-
-
-
+30.06 
+https://uk.wikipedia.org/wiki/30_%D1%87%D0%B5%D1%80%D0%B2%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
 
 
 
@@ -968,6 +967,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0001372', wiki_ua: '%D0%91%D0%BE%D0%BD%D0%BD%D1%96_%D0%93%D0%B0%D0%BD%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/58243/works/', },
 },
 {
+	id: 'boris_johnson_19061964', 
+	name: { n: 'Boris', s: 'Johnson', },
+	sex: 1,
+	life: { bd: 19, bm: 6, by: 1964, },
+	country: { gbr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%94%D0%B6%D0%BE%D0%BD%D1%81%D0%BE%D0%BD', },
+},
+{
 	id: 'boris_pistorius_14031960', 
 	name: { n: 'Boris', s: 'Pistorius', },
 	sex: 1,
@@ -1747,6 +1755,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000193', wiki_ua: '%D0%94%D0%B5%D0%BC%D1%96_%D0%9C%D1%83%D1%80', },
+},
+{
+	id: 'demis_roussos_16061946', 
+	name: { n: 'Demis', s: 'Roussos', },
+	sex: 1,
+	life: { bd: 15, bm: 6, by: 1946, dd: 25, dm: 1, dy: 2015, },
+	country: { grc: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0746096', wiki_ua: '%D0%94%D0%B5%D0%BC%D1%96%D1%81_%D0%A0%D1%83%D1%81%D0%BE%D1%81', },
 },
 {
 	id: 'denise_richards_17021971', 
@@ -2554,6 +2571,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	note: 'Компанія «Пульман», займалася будівництвом вагонів для залізниці',
 },
 {
+	id: 'george_stephenson_09061781', 
+	name: { n: 'George', s: 'Stephenson', },
+	sex: 1,
+	life: { bd: 9, bm: 6, by: 1781, dd: 12, dm: 8, dy: 1848, },
+	country: { gbr: 1, },
+	hash: { develope: 1, inventor: 1, railway: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%A1%D1%82%D0%B5%D1%84%D0%B5%D0%BD%D1%81%D0%BE%D0%BD', },
+},
+{
 	id: 'george_washington_22021732', 
 	name: { n: 'George', s: 'Washington', },
 	sex: 1,
@@ -2618,6 +2644,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { ita: 1, },
 	hash: { music: 1, composer: 1, },
 	internet: { wiki_ua: '%D0%94%D0%B6%D1%83%D0%B7%D0%B5%D0%BF%D0%BF%D0%B5_%D0%92%D0%B5%D1%80%D0%B4%D1%96', },
+},
+{
+	id: 'gojko_mitic_21111945', 
+	name: { n: 'Gojko', s: 'Mitic', },
+	sex: 1,
+	life: { bd: 13, bm: 6, by: 1940, },
+	country: { srb: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0593900', wiki_ua: '%D0%93%D0%BE%D0%B9%D0%BA%D0%BE_%D0%9C%D0%B8%D1%82%D0%B8%D1%87', },
 },
 {
 	id: 'goldie_hawn_21111945', 
@@ -2924,6 +2959,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0000329', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA%D1%96_%D0%A7%D0%B0%D0%BD', },
 },
 {
+	id: 'jacques_yves_cousteau_11061910',
+	name: { n: 'Jacques-Yves', s: 'Cousteau', },
+	sex: 1,
+	life: { bd: 11, bm: 6, by: 1910, dd: 25, dm: 6, dy: 1997, },
+	country: { fra: 1, },
+	hash: { inventor: 1, discoverer: 1, },
+	internet: { wiki_ua: '%D0%96%D0%B0%D0%BA-%D0%86%D0%B2_%D0%9A%D1%83%D1%81%D1%82%D0%BE', },
+},
+{
 	id: 'jai_courtney_15031986', 
 	name: { n: 'Jai', s: 'Courtney', },
 	sex: 1,
@@ -2993,6 +3037,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%93%D0%B5%D0%B4%D0%BB%D1%96_%D0%A7%D0%B5%D0%B9%D0%B7', },
 },
 {
+	id: 'james_cooper_15091789', 
+	name: { n: 'James', s: 'Cooper', },
+	sex: 1,
+	life: { bd: 15, bm: 9, by: 1789, dd: 14, dm: 9, dy: 1851, },
+	country: { usa: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%A4%D0%B5%D0%BD%D1%96%D0%BC%D0%BE%D1%80_%D0%9A%D1%83%D0%BF%D0%B5%D1%80', },
+},
+{
 	id: 'james_hyneman_25091956', 
 	name: { n: 'James', s: 'Hyneman', },
 	sex: 1,
@@ -3010,6 +3063,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0005188', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%9C%D0%B0%D1%80%D1%81%D0%B4%D0%B5%D0%BD', },
+},
+{
+	id: 'james_maxwell_13061831', 
+	name: { n: 'James', s: ' Maxwell', },
+	sex: 1,
+	life: { bd: 13, bm: 6, by: 1831, dd: 5, dm: 11, dy: 1879, },
+	country: { gbr: 1, },
+	hash: { science: 1, physics: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%9A%D0%BB%D0%B5%D1%80%D0%BA_%D0%9C%D0%B0%D0%BA%D1%81%D0%B2%D0%B5%D0%BB%D0%BB', },
 },
 {
 	id: 'james_spader_07021960', 
@@ -4597,6 +4659,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { deu: 1, },
 	hash: { sport: 1, car: 1, },
 	internet: { imdb: '1635856', wiki_ua: '%D0%9C%D1%96%D1%85%D0%B0%D0%B5%D0%BB%D1%8C_%D0%A8%D1%83%D0%BC%D0%B0%D1%85%D0%B5%D1%80', },
+},
+{
+	id: 'ralf_schumacher_30061975', 
+	name: { n: 'Ralf', s: 'Schumacher', },
+	sex: 1,
+	life: { bd: 30, bm: 6, by: 1975, },
+	country: { deu: 1, },
+	hash: { sport: 1, car: 1, },
+	internet: { imdb: '1788165', wiki_ua: '%D0%A0%D0%B0%D0%BB%D1%8C%D1%84_%D0%A8%D1%83%D0%BC%D0%B0%D1%85%D0%B5%D1%80', },
 },
 {
 	id: 'michelangelo_06031475', 
@@ -7228,14 +7299,12 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
-	id: 'anna_ahmatova_23061889', 
-	name: { n: 'Анна', s: 'Ахматова', },
+	id: 'anna_andry_ahmatova_23061889', 
+	name: { n: 'Анна', s: 'Ахматова', p: 'Андріївна', },
 	life: { bd: 23, bm: 6, by: 1889, dd: 5, dm: 3, dy: 1966, },
-	country: { rus: 1, our: { rev: 1, sun: 1, }, },
-	writer: { },
-	internet: {
-		wiki_ru: '%D0%90%D1%85%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0,_%D0%90%D0%BD%D0%BD%D0%B0_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2%D0%BD%D0%B0', 
-	},
+	country: { sun: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%90%D1%85%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0_%D0%90%D0%BD%D0%BD%D0%B0_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'rinat_leonid_ahmetov_21091966', 
@@ -7629,6 +7698,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	birthplace: 'luhansk',
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%91%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0_%D0%86%D1%80%D0%B8%D0%BD%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D1%97%D0%B2%D0%BD%D0%B0', },
+},
+{
+	id: 'yuhym_yosyp_berezin_11111919', 
+	name: { n: 'Юхим', s: 'Березін', p: 'Йосипович', },
+	sex: 1,
+	life: { bd: 11, bm: 11, by: 1919, dd: 29, dm: 5, dy: 2004, },
+	country: { ukr: 1, },
+	hash: { show: 1, humor: 1, },
+	internet: { wiki_ua: '%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D1%96%D0%BD_%D0%AE%D1%85%D0%B8%D0%BC_%D0%99%D0%BE%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'julia_beretta_19021979', 
@@ -10921,6 +10999,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%9A%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_%D0%AE%D0%BB%D1%96%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
+	id: 'ivan_mykyta_kozhedub_08061920', 
+	name: { n: 'Іван', s: 'Кожедуб', p: 'Микитович', },
+	sex: 1,
+	life: { bd: 8, bm: 6, by: 1920, dd: 8, dm: 8, dy: 1991, },
+	country: { sun: 1, },
+	hash: { war: 1, aviation: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BE%D0%B6%D0%B5%D0%B4%D1%83%D0%B1_%D0%86%D0%B2%D0%B0%D0%BD_%D0%9C%D0%B8%D0%BA%D0%B8%D1%82%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'dmitry_kozhoma_18021981', 
 	name: { n: 'Дмитрий', s: 'Кожома', },
 	sex: 1,
@@ -12536,6 +12623,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'yaroslav_mudry_0000983', 
+	name: { n: 'Ярослав', s: 'Мудрий', },
+	sex: 1,
+	life: { bd: 0, bm: 0, by: 983, dd: 20, dm: 2, dy: 1054, },
+	country: { ukr: 1, },
+	hash: { state_head: 1, },
+	internet: { wiki_ua: '%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2_%D0%9C%D1%83%D0%B4%D1%80%D0%B8%D0%B9', },
+},
+{
 	id: 'irina_muravyova_08021949', 
 	name: { n: 'Ирина', s: 'Муравьёва', },
 	life: { bd: 8, bm: 2, by: 1949, },
@@ -12631,6 +12727,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 		wiki_ru: '%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D1%8C%D0%B5%D0%B2%D0%B0,_%D0%90%D0%BD%D0%BD%D0%B0_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BD%D0%B0', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/ros/3012/works/', 
 	},
+},
+{
+	id: 'mustafa_nayem_28061981', 
+	name: { n: 'Мустафа', s: 'Найєм', },
+	sex: 1,
+	life: { bd: 28, bm: 6, by: 1981, },
+	country: { ukr: 1, },
+	hash: { politics: 1, journalist: 1, },
+	internet: { wiki_ua: '%D0%9C%D1%83%D1%81%D1%82%D0%B0%D1%84%D0%B0_%D0%9D%D0%B0%D0%B9%D1%94%D0%BC', },
 },
 {
 	id: 'murat_nasyrov_13121969', 
@@ -13285,6 +13390,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'eugen_omelyan_petrushevych_03061863', 
+	name: { n: 'Євген', s: 'Петрушевич', p: 'Омелянович', },
+	sex: 1,
+	life: { bd: 3, bm: 6, by: 1863, dd: 29, dm: 8, dy: 1940, },
+	country: { ukr: 1, },
+	hash: { politics: 1, state_head: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B5%D1%82%D1%80%D1%83%D1%88%D0%B5%D0%B2%D0%B8%D1%87_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD_%D0%9E%D0%BC%D0%B5%D0%BB%D1%8F%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'kirill_pirogov_04091973', 
 	name: { n: 'Кирилл', s: 'Пирогов', },
 	sex: 1,
@@ -13678,6 +13792,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'sergy_dmytro_prytula_22061981', 
+	name: { n: 'Сергій', s: 'Притула', p: 'Дмитрович', },
+	sex: 1,
+	life: { bd: 22, bm: 6, by: 1981, },
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%80%D0%B8%D1%82%D1%83%D0%BB%D0%B0_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'mihail_mihail_prishvin_', 
 	name: { n: 'Михаил', s: 'Пришвин', p: 'Михайлович', },
 	sex: 1,
@@ -14055,6 +14178,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0744719', wiki_ua: '%D0%A0%D0%BE%D1%82%D0%B0%D1%80%D1%83_%D0%A1%D0%BE%D1%84%D1%96%D1%8F_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/3634/works/', },
 },
 {
+	id: 'sergy_leonid_rubinshtein_18061889', 
+	name: { n: 'Сергій', s: 'Рубінштейн', p: 'Леонідович', },
+	sex: 1,
+	life: { bd: 18, bm: 6, by: 1889, bd: 11, bm: 1, by: 1960, },
+	country: { sun: 1, },
+	hash: { science: 1, psychology: 1, philosophy: 1, },
+	internet: {  wiki_ua: '%D0%A0%D1%83%D0%B1%D1%96%D0%BD%D1%88%D1%82%D0%B5%D0%B9%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'klara_rumyanova_08121929', 
 	name: { n: 'Клара', s: 'Румянова', },
 	life: { bd: 8, bm: 12, by: 1929, dd: 18, dm: 9, dy: 2004, },
@@ -14387,15 +14519,13 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
-	id: 'igor_sikorsky_06061889', 
-	name: { n: 'Игорь', s: 'Сикорский', },
+	id: 'igor_ivan_sikorsky_06061889', 
+	name: { n: 'Ігор', s: 'Сікорський', p: 'Іванович', },
 	sex: 1,
 	life: { bd: 6, bm: 6, by: 1889, dd: 26, dm: 10, dy: 1972, },
-	country: { rus: 1, },
-	develope: { },
-	internet: {
-		wiki_ru: '%D0%A1%D0%B8%D0%BA%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { usa: 1, },
+	hash: { develope: 1, konstruktor: 1, aviation: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%96%D0%BA%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%86%D0%B3%D0%BE%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'vasyl_andry_symonenko_08011935', 
@@ -15140,6 +15270,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { ukr: 1, },
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%A2%D0%B8%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D0%BB%D1%96%D1%8F_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
+},
+{
+	id: 'jury_trohym_tymoshenko_02061919', 
+	name: { n: 'Юрій', s: 'Тимошенко', p: 'Трохимович', },
+	sex: 1,
+	life: { bd: 2, bm: 6, by: 1919, dd: 1, dm: 12, dy: 1986, },
+	country: { ukr: 1, },
+	hash: { show: 1, humor: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%B8%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D1%80%D1%96%D0%B9_%D0%A2%D1%80%D0%BE%D1%85%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'bogdan_titomir_16031967', 
