@@ -17113,7 +17113,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	id: 'claudia_schiffer_', 
 	name: { n: 'Claudia', s: 'Schiffer', },
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { gbr: 1, },
 	hash: { },
 	internet: { wiki_ua: '%D0%9A%D0%BB%D0%B0%D1%83%D0%B4%D1%96%D1%8F_%D0%A8%D0%B8%D1%84%D1%84%D0%B5%D1%80', },
 },
@@ -17126,23 +17126,12 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	hash: { },
 	internet: { wiki_ua: '%D0%9F%D1%96%D0%BD%D1%87%D1%83%D0%BA_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
 },
-
-
-
-
-
-// 31.08 
-// https://uk.wikipedia.org/wiki/31_%D1%81%D0%B5%D1%80%D0%BF%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
-
-
-
-
 {
 	id: 'ferdinand_porsche_', 
 	name: { n: 'Ferdinand', s: 'Porsche', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { deu: 1, },
 	hash: { develope: 1, konstruktor: 1, founder: 1, },
 	internet: { wiki_ua: '%D0%A4%D0%B5%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D0%BD%D0%B4_%D0%9F%D0%BE%D1%80%D1%88%D0%B5', },
 },
@@ -17150,7 +17139,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	id: 'beyonce_', 
 	name: { n: 'Beyonce', },
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { usa: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { wiki_ua: '%D0%91%D0%B5%D0%B9%D0%BE%D0%BD%D1%81%D0%B5', },
 },
@@ -17168,7 +17157,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'John', s: 'Dalton', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { gbr: 1, },
 	hash: { science: 1, physics: 1, chemistry: 1, },
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BD_%D0%94%D0%B0%D0%BB%D1%8C%D1%82%D0%BE%D0%BD', },
 },
@@ -17195,7 +17184,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'Luigi', s: 'Galvani', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { ita: 1, },
 	hash: { },
 	internet: { wiki_ua: '%D0%9B%D1%83%D1%97%D0%B4%D0%B6%D1%96_%D0%93%D0%B0%D0%BB%D1%8C%D0%B2%D0%B0%D0%BD%D1%96', },
 },
@@ -17209,20 +17198,11 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%9F%D0%BB%D1%8E%D1%89_%D0%86%D0%B2%D0%B0%D0%BD_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
-	id: 'stanislaw_lem_', 
-	name: { n: 'Stanislaw', s: 'Lem', },
-	sex: 1,
-	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
-	hash: { writer: 1, literature: 1, },
-	internet: { wiki_ua: '%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2_%D0%9B%D0%B5%D0%BC', },
-},
-{
 	id: 'daniel_defoe_', 
 	name: { n: 'Daniel', s: 'Defoe', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { gbr: 1, },
 	hash: { writer: 1, literature: 1, },
 	internet: { wiki_ua: '%D0%94%D0%B0%D0%BD%D1%96%D1%94%D0%BB%D1%8C_%D0%94%D0%B5%D1%84%D0%BE', },
 },
@@ -17258,7 +17238,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'David Dunbar', s: 'Buick', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { usa: 1, },
 	hash: { },
 	internet: { wiki_ua: '%D0%94%D0%B5%D0%B2%D1%96%D0%B4_%D0%94%D0%B0%D0%BD%D0%B1%D0%B0%D1%80_%D0%91%27%D1%8E%D1%97%D0%BA', },
 },
@@ -17276,7 +17256,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'George', s: 'Martin', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { usa: 1, },
 	hash: { },
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9C%D0%B0%D1%80%D1%82%D1%96%D0%BD_(%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA)', },
 },
@@ -17302,7 +17282,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'Robert', s: 'Bosch', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { deu: 1, },
 	hash: { },
 	internet: { wiki_ua: '%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82_%D0%91%D0%BE%D1%88', },
 },
@@ -17311,7 +17291,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'Octavianus', s: 'Augustus', },
 	sex: 1,
 	life: { bd: 0, bm: 0, by: 1900, dd: 0, dm: 0, dy: 1900, },
-	country: { ukr: 1, },
+	country: { ita: 1, },
 	hash: { },
 	internet: { wiki_ua: '%D0%9E%D0%BA%D1%82%D0%B0%D0%B2%D1%96%D0%B0%D0%BD_%D0%90%D0%B2%D0%B3%D1%83%D1%81%D1%82', },
 },
