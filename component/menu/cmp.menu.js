@@ -114,6 +114,7 @@ class ComponentMenu {
 			'geo', 	// Грузія
 			'dnk', 	// 
 			'dma', 	// 
+			'egy', 	// Єгипет
 			'isr', 	// Ізраїль
 			'ind', 	// 
 			'irq', 	// Ірак
@@ -128,6 +129,7 @@ class ComponentMenu {
 			'nld', 	// Нідерланди
 			'nzl', 	// 
 			'nor', 	// 
+			'pse', 	// Палестина
 			'per', 	// 
 			'zaf', 	// ПАР
 			'prk', 	// 
