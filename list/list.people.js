@@ -164,6 +164,20 @@ https://uk.wikipedia.org/wiki/30_%D1%87%D0%B5%D1%80%D0%B2%D0%BD%D1%8F#%D0%9D%D0%
 
 
 
+
+
+31.07 - закладки
+https://uk.wikipedia.org/wiki/31_%D0%BB%D0%B8%D0%BF%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
+
+
+
+
+
+
+
+
+
+
 1.12
 https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%D1%81%D1%8C
 
@@ -1135,8 +1149,17 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	life: { bd: 4, bm: 10, by: 1895, dd: 1, dm: 2, dy: 1966, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, actor: 1, },
+	hash: { movie: 1, actor: 1, humor: 1, },
 	internet: { imdb: '0000036', wiki_ua: '%D0%91%D0%B0%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%96%D1%82%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/59194/works/', },
+},
+{
+	id: 'cc_catch_31071964', 
+	name: { n: 'C.C.', s: 'Catch', },
+	life: { bd: 31, bm: 7, by: 1964, },
+	country: { deu: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '1862498', wiki_ua: '%D0%9A%D0%B0%D1%80%D0%BE%D0%BB%D1%96%D0%BD%D0%B0_%D0%9A%D0%B0%D1%82%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%9C%D1%8E%D0%BB%D0%BB%D0%B5%D1%80', },
+	note: 'Caroline Catharina Muller',
 },
 {
 	id: 'cameron_diaz_30081972', 
@@ -2239,6 +2262,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%95%D0%BD%D1%86%D0%BE_%D0%A4%D0%B5%D1%80%D1%80%D0%B0%D1%80%D1%96', },
 },
 {
+	id: 'erle_gardner_17071889', 
+	name: { n: 'Erle', s: 'Gardner', },
+	sex: 1,
+	life: { bd: 17, bm: 7, by: 1889, dd: 11, dm: 3, dy: 1970, },
+	country: { usa: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%95%D1%80%D0%BB_%D0%A1%D1%82%D0%B5%D0%BD%D0%BB%D1%96_%D2%90%D0%B0%D1%80%D0%B4%D0%BD%D0%B5%D1%80', },
+},
+{
 	id: 'earle_mac_pherson_06071891', 
 	name: { n: 'Earle', s: 'MacPherson', },
 	sex: 1,
@@ -2324,6 +2356,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	hash: { politics: 1, state_head: 1, },
 	internet: { wiki_ua: '%D0%A4%D1%96%D0%B4%D0%B5%D0%BB%D1%8C_%D0%9A%D0%B0%D1%81%D1%82%D1%80%D0%BE', },
 	note: '1-й голова Державної ради Куби (як 15-й президент)',
+},
+{
+	id: 'francis_scott_fitzgerald_', 
+	name: { n: 'Francis Scott', s: 'Fitzgerald', },
+	sex: 1,
+	life: { bd: 24, bm: 9, by: 1896, dd: 21, dm: 12, dy: 1940, },
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%80%D0%B5%D0%BD%D1%81%D1%96%D1%81_%D0%A1%D0%BA%D0%BE%D1%82%D1%82_%D0%A4%D1%96%D1%86%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%B4', },
 },
 {
 	id: 'frank_walter_steinmeier_05011956', 
@@ -5558,6 +5599,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { imdb: '0000360', wiki_ua: '%D0%A0%D0%B5%D0%B1%D0%B5%D0%BA%D0%BA%D0%B0_%D0%B4%D0%B5_%D0%9C%D0%BE%D1%80%D0%BD%D0%B5%D0%B9', },
 },
 {
+	id: 'rembrandt_15071606', 
+	name: { n: 'Rembrandt', },
+	sex: 1,
+	life: { bd: 15, bm: 7, by: 1606, dd: 4, dm: 10, dy: 1669, },
+	country: { nld: 1, },
+	hash: { painter: 1, },
+	internet: { wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D1%82_%D0%B2%D0%B0%D0%BD_%D0%A0%D0%B5%D0%B9%D0%BD', },
+},
+{
 	id: 'remo_girone_01121948', 
 	name: { n: 'Remo', s: 'Girone', },
 	sex: 1,
@@ -6506,7 +6556,7 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	name: { n: 'Vanessa', s: 'Mae', },
 	life: { bd: 27, bm: 10, by: 1978, },
 	img: [ 2, 1 ],
-	country: { gbr: 1, },
+	country: { sgp: 1, gbr: 1, },
 	hash: { music: 1, violin: 1, },
 	internet: { wiki_ua: '%D0%92%D0%B0%D0%BD%D0%B5%D1%81%D1%81%D0%B0_%D0%9C%D0%B5%D0%B9', },
 },
@@ -6972,6 +7022,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { ukr: 1, },
 	hash: { politics: 1, traitor: 1, },
 	internet: { wiki_ua: '%D0%90%D0%B7%D0%B0%D1%80%D0%BE%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%AF%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
+	id: 'ivan_kostyantyn_ayvazovsky_29071817', 
+	name: { n: 'Іван', s: 'Айвазовський', p: 'Костянтинович', },
+	sex: 1,
+	life: { bd: 29, bm: 7, by: 1817, dd: 2, dm: 5, dy: 1900, },
+	country: { ukr: 1, },
+	hash: { painter: 1, },
+	internet: { wiki_ua: '%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%86%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'oxana_akinshina_19041987', 
@@ -9088,6 +9147,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	internet: { wiki_ua: '%D0%93%D0%BE%D0%BD%D1%87%D0%B0%D1%80_%D0%9E%D0%BB%D0%B5%D1%81%D1%8C_%D0%A2%D0%B5%D1%80%D0%B5%D0%BD%D1%82%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
+	id: 'olexy_valery_goncharuk_07071984', 
+	name: { n: 'Олексій', s: 'Гончарук', p: 'Валерійович', },
+	sex: 1,
+	life: { bd: 7, bm: 7, by: 1984, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%93%D0%BE%D0%BD%D1%87%D0%B0%D1%80%D1%83%D0%BA_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'mihail_sergey_gorbachev_02031931', 
 	name: { n: 'Михаил', s: 'Горбачёв', p: 'Сергеевич', },
 	sex: 1,
@@ -10725,7 +10793,16 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	note: 'Тетяна Григорівна Ліберман',
 },
 {
-	id: 'roman_karcev_20051939', 
+	id: 'ivan_karpenkokary_29091845', 
+	name: { n: 'Іван', s: 'Карпенко-Карий', },
+	sex: 1,
+	life: { bd: 29, bm: 9, by: 1845, dd: 15, dm: 9, dy: 1907, },
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%86%D0%B2%D0%B0%D0%BD_%D0%9A%D0%B0%D1%80%D0%BF%D0%B5%D0%BD%D0%BA%D0%BE-%D0%9A%D0%B0%D1%80%D0%B8%D0%B9', },
+},
+{
+	id: 'roman_karcev_20051939',
 	name: { n: 'Роман', s: 'Карцев', },
 	sex: 1,
 	life: { bd: 20, bm: 5, by: 1939, dd: 2, dm: 10, dy: 2018, },
@@ -12369,6 +12446,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'mykola_mykola_mykluhomaklay_17071846', 
+	name: { n: 'Микола', s: 'Миклухо-Маклай', p: 'Миколайович', },
+	sex: 1,
+	life: { bd: 17, bm: 7, by: 1846, dd: 14, dm: 4, dy: 1888, },
+	country: { ukr: 1, },
+	hash: { traveler: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B8%D0%BA%D0%BB%D1%83%D1%85%D0%BE-%D0%9C%D0%B0%D0%BA%D0%BB%D0%B0%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'artem_mikoyan_05081905', 
 	name: { n: 'Артём', s: 'Микоян', },
 	sex: 1,
@@ -12544,17 +12630,13 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
-	id: 'frunzik_mkrtchan_04071930', 
-	name: { n: 'Фрунзик', s: 'Мкртчян', },
+	id: 'frunzik_musheg_mkrtchan_04071930', 
+	name: { n: 'Фрунзик', s: 'Мкртчян', p: 'Мушегович', },
 	sex: 1,
 	life: { bd: 4, bm: 7, by: 1930, dd: 29, dm: 12, dy: 1993, },
-	country: { rus: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0594796', 
-		wiki_ru: '%D0%9C%D0%BA%D1%80%D1%82%D1%87%D1%8F%D0%BD,_%D0%A4%D1%80%D1%83%D0%BD%D0%B7%D0%B8%D0%BA_%D0%9C%D1%83%D1%88%D0%B5%D0%B3%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/2910/works/', 
-	},
+	country: { arm: 1, sun: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0594796', wiki_ua: '%D0%9C%D0%BA%D1%80%D1%82%D1%87%D1%8F%D0%BD_%D0%A4%D1%80%D1%83%D0%BD%D0%B7%D0%B8%D0%BA_%D0%9C%D1%83%D1%88%D0%B5%D0%B3%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/2910/works/', },
 },
 {
 	id: 'natalia_olexy_mogylevska_02081975', 
@@ -13203,6 +13285,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	},
 },
 {
+	id: 'volodymyr_zinovy_parasyuk_09071987', 
+	name: { n: 'Володимир', s: 'Парасюк', p: 'Зіновійович', },
+	sex: 1,
+	life: { bd: 9, bm: 7, by: 1987, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B0%D1%80%D0%B0%D1%81%D1%8E%D0%BA_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%97%D1%96%D0%BD%D0%BE%D0%B2%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'leonid_parfenov_26011960', 
 	name: { n: 'Леонид', s: 'Парфёнов', },
 	sex: 1,
@@ -13397,6 +13488,15 @@ https://uk.wikipedia.org/wiki/1_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F#%D0%9D%D0%B
 	country: { ukr: 1, },
 	hash: { politics: 1, state_head: 1, },
 	internet: { wiki_ua: '%D0%9F%D0%B5%D1%82%D1%80%D1%83%D1%88%D0%B5%D0%B2%D0%B8%D1%87_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD_%D0%9E%D0%BC%D0%B5%D0%BB%D1%8F%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
+	id: 'sergy_volodymyr_pylypenko_22071891', 
+	name: { n: 'Сергій', s: 'Пилипенко', p: 'Володимирович', },
+	sex: 1,
+	life: { bd: 22, bm: 7, by: 1891, dd: 3, dm: 3, dy: 1934, },
+	country: { ukr: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B8%D0%BB%D0%B8%D0%BF%D0%B5%D0%BD%D0%BA%D0%BE_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'kirill_pirogov_04091973', 

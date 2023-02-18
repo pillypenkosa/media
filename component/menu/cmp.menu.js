@@ -102,6 +102,7 @@ class ComponentMenu {
 
 			'aut', 	// 
 			'arg', 	// 
+			'arm', 	// 
 			'brb', 	// 
 			'bel', 	// 
 			'blr', 	// 
@@ -137,6 +138,7 @@ class ComponentMenu {
 			'rus', 	// 
 			'sau', 	// 
 			'srb', 	// 
+			'sgp', 	// Сінгапур
 			'sun', 	// СРСР
 			'twn', 	// 
 			'tto', 	// 
