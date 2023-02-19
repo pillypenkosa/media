@@ -6065,6 +6065,15 @@ let arrPeople = [
 	internet: { wiki_ua: '%D0%A0%D1%96%D0%BD%D0%B3%D0%BE_%D0%A1%D1%82%D0%B0%D1%80%D1%80', },
 },
 {
+	id: 'rishi_sunak_12051980', 
+	name: { n: 'Rishi', s: 'Sunak', },
+	sex: 1,
+	life: { bd: 12, bm: 5, by: 1980, },
+	country: { gbr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A0%D1%96%D1%88%D1%96_%D0%A1%D1%83%D0%BD%D0%B0%D0%BA', },
+},
+{
 	id: 'robbie_williams_13021974', 
 	name: { n: 'Robbie', s: 'Williams', },
 	sex: 1,
