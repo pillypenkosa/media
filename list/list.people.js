@@ -7391,6 +7391,11 @@ let arrPeople = [
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 {
 	id: 'el_kravchuk_17031975',
 	name: { n: 'EL', s: 'Кравчук', },
@@ -10235,6 +10240,7 @@ let arrPeople = [
 	name: { n: 'Мустафа', s: 'Джемілєв', },
 	sex: 1,
 	life: { bd: 13, bm: 11, by: 1943, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%9C%D1%83%D1%81%D1%82%D0%B0%D1%84%D0%B0_%D0%94%D0%B6%D0%B5%D0%BC%D1%96%D0%BB%D1%94%D0%B2', },
@@ -10510,6 +10516,7 @@ let arrPeople = [
 	name: { n: 'Левко', s: 'Дурко', },
 	sex: 1,
 	life: { bd: 17, bm: 6, by: 1949, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { wiki_ua: '%D0%9B%D0%B5%D0%B2%D0%BA%D0%BE_%D0%94%D1%83%D1%80%D0%BA%D0%BE', },
@@ -10963,6 +10970,7 @@ let arrPeople = [
 	name: { n: 'Олександр', s: 'Захарченко', p: 'Володимирович', },
 	sex: 1,
 	life: { bd: 26, bm: 6, by: 1976, dd: 31, dm: 8, dy: 2018, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, war: 1, traitor: 1, },
 	internet: { wiki_ua: '%D0%97%D0%B0%D1%85%D0%B0%D1%80%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
@@ -11064,8 +11072,9 @@ let arrPeople = [
 {
 	id: 'pavlo_mihaylo_zibrov_21061957', 
 	name: { n: 'Павло', s: 'Зібров', p: 'Миколайович', },
-	life: { bd: 21, bm: 6, by: 1957, },
 	sex: 1,
+	life: { bd: 21, bm: 6, by: 1957, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { wiki_ua: '%D0%97%D1%96%D0%B1%D1%80%D0%BE%D0%B2_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
@@ -14340,6 +14349,7 @@ let arrPeople = [
 	id: 'kateryna_olexandr_polischuk_31032001', 
 	name: { n: 'Катерина', s: 'Поліщук', p: 'Олександрівна', },
 	life: { bd: 31, bm: 3, by: 2001, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { writer: 1, war: 1, medicine: 1, },
 	internet: { wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%89%D1%83%D0%BA_%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
@@ -16353,9 +16363,10 @@ let arrPeople = [
 	id: 'natalia_myhaylo_uzhviy_08091898', 
 	name: { n: 'Наталія', s: 'Ужвій', p: 'Михайлівна', },
 	life: { bd: 8, bm: 9, by: 1898, dd: 29, dm: 7, dy: 1986, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, sun: 1, },
 	hash: { movie: 1, actor: 1, },
-	internet: { wiki_ua: '%D0%A3%D0%B6%D0%B2%D1%96%D0%B9_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96%D1%8F_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', },
+	internet: { imdb: '0050754', wiki_ua: '%D0%A3%D0%B6%D0%B2%D1%96%D0%B9_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96%D1%8F_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'lesya_ukrainka_25021871', 
@@ -16468,6 +16479,7 @@ let arrPeople = [
 	id: 'iryna_dmytro_farion_29041964', 
 	name: { n: 'Ірина', s: 'Фаріон', p: 'Дмитрівна', },
 	life: { bd: 29, bm: 4, by: 1964, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%A4%D0%B0%D1%80%D1%96%D0%BE%D0%BD_%D0%86%D1%80%D0%B8%D0%BD%D0%B0_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
@@ -17407,6 +17419,7 @@ let arrPeople = [
 	id: 'klavdia_ivan_shulzhenko_24031906', 
 	name: { n: 'Клавдія', s: 'Шульженко', p: 'Іванівна', },
 	life: { bd: 24, bm: 3, by: 1906, dd: 17, dm: 6, dy: 1984, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, sun: 1, },
 	hash: { music: 1, singer: 1, },
 	internet: { wiki_ua: '%D0%A8%D1%83%D0%BB%D1%8C%D0%B6%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9A%D0%BB%D0%B0%D0%B2%D0%B4%D1%96%D1%8F_%D0%86%D0%B2%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
@@ -17564,6 +17577,7 @@ let arrPeople = [
 	id: 'kateryna_logvyn_yuschenko_08121919', 
 	name: { n: 'Катерина', s: 'Ющенко', p: 'Логвинівна', },
 	life: { bd: 8, bm: 12, by: 1919, dd: 15, dm: 8, dy: 2001, },
+	img: [ 1, 1 ],
 	country: { ukr: 1, sun: 1, },
 	hash: { develope: 1, it: 1, },
 	internet: { wiki_ua: '%D0%AE%D1%89%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0_%D0%9B%D0%BE%D0%B3%D0%B2%D0%B8%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
