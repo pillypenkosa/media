@@ -7135,6 +7135,7 @@ let arrPeople = [
 {
 	id: 'viktor_orban_31051963', 
 	name: { n: 'Viktor', s: 'Orban', },
+	sex: 1,
 	life: { bd: 31, bm: 5, by: 1963, },
 	country: { hun: 1, },
 	hash: { politics: 1, },
