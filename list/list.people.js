@@ -327,6 +327,15 @@ let arrPeople = [
 	internet: { imdb: '0001128', wiki_ua: '%D0%90%D0%BB%D0%B5%D0%BD_%D0%94%D0%B5%D0%BB%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/euro/1226/works/', },
 },
 {
+	id: 'alain_floquet_18121938', 
+	name: { n: 'Alain', s: 'Floquet', },
+	sex: 1,
+	life: { bd: 18, bm: 12, by: 1938, },
+	country: { fra: 1, },
+	hash: { sport: 1, fighter: 1, },
+	internet: { },
+},
+{
 	id: 'alan_alexander_milne_18011882', 
 	name: { n: 'Alan', s: 'Milne', p: 'Alexander', },
 	sex: 1,
@@ -605,7 +614,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 0, bm: 0, by: -384, dd: 0, dm: 0, dy: -322, },
 	country: { grc: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%90%D1%80%D1%96%D1%81%D1%82%D0%BE%D1%82%D0%B5%D0%BB%D1%8C', },
 },
 {
@@ -652,7 +661,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 22, bm: 2, by: 1788, dd: 21, dm: 9, dy: 1860, },
 	country: { deu: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%90%D1%80%D1%82%D1%83%D1%80_%D0%A8%D0%BE%D0%BF%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B5%D1%80', },
 },
 {
@@ -2607,7 +2616,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 15, bm: 10, by: 1844, dd: 25, dm: 8, dy: 1900, },
 	country: { deu: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%A4%D1%80%D1%96%D0%B4%D1%80%D1%96%D1%85_%D0%9D%D1%96%D1%86%D1%88%D0%B5', },
 },
 {
@@ -2703,7 +2712,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 27, bm: 8, by: 1770, dd: 14, dm: 11, dy: 1831, },
 	country: { deu: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%93%D0%B5%D0%BE%D1%80%D0%B3_%D0%92%D1%96%D0%BB%D1%8C%D0%B3%D0%B5%D0%BB%D1%8C%D0%BC_%D0%A4%D1%80%D1%96%D0%B4%D1%80%D1%96%D1%85_%D0%93%D0%B5%D0%B3%D0%B5%D0%BB%D1%8C', },
 },
 {
@@ -2867,7 +2876,7 @@ let arrPeople = [
 	sex: 1,
 	life: { by: 1548, dd: 17, dm: 2, dy: 1600, },
 	country: { ita: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { science: 1, astronomy: 1, philosophy: 1, },
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B0%D0%BD%D0%BE_%D0%91%D1%80%D1%83%D0%BD%D0%BE', },
 },
 {
@@ -3140,7 +3149,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 22, bm: 4, by: 1724, dd: 12, dm: 2, dy: 1804, },
 	country: { deu: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%86%D0%BC%D0%BC%D0%B0%D0%BD%D1%83%D1%97%D0%BB_%D0%9A%D0%B0%D0%BD%D1%82', },
 },
 {
@@ -4574,7 +4583,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 28, bm: 7, by: 1804, dd: 13, dm: 9, dy: 1872, },
 	country: { deu: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B2%D1%96%D0%B3_%D0%A4%D0%B5%D1%94%D1%80%D0%B1%D0%B0%D1%85', },
 },
 {
@@ -5855,7 +5864,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 0, bm: 0, by: -427, dd: 0, dm: 0, dy: -348, },
 	country: { grc: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%82%D0%BE%D0%BD', },
 },
 {
@@ -5874,7 +5883,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 0, bm: 0, by: -570, dd: 0, dm: 0, dy: -497, },
 	country: { grc: 1, },
-	hash: { science: 1, philosophy: 1, math: 1, },
+	hash: { science: 1, math: 1, },
 	internet: { wiki_ua: '%D0%9F%D1%96%D1%84%D0%B0%D0%B3%D0%BE%D1%80', },
 },
 {
@@ -6606,7 +6615,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 0, bm: 0, by: -470, dd: 0, dm: 0, dy: -399, },
 	country: { grc: 1, },
-	hash: { science: 1, philosophy: 1, },
+	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%A1%D0%BE%D0%BA%D1%80%D0%B0%D1%82', },
 },
 {
@@ -6633,6 +6642,15 @@ let arrPeople = [
 	country: { gbr: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '3849842', wiki_ua: '%D0%A1%D0%BE%D1%84%D1%96_%D0%A2%D0%B5%D1%80%D0%BD%D0%B5%D1%80', },
+},
+{
+	id: 'srila_prabhupada_01091986', 
+	name: { n: 'Srila', s: 'Prabhupada', },
+	sex: 1,
+	life: { bd: 1, bm: 9, by: 1986, dd: 14, dm: 11, dy: 1977, },
+	country: { ind: 1, },
+	hash: { philosophy: 1, religion: 1, },
+	internet: { wiki_ua: '%D0%91%D0%B3%D0%B0%D0%BA%D1%82%D1%96%D0%B2%D0%B5%D0%B4%D0%B0%D0%BD%D1%82%D0%B0_%D0%A1%D0%B2%D0%B0%D0%BC%D1%96_%D0%9F%D1%80%D0%B0%D0%B1%D0%B3%D1%83%D0%BF%D0%B0%D0%B4%D0%B0', },
 },
 {
 	id: 'stanislaw_lem_12091921', 
