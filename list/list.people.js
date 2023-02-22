@@ -7133,6 +7133,14 @@ let arrPeople = [
 	internet: { imdb: '0749336', wiki_ua: '%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%A0%D1%83%D1%84%D1%84%D0%BE', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/latin/182219/works/', },
 },
 {
+	id: 'viktor_orban_31051963', 
+	name: { n: 'Viktor', s: 'Orban', },
+	life: { bd: 31, bm: 5, by: 1963, },
+	country: { hun: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%9E%D1%80%D0%B1%D0%B0%D0%BD', },
+},
+{
 	id: 'ville_haapasalo_28021972', 
 	name: { n: 'Ville', s: 'Haapasalo', },
 	sex: 1,
