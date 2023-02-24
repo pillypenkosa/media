@@ -1575,6 +1575,14 @@ let arrPeople = [
 	internet: { imdb: '0822694', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/69775/works/', },
 },
 {
+	id: 'clara_zetkin_05071857', 
+	name: { n: 'Clara', s: 'Zetkin', },
+	life: { bd: 5, bm: 7, by: 1857, dd: 20, dm: 6, dy: 1933, },
+	country: { deu: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%BB%D0%B0%D1%80%D0%B0_%D0%A6%D0%B5%D1%82%D0%BA%D1%96%D0%BD', },
+},
+{
 	id: 'claude_monet_14111840', 
 	name: { n: 'Claude', s: 'Monet', },
 	sex: 1,
@@ -3188,6 +3196,14 @@ let arrPeople = [
 	country: { usa: 1, },
 	hash: {  inventor: 1, founder: 1, },
 	internet: { wiki_ua: '%D0%90%D0%B9%D0%B7%D0%B5%D0%BA_%D0%97%D1%96%D0%BD%D2%91%D0%B5%D1%80', },
+},
+{
+	id: 'isadora_duncan_27051877', 
+	name: { n: 'Isadora', s: 'Duncan', },
+	life: { bd: 27, bm: 5, by: 1877, dd: 14, dm: 9, dy: 1927, },
+	country: { usa: 1, },
+	hash: { dance: 1, },
+	internet: { wiki_ua: '%D0%90%D0%B9%D1%81%D0%B5%D0%B4%D0%BE%D1%80%D0%B0_%D0%94%D1%83%D0%BD%D0%BA%D0%B0%D0%BD', },
 },
 {
 	id: 'jack_black_28081969', 
