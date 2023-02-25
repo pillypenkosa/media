@@ -14703,6 +14703,15 @@ let arrPeople = [
 	note: 'Поэт-песенник', 
 },
 {
+	id: 'myhaylo_myhaylo_poplavsky_28111949', 
+	name: { n: 'Михайло', s: 'Поплавський', p: 'Михайлович', },
+	sex: 1,
+	life: { bd: 28, bm: 11, by: 1949, },
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D0%BF%D0%BB%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'eugeny_popov_11091978', 
 	name: { n: 'Евгений', s: 'Попов', },
 	sex: 1,
