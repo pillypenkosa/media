@@ -8485,6 +8485,15 @@ let arrPeople = [
 	internet: { wiki_ua: '%D0%91%D0%BB%D0%BE%D1%85%D1%96%D0%BD_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
+	id: 'ivo_bobul_17061953', 
+	name: { n: 'Іво', s: 'Бобул', },
+	sex: 1,
+	life: { bd: 17, bm: 6, by: 1953, },
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%86%D0%B2%D0%BE_%D0%91%D0%BE%D0%B1%D1%83%D0%BB', },
+},
+{
 	id: 'sergey_bodrov_27121971', 
 	name: { n: 'Сергей', s: 'Бодров', },
 	sex: 1,
@@ -8518,7 +8527,16 @@ let arrPeople = [
 	img: [ 2, 1 ],
 	country: { ukr: 1, },
 	hash: { show: 1, journalist: 1, },
-	internet: { imdb: '', wiki_ua: '%D0%93%D0%B0%D0%BD%D0%BD%D0%B0_%D0%91%D0%BE%D0%BA%D0%B0', },
+	internet: { wiki_ua: '%D0%93%D0%B0%D0%BD%D0%BD%D0%B0_%D0%91%D0%BE%D0%BA%D0%B0', },
+},
+{
+	id: 'stanislav_volodymyr_boklan_12011960', 
+	name: { n: 'Станіслав', s: 'Боклан', p: 'Володимирович', },
+	sex: 1,
+	life: { bd: 12, bm: 1, by: 1960, },
+	country: { ukr: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0049182', wiki_ua: '%D0%91%D0%BE%D0%BA%D0%BB%D0%B0%D0%BD_%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'olena_anatoly_bondarenko_26051974', 
@@ -9008,6 +9026,15 @@ let arrPeople = [
 		imdb: '0890548', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/702/works/', 
 	},
+},
+{
+	id: 'anatoly_olexandr_vasserman_09121952', 
+	name: { n: 'Анатолій', s: 'Вассерман', p: 'Олександрович', },
+	sex: 1,
+	life: { bd: 9, bm: 12, by: 1952, },
+	country: { ukr: 1, rus: 1, sun: 1, },
+	hash: { politics: 1, show: 1, leading: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%92%D0%B0%D1%81%D1%81%D0%B5%D1%80%D0%BC%D0%B0%D0%BD_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'vladimir_vdovichenkov_13081971', 
@@ -12191,6 +12218,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'jury_mykola_krapov_13091973', 
+	name: { n: 'Юрій', s: 'Крапов', p: 'Миколайович', },
+	sex: 1,
+	life: { bd: 13, bm: 9, by: 1973, },
+	country: { ukr: 1, },
+	hash: { show: 1, humor: 1, kvartal95: 1, kvk: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%80%D0%B0%D0%BF%D0%BE%D0%B2_%D0%AE%D1%80%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'natalya_krachkovskaya_24111938', 
 	name: { n: 'Наталья', s: 'Крачковская', },
 	life: { bd: 24, bm: 11, by: 1938, dd: 3, dm: 3, dy: 2016, },
@@ -12513,6 +12549,15 @@ let arrPeople = [
 		wiki_ru: '%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80_%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9', 
 	},
 	note: 'Алексе́й Игоревич Лебединский',
+},
+{
+	id: 'yanislav_yosyp_levinzon_12071954', 
+	name: { n: 'Яніслав', s: 'Левінзон', p: 'Йосипович', },
+	sex: 1,
+	life: { bd: 12, bm: 7, by: 1954, },
+	country: { ukr: 1, isr: 1, },
+	hash: { show: 1, humor: 1, kvk: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B5%D0%B2%D1%96%D0%BD%D0%B7%D0%BE%D0%BD_%D0%AF%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2_%D0%99%D0%BE%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'anna_legchilova_22121969', 
@@ -13034,6 +13079,15 @@ let arrPeople = [
 	internet: {
 		wiki_ru: '%D0%9C%D0%B0%D0%BC%D0%B8%D0%BD-%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8F%D0%BA,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%9D%D0%B0%D1%80%D0%BA%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'denys_volodymyr_manzhosov_05041978', 
+	name: { n: 'Денис', s: 'Манжосов', p: 'Володимирович', },
+	sex: 1,
+	life: { bd: 5, bm: 4, by: 1978, },
+	country: { ukr: 1, },
+	hash: { show: 1, humor: 1, kvartal95: 1, kvk: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D0%BD%D0%B6%D0%BE%D1%81%D0%BE%D0%B2_%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'garik_martirosyan_13021974', 
@@ -16937,6 +16991,15 @@ let arrPeople = [
 		imdb: '1468086', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/4524/works/', 
 	},
+},
+{
+	id: 'oleg_mykola_filimonov_26021952', 
+	name: { n: 'Олег', s: 'Філімонов', p: 'Миколайович', },
+	sex: 1,
+	life: { bd: 26, bm: 2, by: 1952, },
+	country: { ukr: 1, sun: 1, },
+	hash: { show: 1, showman: 1, leading: 1, humor: 1, },
+	internet: { wiki_ua: '%D0%A4%D1%96%D0%BB%D1%96%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'eduard_flerov_22111966', 
