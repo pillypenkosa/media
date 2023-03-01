@@ -43,6 +43,7 @@ const arrPeopleHash = [
 { id: 'discoverer' 			, title: 'Дослідники' 					, },
 { id: 'dramaturge' 			, title: 'Драматургія' 					, },
 { id: 'economy' 			, title: 'Економіка' 					, },
+{ id: 'expert' 				, title: 'Експерти' 					, },
 { id: 'psychic' 			, title: 'Екстрасенси' 					, },
 { id: 'journalist' 			, title: 'Журналісти' 					, },
 { id: 'railway' 			, title: 'Залізниця' 					, },
@@ -7823,7 +7824,7 @@ let arrPeople = [
 	life: { bd: 3, bm: 8, by: 1975, },
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
-	hash: { politics: 1, },
+	hash: { politics: 1, expert: 1, },
 	internet: { wiki_ua: '%D0%90%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D1%87_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
@@ -9716,7 +9717,7 @@ let arrPeople = [
 	life: { bd: 16, bm: 1, by: 1976,  },
 	img: [ 1, 1 ],
 	country: { ukr: 1,  },
-	hash: { show: 1, politics: 1, },
+	hash: { politics: 1, expert: 1, },
 	internet: { },
 },
 {
@@ -10234,6 +10235,15 @@ let arrPeople = [
 		wiki_ru: '%D0%93%D1%83%D1%89%D0%B8%D0%BD%D0%B0,_%D0%95%D0%BB%D0%B5%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0', 
 	},
 	note: 'КВН Союз, Лёля', 
+},
+{
+	id: 'mykola_ivan_davydyuk_18071988', 
+	name: { n: 'Микола', s: 'Давидюк', p: 'Іванович', },
+	sex: 1,
+	life: { bd: 18, bm: 7, by: 1988, },
+	country: { ukr: 1, },
+	hash: { politics: 1, expert: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B0%D0%B2%D0%B8%D0%B4%D1%8E%D0%BA_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'georgy_danelia_25081930', 
@@ -12319,6 +12329,15 @@ let arrPeople = [
 		wiki_ru: '%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2,_%D0%AE%D1%80%D0%B8%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87_(%D0%B0%D0%BA%D1%82%D1%91%D1%80)', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/2312/works/', 
 	},
+},
+{
+	id: 'renat_ravely_kuzmin_12071967', 
+	name: { n: 'Ренат', s: 'Кузьмін', p: 'Равелійович', },
+	sex: 1,
+	life: { bd: 12, bm: 7, by: 1967, },
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9A%D1%83%D0%B7%D1%8C%D0%BC%D1%96%D0%BD_%D0%A0%D0%B5%D0%BD%D0%B0%D1%82_%D0%A0%D0%B0%D0%B2%D0%B5%D0%BB%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'dmytro_ivan_kuleba_19041981', 
@@ -15030,6 +15049,15 @@ let arrPeople = [
 	internet: {
 		wiki_ru: '%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'viktor_pavlo_pshonka_06021954', 
+	name: { n: 'Віктор', s: 'Пшонка', p: 'Павлович', },
+	sex: 1,
+	life: { bd: 6, bm: 2, by: 1954, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%88%D0%BE%D0%BD%D0%BA%D0%B0_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'edita_pyeha_31071937', 
