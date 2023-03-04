@@ -14949,6 +14949,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'vadym_volodymyr_prystayko_20021970', 
+	name: { n: 'Вадим', s: 'Пристайко', p: 'Володимирович', },
+	sex: 1,
+	life: { bd: 20, bm: 2, by: 1970, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B9%D0%BA%D0%BE_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'sergy_dmytro_prytula_22061981', 
 	name: { n: 'Сергій', s: 'Притула', p: 'Дмитрович', },
 	sex: 1,
@@ -16053,6 +16062,14 @@ let arrPeople = [
 	internet: {
 		wiki_ru: '%D0%A1%D0%BE%D0%BB%D0%BE%D0%B2%D1%8C%D1%91%D0%B2,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%A0%D1%83%D0%B4%D0%BE%D0%BB%D1%8C%D1%84%D0%BE%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'kateryna_solyar_08051987', 
+	name: { n: 'Катерина', s: 'Соляр', },
+	life: { bd: 8, bm: 5, by: 1987, },
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%BE%D0%BB%D1%8F%D1%80_%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0',  },
 },
 {
 	id: 'igor_sorin_10111969', 
