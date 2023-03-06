@@ -458,6 +458,15 @@ let arrPeople = [
 	internet: {imdb: '0000192', wiki_ua: '%D0%90%D0%BB%D1%96%D1%81%D1%81%D0%B0_%D0%9C%D1%96%D0%BB%D0%B0%D0%BD%D0%BE', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/58174/works/', },
 },
 {
+	id: 'amerigo_vespucci_09031454', 
+	name: { n: 'Amerigo', s: 'Vespucci', },
+	sex: 1,
+	life: { bd: 9, bm: 3, by: 1454, dd: 22, dm: 2, dy: 1512, },
+	country: { ita: 1, },
+	hash: { discoverer: 1, seafarer: 1, traveler: 1, },
+	internet: { wiki_ua: '%D0%90%D0%BC%D0%B5%D1%80%D1%96%D0%B3%D0%BE_%D0%92%D0%B5%D1%81%D0%BF%D1%83%D1%87%D1%87%D1%96', },
+},
+{
 	id: 'amy_smart_26031976', 
 	name: { n: 'Amy', s: 'Smart', },
 	life: { bd: 26, bm: 3, by: 1976, },
@@ -1164,6 +1173,15 @@ let arrPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000246', wiki_ua: '%D0%91%D1%80%D1%8E%D1%81_%D0%92%D1%96%D0%BB%D0%BB%D1%96%D1%81', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48123/works/', },
+},
+{
+	id: 'bryan_adams_05111959', 
+	name: { n: 'Bryan', s: 'Adams', },
+	sex: 1,
+	life: { bd: 5, bm: 11, by: 1959, },
+	country: { can: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0001898', wiki_ua: '%D0%91%D1%80%D0%B0%D1%8F%D0%BD_%D0%90%D0%B4%D0%B0%D0%BC%D1%81', },
 },
 {
 	id: 'burt_reynolds_11021936', 
@@ -3506,6 +3524,15 @@ let arrPeople = [
 	internet: { imdb: '0000241', wiki_ua: '%D0%96%D0%B0%D0%BD-%D0%9A%D0%BB%D0%BE%D0%B4_%D0%92%D0%B0%D0%BD_%D0%94%D0%B0%D0%BC', },
 },
 {
+	id: 'jean_michel_jarre_24081948', 
+	name: { n: 'Jean-Michel', s: 'Jarre', },
+	sex: 1,
+	life: { bd: 24, bm: 8, by: 1948, },
+	country: { fra: 1, },
+	hash: { music: 1, composer: 1, },
+	internet: { imdb: '0418882', wiki_ua: '%D0%96%D0%B0%D0%BD-%D0%9C%D1%96%D1%88%D0%B5%D0%BB%D1%8C_%D0%96%D0%B0%D1%80%D1%80', },
+},
+{
 	id: 'jean_paul_belmondo_09041933', 
 	name: { n: 'Jean-Paul', s: 'Belmondo', },
 	sex: 1,
@@ -5686,7 +5713,7 @@ let arrPeople = [
 	life: { bd: 4, bm: 3, by: 1925, dd: 3, dm: 11, dy: 2006, },
 	country: { fra: 1, },
 	hash: { music: 1, composer: 1, },
-	internet: { wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%8C_%D0%9C%D0%BE%D1%80%D1%96%D0%B0', },
+	internet: { imdb: '0561098', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%8C_%D0%9C%D0%BE%D1%80%D1%96%D0%B0', },
 },
 {
 	id: 'paul_verhoeven_18071938', 
@@ -17039,6 +17066,15 @@ let arrPeople = [
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/sov/4465/works/', 
 	},
 	note: 'Родилась в Харькове', 
+},
+{
+	id: 'ivan_sergy_fedorov_29081988', 
+	name: { n: 'Іван', s: 'Федоров', p: 'Сергійович', },
+	sex: 1,
+	life: { bd: 29, bm: 8, by: 1988, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B2_%D0%86%D0%B2%D0%B0%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'andrey_fedorcov_13081968', 
