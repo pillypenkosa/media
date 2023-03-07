@@ -8037,6 +8037,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'ivan_gennady_bakanov_02051975', 
+	name: { n: 'Іван', s: 'Баканов', p: 'Геннадійович', },
+	sex: 1,
+	life: { bd: 2, bm: 5, by: 1975, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%91%D0%B0%D0%BA%D0%B0%D0%BD%D0%BE%D0%B2_%D0%86%D0%B2%D0%B0%D0%BD_%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'viktor_ivan_baloga_15061963', 
 	name: { n: 'Віктор', s: 'Балога', p: 'Іванович', },
 	sex: 1,
@@ -9452,15 +9461,13 @@ let arrPeople = [
 	},
 },
 {
-	id: 'klim_voroshilov_04021881', 
-	name: { n: 'Клим', s: 'Ворошилов', },
+	id: 'klyment_efrem_voroshylov_04021881', 
+	name: { n: 'Клим', s: 'Ворошилов', p: 'Єфремович', },
 	sex: 1,
 	life: { bd: 4, bm: 2, by: 1881, dd: 2, dm: 12, dy: 1969, },
-	country: { rus: 1, our: { sun: 1, }, },
-	war: { },
-	internet: {
-		wiki_ru: '%D0%92%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%BB%D0%BE%D0%B2,_%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { rem: 1, sun: 1, },
+	hash: { war: 1, politics: 1, },
+	internet: { wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%BB%D0%BE%D0%B2_%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_%D0%84%D1%84%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'vladimir_vysocky_25011938', 
