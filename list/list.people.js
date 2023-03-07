@@ -13896,6 +13896,15 @@ let arrPeople = [
 	internet: { wiki_ua: '%D0%9C%D1%83%D1%81%D1%82%D0%B0%D1%84%D0%B0_%D0%9D%D0%B0%D0%B9%D1%94%D0%BC', },
 },
 {
+	id: 'valentyn_olexandr_nalyvaychenko_08061966', 
+	name: { n: 'Валентин', s: 'Наливайченко', p: 'Олександрович', },
+	sex: 1,
+	life: { bd: 8, bm: 6, by: 1966, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%9D%D0%B0%D0%BB%D0%B8%D0%B2%D0%B0%D0%B9%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'nargiz_06101971', 
 	name: { n: 'Наргіз', },
 	life: { bd: 6, bm: 10, by: 1971, },
