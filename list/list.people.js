@@ -15883,6 +15883,15 @@ let arrPeople = [
 	internet: { wiki_ua: '%D0%A1%D0%B8%D0%BD%D1%94%D0%B3%D1%83%D0%B1%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
+	id: 'olexandr_stanislav_syrsky_26071965', 
+	name: { n: 'Олександр', s: 'Сирський', p: 'Станіславович', },
+	sex: 1,
+	life: { bd: 26, bm: 7, by: 1965, },
+	country: { ukr: 1, },
+	hash: { war: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%B8%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'grigory_siyatvinda_26041970', 
 	name: { n: 'Григорий', s: 'Сиятвинда', },
 	sex: 1,
@@ -17566,6 +17575,15 @@ let arrPeople = [
 		wiki_ru: '%D0%A6%D0%B5%D0%BA%D0%B0%D0%BB%D0%BE,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/4670/works/', 
 	},
+},
+{
+	id: 'roman_volodymyr_cymbalyuk_26091980', 
+	name: { n: 'Роман', s: 'Цимбалюк', p: 'Володимирович', },
+	sex: 1,
+	life: { bd: 26, bm: 9, by: 1980, },
+	country: { ukr: 1, },
+	hash: { journalist: 1, internet: 1, blogger: 1, },
+	internet: { wiki_ua: '%D0%A6%D0%B8%D0%BC%D0%B1%D0%B0%D0%BB%D1%8E%D0%BA_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'viktor_coy_21061962', 
