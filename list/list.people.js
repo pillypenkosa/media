@@ -12380,6 +12380,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'daria_kudimova_18041983', 
+	name: { n: 'Дарія', s: 'Кудімова', },
+	life: { bd: 18, bm: 4, by: 1983, },
+	img: [ 1, 1 ],
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { },
+},
+{
 	id: 'lera_kudryavceva_19051971', 
 	name: { n: 'Лера', s: 'Кудрявцева', },
 	life: { bd: 19, bm: 5, by: 1971, },
