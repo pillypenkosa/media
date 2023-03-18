@@ -16358,6 +16358,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'kyrylo_sergy_stremousov_26121976', 
+	name: { n: 'Кирило', s: 'Стремоусов', p: 'Сергійович', },
+	sex: 1,
+	life: { bd: 26, bm: 12, by: 1976, dd: 9, dm: 11, dy: 2022, },
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%A1%D1%82%D1%80%D0%B5%D0%BC%D0%BE%D1%83%D1%81%D0%BE%D0%B2_%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BE_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'bogdan_stupka_27081941', 
 	name: { n: 'Богдан', s: 'Ступка', },
 	sex: 1,
