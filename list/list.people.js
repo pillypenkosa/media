@@ -12970,6 +12970,16 @@ let arrPeople = [
 	},
 },
 {
+	id: 'sergy_volodymyr_lyovochkin_17071972', 
+	name: { n: 'Сергій', s: 'Льовочкін', p: 'Володимирович', },
+	sex: 1,
+	life: { bd: 17, bm: 7, by: 1972, },
+	img: [ 1, 1 ],
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9B%D1%8C%D0%BE%D0%B2%D0%BE%D1%87%D0%BA%D1%96%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'stanislav_lyubshin_06041933', 
 	name: { n: 'Станислав', s: 'Любшин', },
 	sex: 1,
