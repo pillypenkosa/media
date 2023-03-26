@@ -13688,6 +13688,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'igor_myhaylo_miroshnichenko_20021976', 
+	name: { n: 'Ігор', s: 'Мірошниченко', p: 'Михайлович', },
+	sex: 1,
+	life: { bd: 20, bm: 2, by: 1976, },
+	country: { ukr: 1, },
+	hash: { politics: 1,show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%9C%D1%96%D1%80%D0%BE%D1%88%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%86%D0%B3%D0%BE%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'frunzik_musheg_mkrtchan_04071930', 
 	name: { n: 'Фрунзик', s: 'Мкртчян', p: 'Мушегович', },
 	sex: 1,
@@ -14718,6 +14727,15 @@ let arrPeople = [
 	country: { ukr: 1, },
 	hash: { politics: 1, billionaire: 1, },
 	internet: { wiki_ua: '%D0%9F%D1%96%D0%BD%D1%87%D1%83%D0%BA_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
+	id: 'andry_andry_piontkovsky_30061940', 
+	name: { n: 'Андрій', s: 'Піонтковський', p: 'Андрійович', },
+	sex: 1,
+	life: { bd: 30, bm: 6, by: 1940, },
+	country: { rus: 1, },
+	hash: { politics: 1, expert: 1, },
+	internet: { wiki_ua: '%D0%9F%D1%96%D0%BE%D0%BD%D1%82%D0%BA%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'kirill_pletnev_30121979', 
@@ -17185,15 +17203,13 @@ let arrPeople = [
 	},
 },
 {
-	id: 'mark_feygin_03061971', 
-	name: { n: 'Марк', s: 'Фейгин', p: 'Захарович', },
+	id: 'mark_zahar_feygin_03061971', 
+	name: { n: 'Марк', s: 'Фейгін', p: 'Захарович', },
 	life: { bd: 3, bm: 6, by: 1971, },
 	sex: 1,
 	country: { rus: 1, },
-	politics: { },
-	internet: {
-		wiki_ru: '%D0%A4%D0%B5%D0%B9%D0%B3%D0%B8%D0%BD,_%D0%9C%D0%B0%D1%80%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	hash: { show: 1, politics: 1, internet: 1, blogger: 1, },
+	internet: { wiki_ua: '%D0%A4%D0%B5%D0%B9%D0%B3%D1%96%D0%BD_%D0%9C%D0%B0%D1%80%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'alexandr_feklistov_07121955', 
