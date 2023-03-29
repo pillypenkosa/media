@@ -15727,6 +15727,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'volodymyr_vasyl_saldo_12061956', 
+	name: { n: 'Володимир', s: 'Сальдо', p: 'Васильович', },
+	sex: 1,
+	life: { bd: 12, bm: 6, by: 1956, },
+	country: { ukr: 1, },
+	hash: { politics: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'maya_sandu_24051972', 
 	name: { n: 'Майя', s: 'Санду', p: 'Григорьевна', },
 	life: { bd: 24, bm: 5, by: 1972, },
