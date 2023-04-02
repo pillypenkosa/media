@@ -11288,6 +11288,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'roman_myhaylo_zvarych_20111953', 
+	name: { n: 'Роман', s: 'Зварич', p: 'Михайлович', },
+	sex: 1,
+	life: { bd: 20, bm: 11, by: 1953, },
+	country: { ukr: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%97%D0%B2%D0%B0%D1%80%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'mihail_zvezdinsky_06031945', 
 	name: { n: 'Михаил', s: 'Звездинский', },
 	sex: 1,
@@ -11655,6 +11664,15 @@ let arrPeople = [
 	country: { ukr: 1, sun: 1, },
 	hash: { writer: 1, literature: 1, },
 	internet: { wiki_ua: '%D0%9A%D0%B0%D0%BF%D0%B5%D0%BB%D1%8C%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9F%D0%B8%D0%BB%D0%B8%D0%BF_%D0%99%D0%BE%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
+	id: 'eugen_vasyl_karas_14111987', 
+	name: { n: 'Євген', s: 'Карась', p: 'Васильович', },
+	sex: 1,
+	life: { bd: 14, bm: 11, by: 1987, },
+	country: { ukr: 1, },
+	hash: { war: 1, internet: 1, blogger: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%B0%D1%80%D0%B0%D1%81%D1%8C_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'oleg_jury_karatumanov_26101962', 
@@ -12896,6 +12914,15 @@ let arrPeople = [
 		wiki_ru: '%D0%9B%D0%B8%D1%86%D0%B8%D1%82%D0%B8%D1%81,_%D0%90%D1%80%D0%BD%D0%B8%D1%81_%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/post/2524/works/', 
 	},
+},
+{
+	id: 'igor_leonid_lihuta_11041961', 
+	name: { n: 'Ігор', s: 'Ліхута', p: 'Леонідович', },
+	sex: 1,
+	life: { bd: 11, bm: 4, by: 1961, },
+	country: { ukr: 1, },
+	hash: { music: 1, producer: 1, },
+	internet: { wiki_ua: '%D0%9B%D1%96%D1%85%D1%83%D1%82%D0%B0_%D0%86%D0%B3%D0%BE%D1%80_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'svitlana_sergy_loboda_18101982', 
@@ -14340,6 +14367,16 @@ let arrPeople = [
 	internet: {
 		wiki_ru: '%D0%9F%D0%B0%D0%B2%D0%BB%D0%B8%D0%B0%D1%88%D0%B2%D0%B8%D0%BB%D0%B8,_%D0%A1%D0%BE%D1%81%D0%BE', 
 	},
+},
+{
+	id: 'pavlo_19041961', 
+	name: { n: 'Павло', },
+	sex: 1,
+	life: { bd: 19, bm: 4, by: 1961, },
+	country: { ukr: 1, },
+	hash: { religion: 1, traitor: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE_(%D0%9B%D0%B5%D0%B1%D1%96%D0%B4%D1%8C)', },
+	note: 'Митрополит Павло, Паша Мерседес, Петро Дмитрович Лебідь', 
 },
 {
 	id: 'viktor_pavlov_05101940', 
