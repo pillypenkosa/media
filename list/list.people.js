@@ -6261,6 +6261,15 @@ let arrPeople = [
 	internet: { imdb: '0001598', wiki_ua: '%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82_%D0%9F%D0%B0%D1%82%D1%80%D1%96%D0%BA', },
 },
 {
+	id: 'robert_b_weide_20061959', 
+	name: { n: 'Robert B.', s: 'Weide', },
+	sex: 1,
+	life: { bd: 20, bm: 6, by: 1959, },
+	country: { usa: 1, },
+	hash: { movie: 1, director: 1, },
+	internet: { imdb: '0004332', wiki_ua: '%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82_%D0%92%D0%B0%D0%B9%D0%B4', },
+},
+{
 	id: 'robert_zemeckis_14051952', 
 	name: { n: 'Robert', s: 'Zemeckis', },
 	sex: 1,
