@@ -2260,6 +2260,15 @@ let arrPeople = [
 	internet: { wiki_ua: '%D0%95%D0%B4%D0%B2%D0%B0%D1%80%D0%B4_%D0%93%D1%80%D1%96%D0%B3', },
 },
 {
+	id: 'edwin_herbert_hall_07111855', 
+	name: { n: 'Edwin', s: 'Hall', p: 'Herbert', },
+	sex: 1,
+	life: { bd: 7, bm: 11, by: 1855, dd: 20, dm: 11, dy: 1938, },
+	country: { usa: 1, },
+	hash: { science: 1, physics: 1, },
+	internet: { wiki_ua: '%D0%95%D0%B4%D0%B2%D1%96%D0%BD_%D0%93%D0%BE%D0%BB%D0%BB', },
+},
+{
 	id: 'elijah_wood_28011981', 
 	name: { n: 'Elijah', s: 'Wood', },
 	sex: 1,
@@ -5529,6 +5538,15 @@ let arrPeople = [
 	country: { fra: 1, },
 	hash: { science: 1, astrology: 1, predictor: 1, },
 	internet: { wiki_ua: '%D0%9D%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BC%D1%83%D1%81', },
+},
+{
+	id: 'o_henry_11091862', 
+	name: { n: 'O.', s: 'Henry', },
+	sex: 1,
+	life: { bd: 11, bm: 9, by: 1862, dd: 5, dm: 6, dy: 1910, },
+	country: { usa: 1, },
+	hash: { writer: 1, literature: 1, },
+	internet: { wiki_ua: '%D0%9E._%D0%93%D0%B5%D0%BD%D1%80%D1%96', },
 },
 {
 	id: 'octavianus_augustus_2309m63', 
@@ -12879,6 +12897,15 @@ let arrPeople = [
 		wiki_ru: '%D0%9B%D0%B5%D1%89%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%9B%D0%B5%D0%B2_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/star/7886/works/', 
 	},
+},
+{
+	id: 'andry_mykola_lysenko_04111968', 
+	name: { n: 'Андрій', s: 'Лисенко', p: 'Миколайович', },
+	sex: 1,
+	life: { bd: 4, bm: 11, by: 1968, },
+	country: { ukr: 1, },
+	hash: { war: 1, journalist: 1, },
+	internet: { wiki_ua: '%D0%9B%D0%B8%D1%81%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'mykola_vitaly_lysenko_22031842', 
