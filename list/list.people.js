@@ -4138,8 +4138,7 @@ let arrPeople = [
 	country: { ita: 1, },
 	politics: { president: { country: { ita: { date: 'с 49 - 15.3.44 до н.э.', n: 0, status: 'Диктатор', }, }, }, },
 	hash: { state_head: 1, emperor: 1, war: 1, },
-	internet: { wiki_ua: '%D0%93%D0%B0%D0%B9_%D0%AE%D0%BB%D1%96%D0%B9_%D0%A6%D0%B5%D0%B7%D0%B0%D1%80', },
-	note: 'Древний Рим',
+	internet: { imdb: '2471712', wiki_ua: '%D0%93%D0%B0%D0%B9_%D0%AE%D0%BB%D1%96%D0%B9_%D0%A6%D0%B5%D0%B7%D0%B0%D1%80', },
 },
 {
 	id: 'justin_timberlake_31011981', 
@@ -5966,6 +5965,16 @@ let arrPeople = [
 	country: { grc: 1, },
 	hash: { philosophy: 1, },
 	internet: { wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%82%D0%BE%D0%BD', },
+},
+{
+	id: 'pontius_pilatus_0012m12', 
+	name: { n: 'Pontius', s: 'Pilatus', },
+	sex: 1,
+	life: { bd: 0, bm: 12, by: -12, dd: 0, dm: 0, dy: 38, },
+	img: [ 1, 1 ],
+	country: { ita: 1, },
+	hash: { politics: 1, state_head: 1, emperor: 1, },
+	internet: { wiki_ua: '%D0%9F%D0%BE%D0%BD%D1%82%D1%96%D0%B9_%D0%9F%D0%B8%D0%BB%D0%B0%D1%82', },
 },
 {
 	id: 'prince_07061958', 
