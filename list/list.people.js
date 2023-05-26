@@ -7007,7 +7007,7 @@ let arrPeople = [
 {
 	id: 'tina_turner_26111939', 
 	name: { n: 'Tina', s: 'Turner', },
-	life: { bd: 26, bm: 11, by: 1939, },
+	life: { bd: 26, bm: 11, by: 1939, dd: 24, dm: 5, dy: 2023, },
 	img: [ 1, 1 ],
 	country: { usa: 1, che: 1, },
 	hash: { music: 1, singer: 1, },
@@ -9618,6 +9618,14 @@ let arrPeople = [
 	internet: {
 		wiki_ru: '%D0%93%D0%B0%D0%B9%D0%B4%D0%B0%D1%80,_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B8%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'gaytana_24031979', 
+	name: { n: 'Гайтана', },
+	life: { bd: 24, bm: 3, by: 1979, },
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D0%B0', },
 },
 {
 	id: 'sergey_gazarov_13011958', 
@@ -14304,6 +14312,14 @@ let arrPeople = [
 	internet: {
 		wiki_ru: '%D0%9D%D0%BE%D1%81%D0%BE%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'mika_nyuton_05031986', 
+	name: { n: 'Міка', s: 'Ньютон', },
+	life: { bd: 5, bm: 3, by: 1986, },
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9C%D1%96%D0%BA%D0%B0_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD', },
 },
 {
 	id: 'alexandr_oblasov_26041978', 
