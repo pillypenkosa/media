@@ -1,1 +1,1 @@
-const appVersion = '2023-05-28 12:00'; 
+const appVersion = '2023-06-01 16:40'; 

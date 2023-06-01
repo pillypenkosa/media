@@ -14483,7 +14483,7 @@ let arrPeople = [
 },
 {
 	id: 'pavlo_19041961', 
-	name: { n: 'Павло', },
+	name: { n: 'Павло', s: 'Лебідь', },
 	sex: 1,
 	life: { bd: 19, bm: 4, by: 1961, },
 	country: { ukr: 1, },
@@ -16159,7 +16159,7 @@ let arrPeople = [
 	name: { n: 'Ігор', s: 'Сікорський', p: 'Іванович', },
 	sex: 1,
 	life: { bd: 6, bm: 6, by: 1889, dd: 26, dm: 10, dy: 1972, },
-	country: { usa: 1, },
+	country: { usa: 1, ukr: 1, },
 	hash: { develope: 1, konstruktor: 1, aviation: 1, },
 	internet: { wiki_ua: '%D0%A1%D1%96%D0%BA%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%86%D0%B3%D0%BE%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
