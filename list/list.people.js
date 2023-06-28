@@ -751,6 +751,15 @@ let arrPeople = [
 	internet: { wiki_ua: '%D0%90%D0%B2%D0%B3%D1%83%D1%81%D1%82_%D0%A4%D0%B5%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D0%BD%D0%B4_%D0%9C%D0%B5%D0%B1%D1%96%D1%83%D1%81', },
 },
 {
+	id: 'augusto_pinochet_25111915', 
+	name: { n: 'Augusto', s: 'Pinochet', },
+	sex: 1,
+	life: { bd: 25, bm: 11, by: 1915, dd: 10, dm: 12, dy: 2006, },
+	country: { chl: 1, },
+	hash: { war: 1, politics: 1, state_head: 1, president: [ { country: 'chl', date: '17.12.1974 - 10.12.1990', n: 51, }, ], },
+	internet: { wiki_ua: '%D0%90%D0%B2%D0%B3%D1%83%D1%81%D1%82%D0%BE_%D0%9F%D1%96%D0%BD%D0%BE%D1%87%D0%B5%D1%82', },
+},
+{
 	id: 'auguste_lumiere_19101862', 
 	name: { n: 'Auguste ', s: 'Lumiere', },
 	sex: 1,
@@ -7582,6 +7591,16 @@ let arrPeople = [
 	note: 'Андрій Остапенко-Кравчук',
 },
 {
+	id: 'lama_14121975', 
+	name: { n: 'Lama', },
+	life: { bd: 14, bm: 12, by: 1975, },
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B7%D0%B5%D0%BD%D1%8C%D0%BA%D1%96%D0%B2_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8F_%D0%86%D0%B3%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
+	note: 'Дзеньків Наталя Ігорівна',
+
+},
+{
 	id: 'monatik_01041986',
 	name: { n: 'Monatik', },
 	sex: 1,
@@ -9575,17 +9594,14 @@ let arrPeople = [
 	note: 'Переводчик фильмов 90-х на VHS', 
 },
 {
-	id: 'jury_gagarin_09031934', 
-	name: { n: 'Юрий', s: 'Гагарин', },
+	id: 'jury_olexy_gagarin_09031934', 
+	name: { n: 'Юрій', s: 'Гагарін', p: 'Олексійович', },
 	sex: 1,
 	life: { bd: 9, bm: 3, by: 1934, dd: 27, dm: 3, dy: 1968, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sun: 1, }, },
-	space: {},
-	internet: {
-		wiki_ru: '%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD,_%D0%AE%D1%80%D0%B8%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B5%D0%B2%D0%B8%D1%87', 
-	},
-	note: 'Лётчик-космонавт', 
+	country: { sun: 1, },
+	hash: { space: 1, },
+	internet: { wiki_ua: '%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D1%96%D0%BD_%D0%AE%D1%80%D1%96%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'polina_gagarina_27031987', 
@@ -10056,7 +10072,7 @@ let arrPeople = [
 	img: [ 1, 1 ],
 	country: { ukr: 1, sun: 1, },
 	hash: { movie: 1, actor: 1, },
-	internet: { imdb: '0329812', wiki_ru: '%D0%93%D0%BE%D1%80%D0%B1%D1%83%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/1050/works/', },
+	internet: { imdb: '0329812', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B1%D1%83%D0%BD%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/1050/works/', },
 },
 {
 	id: 'jury_mykola_gorbunov_24081970', 
@@ -10292,6 +10308,15 @@ let arrPeople = [
 		imdb: '2448775', 
 		wiki_ru: '%D0%93%D1%83%D0%B1%D0%B8%D0%BD,_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'jury_ volodymyr_ gydymenko_ 14121987', 
+	name: { n: 'Юрій', s: 'Гудименко', p: 'Володимирович', },
+	sex: 1,
+	life: { bd: 14, bm: 12, by: 1987, },
+	country: { ukr: 1, },
+	hash: { politics: 1, show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%93%D1%83%D0%B4%D0%B8%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D1%80%D1%96%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'semen_stepan_gulakartemovsky_16021813', 
@@ -11103,6 +11128,14 @@ let arrPeople = [
 	internet: { wiki_ua: '%D0%84%D1%84%D1%80%D0%B5%D0%BC%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
+	id: 'maria_olexandr_efrosinina_25051979', 
+	name: { n: 'Марія', s: 'Єфросініна', p: 'Олександрівна', },
+	life: { bd: 25, bm: 5, by: 1979, },
+	country: { ukr: 1, },
+	hash: { show: 1, leading: 1, },
+	internet: { wiki_ua: '%D0%84%D1%84%D1%80%D0%BE%D1%81%D1%96%D0%BD%D1%96%D0%BD%D0%B0_%D0%9C%D0%B0%D1%80%D1%96%D1%8F_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0', },
+},
+{
 	id: 'jury_ivan_ehanurov_23081948',
 	name: { n: 'Юрій', s: 'Єхануров', p: 'Іванович', },
 	sex: 1,
@@ -11579,6 +11612,15 @@ let arrPeople = [
 	},
 },
 {
+	id: 'jury_robert_ignat_23121977', 
+	name: { n: 'Юрій', s: 'Ігнат', p: 'Робертович', },
+	sex: 1,
+	life: { bd: 23, bm: 12, by: 1977, },
+	country: { ukr: 1, },
+	hash: {  war: 1, },
+	internet: { wiki_ua: '%D0%86%D0%B3%D0%BD%D0%B0%D1%82_%D0%AE%D1%80%D1%96%D0%B9_%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'illya_arnold_ilf_15101897', 
 	name: { n: 'Ілля', s: 'Ільф', p: 'Арнольдович', },
 	sex: 1,
@@ -11620,6 +11662,15 @@ let arrPeople = [
 	internet: {
 		wiki_ru: '%D0%9A%D0%B0%D0%B1%D0%B0%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87', 
 	},
+},
+{
+	id: 'leonid_kostyantyn_kadenyuk_28011951', 
+	name: { n: 'Леонід', s: 'Каденюк', p: 'Костянтинович', },
+	sex: 1,
+	life: { bd: 28, bm: 1, by: 1951, dd: 31, dm: 1, dy: 2018, },
+	country: { ukr: 1, },
+	hash: {  space: 1, },
+	internet: { wiki_ua: '%D0%9A%D0%B0%D0%B4%D0%B5%D0%BD%D1%8E%D0%BA_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'ramzan_kadyrov_05101976', 
@@ -17464,7 +17515,7 @@ let arrPeople = [
 	sex: 1,
 	life: { bd: 2, bm: 5, by: 1965, },
 	img: [ 1, 1 ],
-	country: { ukr: 1, sun: 1, },
+	country: { ukr: 1, },
 	hash: { politics: 1, traitor: 1, },
 	internet: { wiki_ua: '%D0%A4%D1%96%D1%80%D1%82%D0%B0%D1%88_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
 },
