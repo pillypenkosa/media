@@ -6701,6 +6701,14 @@ let arrPeople = [
 	internet: { imdb: '0479471', wiki_ua: '%D0%A8%D0%B0%D1%8F_%D0%9B%D0%B0%D0%B1%D0%B0%D1%84', },
 },
 {
+	id: 'sinead_o_connor_08121966', 
+	name: { n: 'Sinead', s: ' O\'Connor', },
+	life: { bd: 8, bm: 12, by: 1966, dd: 26, dm: 7, dy: 2023, },
+	country: { irl: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0640521', wiki_ua: '%D0%A8%D0%B8%D0%BD%D0%B5%D0%B9%D0%B4_%D0%9E%27%D0%9A%D0%BE%D0%BD%D0%BD%D0%BE%D1%80', },
+},
+{
 	id: 'sidney_sheldon_11021917', 
 	name: { n: 'Sidney', s: 'Sheldon', },
 	sex: 1,
