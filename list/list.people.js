@@ -7149,6 +7149,15 @@ let arrPeople = [
 	internet: { imdb: '0004772', wiki_ua: '%D0%A2%D0%BE%D0%BD%D1%96_%D0%91%D1%80%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/147218/works/', },
 },
 {
+	id: 'toto_cutugno_07071943', 
+	name: { n: 'Toto', s: 'Cutugno', },
+	sex: 1,
+	life: { bd: 7, bm: 7, by: 1943, dd: 22, dm: 8, dy: 2023, },
+	country: { ita: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%BE%D1%82%D0%BE_%D0%9A%D1%83%D1%82%D1%83%D0%BD%D1%8C%D0%B9%D0%BE', },
+},
+{
 	id: 'tyson_fury_12081988', 
 	name: { n: 'Tyson', s: 'Fury', },
 	sex: 1,
