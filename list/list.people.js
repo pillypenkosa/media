@@ -7040,6 +7040,15 @@ let arrPeople = [
 	internet: { imdb: '0877913', wiki_ua: '%D0%A2%D1%96%D0%BD%D0%B0_%D0%A2%D0%B5%D1%80%D0%BD%D0%B5%D1%80', },
 },
 {
+	id: 'tobey_maguire_27061975', 
+	name: { n: 'Tobey', s: 'Maguire', },
+	sex: 1,
+	life: { bd: 27, bm: 6, by: 1975, },
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001497', wiki_ua: '%D0%A2%D0%BE%D0%B1%D1%96_%D0%9C%D0%B0%D0%B3%D0%B2%D0%B0%D0%B9%D1%80', },
+},
+{
 	id: 'tom_berenger_31051949', 
 	name: { n: 'Tom', s: 'Berenger', },
 	sex: 1,
@@ -16072,6 +16081,15 @@ let arrPeople = [
 		wiki_ru: '%D0%A1%D0%B2%D0%B8%D1%80%D0%B8%D0%B4%D0%BE%D0%B2%D0%B0,_%D0%90%D0%BB%D1%91%D0%BD%D0%B0_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/3822/works/', 
 	},
+},
+{
+	id: 'roman_grygory_svitan_04011964', 
+	name: { n: 'Роман', s: 'Світан', p: 'Григорович', },
+	sex: 1,
+	life: { bd: 4, bm: 1, by: 1964, },
+	country: { ukr: 1, },
+	hash: { war: 1, expert: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'anna_volodymyr_sedokova_16121982', 
