@@ -1,4 +1,4 @@
-const arrPeopleHash = [
+const arrListPeopleHash = [
 
 
 
@@ -159,7 +159,7 @@ https://uk.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%BB%D1%96%D0%BA_%D0%BE%
 
 
 
-let arrPeople = [
+let arrListPeople = [
 
 
 
@@ -18792,17 +18792,17 @@ let arrPeople = [
 
 
 
-let objPeopleHash = {};
-arrPeopleHash.forEach( k => {
-	objPeopleHash[ k.id ] = k;
+let objListPeopleHash = {};
+arrListPeopleHash.forEach( k => {
+	objListPeopleHash[ k.id ] = k;
 });
 
 
 
 
-let objPeople = {};
-arrPeople.forEach( k => {
-	objPeople[ k.id ] = k;
+let objListPeople = {};
+arrListPeople.forEach( k => {
+	objListPeople[ k.id ] = k;
 });
 
 

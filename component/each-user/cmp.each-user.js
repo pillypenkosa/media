@@ -49,7 +49,7 @@ class ComponentEachUser {
 
 
 
-		let users = arrPeople.filter( k => k.id == data );
+		let users = arrListPeople.filter( k => k.id == data );
 		let user = users[ 0 ];
 
 		//console.log( ok, 'users:', users ); 
@@ -97,7 +97,7 @@ class ComponentEachUser {
 			for ( let k in user.hash ) {
 				//hash += ` <a href="file:///F:/web/media/index.html?win=people&sex=allsex&hash=${ k }">#${ objPeopleHash[ k ].title }</a>`;
 				
-				hash += `<span class="each hashTag" onclick="Router.clcHashTag( this )" data-id="${ k }" title="Відобразити всіх за тегом: ${ objPeopleHash[ k ].title }">#${ objPeopleHash[ k ].title }</span>`;
+				hash += `<span class="each hashTag" onclick="Router.clcHashTag( this )" data-id="${ k }" title="Відобразити всіх за тегом: ${ objListPeopleHash[ k ].title }">#${ objListPeopleHash[ k ].title }</span>`;
 			}
 
 			if ( user.hash.president ) {

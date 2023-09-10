@@ -95,7 +95,7 @@ class ComponentWinPeople {
 
 			//console.log( ok, 'and:', and ); 
 
-			this.arrUsersShow = arrPeople.filter( k => {
+			this.arrUsersShow = arrListPeople.filter( k => {
 
 				if ( k.hash ) {
 

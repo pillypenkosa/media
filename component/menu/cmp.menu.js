@@ -81,7 +81,7 @@ class ComponentMenu {
 
 		let htmlBtnsHash = '';
 
-		arrPeopleHash.forEach( k => {
+		arrListPeopleHash.forEach( k => {
 			htmlBtnsHash += `<div class="btn" data-id="${ k.id }" onclick="ComponentMenu.clcHash( this )">${ k.title }</div>`;
 		});
 
