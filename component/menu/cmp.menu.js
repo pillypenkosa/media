@@ -475,6 +475,10 @@ class ComponentMenu {
 		//console.log( ok, Router.urlGET.country );
 
 
+
+
+		let elemOption = null;
+
 		// вибір країни в <select> за GET-параметром &country=
 		if ( Router.urlGET.country ) {
 
@@ -485,16 +489,27 @@ class ComponentMenu {
 				delOption.remove();
 
 
-
-			let elemOption = document.querySelectorAll( `cmp-menu select.country option[ value="${ Router.urlGET.country }"]` )[ 0 ];
+			elemOption = document.querySelectorAll( `cmp-menu select.country option[ value="${ Router.urlGET.country }"]` )[ 0 ];
 			//console.log( ok, elemOption );
 
+		} else {
+			//alert( 'No Country' );
 
-			elemOption.selected = true;
-
-
-
+			elemOption = document.querySelectorAll( `cmp-menu select.country option[ value="all"]` )[ 0 ];
 		}
+
+
+		elemOption.selected = true;
+
+
+
+
+
+		// console.log( ok );
+		// console.log( Router.urlGET );
+
+
+
 	}
 
 
