@@ -63,7 +63,7 @@ class Router {
 
 		this.urlGET = this.parseURL();
 
-		//console.log( ok, 'this.urlGET:', this.urlGET );
+		//console.log( 'this.urlGET:', this.urlGET );
 
 		if ( this.urlGET.hash ) 
 			this.userHash = this.getHashGET( this.urlGET.hash );

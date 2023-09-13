@@ -16942,7 +16942,7 @@ let arrListPeople = [
 	id: 'yan_tabachnuk_31071945', 
 	name: { n: 'Ян', s: 'Табачник', },
 	sex: 1,
-	life: { bd: 31, bm: 7, by: 1945, },
+	life: { bd: 31, bm: 7, by: 1945, dd: 11, dm: 9, dy: 2023, },
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { music: 1, composer: 1, politics: 1, },
