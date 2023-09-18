@@ -6650,7 +6650,7 @@ let arrListPeople = [
 	life: { bd: 17, bm: 8, by: 1960, },
 	img: [ 1, 1 ],
 	country: { usa: 1, },
-	hash: { movie: 1, actor: 1, },
+	hash: { movie: 1, actor: 1, director: 1, },
 	internet: { imdb: '0000576', wiki_ua: '%D0%A8%D0%BE%D0%BD_%D0%9F%D0%B5%D0%BD%D0%BD', },
 },
 {
