@@ -4179,6 +4179,15 @@ let arrListPeople = [
 	internet: { imdb: '0005493', wiki_ua: '%D0%94%D0%B6%D0%B0%D1%81%D1%82%D1%96%D0%BD_%D0%A2%D1%96%D0%BC%D0%B1%D0%B5%D1%80%D0%BB%D0%B5%D0%B9%D0%BA', },
 },
 {
+	id: 'justin_trudeau_25121971', 
+	name: { n: 'Justin', s: 'Trudeau', },
+	sex: 1,
+	life: { bd: 25, bm: 12, by: 1971, },
+	country: { can: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%B0%D1%81%D1%82%D1%96%D0%BD_%D0%A2%D1%80%D1%8E%D0%B4%D0%BE', },
+},
+{
 	id: 'karel_capek_09011890', 
 	name: { n: 'Karel', s: 'Capek', },
 	life: { bd: 9, bm: 1, by: 1890, dd: 25, dm: 12, dy: 1938, },
@@ -13463,6 +13472,15 @@ let arrListPeople = [
 		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9C%D0%B0%D0%BB%D0%BE%D0%B9', 
 	},
 	note: 'Андре́й Евгеньевич Цыганов',
+},
+{
+	id: 'vasyl_vasyl_malyuk_28021983', 
+	name: { n: 'Василь', s: 'Малюк', p: 'Васильович', },
+	sex: 1,
+	life: { bd: 28, bm: 2, by: 1983,  },
+	country: { ukr: 1, },
+	hash: { war: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D0%BB%D1%8E%D0%BA_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'denys_leonty_malyuska_19111981', 
