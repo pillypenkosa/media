@@ -2983,6 +2983,14 @@ let arrListPeople = [
 	internet: { imdb: '0593900', wiki_ua: '%D0%93%D0%BE%D0%B9%D0%BA%D0%BE_%D0%9C%D0%B8%D1%82%D0%B8%D1%87', },
 },
 {
+	id: 'golda_meir_21041898', 
+	name: { n: 'Golda', s: 'Meir', },
+	life: { bd: 21, bm: 4, by: 1898, dd: 8, dm: 12, dy: 1978, },
+	country: { isr: 1, },
+	hash: { politics: 1,  },
+	internet: { wiki_ua: '%D0%93%D0%BE%D0%BB%D0%B4%D0%B0_%D0%9C%D0%B5%D1%97%D1%80', },
+},
+{
 	id: 'goldie_hawn_21111945', 
 	name: { n: 'Goldie', s: 'Hawn', },
 	life: { bd: 21, bm: 11, by: 1945, },
@@ -13608,6 +13616,14 @@ let arrListPeople = [
 		wiki_ru: '%D0%9C%D0%B0%D1%82%D0%B2%D0%B5%D0%B5%D0%B2,_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
 		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/5664/works/', 
 	},
+},
+{
+	id: 'nina_mytrofan_matvienko_10101947', 
+	name: { n: 'Ніна', s: 'Матвієнко', p: 'Митрофанівна', },
+	life: { bd: 10, bm: 10, by: 1947, dd: 8, dm: 10, dy: 2023, },
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { wiki_ua: '%D0%9C%D0%B0%D1%82%D0%B2%D1%96%D1%94%D0%BD%D0%BA%D0%BE_%D0%9D%D1%96%D0%BD%D0%B0_%D0%9C%D0%B8%D1%82%D1%80%D0%BE%D1%84%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0', },
 },
 {
 	id: 'nestor_ivan_mahno_07111888', 
