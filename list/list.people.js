@@ -3359,6 +3359,15 @@ let arrListPeople = [
 	internet: { imdb: '0350453', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BA_%D0%94%D0%B6%D0%B8%D0%BB%D0%BB%D0%B5%D0%BD%D0%B3%D0%BE%D0%BB', },
 },
 {
+	id: 'jake_sullivan_28111976', 
+	name: { n: 'Jake', s: 'Sullivan', },
+	sex: 1,
+	life: { bd: 28, bm: 11, by: 1976, },
+	country: { usa: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BA_%D0%A1%D0%B0%D0%BB%D0%BB%D1%96%D0%B2%D0%B0%D0%BD', },
+},
+{
 	id: 'jakob_bernoulli_06011655',
 	name: { n: 'Jakob', s: 'Bernoulli', },
 	sex: 1,
@@ -14752,16 +14761,13 @@ let arrListPeople = [
 	},
 },
 {
-	id: 'sergey_parajanov_09011924', 
-	name: { n: 'Сергей', s: 'Параджанов', },
+	id: 'sergy_yosyp_parajanov_09011924', 
+	name: { n: 'Сергій', s: 'Параджанов', p: 'Йосипович', },
 	sex: 1,
 	life: { bd: 9, bm: 1, by: 1924, dd: 20, dm: 7, dy: 1990, },
-	country: { arm: 1, our: { sun: 1, }, },
-	movie: { director: {}, },
-	internet: {
-		imdb: '0660886', 
-		wiki_ru: '%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B6%D0%B0%D0%BD%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%98%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D0%B8%D1%87', 
-	},
+	country: { arm: 1, sun: 1, },
+	hash: { movie: 1, director: 1, },
+	internet: { imdb: '0660886', wiki_ru: '%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B6%D0%B0%D0%BD%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%98%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'volodymyr_zinovy_parasyuk_09071987', 
@@ -17040,15 +17046,16 @@ let arrListPeople = [
 	},
 },
 {
-	id: 'levon_akop_ter_petrosyan_16101991', 
+	id: 'levon_akop_ter_petrosyan_09011945', 
 	name: { n: 'Левон', s: 'Тер-Петросян', p: 'Акопович', },
 	sex: 1,
 	life: { bd: 9, bm: 1, by: 1945, },
 	country: { arm: 1, },
-	politics: { president: { country: { arm: { date: '16.10.1991 - 3.02.1998', n: 1, }, }, }, },
+	hash: { politics: 1, state_head: 1, president: [ { country: 'arm', date: '16.10.1991 - 3.02.1998', n: 1, }, ], },
 	internet: {
-		wiki_ru: '%D0%A2%D0%B5%D1%80-%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D1%81%D1%8F%D0%BD,_%D0%9B%D0%B5%D0%B2%D0%BE%D0%BD_%D0%90%D0%BA%D0%BE%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', 
+		wiki_ua: '%D0%A2%D0%B5%D1%80-%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D1%81%D1%8F%D0%BD_%D0%9B%D0%B5%D0%B2%D0%BE%D0%BD_%D0%90%D0%BA%D0%BE%D0%BF%D0%BE%D0%B2%D0%B8%D1%87', 
 	},
+	note: 'Не точна дата народження в wikiUA',
 },
 {
 	id: 'valentina_tereshkova_06031937', 
