@@ -16247,7 +16247,7 @@ let arrListPeople = [
 	id: 'sergy_anatoly_syvoho_08021969', 
 	name: { n: 'Сергій', s: 'Сивохо', p: 'Анатолійович', },
 	sex: 1,
-	life: { bd: 8, bm: 2, by: 1969, },
+	life: { bd: 8, bm: 2, by: 1969, dd: 17, dm: 10, dy: 2023, },
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { show: 1, showman: 1, humor: 1, kvk: 1, },
