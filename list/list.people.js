@@ -3825,6 +3825,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%B8%D0%BC%D0%BC%D1%96_%D0%9A%D0%B0%D1%80%D1%82%D0%B5%D1%80', },
 },
 {
+	id: 'joachim_von_ribbentrop_30041893', 
+	name: { n: 'Joachim', s: 'von Ribbentrop', },
+	sex: 1,
+	life: { bd: 30, bm: 4, by: 1893, dd: 16,  dm: 10,  dy: 1946, },
+	country: { deu: 1, },
+	hash: { politics: 1, wwar2: 1, },
+	internet: { wiki_ua: '%D0%99%D0%BE%D0%B0%D1%85%D1%96%D0%BC_%D1%84%D0%BE%D0%BD_%D0%A0%D1%96%D0%B1%D0%B1%D0%B5%D0%BD%D1%82%D1%80%D0%BE%D0%BF', },
+},
+{
 	id: 'jodie_foster_19111962', 
 	name: { n: 'Jodie', s: 'Foster', },
 	life: { bd: 19, bm: 11, by: 1962, },
@@ -8413,7 +8422,7 @@ let arrListPeople = [
 	},
 },
 {
-	id: 'jusup_bahishev_05031965', 
+	id: 'jusup_bahshiev_05031965', 
 	name: { n: 'Юсуп', s: 'Бахшиев', },
 	sex: 1,
 	life: { bd: 5, bm: 3, by: 1965, },
