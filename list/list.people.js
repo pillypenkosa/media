@@ -4522,6 +4522,15 @@ let arrListPeople = [
 	note: 'Тетяна Григорівна Ліберман',
 },
 {
+	id: 'dmytro_karpenko_00000000', 
+	name: { n: 'Дмитро', s: 'Карпенко', },
+	sex: 1,
+	img: [ 1, 1 ],
+	country: { ukr: 1, },
+	hash: { internet: 1, blogger: 1, },
+	internet: { wiki_ua: '', },
+},
+{
 	id: 'ivan_karpenkokary_29091845', 
 	name: { n: 'Іван', s: 'Карпенко-Карий', },
 	sex: 1,
