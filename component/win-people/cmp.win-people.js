@@ -78,26 +78,39 @@ class ComponentWinPeople {
 					
 					and += `k.country.${ Router.urlGET.country } && `;
 				}
-
-
-
-
-				//if ( Router.urlGET.country != 'all' ) 
 			}
 
 
+			//console.log( 'Router.userHash: ', Router.userHash );
 
-			for ( let k in Router.userHash ) 
-				and += `k.hash[ '${ k }'] && `;
+			for ( let k in Router.userHash ) {
+
+				if ( k == 'died' ) {
+					//console.log( 'k: ', k );
+
+					and += `k.life && ( k.life.dd ) && `; // `( k.life.dd )` - для пошуку померлих, навіть серед тих у кого не вказані дати життя
+
+				} else
+					and += `k.hash[ '${ k }'] && `;
+			}
 
 			and = and.slice( 0, -4 );
+
+
+			//console.log( 'and: ', and );
+			//return;
+
 
 
 			//console.log( ok, 'and:', and ); 
 
 			this.arrUsersShow = arrListPeople.filter( k => {
 
-				if ( k.hash ) {
+				if ( k.hash ) { 	// k.life - тільки для ловлі померлих
+
+					//console.log( 'k.id: ', k.id );
+					//console.log( 'and: ', and );
+					//console.log( 'k.hash: ', k.hash );
 
 					if ( eval( and ) ) 
 						return true;
@@ -107,7 +120,7 @@ class ComponentWinPeople {
 
 
 
-			this.arrUsersShow.forEach( k => {
+			this.arrUsersShow.forEach( ( k, i ) => {
 
 				let sexClass = k.sex ? 'm' : 'w';
 
@@ -119,7 +132,7 @@ class ComponentWinPeople {
 						//<img src="img/people/${ k.id }/1.jpg" alt="${ k.id }">
 
 
-				htmlPeople += `<div class="each ${ sexClass }" data-id="${ k.id }" onclick="${ this.className }.clcUser( this )">
+				htmlPeople += `<div class="each ${ sexClass }" data-id="${ k.id }" onclick="${ this.className }.clcUser( this )" title="${ i+1 }) ${ k.id }">
 					<div class="img">
 
 						${ htmlAva }
