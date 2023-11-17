@@ -10781,15 +10781,23 @@ let arrListPeople = [
 	},
 },
 {
+	id: 'andry_petro_chyvurin_09051964', 
+	name: { n: 'Андрій', s: 'Чивурін', p: 'Петрович', },
+	life: { bd: 9, bm: 5, by: 1964, },
+	//img: [ 1, 1 ],
+	sex: 1,
+	country: { ukr: 1, },
+	hash: { show: 1, humor: 1, kvk: 1, },
+	internet: { imdb: '3024877', wiki_ua: '%D0%A7%D0%B8%D0%B2%D1%83%D1%80%D1%96%D0%BD_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
+},
+{
 	id: 'chizh_06021961', 
 	name: { n: 'Чиж', },
 	sex: 1,
 	life: { bd: 6, bm: 2, by: 1961, },
 	country: { rus: 1, },
 	music: { singer: 1, group: 'Чиж & Co', },
-	internet: {
-		wiki_ru: '%D0%A7%D0%B8%D0%B3%D1%80%D0%B0%D0%BA%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
-	},
+	internet: { wiki_ru: '%D0%A7%D0%B8%D0%B3%D1%80%D0%B0%D0%BA%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', },
 	note: 'Чиграков Сергей Николаевич', 
 },
 {
