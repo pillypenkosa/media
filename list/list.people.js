@@ -4643,7 +4643,7 @@ let arrListPeople = [
 	id: 'illya_volodymyr_kyva_02061977', 
 	name: { n: 'Ілля', s: 'Кива', p: 'Володимирович', },
 	sex: 1,
-	life: { bd: 2, bm: 6, by: 1977, },
+	life: { bd: 2, bm: 6, by: 1977, dd: 6, dm: 12, dy: 2023,},
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, traitor: 1, }, 
