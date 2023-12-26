@@ -15995,6 +15995,15 @@ let arrListPeople = [
 	note: 'Charles Lutwidge Dodgson',
 },
 {
+	id: 'liam_neeson_07061952', 
+	name: { n: 'Liam', s: 'Neeson', },
+	sex: 1,
+	life: { bd: 7, bm: 6, by: 1952, },
+	country: { irl: 1, usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000553', wiki_ua: '%D0%9B%D1%96%D0%B0%D0%BC_%D0%9D%D1%96%D1%81%D0%BE%D0%BD', },
+},
+{
 	id: 'linda_hamilton_26091956', 
 	name: { n: 'Linda', s: 'Hamilton', },
 	life: { bd: 26, bm: 9, by: 1956, },
