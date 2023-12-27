@@ -15085,6 +15085,14 @@ let arrListPeople = [
 	internet: { imdb: '0000124', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D1%96%D1%84%D0%B5%D1%80_%D0%9A%D0%BE%D0%BD%D0%BD%D0%B5%D0%BB%D0%BB%D1%96', },
 },
 {
+	id: 'jennifer_lawrence_15081990', 
+	name: { n: 'Jennifer', s: 'Lawrence', },
+	life: { bd: 15, bm: 8, by: 1990, },
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '2225369', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D1%96%D1%84%D0%B5%D1%80_%D0%9B%D0%BE%D1%80%D0%B5%D0%BD%D1%81', },
+},
+{
 	id: 'jennifer_lopez_24071969', 
 	name: { n: 'Jennifer', s: 'Lopez', },
 	life: { bd: 24, bm: 7, by: 1969, },
