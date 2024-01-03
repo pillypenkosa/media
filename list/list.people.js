@@ -12904,6 +12904,15 @@ let arrListPeople = [
 	internet: { imdb: '1517976', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%9F%D0%B0%D0%B9%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/50990/works/', },
 },
 {
+	id: 'chris_pratt_21061979', 
+	name: { n: 'Chris', s: 'Pratt', },
+	sex: 1,
+	life: { bd: 21, bm: 6, by: 1979, },
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0695435', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81_%D0%9F%D1%80%D0%B0%D1%82%D1%82', },
+},
+{
 	id: 'chris_tucker_31081971', 
 	name: { n: 'Chris', s: 'Tucker', },
 	sex: 1,
@@ -16104,6 +16113,16 @@ let arrListPeople = [
 	country: { fra: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000086', wiki_ua: '%D0%9B%D1%83%D1%97_%D0%B4%D0%B5_%D0%A4%D1%8E%D0%BD%D0%B5%D1%81', },
+},
+{
+	id: 'louis_pasteur_27121822', 
+	name: { n: 'Louis', s: 'Pasteur', },
+	sex: 1,
+	life: { bd: 27, bm: 12, by: 1822, dd: 28, dm: 9, dy: 1895, },
+	img: [ 1, 1 ],
+	country: { fra: 1, },
+	hash: { science: 1, chemistry: 1, },
+	internet: { wiki_ua: '%D0%9B%D1%83%D1%97_%D0%9F%D0%B0%D1%81%D1%82%D0%B5%D1%80', },
 },
 {
 	id: 'louis_vuitton_04081821', 
