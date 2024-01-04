@@ -13149,7 +13149,7 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%84%D0%BE%D1%80_%D0%9A%D0%BE%D0%BB%D1%83%D0%BC%D0%B1', },
 },
 {
-	id: 'cuba_gooding_02011968', 
+	id: 'cuba_gooding_jr_02011968', 
 	name: { n: 'Cuba', s: 'Gooding Jr.', },
 	sex: 1,
 	life: { bd: 2, bm: 1, by: 1968, },
@@ -16119,7 +16119,7 @@ let arrListPeople = [
 	name: { n: 'Louis', s: 'Pasteur', },
 	sex: 1,
 	life: { bd: 27, bm: 12, by: 1822, dd: 28, dm: 9, dy: 1895, },
-	img: [ 1, 1 ],
+	//img: [ 1, 1 ],
 	country: { fra: 1, },
 	hash: { science: 1, chemistry: 1, },
 	internet: { wiki_ua: '%D0%9B%D1%83%D1%97_%D0%9F%D0%B0%D1%81%D1%82%D0%B5%D1%80', },
