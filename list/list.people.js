@@ -14423,6 +14423,14 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%93%D1%80%D0%B0%D0%B4%D1%96_%D0%91%D1%83%D1%87', },
 },
 {
+	id: 'greta_thunberg_03012003', 
+	name: { n: 'Greta', s: 'Thunberg', },
+	sex: 1,
+	life: { bd: 3, bm: 1, by: 2003,  },
+	country: { swe: 1, },
+	internet: { wiki_ua: '%D2%90%D1%80%D0%B5%D1%82%D0%B0_%D0%A2%D1%83%D0%BD%D0%B1%D0%B5%D1%80%D0%B3', },
+},
+{
 	id: 'guccio_gucci_26031981', 
 	name: { n: 'Guccio', s: 'Gucci', },
 	sex: 1,
