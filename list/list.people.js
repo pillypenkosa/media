@@ -14459,6 +14459,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%93%D1%96_%D0%B4%D0%B5_%D0%9C%D0%BE%D0%BF%D0%B0%D1%81%D1%81%D0%B0%D0%BD', },
 },
 {
+	id: 'guy_ritchie_10091968', 
+	name: { n: 'Guy', s: 'Ritchie', },
+	sex: 1,
+	life: { bd: 10, bm: 9, by: 1968, },
+	country: { gbr: 1, },
+	hash: { movie: 1, director: 1, },
+	internet: { wiki_ua: '%D2%90%D0%B0%D0%B9_%D0%A0%D1%96%D1%87%D1%96', },
+},
+{
 	id: 'gwyneth_paltrow_27091972', 
 	name: { n: 'Gwyneth', s: 'Paltrow', },
 	life: { bd: 27, bm: 9, by: 1972, },
