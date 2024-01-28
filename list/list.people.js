@@ -11547,6 +11547,19 @@ let arrListPeople = [
 
 
 
+
+
+
+
+{
+	id: 'aaron_eckhart_12031968', 
+	name: { n: 'Aaron', s: 'Eckhart', },
+	sex: 1,
+	life: { bd: 12, bm: 3, by: 1968, },
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001173', wiki_ua: '%D0%90%D0%B0%D1%80%D0%BE%D0%BD_%D0%95%D0%BA%D0%B3%D0%B0%D1%80%D1%82', },
+},
 {
 	id: 'abraham_lincoln_12021809', 
 	name: { n: 'Abraham', s: 'Lincoln', },
