@@ -17948,6 +17948,14 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%A0%D0%BE%D0%BD%D0%B0%D0%BB%D0%B4%D1%96%D0%BD%D1%8C%D1%8E', },
 },
 {
+	id: 'rosamund_pike_27011979', 
+	name: { n: 'Rosamund', s: 'Pike', },
+	life: { bd: 27, bm: 1, by: 1979, },
+	country: { gbr: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0683253', wiki_ua: '%D0%A0%D0%BE%D0%B7%D0%B0%D0%BC%D1%83%D0%BD%D0%B4_%D0%9F%D0%B0%D0%B9%D0%BA', },
+},
+{
 	id: 'rose_leslie_09021987', 
 	name: { n: 'Rose', s: 'Leslie', },
 	life: { bd: 9, bm: 2, by: 1987, },
