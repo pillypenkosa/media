@@ -15273,6 +15273,14 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%99%D0%BE%D0%B0%D1%85%D1%96%D0%BC_%D1%84%D0%BE%D0%BD_%D0%A0%D1%96%D0%B1%D0%B1%D0%B5%D0%BD%D1%82%D1%80%D0%BE%D0%BF', },
 },
 {
+	id: 'jodie_comer_11031993', 
+	name: { n: 'Jodie', s: 'Comer', },
+	life: { bd: 11, bm: 3, by: 1993, },
+	country: { gbr: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '3069650', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%B4%D1%96_%D0%9A%D0%BE%D0%BC%D0%B5%D1%80', },
+},
+{
 	id: 'jodie_foster_19111962', 
 	name: { n: 'Jodie', s: 'Foster', },
 	life: { bd: 19, bm: 11, by: 1962, },
