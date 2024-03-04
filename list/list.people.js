@@ -15810,6 +15810,15 @@ let arrListPeople = [
 	internet: { imdb: '0000662', wiki_ua: '%D0%9A%D1%96%D1%84%D0%B5%D1%80_%D0%A1%D0%B0%D0%B7%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B4', },
 },
 {
+	id: 'kiichiro_toyoda_11061894', 
+	name: { n: 'Kiichiro', s: 'Toyoda', },
+	sex: 1,
+	life: { bd: 11, bm: 6, by: 1894, dd: 27, dm: 3, dy: 1952, },
+	country: { jpn: 1, },
+	hash: { founder: 1, car: 1, },
+	internet: { wiki_ua: '%D0%A2%D0%BE%D0%B9%D0%BE%D0%B4%D0%B0_%D0%9A%D1%96%D0%B9%D1%82%D1%96%D1%80%D0%BE', },
+},
+{
 	id: 'kim_basinger_08121953', 
 	name: { n: 'Kim', s: 'Basinger', },
 	life: { bd: 8, bm: 12, by: 1953, },
@@ -18937,6 +18946,15 @@ let arrListPeople = [
 	hash: { movie: 1, director: 1, producer: 1, cartoon: 1, },
 	internet: { wiki_ua: '%D0%92%D0%BE%D0%BB%D1%82_%D0%94%D1%96%D1%81%D0%BD%D0%B5%D0%B9', },
 	note: 'Художник-мультипликатор',
+},
+{
+	id: 'walter_chrysler_02041875', 
+	name: { n: 'Walter', s: 'Chrysler', },
+	sex: 1,
+	life: { bd: 2, bm: 4, by: 1875, dd: 18, dm: 8, dy: 1940, },
+	country: { usa: 1, },
+	hash: { founder: 1, car: 1, },
+	internet: { wiki_ua: '%D0%92%D0%BE%D0%BB%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D0%B0%D0%B9%D1%81%D0%BB%D0%B5%D1%80', },
 },
 {
 	id: 'walter_schellenberg_16011910', 
