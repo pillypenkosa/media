@@ -14,12 +14,22 @@ const dependences = {
 		'middle',
 	],
 
-	listGIT: [ 		// https://pillypenkosa.github.io/database/list/list. ${ k } .js
+	listDB: [ 		// https://pillypenkosa.github.io/db/list/list. ${ k } .js
 
 		//'people',
 		'city',
 		'country',
 	],
+
+
+
+
+
+
+
+
+
+
 
 	listApp: [ 		// list/list. ${ k } .js
 
