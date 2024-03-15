@@ -13835,6 +13835,14 @@ let arrListPeople = [
 	internet: { imdb: '1289434', wiki_ua: '%D0%95%D0%BC%D1%96%D0%BB%D1%96_%D0%91%D0%BB%D0%B0%D0%BD%D1%82', },
 },
 {
+	id: 'emma_stone_06111988', 
+	name: { n: 'Emma', s: 'Stone', },
+	life: { bd: 6, bm: 11, by: 1988, },
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1297015', wiki_ua: '%D0%95%D0%BC%D0%BC%D0%B0_%D0%A1%D1%82%D0%BE%D1%83%D0%BD', },
+},
+{
 	id: 'emma_watson_15041990', 
 	name: { n: 'Emma', s: 'Watson', },
 	life: { bd: 15, bm: 4, by: 1990, },
@@ -17472,6 +17480,15 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000693', wiki_ua: '%D0%9F%D1%96%D1%82%D0%B5%D1%80_%D0%92%D0%B5%D0%BB%D0%BB%D0%B5%D1%80', },
+},
+{
+	id: 'phil_collins_30011951', 
+	name: { n: 'Phil', s: 'Collins', },
+	sex: 1,
+	life: { bd: 30, bm: 1, by: 1951, },
+	country: { gbr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '0002015', wiki_ua: '%D0%A4%D1%96%D0%BB_%D0%9A%D0%BE%D0%BB%D0%BB%D1%96%D0%BD%D0%B7', },
 },
 {
 	id: 'philippe_noiret_01101930', 
