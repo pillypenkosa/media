@@ -6755,7 +6755,7 @@ let arrListPeople = [
 	id: 'gennady_gennady_moskal_11121950', 
 	name: { n: 'Геннадій', s: 'Москаль', p: 'Геннадійович', },
 	sex: 1,
-	life: { bd: 11, bm: 12, by: 1950, },
+	life: { bd: 11, bm: 12, by: 1950, dd: 17, dm: 3, dy: 2024,},
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, },
