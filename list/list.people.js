@@ -14982,6 +14982,15 @@ let arrListPeople = [
 	internet: { imdb: '0001390', wiki_ua: '%D0%94%D0%B6%D0%B0%D0%BD%D0%B5%D1%82_%D0%94%D0%B6%D0%B5%D0%BA%D1%81%D0%BE%D0%BD', },
 },
 {
+	id: 'jason_clarke_17071969', 
+	name: { n: 'Jason', s: 'Clarke', },
+	sex: 1,
+	life: { bd: 17, bm: 7, by: 1969, },
+	country: { aus: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0164809', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D1%81%D0%BE%D0%BD_%D0%9A%D0%BB%D0%B0%D1%80%D0%BA', },
+},
+{
 	id: 'jason_lee_25041970', 
 	name: { n: 'Jason', s: 'Lee', },
 	sex: 1,
@@ -17647,6 +17656,15 @@ let arrListPeople = [
 	country: { deu: 1, },
 	hash: { sport: 1, car: 1, },
 	internet: { imdb: '1788165', wiki_ua: '%D0%A0%D0%B0%D0%BB%D1%8C%D1%84_%D0%A8%D1%83%D0%BC%D0%B0%D1%85%D0%B5%D1%80', },
+},
+{
+	id: 'rami_malek_12051981', 
+	name: { n: 'Rami', s: 'Malek', },
+	sex: 1,
+	life: { bd: 12, bm: 5, by: 1981, },
+	country: { usa: 1, egy: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1785339', wiki_ua: '%D0%A0%D0%B0%D0%BC%D1%96_%D0%9C%D0%B0%D0%BB%D0%B5%D0%BA', },
 },
 {
 	id: 'ray_bradbury_22081920', 
