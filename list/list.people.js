@@ -11591,6 +11591,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%90%D0%B4%D0%B0%D0%BC_%D0%9E%D0%BF%D0%B5%D0%BB%D1%8C', },
 },
 {
+	id: 'adam_sandler_09091966', 
+	name: { n: 'Adam', s: 'Sandler', },
+	sex: 1,
+	life: { bd: 9, bm: 9, by: 1966, },
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001191', wiki_ua: '%D0%90%D0%B4%D0%B0%D0%BC_%D0%A1%D0%B5%D0%BD%D0%B4%D0%BB%D0%B5%D1%80', },
+},
+{
 	id: 'adam_savage_15071967', 
 	name: { n: 'Adam', s: 'Savage', },
 	sex: 1,
