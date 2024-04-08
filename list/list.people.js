@@ -721,6 +721,15 @@ let arrListPeople = [
 	},
 },
 {
+	id: 'olexandr_illya_ahiezer_31101911', 
+	name: { n: 'Олександр', s: 'Ахієзер', p: 'Ілліч', },
+	life: { bd: 31, bm: 10, by: 1911, dd: 4, dm: 5, dy: 2000, },
+	sex: 1,
+	country: { rem: 1, sun: 1, ukr: 1, },
+	hash: { science: 1, physics: 1, },
+	internet: { wiki_ua: '%D0%90%D1%85%D1%96%D1%94%D0%B7%D0%B5%D1%80_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%86%D0%BB%D0%BB%D1%96%D1%87', },
+},
+{
 	id: 'anna_andry_ahmatova_23061889', 
 	name: { n: 'Анна', s: 'Ахматова', p: 'Андріївна', },
 	life: { bd: 23, bm: 6, by: 1889, dd: 5, dm: 3, dy: 1966, },
