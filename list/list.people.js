@@ -13578,6 +13578,15 @@ let arrListPeople = [
 	internet: { imdb: '0874339', wiki_ua: '%D0%94%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%A2%D1%80%D0%B0%D0%BC%D0%BF', },
 },
 {
+	id: 'donald_tusk_22041957', 
+	name: { n: 'Donald', s: 'Tusk', },
+	sex: 1,
+	life: { bd: 22, bm: 4, by: 1957, },
+	country: { pol: 1, },
+	hash: { politics: 1, },
+	internet: { wiki_ua: '%D0%94%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%A2%D1%83%D1%81%D0%BA', },
+},
+{
 	id: 'donatello_00001386', 
 	name: { n: 'Donatello', },
 	sex: 1,
