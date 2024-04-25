@@ -12,7 +12,12 @@ class LoadDependences {
 		dependences.listDB.forEach( k => {
 
 			let script = document.createElement( 'script' );
-			script.src = `https://pillypenkosa.github.io/db/list/list.${ k }.js`;
+			//script.src = `https://pillypenkosa.github.io/db/list/list.${ k }.js`;
+
+			//console.log( k );
+
+			script.src = k;
+
 			//script.setAttribute( 'defer', '' );
 			divList.append( script );
 		});

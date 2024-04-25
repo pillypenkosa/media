@@ -229,6 +229,32 @@ cmp-each-user .hashTag {
 
 
 
+	cmp-each-user .films {
+
+	}
+		cmp-each-user .films .img {
+			height: 200px;
+			width: 140px;
+			/*display: inline-block;*/
+			margin: 1px;
+			cursor: pointer;
+		}
+
+			cmp-each-user .films .img img {
+				height: 100%;
+				width: 100%;
+				border-radius: 10px;
+			}
+
+
+
+
+
+
+
+
+
+
 
 
 

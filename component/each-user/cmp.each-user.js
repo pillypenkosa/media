@@ -92,6 +92,9 @@ class ComponentEachUser {
 		let hash = '';
 		let htmlPresident = '';
 
+		let htmlFilms = '';
+
+
 		if ( user.hash ) {
 
 			for ( let k in user.hash ) {
@@ -120,6 +123,85 @@ class ComponentEachUser {
 					htmlPresident = `<div class="president">${ html }</div>`;
 				}
 			}
+
+
+
+
+
+
+			if ( user.hash.movie && user.hash.actor ) {
+
+
+				//console.log( 'user: ', user  );
+
+
+
+				let tBody = '';
+
+
+				let arrSelectActorFilms = arrFilms.filter( k => {
+
+					if ( k.cast ) {
+						if ( k.cast[ data ] ) 
+							return true;
+					}
+
+				});
+
+
+
+				//console.log( 'arrSelectActorFilms: ', arrSelectActorFilms  );
+
+
+				// сортировка об'єктів-фільмів за роком випуску
+				arrSelectActorFilms.sort( ( a, b ) => { return a.year < b.year ? -1 : 1;  } );
+
+
+				//console.log( 'arrSelectActorFilms: ', arrSelectActorFilms  );
+
+
+
+
+				arrSelectActorFilms.forEach( k => {
+
+
+					if ( k.cast ) {
+						if ( k.cast[ data ] ) {
+
+							//console.log( 'filmID: ', k.id );
+
+							tBody += `<tr>
+								<td><img src="https://pillypenkosa.github.io/films/img/poster/${ k.id }.jpg" alt="" title="${ k.title.ua } (${ k.year })"></td>
+								<td>${ k.title.ua } (${ k.year })</td>
+							</tr>`;
+						}
+					}
+				});
+
+
+
+				//let tBody = `<tbody>${ htmlTr }</tbody>`;
+			
+
+				htmlFilms += `<table>
+					<thead>
+						<tr>
+							<td></td>
+							<td></td>
+						<tr>
+					</thead>
+					<tbody>${ tBody }</tbody>
+				</table>`;
+
+			}
+		
+
+
+
+
+
+
+
 		}
 
 
@@ -205,27 +287,6 @@ class ComponentEachUser {
 		let letterSex = user.sex ? 'm' : 'w';
 
 
-		console.log( 'user: ', user  );
-
-
-		if ( user.hash ) {
-			if ( user.hash.movie && user.hash.actor ) {
-
-
-				arrFilms.forEach( k => {
-
-
-					console.log( k.id );
-
-				});
-
-
-
-
-
-				//alert( 777 );
-			}
-		}
 
 
 
@@ -261,7 +322,7 @@ class ComponentEachUser {
 
 
 
-			<div class="films"></div>
+			<div class="films">${ htmlFilms }</div>
 		<div>`;
 
 		return getComponentHtml( this.paramAttr, html );
