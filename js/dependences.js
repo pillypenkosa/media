@@ -19,6 +19,7 @@ const dependences = {
 		//'people',
 		'city',
 		'country',
+		'films',
 	],
 
 

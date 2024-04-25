@@ -205,6 +205,30 @@ class ComponentEachUser {
 		let letterSex = user.sex ? 'm' : 'w';
 
 
+		console.log( 'user: ', user  );
+
+
+		if ( user.hash ) {
+			if ( user.hash.movie && user.hash.actor ) {
+
+
+				arrFilms.forEach( k => {
+
+
+					console.log( k.id );
+
+				});
+
+
+
+
+
+				//alert( 777 );
+			}
+		}
+
+
+
 		let html = `<div class="">
 
 			<div class="main">
