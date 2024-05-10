@@ -3381,6 +3381,14 @@ let arrListPeople = [
 	},
 },
 {
+	id: 'anastasia_mykola_dmytruk_31011991', 
+	name: { n: 'Анастасія', s: 'Дмитрук', p: 'Миколаївна', },
+	life: { bd: 31, bm: 1, by: 1991, },
+	country: { ukr: 1, },
+	hash: { literature: 1, },
+	internet: { wiki_ua: '%D0%94%D0%BC%D0%B8%D1%82%D1%80%D1%83%D0%BA_%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D1%96%D1%8F_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', },
+},
+{
 	id: 'myhaylo_mark_dobkin_26011970', 
 	name: { n: 'Михайло', s: 'Добкін', p: 'Маркович', },
 	sex: 1,
@@ -18245,6 +18253,15 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000113', wiki_ua: '%D0%A1%D0%B0%D0%BD%D0%B4%D1%80%D0%B0_%D0%91%D1%83%D0%BB%D0%BB%D0%BE%D0%BA', },
+},
+{
+	id: 'sasha_grey_14031988', 
+	name: { n: 'Sasha', s: 'Grey', },
+	life: { bd: 14, bm: 3, by: 1988, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, model: 1, },
+	internet: { imdb: '2340248', wiki_ua: '%D0%A1%D0%B0%D1%88%D0%B0_%D0%93%D1%80%D0%B5%D0%B9', },
 },
 {
 	id: 'scarlett_johansson_22111984', 
