@@ -822,18 +822,14 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%91%D0%B0%D0%BB%D0%BE%D0%B3%D0%B0_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
-	id: 'alexandr_baluev_06121958', 
-	name: { n: 'Александр', s: 'Балуев', },
+	id: 'olexandr_mykola_baluev_06121958', 
+	name: { n: 'Олександр', s: 'Балуєв', p: 'Миколайович', },
 	sex: 1,
 	life: { bd: 6, bm: 12, by: 1958, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0051282', 
-		wiki_ru: '%D0%91%D0%B0%D0%BB%D1%83%D0%B5%D0%B2,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/297/works/', 
-	},
+	country: { rus: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0051282', wiki_ua: '%D0%91%D0%B0%D0%BB%D0%BE%D0%B3%D0%B0_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'stepan_andry_bandera_01011909', 
