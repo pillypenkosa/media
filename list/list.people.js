@@ -15058,6 +15058,7 @@ let arrListPeople = [
 	name: { n: 'Jason', s: 'Scott Lee', },
 	sex: 1,
 	life: { bd: 19, bm: 11, by: 1966, },
+	img: [ 1, 1 ],
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001462', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D1%81%D0%BE%D0%BD_%D0%A1%D0%BA%D0%BE%D1%82%D1%82_%D0%9B%D1%96', },
