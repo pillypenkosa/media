@@ -13574,7 +13574,7 @@ let arrListPeople = [
 	id: 'donald_sutherland_17071935', 
 	name: { n: 'Donald', s: 'Sutherland', },
 	sex: 1,
-	life: { bd: 17, bm: 7, by: 1935, },
+	life: { bd: 17, bm: 7, by: 1935, dd: 20, dm: 6, dy: 2024, },
 	img: [ 1, 1 ],
 	country: { can: 1, },
 	hash: { movie: 1, actor: 1, },
