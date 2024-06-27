@@ -17025,6 +17025,15 @@ let arrListPeople = [
 	internet: { imdb: '0000204', wiki_ua: '%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96_%D0%9F%D0%BE%D1%80%D1%82%D0%BC%D0%B0%D0%BD', },
 },
 {
+	id: 'nathalie_emmanuel_02031989', 
+	name: { n: 'Nathalie', s: 'Emmanuel', },
+	life: { bd: 2, bm: 3, by: 1989, },
+	img: [ 1, 1 ],
+	country: { gbr: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '2812026', wiki_ua: '%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%96_%D0%95%D0%BC%D0%BC%D0%B0%D0%BD%D1%83%D0%B5%D0%BB%D1%8C', },
+},
+{
 	id: 'natti_natasha_10121986', 
 	name: { n: 'Natti', s: 'Natasha', },
 	life: { bd: 10, bm: 12, by: 1986, },
