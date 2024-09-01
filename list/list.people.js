@@ -1006,6 +1006,14 @@ let arrListPeople = [
 	},
 },
 {
+	id: 'olesya_ leonid_bacman_03101984', 
+	name: { n: 'Олеся', s: 'Бацман', p: 'Леонідівна', },
+	life: { bd: 3, bm: 10, by: 1984, },
+	country: { ukr: 1, },
+	hash: { internet: 1, blogger: 1, },
+	internet: { wiki_ua: '%D0%91%D0%B0%D1%86%D0%BC%D0%B0%D0%BD_%D0%9E%D0%BB%D0%B5%D1%81%D1%8F_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4%D1%96%D0%B2%D0%BD%D0%B0', },
+},
+{
 	id: 'marat_basharov_22081974', 
 	name: { n: 'Марат', s: 'Башаров', },
 	sex: 1,
@@ -11703,7 +11711,7 @@ let arrListPeople = [
 	id: 'alain_delon_08111935', 
 	name: { n: 'Alain', s: 'Delon', },
 	sex: 1,
-	life: { bd: 8, bm: 11, by: 1935, },
+	life: { bd: 8, bm: 11, by: 1935, dd: 18, dm: 8, dy: 2024, },
 	img: [ 1, 1 ],
 	country: { fra: 1, },
 	hash: { movie: 1, actor: 1, },
