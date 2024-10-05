@@ -12367,6 +12367,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D0%9A%D0%BB%D1%96%D0%BD%D1%82%D0%BE%D0%BD', },
 },
 {
+	id: 'Bill_Conti_13041942', 
+	name: { n: 'Bill', s: 'Conti', },
+	sex: 1,
+	life: { bd: 13, bm: 4, by: 1942, },
+	country: { usa: 1, },
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '0006015', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D0%9A%D0%BE%D0%BD%D1%82%D1%96', },
+},
+{
 	id: 'bill_gates_28101955', 
 	name: { n: 'Bill', s: 'Gates', },
 	sex: 1,
