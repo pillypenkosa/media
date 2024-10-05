@@ -19312,6 +19312,15 @@ let arrListPeople = [
 	internet: { imdb: '0000319', wiki_ua: '%D0%AF%D0%BD%D1%81%D1%96_%D0%91%D0%B0%D1%82%D0%BB%D0%B5%D1%80', },
 },
 {
+	id: 'yann_tiersen_23071970', 
+	name: { n: 'Yann', s: 'Tiersen', },
+	sex: 1,
+	life: { bd: 23, bm: 7, by: 1970, },
+	country: { fra: 1, },
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '0862961', wiki_ua: '%D0%AF%D0%BD_%D0%A2%D1%96%D1%80%D1%81%D0%B5%D0%BD', },
+},
+{
 	id: 'yasser_arafat_04081929', 
 	name: { n: 'Yasser', s: 'Arafat', },
 	sex: 1,
