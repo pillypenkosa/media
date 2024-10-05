@@ -14955,6 +14955,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%A4%D0%B5%D0%BD%D1%96%D0%BC%D0%BE%D1%80_%D0%9A%D1%83%D0%BF%D0%B5%D1%80', },
 },
 {
+	id: 'james_horner_14081953', 
+	name: { n: 'James', s: 'Horner',  },
+	sex: 1,
+	life: { bd: 14, bm: 8, by: 1953, dd: 22, dm: 6, dy: 2015, },
+	country: { usa: 1, },
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '0000035', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%93%D0%BE%D1%80%D0%BD%D0%B5%D1%80', },
+},
+{
 	id: 'james_hyneman_25091956', 
 	name: { n: 'James', s: 'Hyneman', },
 	sex: 1,
