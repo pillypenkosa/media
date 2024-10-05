@@ -11738,6 +11738,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%90%D0%BB%D0%B0%D0%BD_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B5%D1%80_%D0%9C%D1%96%D0%BB%D0%BD', },
 },
 {
+	id: 'alan_silvestri_26031950', 
+	name: { n: 'Alan', s: 'Silvestri', },
+	sex: 1,
+	life: { bd: 26, bm: 3, by: 1950, },
+	country: { usa: 1, },
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '0006293', wiki_ua: '%D0%90%D0%BB%D0%B0%D0%BD_%D0%A1%D1%96%D0%BB%D1%8C%D0%B2%D0%B5%D1%81%D1%82%D1%80%D1%96', },
+},
+{
 	id: 'alana_asmr', 
 	name: { n: 'Alana', },
 	country: { usa: 1, },
