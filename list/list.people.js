@@ -17750,6 +17750,15 @@ let arrListPeople = [
 	internet: { imdb: '1785339', wiki_ua: '%D0%A0%D0%B0%D0%BC%D1%96_%D0%9C%D0%B0%D0%BB%D0%B5%D0%BA', },
 },
 {
+	id: 'ramin_djawadi_19071974', 
+	name: { n: 'Ramin', s: 'Djawadi', },
+	sex: 1,
+	life: { bd: 19, bm: 7, by: 1974, },
+	country: { deu: 1, },
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '1014697', wiki_ua: '%D0%A0%D0%B0%D0%BC%D1%96%D0%BD_%D0%94%D0%B6%D0%B0%D0%B2%D0%B0%D0%B4%D1%96', },
+},
+{
 	id: 'ray_bradbury_22081920', 
 	name: { n: 'Ray', s: 'Bradbury', },
 	sex: 1,
