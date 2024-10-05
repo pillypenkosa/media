@@ -14984,6 +14984,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%9A%D0%BB%D0%B5%D1%80%D0%BA_%D0%9C%D0%B0%D0%BA%D1%81%D0%B2%D0%B5%D0%BB%D0%BB', },
 },
 {
+	id: 'james_newton_howard_09061951', 
+	name: { n: 'James', s: 'Howard', p: 'Newton', },
+	sex: 1,
+	life: { bd: 9, bm: 6, by: 1951, },
+	country: { usa: 1, },
+	hash: { movie: 1, music: 1, composer: 1, },
+	internet: { imdb: '0006133', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D0%93%D0%BE%D0%B2%D0%B0%D1%80%D0%B4', },
+},
+{
 	id: 'james_spader_07021960', 
 	name: { n: 'James', s: 'Spader', },
 	sex: 1,
