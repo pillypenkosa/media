@@ -18108,11 +18108,11 @@ let arrListPeople = [
 	internet: { imdb: '0000165', wiki_ua: '%D0%A0%D0%BE%D0%BD_%D0%93%D0%BE%D0%B2%D0%B0%D1%80%D0%B4', },
 },
 {
-	id: 'Ron_Perlman_13041950', 
+	id: 'ron_perlman_13041950', 
 	name: { n: 'Ron', s: 'Perlman', },
 	sex: 1,
 	life: { bd: 13, bm: 4, by: 1950, },
-	img: [ 1, 1 ],
+	//img: [ 1, 1 ],
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000579', wiki_ua: '%D0%A0%D0%BE%D0%BD_%D0%9F%D0%B5%D1%80%D0%BB%D0%BC%D0%B0%D0%BD', },
