@@ -53,7 +53,7 @@ class Router {
 		ComponentMenu.activeLight();
 
 		// загрузка контентк
-		this.loadContent()
+		this.loadContent();
 	}
 
 
@@ -277,11 +277,6 @@ class Router {
 
 		// загрузка контентк
 		this.loadContent();
-
-
-
-
-
 	}
 
 
