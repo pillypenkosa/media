@@ -1270,7 +1270,7 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { music: 1, singer: 1, },
-	internet: { wiki_ua: '%D0%91%D1%96%D0%BB%D0%B8%D0%BA_%D0%86%D1%80%D0%B8%D0%BD%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/30054/works/', },
+	internet: { imdb: '2877900', wiki_ua: '%D0%91%D1%96%D0%BB%D0%B8%D0%BA_%D0%86%D1%80%D0%B8%D0%BD%D0%B0_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/star/30054/works/', },
 },
 {
 	id: 'oxana_volodymyr_bilozir_30051957', 
@@ -9697,6 +9697,14 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%A2%D0%B8%D0%BC%D1%83%D1%80', },
 },
 {
+	id: 'svitlana_vasyl_tarabarova_26071990', 
+	name: { n: 'Світлана', s: 'Тарабарова', p: 'Василівна', },
+	life: { bd: 26, bm: 7, by: 1990, },
+	country: { ukr: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '11576647', wiki_ua: '%D0%A2%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D0%B0_%D0%A1%D0%B2%D1%96%D1%82%D0%BB%D0%B0%D0%BD%D0%B0_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', },
+},
+{
 	id: 'alexandr_trifon_tvardovsky_21061910', 
 	name: { n: 'Александр', s: 'Твардовский', p: 'Трифонович', },
 	sex: 1,
@@ -13021,6 +13029,16 @@ let arrListPeople = [
 	internet: {
 		wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%B0%D0%BD_%D0%94%D1%96%D0%BE%D1%80', 
 	},
+},
+{
+	id: 'christian_slater_18081969', 
+	name: { n: 'Christian', s: 'Slater', },
+	sex: 1,
+	life: { bd: 18, bm: 8, by: 1969, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0000225', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%B0%D0%BD_%D0%A1%D0%BB%D0%B5%D0%B9%D1%82%D0%B5%D1%80', },
 },
 {
 	id: 'christina_aguilera_18121980', 
@@ -18699,6 +18717,14 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { internet: 1, blogger: 1, },
 	internet: { imdb: '8772709', wiki_en: 'ASMR_Darling', },
+},
+{
+	id: 'taylor_swift_13121989', 
+	name: { n: 'Taylor', s: 'Swift', },
+	life: { bd: 13, bm: 12, by: 1989, },
+	country: { usa: 1, },
+	hash: { music: 1, singer: 1, },
+	internet: { imdb: '2357847', wiki_ua: '%D0%A2%D0%B5%D0%B9%D0%BB%D0%BE%D1%80_%D0%A1%D0%B2%D1%96%D1%84%D1%82', },
 },
 {
 	id: 'tex_avery_28021908', 
