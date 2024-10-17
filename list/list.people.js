@@ -15520,6 +15520,16 @@ let arrListPeople = [
 	note: 'Батьк трьох синів Штрауссів Йоганна ( Йоган Йоганович ), Йозефа та Едуарда',
 },
 {
+	id: 'john_cena_23071977', 
+	name: { n: 'John', s: 'Cena', },
+	sex: 1,
+	life: { bd: 23, bm: 4, by: 1977, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, sport: 1, },
+	internet: { imdb: '1078479', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BD_%D0%A1%D1%96%D0%BD%D0%B0', },
+},
+{
 	id: 'john_cusack_28061966', 
 	name: { n: 'John', s: 'Cusack', },
 	sex: 1,
