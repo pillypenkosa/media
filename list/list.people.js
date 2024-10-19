@@ -14986,6 +14986,7 @@ let arrListPeople = [
 	name: { n: 'James', s: 'Horner',  },
 	sex: 1,
 	life: { bd: 14, bm: 8, by: 1953, dd: 22, dm: 6, dy: 2015, },
+	img: [ 1, 1 ],
 	country: { usa: 1, },
 	hash: { movie: 1, music: 1, composer: 1, },
 	internet: { imdb: '0000035', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%93%D0%BE%D1%80%D0%BD%D0%B5%D1%80', },
