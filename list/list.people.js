@@ -13202,7 +13202,7 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { irl: 1, },
 	sport: { },
-	hash: { sport: 1, fighter: 1, mma: 1, },
+	hash: { sport: 1, fighter: 1, mma: 1, movie: 1, actor: 1, },
 	internet: { wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%BE%D1%80_%D0%9C%D0%B0%D0%BA-%D0%93%D1%80%D0%B5%D0%B3%D0%BE%D1%80', },
 },
 {
@@ -15034,6 +15034,7 @@ let arrListPeople = [
 	name: { n: 'James', s: 'Howard', p: 'Newton', },
 	sex: 1,
 	life: { bd: 9, bm: 6, by: 1951, },
+	img: [ 1, 1 ],
 	country: { usa: 1, },
 	hash: { movie: 1, music: 1, composer: 1, },
 	internet: { imdb: '0006133', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D0%93%D0%BE%D0%B2%D0%B0%D1%80%D0%B4', },
