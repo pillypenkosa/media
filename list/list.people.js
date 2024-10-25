@@ -13304,6 +13304,15 @@ let arrListPeople = [
 	internet: { imdb: '0000838', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%96%D0%B5%D0%BB_%D0%91%D0%BE%D0%BB%D0%B4%D0%B2%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/53115/works/', },
 },
 {
+	id: 'dakota_fanning_23021994', 
+	name: { n: 'Dakota', s: 'Fanning', },
+	life: { bd: 23, bm: 2, by: 1994, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0266824', wiki_ua: '%D0%94%D0%B0%D0%BA%D0%BE%D1%82%D0%B0_%D0%A4%D0%B5%D0%BD%D0%BD%D1%96%D0%BD%D0%B3', },
+},
+{
 	id: 'daniel_c_ryan_09061993', 
 	name: { n: 'Daniel', s: 'C.Ryan', },
 	life: { bd: 9, bm: 6, by: 1993, },
