@@ -11890,6 +11890,15 @@ let arrListPeople = [
 	internet: { imdb: '0005442', wiki_ua: '%D0%95%D0%BC%D1%96_%D0%A1%D0%BC%D0%B0%D1%80%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/65792/works/', },
 },
 {
+	id: 'ana_de_armas_30041988', 
+	name: { n: 'Ana', s: 'de Armas', },
+	life: { bd: 30, bm: 4, by: 1988, },
+	img: [ 1, 1 ],
+	country: { esp: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1869101', wiki_ua: '%D0%90%D0%BD%D0%B0_%D0%B4%D0%B5_%D0%90%D1%80%D0%BC%D0%B0%D1%81', },
+},
+{
 	id: 'annalena_baerbock_15121980', 
 	name: { n: 'Annalena', s: 'Baerbock', },
 	life: { bd: 15, bm: 12, by: 1980, },
