@@ -18352,6 +18352,15 @@ let arrListPeople = [
 	internet: { imdb: '0000168', wiki_ua: '%D0%A1%D0%B5%D0%BC%D1%8E%D0%B5%D0%BB_%D0%9B%D1%96%D1%80%D0%BE%D0%B9_%D0%94%D0%B6%D0%B5%D0%BA%D1%81%D0%BE%D0%BD', },
 },
 {
+	id: 'samuel_morse_27041791', 
+	name: { n: 'Samuel', s: 'Morse', },
+	sex: 1,
+	life: { bd: 27, bm: 4, by: 1791, dd: 2, dm: 4, dy: 1872, },
+	country: { usa: 1, },
+	hash: { inventor: 1, },
+	internet: { wiki_ua: '%D0%A1%D0%B5%D0%BC%D1%8E%D0%B5%D0%BB_%D0%A4%D1%96%D0%BD%D0%BB%D1%96_%D0%91%D1%80%D1%96%D0%B7_%D0%9C%D0%BE%D1%80%D0%B7%D0%B5', },
+},
+{
 	id: 'samy_naceri_02071961', 
 	name: { n: 'Samy', s: 'Naceri', },
 	sex: 1,
