@@ -14601,7 +14601,7 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { gbr: 1, },
 	hash: { movie: 1, director: 1, },
-	internet: { wiki_ua: '%D2%90%D0%B0%D0%B9_%D0%A0%D1%96%D1%87%D1%96', },
+	internet: { imdb: '0005363', wiki_ua: '%D2%90%D0%B0%D0%B9_%D0%A0%D1%96%D1%87%D1%96', },
 },
 {
 	id: 'gwyneth_paltrow_27091972', 
