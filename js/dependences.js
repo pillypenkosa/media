@@ -19,7 +19,7 @@ const dependences = {
 		'https://pillypenkosa.github.io/db/list/list.city.js',
 		'https://pillypenkosa.github.io/db/list/list.country.js',
 
-		'https://pillypenkosa.github.io/films/list/list.films.js',
+		'https://pillypenkosa.github.io/movies/list/list.films.js',
 
 	],
 

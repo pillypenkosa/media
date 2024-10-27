@@ -12579,7 +12579,8 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
-	internet: { imdb: '0005256', wiki_ru: '%D0%9C%D0%BE%D0%B9%D0%BD%D0%B0%D1%85%D0%B0%D0%BD,_%D0%91%D1%80%D0%B8%D0%B4%D0%B6%D0%B8%D1%82', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/51571/works/', },
+	internet: { imdb: '0005256', 
+	wiki_ua: 'https://uk.wikipedia.org/wiki/%D0%91%D1%80%D1%96%D0%B4%D0%B6%D0%B5%D1%82_%D0%9C%D0%BE%D0%B9%D0%BD%D0%B5%D0%B3%D0%B5%D0%BD', 
 },
 {
 	id: 'brigitte_bardot_28061934', 
