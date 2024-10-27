@@ -15376,7 +15376,7 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
-	internet: { imdb: '1557329', wiki_ru: '%D0%A0%D0%BE%D1%82,_%D0%94%D0%B6%D0%B5%D1%81%D1%81%D0%B8%D0%BA%D0%B0', },
+	internet: { imdb: '1557329', wiki_ua: '%D0%94%D0%B6%D0%B5%D1%81%D1%81%D1%96%D0%BA%D0%B0_%D0%A0%D0%BE%D1%82', },
 },
 {
 	id: 'jet_li_26041963', 
@@ -15866,7 +15866,7 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { can: 1, },
 	hash: { movie: 1, actor: 1, },
-	internet: { imdb: '0558182', wiki_ru: '%D0%9C%D0%B0%D1%82%D1%87%D0%B5%D1%82%D1%82,_%D0%9A%D1%8D%D1%80%D0%B8', },
+	internet: { imdb: '0558182', wiki_ua: '%D0%9A%D0%B5%D1%80%D1%96_%D0%9C%D0%B0%D1%82%D1%87%D0%B5%D1%82%D1%82', },
 },
 {
 	id: 'karl_marx_05051818', 
