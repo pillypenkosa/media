@@ -12535,6 +12535,16 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9F%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%83%D1%81', },
 },
 {
+	id: 'brad_fiedel_10031951', 
+	name: { n: 'Brad', s: 'Fiedel', },
+	sex: 1,
+	life: { bd: 10, bm: 3, by: 1951, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, composer: 1, },
+	internet: { imdb: '0006075', wiki_ru: '%D0%A4%D0%B8%D0%B4%D0%B5%D0%BB%D1%8C,_%D0%91%D1%80%D1%8D%D0%B4', },
+},
+{
 	id: 'brad_pitt_18121963', 
 	name: { n: 'Brad', s: 'Pitt', },
 	sex: 1,
