@@ -16495,6 +16495,34 @@ let arrListPeople = [
 	hash: { politics: 1, },
 	internet: { wiki_ua: '%D0%9C%D0%B0%D0%B3%D0%B0%D1%82%D0%BC%D0%B0_%D2%90%D0%B0%D0%BD%D0%B4%D1%96', },
 },
+
+
+
+
+
+
+{
+	id: 'marco_beltrami_07101966', 
+	name: { n: 'Marco', s: 'Beltrami', },
+	sex: 1,
+	life: { bd: 7, bm: 10, by: 1966, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001937', wiki_ua: '%D0%9C%D0%B0%D1%80%D0%BA%D0%BE_%D0%91%D0%B5%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D0%BC%D1%96', },
+},
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'marco_polo_15091254', 
 	name: { n: 'Marco', s: 'Polo', },
