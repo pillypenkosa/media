@@ -171,7 +171,7 @@ class ComponentEachUser {
 							//console.log( 'filmID: ', k.id );
 
 							tBody += `<tr>
-								<td><img src="https://pillypenkosa.github.io/films/img/poster/${ k.id }.jpg" alt="" title="${ k.title.ua } (${ k.year })"></td>
+								<td><img src="https://pillypenkosa.github.io/movies/img/poster/${ k.id }.jpg" alt="" title="${ k.title.ua } (${ k.year })"></td>
 								<td>${ k.title.ua } (${ k.year })</td>
 							</tr>`;
 						}
