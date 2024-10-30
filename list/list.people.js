@@ -18613,7 +18613,7 @@ let arrListPeople = [
 	name: { n: 'Sofia', s: 'Boutella', },
 	life: { bd: 3, bm: 4, by: 1982, },
 	img: [ 1, 1 ],
-	country: { alg: 1, fra: 1, },
+	country: { dza: 1, fra: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '1154749', wiki_ua: '%D0%A1%D0%BE%D1%84%D1%96%D1%8F_%D0%91%D1%83%D1%82%D0%B5%D0%BB%D0%BB%D0%B0', },
 },

@@ -100,6 +100,7 @@ class ComponentMenu {
 			'ita', 	// Італія
 			'fra', 	// Франція
 
+			'dza', 	// Алжир
 			'aut', 	// Австрія
 			'arg', 	// Аргентина
 			'brb', 	// 
