@@ -18624,7 +18624,7 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { ita: 1, },
 	hash: { movie: 1, actor: 1, },
-	internet: { wiki_ua: '%D0%A1%D0%BE%D1%84%D1%96_%D0%9B%D0%BE%D1%80%D0%B5%D0%BD', },
+	internet: { imdb: '0000047', wiki_ua: '%D0%A1%D0%BE%D1%84%D1%96_%D0%9B%D0%BE%D1%80%D0%B5%D0%BD', },
 },
 {
 	id: 'sophie_marceau_17111966', 
@@ -18633,7 +18633,7 @@ let arrListPeople = [
 	img: [ 3, 1 ],
 	country: { fra: 1, },
 	hash: { movie: 1, actor: 1, },
-	internet: { wiki_ua: '%D0%A1%D0%BE%D1%84%D1%96_%D0%9C%D0%B0%D1%80%D1%81%D0%BE', },
+	internet: { imdb: '0000521', wiki_ua: '%D0%A1%D0%BE%D1%84%D1%96_%D0%9C%D0%B0%D1%80%D1%81%D0%BE', },
 },
 {
 	id: 'sophie_turner_21021996', 
