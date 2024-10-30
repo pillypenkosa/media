@@ -18609,6 +18609,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%A1%D0%BE%D0%BA%D1%80%D0%B0%D1%82', },
 },
 {
+	id: 'sofia_boutella_03041982', 
+	name: { n: 'Sofia', s: 'Boutella', },
+	life: { bd: 3, bm: 4, by: 1982, },
+	img: [ 1, 1 ],
+	country: { alg: 1, fra: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1154749', wiki_ua: '%D0%A1%D0%BE%D1%84%D1%96%D1%8F_%D0%91%D1%83%D1%82%D0%B5%D0%BB%D0%BB%D0%B0', },
+},
+{
 	id: 'sophia_loren_20091934', 
 	name: { n: 'Sophia', s: 'Loren', },
 	life: { bd: 20, bm: 9, by: 1934, },
