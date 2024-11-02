@@ -19341,6 +19341,16 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%92%D1%96%D0%BB%D1%8C%D1%8F%D0%BC_%D0%91%D0%BE%D1%97%D0%BD%D0%B3', },
 },
 {
+	id: 'william_sadler_13041950', 
+	name: { n: 'William', s: 'Sadler', },
+	sex: 1,
+	life: { bd: 13, bm: 4, by: 1950, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0006669', wiki_ua: '%D0%92%D1%96%D0%BB%D1%8C%D1%8F%D0%BC_%D0%A1%D0%B5%D0%B4%D0%BB%D0%B5%D1%80', },
+},
+{
 	id: 'william_shakespeare_26041564', 
 	name: { n: 'William', s: 'Shakespeare', },
 	sex: 1,
