@@ -3953,12 +3953,8 @@ let arrListPeople = [
 	sex: 1,
 	life: { bd: 8, bm: 10, by: 1965, },
 	country: { rus: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '1216826', 
-		wiki_ru: '%D0%96%D0%B8%D0%B6%D0%B8%D0%BA%D0%B8%D0%BD,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/1512/works/', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1216826', wiki_ru: '%D0%96%D0%B8%D0%B6%D0%B8%D0%BA%D0%B8%D0%BD,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/1512/works/', },
 },
 {
 	id: 'eugen_volodymyr_zhylin_06011976', 
