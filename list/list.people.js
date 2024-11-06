@@ -17051,6 +17051,15 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%9C%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D1%80%D0%B0%D1%82_%D0%9A%D0%B0%D0%B1%D0%B0%D0%BB%D1%8C%D1%94', },
 },
 {
+	id: 'moon_bloodgood_20081975', 
+	name: { n: 'Moon', s: 'Bloodgood', },
+	life: { bd: 20, bm: 9, by: 1975, },
+	img: [ 2, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1291227', wiki_ua: '%D0%9C%D1%83%D0%BD_%D0%91%D0%BB%D0%B0%D0%B4%D2%91%D1%83%D0%B4', },
+},
+{
 	id: 'morgan_freeman_01061937', 
 	name: { n: 'Morgan', s: 'Freeman', },
 	sex: 1,
