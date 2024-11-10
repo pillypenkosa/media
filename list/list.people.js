@@ -13978,6 +13978,7 @@ let arrListPeople = [
 	name: { n: 'Ennio', s: 'Morricone', },
 	sex: 1,
 	life: { bd: 10, bm: 11, by: 1928, dd: 6, dm: 7, dy: 2020, },
+	img: [ 1, 1 ],
 	country: { ita: 1, },
 	hash: { music: 1, composer: 1, },
 	internet: { wiki_ua: '%D0%95%D0%BD%D0%BD%D1%96%D0%BE_%D0%9C%D0%BE%D1%80%D1%80%D1%96%D0%BA%D0%BE%D0%BD%D0%B5', },
