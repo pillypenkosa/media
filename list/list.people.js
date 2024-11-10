@@ -2072,18 +2072,14 @@ let arrListPeople = [
 	},
 },
 {
-	id: 'oleg_vidov_11061943', 
-	name: { n: 'Олег', s: 'Видов', },
+	id: 'oleg_borys_vidov_11061943', 
+	name: { n: 'Олег', s: 'Відов', p: 'Борисович', },
 	sex: 1,
 	life: { bd: 11, bm: 6, by: 1943, dd: 17, dm: 5, dy: 2017, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0896554', 
-		wiki_ru: '%D0%92%D0%B8%D0%B4%D0%BE%D0%B2,_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/761/works/', 
-	},
+	country: { sun: 1, rus: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0896554', wiki_ua: '%D0%92%D1%96%D0%B4%D0%BE%D0%B2_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'ekaterina_vilkova_11071984', 
