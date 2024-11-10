@@ -17107,6 +17107,15 @@ let arrListPeople = [
 	internet: { imdb: '0915208', wiki_ua: '%D0%9D%D0%B0%D0%BE%D0%BC%D1%96_%D0%92%D0%BE%D1%82%D1%82%D1%81', },
 },
 {
+	id: 'naomie_harris_06091976', 
+	name: { n: 'Naomie', s: 'Harris', },
+	life: { bd: 6, bm: 9, by: 1976, },
+	img: [ 2, 1 ],
+	country: { gbr: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0365140', wiki_ua: '%D0%9D%D0%B0%D0%BE%D0%BC%D1%96_%D0%93%D0%B0%D1%80%D1%80%D1%96%D1%81', },
+},
+{
 	id: 'napoleone_buonaparte_15081769', 
 	name: { n: 'Napoleone', s: 'Buonaparte', },
 	sex: 1,
