@@ -5206,17 +5206,13 @@ let arrListPeople = [
 },
 {
 	id: 'savely_kramarov_13101934', 
-	name: { n: 'Савелий', s: 'Крамаров', },
+	name: { n: 'Савелій', s: 'Крамаров', },
 	sex: 1,
 	life: { bd: 13, bm: 10, by: 1934, dd: 6, dm: 6, dy: 1995, },
 	img: [ 1, 1 ],
-	country: { rus: 1, our: { sun: 1, }, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0469434', 
-		wiki_ru: '%D0%9A%D1%80%D0%B0%D0%BC%D0%B0%D1%80%D0%BE%D0%B2,_%D0%A1%D0%B0%D0%B2%D0%B5%D0%BB%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/sov/2221/works/', 
-	},
+	country: { sun: 1, rus: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0469434', wiki_ua: '%D0%9A%D1%80%D0%B0%D0%BC%D0%B0%D1%80%D0%BE%D0%B2_%D0%A1%D0%B0%D0%B2%D0%B5%D0%BB%D1%96%D0%B9_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'jury_mykola_krapov_13091973', 
