@@ -13981,7 +13981,7 @@ let arrListPeople = [
 	img: [ 1, 1 ],
 	country: { ita: 1, },
 	hash: { music: 1, composer: 1, },
-	internet: { wiki_ua: '%D0%95%D0%BD%D0%BD%D1%96%D0%BE_%D0%9C%D0%BE%D1%80%D1%80%D1%96%D0%BA%D0%BE%D0%BD%D0%B5', },
+	internet: { imdb: '0001553', wiki_ua: '%D0%95%D0%BD%D0%BD%D1%96%D0%BE_%D0%9C%D0%BE%D1%80%D1%80%D1%96%D0%BA%D0%BE%D0%BD%D0%B5', },
 },
 {
 	id: 'enrico_caruso_25021873', 
