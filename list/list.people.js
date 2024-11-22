@@ -3163,15 +3163,11 @@ let arrListPeople = [
 },
 {
 	id: 'ingeborga_dapkunayte_20011963', 
-	name: { n: 'Ингеборга', s: 'Дапкунайте', },
+	name: { n: 'Інґеборґа', s: 'Дапкунайте', },
 	life: { bd: 20, bm: 1, by: 1963, },
-	country: { rus: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0200848', 
-		wiki_ru: '%D0%94%D0%B0%D0%BF%D0%BA%D1%83%D0%BD%D0%B0%D0%B9%D1%82%D0%B5,_%D0%98%D0%BD%D0%B3%D0%B5%D0%B1%D0%BE%D1%80%D0%B3%D0%B0', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/ros/1203/works/', 
-	},
+	country: { sun: 1, ltu: 1, },
+	hash: { movie: 1, actor: 1, }, 
+	internet: { imdb: '0200848', wiki_ua: '%D0%86%D0%BD%D2%91%D0%B5%D0%B1%D0%BE%D1%80%D2%91%D0%B0_%D0%94%D0%B0%D0%BF%D0%BA%D1%83%D0%BD%D0%B0%D0%B9%D1%82%D0%B5', },
 },
 {
 	id: 'rinat_dasaev_13061957', 
