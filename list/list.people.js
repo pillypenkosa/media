@@ -10422,18 +10422,14 @@ let arrListPeople = [
 	note: 'Не найден на IMDB', 
 },
 {
-	id: 'konstantin_habensky_11011972', 
-	name: { n: 'Константин', s: 'Хабенский', },
+	id: 'kostyantyn_jury_habensky_11011972', 
+	name: { n: 'Костянтин', s: 'Хабенський', p: 'Юрійович', },
 	sex: 1,
 	life: { bd: 11, bm: 1, by: 1972, },
 	img: [ 1, 1 ],
 	country: { rus: 1, },
-	movie: { actor: {}, },
-	internet: {
-		imdb: '0450975', 
-		wiki_ru: '%D0%A5%D0%B0%D0%B1%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%AE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87', 
-		kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/ros/4570/works/', 
-	},
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0450975', wiki_ua: '%D0%A5%D0%B0%D0%B1%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD_%D0%AE%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87', },
 },
 {
 	id: 'vitaly_haev_01061965', 
