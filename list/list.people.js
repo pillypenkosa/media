@@ -14510,6 +14510,16 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%94%D0%B6%D1%83%D0%B7%D0%B5%D0%BF%D0%BF%D0%B5_%D0%92%D0%B5%D1%80%D0%B4%D1%96', },
 },
 {
+	id: 'glen_powell_21101988', 
+	name: { n: 'Glen', s: 'Powell', },
+	sex: 1,
+	life: { bd: 21, bm: 10, by: 1988, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '1412974', wiki_ua: '%D2%90%D0%BB%D0%B5%D0%BD_%D0%9F%D0%B0%D1%83%D0%B5%D0%BB%D0%BB', },
+},
+{
 	id: 'gojko_mitic_21111945', 
 	name: { n: 'Gojko', s: 'Mitic', },
 	sex: 1,
