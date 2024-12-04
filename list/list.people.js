@@ -17903,6 +17903,15 @@ let arrListPeople = [
 	internet: { imdb: '0000360', wiki_ua: '%D0%A0%D0%B5%D0%B1%D0%B5%D0%BA%D0%BA%D0%B0_%D0%B4%D0%B5_%D0%9C%D0%BE%D1%80%D0%BD%D0%B5%D0%B9', },
 },
 {
+	id: 'rebecca_ferguson_19101983', 
+	name: { n: 'Rebecca', s: 'Ferguson', },
+	life: { bd: 19, bm: 10, by: 1983, },
+	img: [ 1, 1 ],
+	country: { swe: 1, },	
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0272581', wiki_ua: '%D0%A0%D0%B5%D0%B1%D0%B5%D0%BA%D0%BA%D0%B0_%D0%A4%D0%B5%D1%80%D0%B3%D1%8E%D1%81%D0%BE%D0%BD', },
+},
+{
 	id: 'recep_erdogan_26021954', 
 	name: { n: 'Recep', s: 'Erdogan', },
 	sex: 1,
