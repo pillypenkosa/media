@@ -18339,6 +18339,16 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%A0%D1%83%D1%83%D0%B4_%D0%93%D1%83%D0%BB%D0%BB%D1%96%D1%82', },
 },
 {
+	id: 'ryan_gosling_12111980', 
+	name: { n: 'Ryan', s: 'Gosling', },
+	sex: 1,
+	life: { bd: 12, bm: 11, by: 1980, },
+	img: [ 1, 1 ],
+	country: { can: 1, usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0331516', wiki_ua: '%D0%A0%D0%B0%D1%8F%D0%BD_%D2%90%D0%BE%D1%81%D0%BB%D1%96%D0%BD%D2%91', },
+},
+{
 	id: 'ryan_reynolds_23101976', 
 	name: { n: 'Ryan', s: 'Reynolds', },
 	sex: 1,
