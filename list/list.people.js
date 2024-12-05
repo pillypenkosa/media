@@ -16669,6 +16669,15 @@ let arrListPeople = [
 	internet: { imdb: '0000640', wiki_ua: '%D0%9C%D0%B0%D1%80%D1%82%D1%96%D0%BD_%D0%A8%D0%B8%D0%BD', },
 },
 {
+	id: 'mary_steenburgen_08021953', 
+	name: { n: 'Mary', s: 'Steenburgen', },
+	life: { bd: 8, bm: 2, by: 1953, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0005460', wiki_ua: '%D0%9C%D0%B5%D1%80%D1%96_%D0%A1%D1%82%D1%96%D0%BD%D0%B1%D0%B5%D1%80%D0%B3%D0%B5%D0%BD', },
+},
+{
 	id: 'mata_hari_07081876', 
 	name: { n: 'Mata', s: 'Hari', },
 	life: { bd: 7, bm: 8, by: 1876, dd: 15, dm: 10, dy: 1917, },
