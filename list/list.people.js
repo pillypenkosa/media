@@ -16640,6 +16640,16 @@ let arrListPeople = [
 	internet: { imdb: '0000008', wiki_ua: '%D0%9C%D0%B0%D1%80%D0%BB%D0%BE%D0%BD_%D0%91%D1%80%D0%B0%D0%BD%D0%B4%D0%BE', },
 },
 {
+	id: 'martin_kove_06031947', 
+	name: { n: 'Martin', s: 'Kove', },
+	sex: 1,
+	life: { bd: 6, bm: 3, by: 1947, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0184392', wiki_ua: '%D0%9C%D0%B0%D1%80%D1%82%D1%96%D0%BD_%D0%9A%D0%BE%D1%83%D0%B2', },
+},
+{
 	id: 'martin_lawrence_16041965', 
 	name: { n: 'Martin', s: 'Lawrence', },
 	sex: 1,
