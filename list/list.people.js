@@ -10153,7 +10153,7 @@ let arrListPeople = [
 {
 	id: 'iryna_dmytro_farion_29041964', 
 	name: { n: 'Ірина', s: 'Фаріон', p: 'Дмитрівна', },
-	life: { bd: 29, bm: 4, by: 1964, },
+	life: { bd: 29, bm: 4, by: 1964, dd: 19, dm: 7, dy: 2024, },
 	img: [ 1, 1 ],
 	country: { ukr: 1, },
 	hash: { politics: 1, },
