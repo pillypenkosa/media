@@ -277,6 +277,62 @@ class ComponentEachUser {
 		let letterSex = user.sex ? 'm' : 'w';
 
 
+		let htmlRelative = '';
+		if ( user.relative ) {
+
+			//let htmlRelativeBS = '';
+
+
+
+
+
+			if ( user.relative.father ) {
+				htmlRelative += `<div class="each-relative father" title="father: ${ user.relative.father }">
+					<img src="img/people/${ user.relative.father }/1.jpg" alt="${ user.relative.father }" >
+				</div>`;
+			}
+
+			if ( user.relative.mother ) {
+				htmlRelative += `<div class="each-relative mother" title="mother: ${ user.relative.mother }">
+					<img src="img/people/${ user.relative.mother }/1.jpg" alt="${ user.relative.mother }" >
+				</div>`;
+			}
+
+			if ( user.relative.bs ) {
+
+				user.relative.bs.forEach( k => {
+					htmlRelative += `<div class="each-relative bs" title="b/s: ${ k }">
+						<img src="img/people/${ k }/1.jpg" alt="${ k }" >
+					</div>`;
+				});
+			}
+
+
+			if ( user.relative.children ) {
+
+				user.relative.children.forEach( k => {
+					htmlRelative += `<div class="each-relative child" title="child: ${ k }">
+						<img src="img/people/${ k }/1.jpg" alt="${ k }" >
+					</div>`;
+				});
+			}
+
+
+
+
+
+
+
+
+
+
+			htmlRelative = `<div class="relative">
+				<div class="">Родичі:</div>
+				${ htmlRelative }
+			</div>`;
+		}
+
+
 
 
 
@@ -309,6 +365,7 @@ class ComponentEachUser {
 			</div>
 
 			${ htmlImgOther }
+			${ htmlRelative }
 
 
 

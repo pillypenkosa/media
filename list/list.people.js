@@ -11761,6 +11761,7 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000285', wiki_ua: '%D0%90%D0%BB%D0%B5%D0%BA_%D0%91%D0%BE%D0%BB%D0%B4%D0%B2%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/48113/works/', },
+	relative: { bs: [ 'daniel_baldwin_07081960', 'stephen_baldwin_12051966', 'william_baldwin_21021963', ], }, 
 },
 {
 	id: 'aleksander_kwasniewski_15111954', 
@@ -11944,6 +11945,8 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0001401', wiki_ua: '%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D1%96%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BB%D1%96', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/w/hollywood/50396/works/', },
+	relative: { father: 'jon_voight_29121938', },
+
 },
 {
 	id: 'anna_nicole_smith_28111967', 
@@ -13292,6 +13295,7 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000838', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%96%D0%B5%D0%BB_%D0%91%D0%BE%D0%BB%D0%B4%D0%B2%D1%96%D0%BD', kinoteatr: 'https://www.kino-teatr.ru/kino/acter/m/hollywood/53115/works/', },
+	relative: { bs: [ 'alec_baldwin_07081960', 'stephen_baldwin_12051966', 'william_baldwin_21021963', ], },
 },
 {
 	id: 'dakota_fanning_23021994', 
@@ -13301,6 +13305,16 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0266824', wiki_ua: '%D0%94%D0%B0%D0%BA%D0%BE%D1%82%D0%B0_%D0%A4%D0%B5%D0%BD%D0%BD%D1%96%D0%BD%D0%B3', },
+},
+{
+	id: 'dakota_johnson_04101989', 
+	name: { n: 'Dakota', s: 'Johnson', },
+	life: { bd: 4, bm: 10, by: 1989, },
+	img: [ 1, 1 ],
+	country: { usa: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0424848', wiki_ua: '%D0%94%D0%B0%D0%BA%D0%BE%D1%82%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81%D0%BE%D0%BD', },
+	relative: { father: 'don_johnson_15121949', },
 },
 {
 	id: 'daniel_c_ryan_09061993', 
@@ -13591,6 +13605,7 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000467', wiki_ua: '%D0%94%D0%BE%D0%BD_%D0%94%D0%B6%D0%BE%D0%BD%D1%81%D0%BE%D0%BD', },
+	relative: { children: [ 'dakota_johnson_04101989', ], },
 },
 {
 	id: 'don_simpson_29101943', 
@@ -15696,6 +15711,7 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000685', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BD_%D0%92%D0%BE%D0%B9%D1%82', },
+	relative: { children: [ 'angelina_jolie_04061975', ], },
 },
 {
 	id: 'jonathan_mostow_28111961', 
@@ -18746,6 +18762,7 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000286', wiki_ua: '%D0%A1%D1%82%D1%96%D0%B2%D0%B5%D0%BD_%D0%91%D0%BE%D0%BB%D0%B4%D0%B2%D1%96%D0%BD', },
+	relative: { bs: [ 'alec_baldwin_07081960', 'daniel_baldwin_07081960', 'william_baldwin_21021963', ], }, 
 },
 {
 	id: 'stephen_king_21091947', 
@@ -19384,6 +19401,7 @@ let arrListPeople = [
 	country: { usa: 1, },
 	hash: { movie: 1, actor: 1, },
 	internet: { imdb: '0000287', wiki_ua: '%D0%92%D1%96%D0%BB%D1%8C%D1%8F%D0%BC_%D0%91%D0%BE%D0%BB%D0%B4%D0%B2%D1%96%D0%BD', },
+	relative: { bs: [ 'alec_baldwin_07081960', 'daniel_baldwin_07081960', 'stephen_baldwin_12051966', ], },
 },
 {
 	id: 'william_boeing_01101881', 

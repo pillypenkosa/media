@@ -229,6 +229,42 @@ cmp-each-user .hashTag {
 
 
 
+	cmp-each-user .relative {
+		margin: 10px 0 20px 0;
+	}
+		cmp-each-user .relative .each-relative {
+			height: 120px;
+			width: 120px;
+			margin: 3px;
+			display: inline-block;
+
+		}
+			cmp-each-user .relative .each-relative img {
+				height: 100%;
+				width: 100%;
+				border: 1px solid #333;
+				border-radius: 5px;
+			}
+
+			cmp-each-user .relative .each-relative.father img:hover, 
+			cmp-each-user .relative .each-relative.mother img:hover {
+				border-color: red;
+			}
+
+			cmp-each-user .relative .each-relative.bs img:hover {
+				border-color: aqua;
+			}
+
+			cmp-each-user .relative .each-relative.child img:hover {
+				border-color: lime;
+			}
+
+
+
+
+
+
+
 	cmp-each-user .films {
 
 	}
