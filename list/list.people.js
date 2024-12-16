@@ -11636,6 +11636,16 @@ let arrListPeople = [
 	internet: { wiki_ua: '%D0%90%D0%B4%D0%BE%D0%BB%D1%8C%D1%84_%D0%93%D1%96%D1%82%D0%BB%D0%B5%D1%80', wiki_en: 'Adolf_Hitler', },
 },
 {
+	id: 'adrian_paul_29051959', 
+	name: { n: 'Adrian', s: 'Paul', },
+	sex: 1,
+	life: { bd: 29, bm: 5, by: 1959, },
+	img: [ 1, 1 ],
+	country: { gbr: 1, },
+	hash: { movie: 1, actor: 1, },
+	internet: { imdb: '0001600', wiki_ua: '%D0%95%D0%B4%D1%80%D1%96%D0%B0%D0%BD_%D0%9F%D0%BE%D0%BB', },
+},
+{
 	id: 'adriano_celentano_06011938', 
 	name: { n: 'Adriano', s: 'Celentano', },
 	sex: 1,
